@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+
     <!-- * Favicon * -->
     <link
       rel="shortcut icon"
@@ -17,13 +23,852 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
     <!-- * CSS * -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Manchester City FC | VIDEO</title>
   </head>
   <body>
-    <div class="container"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- *Logo* -->
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./assets/Images/Logo/crest.svg"
+            alt="Wix Logo"
+            height="70"
+          />
+        </a>
+
+        <!-- *Toggle button for mobile* -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- *Navbar items* -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="new.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="video.html"
+                id="videoDropdown"
+                data-bs-toggle="dropdown"
+                >Video</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Highlights</a></li>
+                <li><a class="dropdown-item" href="#">Interviews</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="ticket.html"
+                id="ticketsDropdown"
+                data-bs-toggle="dropdown"
+                >Tickets</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Buy Tickets</a></li>
+                <li><a class="dropdown-item" href="#">Season Pass</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="player.html">Players</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="club.html"
+                id="clubDropdown"
+                data-bs-toggle="dropdown"
+                >Club</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="moreDropdown"
+                data-bs-toggle="dropdown"
+                >More</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Community</a></li>
+                <li><a class="dropdown-item" href="#">Sponsors</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- *Sign In Button* -->
+          <div class="d-flex align-items-center">
+            <a href="#" class="btn btn-outline-dark btn-signin">
+              <i class="fas fa-user"></i> Sign In
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- *HEADER BANNER & DANH MỤC* -->
+    <div class="py-4" style="background-color: #001b42">
+      <div class="container">
+        <h1
+          class="mb-4"
+          style="color: #6cabdd; font-size: 3rem; font-weight: 700"
+        >
+          VIDEO
+        </h1>
+
+        <!-- *Thanh danh mục* -->
+        <ul class="nav mb-4" style="border-bottom: 1px solid #ffffff33">
+          <li class="nav-item">
+            <a
+              class="nav-link px-3"
+              href="#"
+              style="
+                color: #fff;
+                border-bottom: 3px solid #6cabdd;
+                border-radius: 0;
+              "
+            >
+              All Video
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link px-3 text-white"
+              href="#"
+              style="border-bottom: 3px solid transparent; border-radius: 0"
+            >
+              CITY+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link px-3 text-white"
+              href="#"
+              style="border-bottom: 3px solid transparent; border-radius: 0"
+            >
+              Men's Team
+            </a>
+          </li>
+        </ul>
+
+        <!-- *LATEST VIDEOS* -->
+        <h3 class="text-white mb-4" style="font-weight: 700">LATEST VIDEOS</h3>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/mens/classic-highlights-tottenham-1-5-man-city-2011-63876016"
+              class="video-card text-decoration-none"
+            >
+              <!-- Ảnh thumbnail gói trong khối position-relative để đặt overlay tuyệt đối -->
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/squp1rid/spurs_1112_a_classic_hlts_wide-lowres.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 1"
+                />
+                <!-- Overlay chứa nút Play (ẩn mặc định, hover mới hiện) -->
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Classic highlights: Tottenham 1-5 City (2011)
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    MATCH HIGHLIGHTS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/city-plus/classic-match-replay-63876014"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/vbaftarl/spurs_1112_a_classic_replay_wide-lowres.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 2"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Classic match replay: Tottenham v City (2011)
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    CITY+
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://example.com/video-link3"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/kvshg5c1/counterparts-bernardo-lake.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 3"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Counterparts: Bernardo Silva meets Paul Lake
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    FEATURES
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/city-plus/liverpool-home-premier-league-pitcam-february-2025-63875999"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/uhomw4j4/pitcam_16x9_liv_pl.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 4"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  City 0-2 Liverpool: Pitcam highlights
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    MATCH HIGHLIGHTS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/mens/extended-highlights-city-0-2-liverpool-february-23-2025-63875936"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/macbi04e/extended_16x9_liv_pl.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 5"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Extended highlights: City 0-2 Liverpool
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    MATCH HIGHLIGHTS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/city-plus/liverpool-premier-league-home-full-match-replay-63875914"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/lwomtw1u/fmr_16x9_liv_pl.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 6"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  City v Liverpool: Full-match replay
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    CITY+
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/mens/city-v-liverpool-february-23-2025-63875933"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/lqdo2mnz/hlts_16x9_liv_pl.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 7"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Brief highlights: City 0-2 Liverpool
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    MATCH HIGHLIGHTS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/mens/pep-guardiola-liverpool-february-2025-postmatch-63875921"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/hnheuokh/managersreaction_wide_liv_h.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 8"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Guardiola hopes to have Haaland back for Spurs
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    NEWS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/mens/nico-post-liverpool-citytv-reaction-pl-23-feb-63875917"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/m2al5lnd/tf306057-f-1920x1080-f88f9c3.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 9"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Nico: "We deserved more today."
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    INTERVIEWS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/mens/pep-guardiola-liverpool-press-conference-embargo-february-2025-63875743"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/xsydnlgt/pep-presser-liv-wide-3.jpg?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 10"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  This season puts previous successes into perspective, says
+                  Guardiola
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    NEWS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 11 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/mens/classic-highlights-manchester-city-1-0-liverpool-200405-63875826"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/wljj1jai/0405_liverpool_h_classic_hlts_wide.png?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 11"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Classic highlights: City 1-0 Liverpool (2005)
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    MATCH HIGHLIGHTS
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card 12 -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <a
+              href="https://www.mancity.com/citytv/city-plus/classic-match-replay-city-v-liverpool-2005-63875827"
+              class="video-card text-decoration-none"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://www.mancity.com/meta/media/rullvnjk/0405_liverpool_h_classic_replay_wide.png?width=336&height=190"
+                  class="img-fluid"
+                  alt="Video 12"
+                />
+                <div
+                  class="icon video-play-overlay d-flex align-items-center justify-content-center"
+                >
+                  <i class="ri-play-circle-fill play-button"></i>
+                </div>
+              </div>
+              <div class="mt-2">
+                <p class="mb-1 text-white fw-bold" style="font-size: 0.9rem">
+                  Classic replay: City v Liverpool (2005)
+                </p>
+                <div class="d-flex align-items-center">
+                  <span
+                    class="me-2"
+                    style="
+                      background-color: #ffffff;
+                      color: #000000;
+                      padding: 2px 4px;
+                      border-radius: 2px;
+                      font-size: 0.7rem;
+                    "
+                    >00:00</span
+                  >
+                  <span class="text-white" style="font-size: 0.8rem">
+                    CLASSIC REPLAY
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination-layer border-bottom">
+      <!-- *Phân trang* -->
+      <nav aria-label="Video pagination">
+        <ul class="pagination justify-content-center">
+          <!-- Nút mũi tên trái (disabled khi đang ở trang 1) -->
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">
+              <i class="ri-arrow-left-line"></i>
+            </a>
+          </li>
+          <!-- Trang 1 (active) -->
+          <li class="page-item active">
+            <a class="page-link" href="#">
+              1 <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <!-- Trang 2 -->
+          <li class="page-item">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <!-- Trang 3 -->
+          <li class="page-item">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <!-- Nút mũi tên phải -->
+          <li class="page-item">
+            <a class="page-link" href="#">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- *FOLLOW CITY* -->
+    <section class="follow__page py-4 border-bottom">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-white mb-3" style="font-weight: 700">FOLLOW CITY</h3>
+          <div
+            class="d-flex align-items-center justify-content-between follow__wrap mb-3 mt-1"
+          >
+            <!-- Icon YouTube -->
+            <a
+              href="#"
+              class="me-4 text-white flow__link"
+              style="font-size: 1.5rem"
+            >
+              <div class="d-flex align-items-center">
+                <i class="ri-youtube-line"></i>
+              </div>
+              <span>Youtube</span>
+            </a>
+
+            <!-- Icon Instagram -->
+            <a
+              href="#"
+              class="me-4 text-white flow__link"
+              style="font-size: 1.5rem"
+            >
+              <div class="d-flex align-items-center">
+                <i class="ri-instagram-line"></i>
+              </div>
+              <span>Instagram</span>
+            </a>
+
+            <!-- Icon X (Twitter) -->
+            <a
+              href="#"
+              class="me-4 text-white flow__link"
+              style="font-size: 1.5rem"
+            >
+              <div class="d-flex align-items-center">
+                <i class="ri-twitter-x-line"></i>
+              </div>
+              <span>Twitter</span>
+            </a>
+
+            <!-- Icon Facebook -->
+            <a href="#" class="text-white flow__link" style="font-size: 1.5rem">
+              <div class="d-flex align-items-center">
+                <i class="ri-facebook-line"></i>
+              </div>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="copy-Right">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a
+              href="mailto:pcv.fed@gmail.com"
+              class="py-2 d-flex align-items-center justify-content-center text-decoration-none"
+              title="Click to contact"
+            >
+              <p>@ Copyright 2025 by ManCity FC</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Lớn -->
+    <div
+      class="modal fade bd-example-modal-lg show"
+      id="largeModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+      style="display: block"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content p-4">
+          <!-- Nút đóng -->
+          <button
+            type="button"
+            class="btn-close--modal close position-absolute border-0 rounded-pill d-flex justify-content-center align-items-center"
+            style="
+              top: 10px;
+              right: 15px;
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+            "
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">X</span>
+          </button>
+          <div class="text-center">
+            <img
+              src="./assets/Images/Logo/crest.svg"
+              alt="Man City Logo"
+              class="img-fluid"
+              style="width: 50px"
+            />
+          </div>
+          <h4 class="modal-title text-center" id="myLargeModalLabel">
+            Chào mừng đến với CLB Man City
+          </h4>
+          <!-- Video giới thiệu -->
+          <div class="text-center my-3 rounded-3">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/vvAJTFesecw?autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              class="rounded-3 shadow"
+            ></iframe>
+          </div>
+          <h6 class="text-center">
+            Cập nhật tin tức, sự kiện và thông tin đội bóng nhanh chóng.
+          </h6>
+          <!-- <ul
+            class="mt-3 d-flex justify-content-center align-items-center list-unstyled flex-column"
+          >
+            <li>Nhận thông báo trận đấu & kết quả tức thì</li>
+            <li>Ưu đãi vé và hàng lưu niệm độc quyền</li>
+            <li>Truy cập nội dung hậu trường & phỏng vấn</li>
+          </ul> -->
+          <div class="text-center mt-3">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Bắt đầu khám phá
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <!-- * B * -->
   <script
@@ -31,4 +876,6 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
 </html>

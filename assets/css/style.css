@@ -37,3 +37,223 @@ nav {
 .banner__desc {
   max-width: 425px;
 }
+
+/* ===================== Video ========================== */
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .dropdown-menu {
+  margin-top: 0;
+}
+
+nav {
+  background: #6caddf;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #001838;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.navbar-brand {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #001838;
+  border-bottom: 3px solid #001838;
+  padding-bottom: 2px;
+}
+
+.header-banner {
+  background-color: #001b42;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.header-banner h1 {
+  color: #6cabdd;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.nav-category {
+  border-bottom: 1px solid #ffffff33;
+  margin-bottom: 1.5rem !important;
+}
+
+.nav-link-category {
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  color: #fff !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.nav-link-category:hover {
+  color: #6cabdd !important;
+  text-decoration: none;
+}
+
+.nav-link-active {
+  border-bottom: 3px solid #6cabdd;
+  color: #fff !important;
+}
+
+.latest-videos-title {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1.5rem !important;
+}
+
+.video-card {
+  position: relative;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+.video-card:hover p {
+  text-decoration: underline;
+}
+
+.video-card img {
+  transition: 0.3s ease-in;
+}
+
+.video-card:hover img {
+  transform: scale(1.1);
+}
+
+.video-card p {
+  transition: 0.3s ease-in;
+}
+
+.video-card .position-relative {
+  overflow: hidden;
+}
+
+.video-play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  cursor: pointer;
+}
+
+.video-card:hover .video-play-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.play-button {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.pagination-layer {
+  background-color: #001b42 !important;
+  padding: 1rem 0;
+}
+
+.follow-title {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 3rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.pagination-layer nav {
+  background-color: transparent !important;
+}
+
+.follow__page {
+  background: #001b42;
+}
+
+.flow__link div {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.flow__link span {
+  color: #6caddf;
+  font-weight: 600;
+}
+
+.flow__link {
+  display: flex;
+  text-decoration: none;
+  transition: 0.3s linear;
+  gap: 10px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.flow__link:hover span {
+  color: #fff;
+}
+
+.flow__link:hover div {
+  color: #6caddf;
+  background-color: #fff;
+}
+
+.copy-Right a {
+  color: #001b42;
+  font-weight: 500;
+}
+
+.copy-Right a p {
+  margin-bottom: 0;
+}
+
+.btn-close--modal {
+  background-color: rgb(216, 90, 90);
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2 linear;
+  cursor: pointer;
+}
+
+.btn-close--modal:hover {
+  opacity: 0.6;
+}
