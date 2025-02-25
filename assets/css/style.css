@@ -1,0 +1,39 @@
+/* Hiển thị dropdown khi hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Chỉnh vị trí dropdown để không bị nhảy */
+.navbar-nav .dropdown-menu {
+  margin-top: 0;
+}
+nav {
+  background: #6caddf;
+}
+.navbar-brand {
+  margin-right: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #001838;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Giảm khoảng cách giữa logo và menu */
+.navbar-brand {
+  margin-right: 10px; /* Điều chỉnh khoảng cách */
+  padding: 0; /* Loại bỏ padding mặc định */
+}
+
+/* Làm đậm trang active */
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #001838; /* Màu đậm hơn */
+  border-bottom: 3px solid #001838; /* Gạch chân để nổi bật */
+  padding-bottom: 2px; /* Căn chỉnh */
+}
+
+.banner__desc {
+  max-width: 425px;
+}
