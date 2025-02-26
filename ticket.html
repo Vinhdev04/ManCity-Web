@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+   <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <!-- * Favicon * -->
@@ -17,13 +17,116 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- * Swiper* -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- * CSS * -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
     <title>Manchester City FC | TICKET</title>
   </head>
   <body>
-    <div class="container"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/Images/Logo/crest.svg"
+            alt="Wix Logo"
+            height="70"
+          />
+        </a>
+
+        <!-- Toggle button for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="new.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="video.html"
+                id="videoDropdown"
+                data-bs-toggle="dropdown"
+                >Video</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Highlights</a></li>
+                <li><a class="dropdown-item" href="#">Interviews</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="ticket.html"
+                id="ticketsDropdown"
+                data-bs-toggle="dropdown"
+                >Tickets</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Buy Tickets</a></li>
+                <li><a class="dropdown-item" href="#">Season Pass</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="player.html">Players</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="club.html"
+                id="clubDropdown"
+                data-bs-toggle="dropdown"
+                >Club</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="moreDropdown"
+                data-bs-toggle="dropdown"
+                >More</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Community</a></li>
+                <li><a class="dropdown-item" href="#">Sponsors</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- Sign In Button -->
+          <div class="d-flex align-items-center">
+            <a href="signIn.html" class="btn btn-outline-dark btn-signin">
+              <i class="fas fa-user"></i> Sign In
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
   <!-- * B * -->
   <script

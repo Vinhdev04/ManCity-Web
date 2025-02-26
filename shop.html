@@ -17,8 +17,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- * Swiper* -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- * CSS * -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
@@ -26,10 +32,11 @@
     <title>Manchester City FC | SHOP</title>
   </head>
   <body>
+    <!-- *Navbar* -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
             src="./assets/Images/Logo/crest.svg"
             alt="Wix Logo"
@@ -51,12 +58,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">News</a>
+              <a class="nav-link active" href="new.html">News</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="video.html"
                 id="videoDropdown"
                 data-bs-toggle="dropdown"
                 >Video</a
@@ -70,7 +77,7 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="ticket.html"
                 id="ticketsDropdown"
                 data-bs-toggle="dropdown"
                 >Tickets</a
@@ -80,12 +87,16 @@
                 <li><a class="dropdown-item" href="#">Season Pass</a></li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Players</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="player.html">Players</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="club.html"
                 id="clubDropdown"
                 data-bs-toggle="dropdown"
                 >Club</a
@@ -115,12 +126,10 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <button class="btn btn-outline-dark" type="submit">Search</button>
           </form>
           <div class="d-flex align-items-center">
-            <a href="#" class="btn btn-outline-dark btn-signin ms-1">
+            <a href="signIn.html" class="btn btn-outline-dark btn-signin ms-1">
               <i class="ri-shopping-cart-line"></i>
             </a>
           </div>
@@ -128,11 +137,12 @@
       </div>
     </nav>
 
+    <!-- *Banner* -->
     <section class="banner">
       <div class="container-fluid ps-0 pe-0">
         <div class="row">
           <p class="fw-bold text-white text-center mb-0 bg-warning py-2">
-            All KITS 40% OFF | INCLUDING PLAYER PRINTING
+            TẤT CẢ CÁC BỘ GIẢM GIÁ 40% | BAO GỒM IN ẤN CHO NGƯỜI CHƠI
           </p>
           <img
             src="./assets/Images/Banner/hero_mobile_homediscount-promo-v3.jpg"
@@ -146,156 +156,684 @@
               class="d-flex justify-content-center align-items-center pt-5 flex-column"
             >
               <h1 class="text-uppercase fs-3 banner__title">
-                Home Kit
+                đồ Bộ
                 <strong class="bg-info text-uppercase text-center"
-                  >40% off</strong
+                  >giảm giá 40%</strong
                 >
-                Including Player Printing
+                bao gồm cả in hình cầu thủ
               </h1>
               <p class="text-secondary banner__desc">
-                Get 40% off all Home Kits, including shirts, shorts and socks.
-                Personalise your Home Shirt with your favourite player.
+                Được giảm giá 40% cho tất cả Bộ đồ , bao gồm áo sơ mi, quần
+                short và tất. Cá nhân hoá áo đấu sân nhà của bạn với cầu thủ yêu
+                thích của bạn.
               </p>
-              <button class="btn btn-warning">Buy Now</button>
+              <button class="btn btn-primary mb-5 text-white fw-bolder">
+                Buy Now
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="top">
+    <!-- *Top Sale* -->
+    <div class="top-sale">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card">
-              <img
-                src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw2df3a048/images/large/861401207001_pp_01_mcfc.png?sw=1600&sh=1600&sm=fit"
-                class="img-fluid"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">  Manchester City Home Jersey 2024/25 With DE BRUYNE 17 Printing</h5>
-                <p class="card-text">
-               
+        <h2 class="mb-3 fw-bold">OUR TOP PICKS</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- *Card 01* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/01.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Áo đấu sân nhà Manchester City 2024/25
+                  </h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 96,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 96,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
+            </div>
 
-    £ 96,00
-                </p>
-                <a href="#" class="btn btn-primary">Buy Now</a>
-    
+            <!-- *Card 02* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/02.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Áo đấu sân nhà có in tùy chỉnh</h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 80,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 96,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 03* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/03.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Áo đấu sân nhà HAALAND 9</h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 96,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 110,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 04* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/04.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Áo đấu sân nhà FODEN 47</h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 96,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 110,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 05* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/04.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Áo đấu sân nhà FODEN 47</h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 96,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 110,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 06* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/04.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Áo đấu sân nhà FODEN 47</h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 96,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 110,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 07* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/04.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Áo đấu sân nhà FODEN 47</h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 96,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 110,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 08* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopSale/04.webp"
+                  class="img-fluid shadow img__scale"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Áo đấu sân nhà FODEN 47</h5>
+                  <div class="card-detail d-flex g-2">
+                    <p class="card-text mb-0 me-2 fw-medium">£ 96,00</p>
+                    <p
+                      class="card-text mb-0 text-decoration-line-through opacity-50"
+                    >
+                      £ 110,00
+                    </p>
+                  </div>
+                  <!-- <a href="#" class="btn btn-primary">Buy Now</a> -->
+                </div>
+              </a>
             </div>
           </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-        </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img
-                src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw2df3a048/images/large/861401207001_pp_01_mcfc.png?sw=1600&sh=1600&sm=fit"
-                class="img-fluid"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">  Manchester City Home Jersey 2024/25 With DE BRUYNE 17 Printing</h5>
-                <p class="card-text">
-               
 
-    £ 96,00
-                </p>
-                <a href="#" class="btn btn-primary">Buy Now</a>
-    
-            </div>
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-        </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img
-                src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw2df3a048/images/large/861401207001_pp_01_mcfc.png?sw=1600&sh=1600&sm=fit"
-                class="img-fluid"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">  Manchester City Home Jersey 2024/25 With DE BRUYNE 17 Printing</h5>
-                <p class="card-text">
-               
+          <!-- Swiper Pagination -->
+          <div class="swiper-pagination"></div>
 
-    £ 96,00
-                </p>
-                <a href="#" class="btn btn-primary">Buy Now</a>
-    
-            </div>
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-        </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img
-                src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw2df3a048/images/large/861401207001_pp_01_mcfc.png?sw=1600&sh=1600&sm=fit"
-                class="img-fluid"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">  Manchester City Home Jersey 2024/25 With DE BRUYNE 17 Printing</h5>
-                <p class="card-text">
-               
-
-    £ 96,00
-                </p>
-                <a href="#" class="btn btn-primary">Buy Now</a>
-    
-            </div>
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
+          <!-- Swiper Navigation Buttons -->
+          <div
+            class="swiper-button-prev swiper-slide-button d-none d-md-block"
+          ></div>
+          <div
+            class="swiper-button-next swiper-slide-button d-none d-md-block"
+          ></div>
         </div>
       </div>
     </div>
 
-    <section class="player py-3">
+    <!-- *Top Player* -->
+    <div class="top-sale py-5">
       <div class="container">
-        <div class="row">
-          <div class="col-12"><h1>
-            Top Player
-          </h1>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw66faa4b8/images/2024_campaigns/shopbyplayer_mobile/homepage_sbp_homekit2425_rodrigo_mobile.jpg?sw=992&sfrm=jpg" alt="">
-            <div class="card-title">Kevin</div>
+        <h2 class="mb-3 fw-bold">TOP PLAYER</h2>
+        <div class="swiper topSwiper">
+          <div class="swiper-wrapper">
+            <!-- *Card 01* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__img"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/kevin.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="Kevin"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #17 De Bruyne
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 02* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/fooden.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#47 Foden"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #47 Foden
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 03* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/bernaldo.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#20 Bernardo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #20 Bernardo
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 04* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/haaland.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#9 Haaland"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #9 Haaland
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 05* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/grealish.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#10 Grealish"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #10 Grealish
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 06* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/doku.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#11 Doku"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #11 Doku
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 07* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/dias.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#3 Rúben"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #3 Rúben
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 08* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/akannij.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#25 Akanji"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #25 Akanji
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 09* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/ake.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#6 Aké"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">#6 Aké</h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 10* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/lewis.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#82 Lewis"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #82 Lewis
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 10* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/kovacic.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#8 Kovačić"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #8 Kovačić
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 11* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/otega.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#18 Ortega"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #18 Ortega
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 12* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/nunez.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#27 Nunes"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #27 Nunes
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 13* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/marmoush.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#7 Marmoush"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #7 Marmoush
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 14* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/rodigo.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#16 Rodrigo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #16 Rodrigo
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 15* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/gundogan.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#19 Gündoğan"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #19 Gündoğan
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 16* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/khusanov.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#45 Khusanov"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #45 Khusanov
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 17* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/stones.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#5 Stones"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #5 Stones
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 18* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/savinho.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#26 Savinho"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #26 Savinho
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 19* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/gvardiol.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#24 Gvardiol"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #24 Gvardiol
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <!-- *Card 20* -->
+            <div class="swiper-slide">
+              <a
+                href="#"
+                class="text-decoration-none card border-0 d-flex mb-3 wrap__images"
+              >
+                <img
+                  src="./assets/Images/TopPlayer/edison.jpg"
+                  class="img-fluid shadow img__zoom rounded-3"
+                  alt="#31 Ederson"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize text-center">
+                    #31 Ederson
+                  </h5>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw66faa4b8/images/2024_campaigns/shopbyplayer_mobile/homepage_sbp_homekit2425_rodrigo_mobile.jpg?sw=992&sfrm=jpg" alt="">
-            <div class="card-title">Kevin</div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw66faa4b8/images/2024_campaigns/shopbyplayer_mobile/homepage_sbp_homekit2425_rodrigo_mobile.jpg?sw=992&sfrm=jpg" alt="">
-            <div class="card-title">Kevin</div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw66faa4b8/images/2024_campaigns/shopbyplayer_mobile/homepage_sbp_homekit2425_rodrigo_mobile.jpg?sw=992&sfrm=jpg" alt="">
-            <div class="card-title">Kevin</div>
-          </div>
-        </div>
+
+          <!-- Swiper Pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- Swiper Navigation Buttons -->
+          <div
+            class="swiper-button-prev swiper-slide-button d-none d-md-block"
+          ></div>
+          <div
+            class="swiper-button-next swiper-slide-button d-none d-md-block"
+          ></div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <!-- ** -->
   </body>
+  <script src="./services/handleSwiperJS.js" type="module"></script>
   <!-- * B * -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+  <!-- * Swiper * -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </html>
