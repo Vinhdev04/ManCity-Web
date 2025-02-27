@@ -293,3 +293,55 @@ h5.card-title:hover {
 .wrap__images:hover .img__zoom {
   transform: scale(1.1);
 } */
+
+/* ===================== SHOP ========================== */
+.banner__shop .sale-off {
+  color: #000;
+}
+
+.banner__shop .sale-off:hover {
+  color: rgb(42, 42, 226);
+}
+
+.feed-back {
+  background: #f6f6f6 !important;
+}
+.feed-back .star {
+  gap: 2px;
+}
+
+.feed-back .star i {
+  margin: 0 4px;
+  background: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+.comment-title {
+  white-space: nowrap; /* Ngăn tiêu đề xuống dòng */
+  overflow: hidden; /* Ẩn phần vượt quá */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." khi văn bản quá dài */
+  max-width: 100%; /* Giới hạn chiều rộng tối đa */
+  width: 250px;
+}
+
+.comment-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Hiển thị tối đa 2 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.control__head {
+  gap: 20px;
+}
+
+.control__head a {
+  color: #001838;
+  font-weight: 400;
+  text-decoration: none;
+}
