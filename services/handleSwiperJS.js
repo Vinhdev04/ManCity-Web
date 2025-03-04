@@ -68,7 +68,7 @@ var myswiper = new Swiper(".feedbackSwiper", {
   slidesPerView: 1,
   spaceBetween: 20,
   autoplay: {
-    delay: 5000,
+    delay: 3000,
   },
   loop: true,
   navigation: {

@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
     <!-- * Favicon * -->
     <link
       rel="shortcut icon"
-      href="./assets/Images/Logo/crest.svg"
+      href="/assets/Images/Logo/crest.svg"
       type="image/x-icon"
     />
     <!-- * B * -->
@@ -17,118 +19,537 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- * Swiper* -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
     <!-- * CSS * -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
-    />
-
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
     <title>Manchester City FC | NEW</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
-          <img
-            src="./assets/Images/Logo/crest.svg"
-            alt="Wix Logo"
-            height="70"
-          />
-        </a>
+  <body style="background: #fff">
+    <div class="container">
+      <h1 class="news-header">NEWS</h1>
 
-        <!-- Toggle button for mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- Tabs -->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#allNews"
+            >All News</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#mensTeam"
+            >Men's Team</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#clubNews"
+            >Club News</a
+          >
+        </li>
+      </ul>
 
-        <!-- Navbar items -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="new.html">News</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="video.html"
-                id="videoDropdown"
-                data-bs-toggle="dropdown"
-                >Video</a
-              >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Highlights</a></li>
-                <li><a class="dropdown-item" href="#">Interviews</a></li>
-              </ul>
-            </li>
+      <!-- Nội dung các tab -->
+      <div class="tab-content mt-3">
+        <!-- -------------------------------------------------- -->
+        <!-- Tab All NEWS -->
+        <div class="tab-pane fade show active" id="allNews">
+          <div class="row">
+            <!-- Cột All News -->
+            <div class="col-md-8">
+              <h2 class="fw-bold">ALL NEWS</h2>
+              <!-- 0 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new1.jpg" />
+                <div class="news-text d-flex">
+                  <h5>
+                    <a
+                      href="https://metro.co.uk/2025/01/28/pep-guardiola-confirms-man-city-injury-boost-ahead-arsenal-clash-22449981/#:~:text=Pep%20Guardiola%20has%20confirmed%20that%20Oscar%20Bobb%20could,City%20after%20a%20lengthy%20spell%20on%20the%20sidelines."
+                      target="_blank"
+                    >
+                      Pep Guardiola confirms huge Man City injury boost ahead of
+                      Arsenal clash
+                    </a>
+                  </h5>
+                  <p>CLUB NEWS</p>
+                </div>
+              </div>
+              <!--1 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new2.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://onefootball.com/en/news/bernardo-premier-league-standard-highest-ive-seen-40759151"
+                      target="_blank"
+                    >
+                      Bernardo: Premier League standard highest I’ve seen
+                    </a>
+                  </h5>
+                  <p>CLUB NEWS</p>
+                </div>
+              </div>
+              <!-- 2-->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new3.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.espn.com/soccer/story/_/id/44008606/pep-guardiola-rebuilding-man-city-not-biggest-challenge-career"
+                      target="_blank"
+                    >
+                      Pep Guardiola: Rebuilding Man City 'not the biggest
+                      challenge' of career
+                    </a>
+                  </h5>
+                  <p>CLUB NEWS</p>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new4.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.manchestereveningnews.co.uk/sport/football/football-news/transfer-u-turn-kevin-de-31078914"
+                      target="_blank"
+                    >
+                      Transfer u-turn, Kevin De Bruyne lifeline - Pep Guardiola
+                      gives first look into Man City future
+                    </a>
+                  </h5>
+                  <p>CLUB NEWS</p>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new5.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.premierleague.com/news/4171693"
+                      target="_blank"
+                    >
+                      Manager agrees contract extension to stay at champions
+                      until June 2027 but admits he considered leaving at the
+                      end of this season
+                    </a>
+                  </h5>
+                  <p>CLUB NEWS</p>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new6.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://cityxtra.co.uk/6898/how-every-single-manchester-city-player-performed-on-international-duty-in-october-2023/"
+                      target="_blank"
+                    >
+                      How every single Manchester City player performed on
+                      international duty in October 2023
+                    </a>
+                  </h5>
+                  <p>MEN'S TEAM</p>
+                </div>
+              </div>
+              <!-- 6 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new7.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://bitterandblue.sbnation.com/2023/3/30/23662550/manchester-city-players-on-international-duty-five-things-we-learned"
+                      target="_blank"
+                    >
+                      Manchester City Players on International Duty: Five Things
+                      We Learned
+                    </a>
+                  </h5>
+                  <p>MEN'S TEAM</p>
+                </div>
+              </div>
+              <!-- 7 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new8.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.90min.com/pep-guardiola-promising-erling-haaland-injury-update-ahead-of-tottenham-clash"
+                      target="_blank"
+                    >
+                      Pep Guardiola delivers promising Erling Haaland injury
+                      update ahead of Tottenham clash
+                    </a>
+                  </h5>
+                  <p>MEN'S TEAM</p>
+                </div>
+              </div>
+              <!-- 8 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new9.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.espn.com/football/match/_/gameId/704540/manchester-city-tottenham-hotspur"
+                      target="_blank"
+                    >
+                      Spurs v Man City - Premier League LIVE Match Updates
+                    </a>
+                  </h5>
+                  <p>MEN'S TEAM</p>
+                </div>
+              </div>
+              <!-- 9 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new10.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.90min.com/tottenham-vs-man-city-preview-predictions-lineups-26-2-25"
+                      target="_blank"
+                    >
+                      Tottenham vs Man City: Preview, predictions and lineups
+                    </a>
+                  </h5>
+                  <p>MEN'S TEAM</p>
+                </div>
+              </div>
+              <!-- 10 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new11.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.90min.com/jeremy-doku-regret-trent-alexander-arnold-humiliation"
+                      target="_blank"
+                    >
+                      Jeremy Doku reveals regret over Trent Alexander-Arnold
+                      humiliation
+                    </a>
+                  </h5>
+                  <p>CLUB NEWS</p>
+                </div>
+              </div>
+              <!-- 11 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new12.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.90min.com/erling-haaland-facing-late-fitness-test-tottenham-clash"
+                      target="_blank"
+                    >
+                      Erling Haaland facing late fitness test ahead of Tottenham
+                      clash
+                    </a>
+                  </h5>
+                  <p>MEN'S TEAM</p>
+                </div>
+              </div>
+              <!-- 12 -->
+              <div class="news-item d-flex">
+                <img src="/assets/Images/New/new13.jpg" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.givemesport.com/manchester-city-transfer-news-matheus-nunes-elevated-status-injury-crisis-etihad-stadium/"
+                      target="_blank"
+                    >
+                      Exclusive: £53m Man City Star Has 'Elevated Status' Amid
+                      Injury Crisis
+                    </a>
+                  </h5>
+                  <p>MEN'S TEAM</p>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- Cột Next Fixtures -->
+            <div class="col-md-4">
+              <div class="fixtures">
+                <h2 class="fw-bold">NEXT FIXTURES</h2>
+                <div class="fixture-box">
+                  <p><strong>Wed 26 Feb</strong></p>
+                  <p>Premier League</p>
+                  <div
+                    class="fixture-teams d-flex align-items-center justify-content-between"
+                  >
+                    <img src="/assets/Images/New/logo tth.png" alt="Spurs" />
+                    <span>19:30 GMT</span>
+                    <img src="/assets/Images/New/logo mc.png" alt="Man City" />
+                  </div>
+                  <a
+                    href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    PREVIEW
+                  </a>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="ticket.html"
-                id="ticketsDropdown"
-                data-bs-toggle="dropdown"
-                >Tickets</a
-              >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Buy Tickets</a></li>
-                <li><a class="dropdown-item" href="#">Season Pass</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="player.html">Players</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="club.html"
-                id="clubDropdown"
-                data-bs-toggle="dropdown"
-                >Club</a
-              >
-            </li>
+                  <button class="btn btn-warning">BUY TICKETS</button>
+                </div>
+              </div>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="moreDropdown"
-                data-bs-toggle="dropdown"
-                >More</a
-              >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Community</a></li>
-                <li><a class="dropdown-item" href="#">Sponsors</a></li>
-                <li><a class="dropdown-item" href="#">Help</a></li>
-              </ul>
-            </li>
-          </ul>
+              <div class="fixtures">
+                <h2 class="fw-bold">NEXT FIXTURES</h2>
+                <div class="fixture-box">
+                  <p><strong>Wed 26 Feb</strong></p>
+                  <p>Premier League</p>
+                  <div
+                    class="fixture-teams d-flex align-items-center justify-content-between"
+                  >
+                    <img src="/assets/Images/New/logo tth.png" alt="Spurs" />
+                    <span>19:30 GMT</span>
+                    <img src="/assets/Images/New/logo mc.png" alt="Man City" />
+                  </div>
+                  <a
+                    href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    PREVIEW
+                  </a>
 
-          <!-- Sign In Button -->
-          <div class="d-flex align-items-center">
-            <a href="signIn.html" class="btn btn-outline-dark btn-signin">
-              <i class="fas fa-user"></i> Sign In
-            </a>
+                  <button class="btn btn-warning">BUY TICKETS</button>
+                </div>
+              </div>
+
+              <div class="fixtures">
+                <h2 class="fw-bold">NEXT FIXTURES</h2>
+                <div class="fixture-box">
+                  <p><strong>Wed 26 Feb</strong></p>
+                  <p>Premier League</p>
+                  <div
+                    class="fixture-teams d-flex align-items-center justify-content-between"
+                  >
+                    <img src="/assets/Images/New/logo tth.png" alt="Spurs" />
+                    <span>19:30 GMT</span>
+                    <img src="/assets/Images/New/logo mc.png" alt="Man City" />
+                  </div>
+                  <a
+                    href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    PREVIEW
+                  </a>
+
+                  <button class="btn btn-warning">BUY TICKETS</button>
+                </div>
+              </div>
+
+              <div class="fixtures">
+                <h2 class="fw-bold">NEXT FIXTURES</h2>
+                <div class="fixture-box">
+                  <p><strong>Wed 26 Feb</strong></p>
+                  <p>Premier League</p>
+                  <div
+                    class="fixture-teams d-flex align-items-center justify-content-between"
+                  >
+                    <img src="/assets/Images/New/logo tth.png" alt="Spurs" />
+                    <span>19:30 GMT</span>
+                    <img src="/assets/Images/New/logo mc.png" alt="Man City" />
+                  </div>
+                  <a
+                    href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    PREVIEW
+                  </a>
+
+                  <button class="btn btn-warning">BUY TICKETS</button>
+                </div>
+              </div>
+
+              <div class="fixtures">
+                <h2 class="fw-bold">NEXT FIXTURES</h2>
+                <div class="fixture-box">
+                  <p><strong>Wed 26 Feb</strong></p>
+                  <p>Premier League</p>
+                  <div
+                    class="fixture-teams d-flex align-items-center justify-content-between"
+                  >
+                    <img src="/assets/Images/New/logo tth.png" alt="Spurs" />
+                    <span>19:30 GMT</span>
+                    <img src="/assets/Images/New/logo mc.png" alt="Man City" />
+                  </div>
+                  <a
+                    href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    PREVIEW
+                  </a>
+
+                  <button class="btn btn-warning">BUY TICKETS</button>
+                </div>
+              </div>
+
+              <div class="fixtures">
+                <h2 class="fw-bold">NEXT FIXTURES</h2>
+                <div class="fixture-box">
+                  <p><strong>Wed 26 Feb</strong></p>
+                  <p>Premier League</p>
+                  <div
+                    class="fixture-teams d-flex align-items-center justify-content-between"
+                  >
+                    <img src="/assets/Images/New/logo tth.png" alt="Spurs" />
+                    <span>19:30 GMT</span>
+                    <img src="/assets/Images/New/logo mc.png" alt="Man City" />
+                  </div>
+                  <a
+                    href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    PREVIEW
+                  </a>
+
+                  <button class="btn btn-warning">BUY TICKETS</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <!-- ---------------------------------------------------------------- -->
+        <!-- Tab Men's Team -->
+        <div class="tab-pane fade" id="mensTeam">
+          <h2 class="fw-bold">MEN'S TEAM NEWS</h2>
+          <div class="row">
+            <!-- Cột bộ lọc -->
+            <div class="col-md-3">
+              <h5 class="fw-bold">
+                Filter <span class="text-primary">Men's</span>
+              </h5>
+              <button
+                class="btn btn-outline-dark d-block mb-2 filter-btn"
+                data-filter="picture-special"
+              >
+                Picture Special
+              </button>
+              <button
+                class="btn btn-outline-dark d-block mb-2 filter-btn"
+                data-filter="match-report"
+              >
+                Match Report
+              </button>
+              <button
+                class="btn btn-outline-dark d-block mb-2 filter-btn"
+                data-filter="media-watch"
+              >
+                Media Watch
+              </button>
+              <button
+                class="btn btn-outline-dark d-block mb-2 filter-btn"
+                data-filter="match-preview"
+              >
+                Match Preview
+              </button>
+              <button
+                class="btn btn-outline-dark d-block mb-2 filter-btn"
+                data-filter="all"
+              >
+                All
+              </button>
+            </div>
+
+            <!-- Cột tin tức -->
+            <div class="col-md-9">
+              <!-- PICTURE SPECIAL -->
+              <div class="news-item" data-category="picture-special">
+                <img src="/assets/Images/New/men1.jpg" alt="news image" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.beinsports.com/en-au/football/fa-cup/articles/o-reilly-brace-prevents-fa-cup-upset-for-city-2025-03-01"
+                      target="_blank"
+                    >
+                      O'Reilly brace prevents FA Cup upset for City
+                    </a>
+                  </h5>
+                  <p>PICTURE SPECIAL</p>
+                </div>
+              </div>
+              <!-- MATCH REPORT -->
+              <div class="news-item mt-3" data-category="match-report">
+                <img src="/assets/Images/New/men4.jpg" alt="news image" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.cricketnmore.com/sports-news/oreilly-scores-brace-as-city-battle-beat-plymouth-to-enter-fa-cup-qf-23297"
+                      target="_blank"
+                    >
+                      O’Reilly Scores Brace As City Battle Beat Plymouth To
+                      Enter FA Cup QF
+                    </a>
+                  </h5>
+                  <p>MATCH REPORT</p>
+                </div>
+              </div>
+              <!-- MEDIA WATCH -->
+              <div class="news-item mt-3" data-category="media-watch">
+                <img src="/assets/Images/New/men5.jpg" alt="news image" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.manchestereveningnews.co.uk/sport/football/football-news/phil-foden-man-city-stars-29952686"
+                      target="_blank"
+                    >
+                      Phil Foden and Man City stars given savage warning amid
+                      workload worry
+                    </a>
+                  </h5>
+                  <p>MEDIA WATCH</p>
+                </div>
+              </div>
+              <!-- MATCH PREVIEW -->
+              <div class="news-item mt-3" data-category="match-preview">
+                <img src="/assets/Images/New/men6.jpg" alt="news image" />
+                <div class="news-text">
+                  <h5>
+                    <a
+                      href="https://www.sportscasting.com/uk/news/manchester-city-nottingham-forest-preview-prediction-team-news-confirmed-lineups/"
+                      target="_blank"
+                    >
+                      Manchester City vs Nottingham Forest Preview, Prediction,
+                      Team News And Confirmed Lineups
+                    </a>
+                  </h5>
+                  <p>MATCH PREVIEW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- button men's team -->
+        <script src="assets/javascript/btntabmensteam.js"></script>
+
+        <!-- ----------------------------------------------------------------- -->
+        <!-- Tab Club News -->
+        <div class="tab-pane fade" id="clubNews">
+          <h2 class="fw-bold">CLUB NEWS</h2>
+          <div class="club-news-container"></div>
+          <!-- ----- -->
+        </div>
       </div>
-    </nav>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/assets/javascript/script.js"></script>
   </body>
+  <!-- next page 1,2,... -->
+  <!--  -->
+  <div class="pagination">
+    <button id="prevBtn">←</button>
+    <span id="pageNumbers"></span>
+    <button id="nextBtn">→</button>
+  </div>
+  <script src="/services/filterNew.js"></script>
   <!-- * B * -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

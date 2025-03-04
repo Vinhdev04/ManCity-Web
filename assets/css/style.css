@@ -345,3 +345,357 @@ h5.card-title:hover {
   font-weight: 400;
   text-decoration: none;
 }
+
+/* PAGE[NEW] */
+
+.news-header {
+  color: #5fa8ff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Tabs */
+.nav-tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0056b3;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #0056b3;
+}
+
+/* News List */
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.news-item {
+  flex: 1 1 calc(50% - 10px);
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s;
+  display: none; /* Mặc định ẩn, JS sẽ bật hiển thị */
+}
+
+.news-item.show {
+  display: flex; /* Hiển thị khi cần */
+}
+
+.news-item img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.news-text {
+  margin-left: 15px;
+}
+
+.news-text h5 a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.news-text h5 a:hover {
+  color: #0056b3;
+}
+
+.news-text p {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Đồng bộ layout */
+.news-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.club-news,
+.all-news {
+  flex: 2;
+}
+
+.fixtures {
+  flex: 1;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.fixture-teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fixture-teams img {
+  width: 50px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.pagination button:hover {
+  background: #bbb;
+}
+
+.pagination button.active {
+  background: #004080;
+  color: white;
+}
+
+.pagination button:disabled {
+  background: lightgray;
+  cursor: not-allowed;
+}
+.news-item {
+  display: none; /* Ẩn tất cả bài viết */
+}
+.news-item.show {
+  display: flex !important; /* Khi hiển thị, chắc chắn hiện */
+}
+.news-item {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  gap: 15px; /* Tạo khoảng cách giữa ảnh và nội dung */
+  padding: 10px 0; /* Thêm khoảng cách trên dưới */
+}
+
+.news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Căn giữa nội dung */
+  flex-grow: 1; /* Để nó chiếm toàn bộ không gian có thể */
+}
+
+.news-text h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.news-text p {
+  margin: 0;
+  color: gray;
+  font-size: 0.9rem;
+  text-align: left; /* Đảm bảo chữ CLUB NEWS nằm dưới title */
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.news-header {
+  color: #5fa8ff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Tabs */
+.nav-tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0056b3;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #0056b3;
+}
+
+/* News List */
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.news-item {
+  display: none; /* Ẩn tất cả bài viết mặc định */
+  flex: 1 1 calc(50% - 10px); /* Chia cột linh hoạt */
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s;
+}
+
+.news-item.show {
+  display: flex !important; /* Khi hiển thị, chắc chắn hiện */
+}
+
+/* Ảnh trong bài viết */
+.news-item img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Nội dung tin tức */
+.news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; /* Đảm bảo nội dung thẳng hàng */
+  flex-grow: 1;
+  max-width: 60%; /* Giữ nội dung không quá dài */
+}
+
+/* Tiêu đề tin */
+.news-text h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Link tiêu đề */
+.news-text h5 a {
+  text-decoration: none;
+  color: #003366;
+  transition: color 0.3s;
+}
+
+.news-text h5 a:hover {
+  color: #0056b3;
+}
+
+/* Phần phụ, ví dụ: "CLUB NEWS" */
+.news-text p {
+  margin: 5px 0 0;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+/* Đồng bộ layout */
+.news-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.club-news,
+.all-news {
+  flex: 2;
+}
+
+.fixtures {
+  flex: 1;
+  background: #f8f9fa !important;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.fixture-teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fixture-teams img {
+  width: 50px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.pagination button:hover {
+  background: #bbb;
+}
+
+.pagination button.active {
+  background: #004080;
+  color: white;
+}
+
+.pagination button:disabled {
+  background: lightgray;
+  cursor: not-allowed;
+}
+.news-item {
+  display: none;
+}
+
+.news-item.show {
+  display: flex !important;
+}
+button.active {
+  background-color: #0056b3;
+  color: white;
+}

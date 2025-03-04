@@ -33,7 +33,100 @@
   </head>
   <body>
     <!-- *Navbar* -->
-    <nav id="navbar"></nav>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
+        </a>
+
+        <!-- Toggle button for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/pages/new.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/pages/video.html"
+                id="videoDropdown"
+                data-bs-toggle="dropdown"
+                >Video</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Highlights</a></li>
+                <li><a class="dropdown-item" href="#">Interviews</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/pages/ticket.html"
+                id="ticketsDropdown"
+                data-bs-toggle="dropdown"
+                >Tickets</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Buy Tickets</a></li>
+                <li><a class="dropdown-item" href="#">Season Pass</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/player.html">Players</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/pages/club.html"
+                id="clubDropdown"
+                data-bs-toggle="dropdown"
+                >Club</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="moreDropdown"
+                data-bs-toggle="dropdown"
+                >More</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Community</a></li>
+                <li><a class="dropdown-item" href="#">Sponsors</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- Sign In Button -->
+          <div class="d-flex align-items-center">
+            <a
+              href="/pages/signIn.html"
+              class="btn btn-outline-dark btn-signin"
+            >
+              <i class="fas fa-user"></i> Sign In
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- *Banner* -->
     <section class="banner">
@@ -65,9 +158,13 @@
                 short và tất. Cá nhân hoá áo đấu sân nhà của bạn với cầu thủ yêu
                 thích của bạn.
               </p>
-              <button class="btn btn-primary mb-5 text-white fw-bolder">
+              <a
+                href="/pages/homeKit.html"
+                class="btn btn-primary mb-5 text-white fw-bolder text-decoration-none"
+                id=""
+              >
                 Buy Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -1002,7 +1099,9 @@
                         Officiis dolores pariatur illum, cumque commodi ab
                         laboriosam. Nulla accusantium ab beatae!
                       </p>
-                      <span class="timer text-secondary">1 week ago</span>
+                      <span class="timer text-primary opacity-75"
+                        >1 week ago</span
+                      >
                     </div>
                   </a>
                 </div>
@@ -1032,7 +1131,9 @@
                         Officiis dolores pariatur illum, cumque commodi ab
                         laboriosam. Nulla accusantium ab beatae!
                       </p>
-                      <span class="timer text-secondary">1 week ago</span>
+                      <span class="timer text-primary opacity-75"
+                        >1 week ago</span
+                      >
                     </div>
                   </a>
                 </div>
@@ -1062,7 +1163,9 @@
                         Officiis dolores pariatur illum, cumque commodi ab
                         laboriosam. Nulla accusantium ab beatae!
                       </p>
-                      <span class="timer text-secondary">1 week ago</span>
+                      <span class="timer text-primary opacity-75"
+                        >1 week ago</span
+                      >
                     </div>
                   </a>
                 </div>
@@ -1092,7 +1195,9 @@
                         Officiis dolores pariatur illum, cumque commodi ab
                         laboriosam. Nulla accusantium ab beatae!
                       </p>
-                      <span class="timer text-secondary">1 week ago</span>
+                      <span class="timer text-primary opacity-75"
+                        >1 week ago</span
+                      >
                     </div>
                   </a>
                 </div>
@@ -1122,14 +1227,16 @@
                         Officiis dolores pariatur illum, cumque commodi ab
                         laboriosam. Nulla accusantium ab beatae!
                       </p>
-                      <span class="timer text-secondary">1 week ago</span>
+                      <span class="timer text-primary opacity-75"
+                        >1 week ago</span
+                      >
                     </div>
                   </a>
                 </div>
               </div>
 
               <!-- Swiper Pagination -->
-              <div class="swiper-pagination"></div>
+              <div class="swiper-pagination d-none"></div>
               <!-- Swiper Navigation -->
               <div class="swiper-button-next d-none"></div>
               <div class="swiper-button-prev d-none"></div>
@@ -1177,5 +1284,5 @@
   ></script>
   <!-- * Swiper * -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="./assets/javascript/script.js" type="module"></script>
+  <script src="/assets/javascript/script.js" type="module"></script>
 </html>
