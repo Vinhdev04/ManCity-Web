@@ -346,7 +346,26 @@ h5.card-title:hover {
   text-decoration: none;
 }
 
-/* PAGE[NEW] */
+.wrap__img {
+  position: relative;
+}
+
+.wrap__img .discount {
+  position: absolute;
+  top: 7%;
+  left: 90%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  padding-left: 3px;
+  padding-right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border: 2px solid #000;
+  font-weight: 700;
+}
+/* ===================== NEW ========================== */
 
 .news-header {
   color: #5fa8ff;
@@ -520,17 +539,10 @@ h5.card-title:hover {
   font-size: 0.9rem;
   text-align: left; /* Đảm bảo chữ CLUB NEWS nằm dưới title */
 }
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
-}
+/* ===================== HOME ========================== */
 
+/* ===================== NEW ========================== */
 .news-header {
   color: #5fa8ff;
   font-size: 3rem;

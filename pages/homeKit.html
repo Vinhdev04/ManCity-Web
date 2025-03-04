@@ -172,7 +172,7 @@
       </div>
     </nav>
 
-    <section class="banner py-5">
+    <section class="banner">
       <div class="container-fluid ps-0 pe-0">
         <div class="row">
           <p class="fw-bold text-white text-center mb-0 bg-warning py-2">
@@ -202,274 +202,348 @@
         </div>
 
         <div class="row">
+          <!-- *Filter Product* -->
           <div
-            class="d-flex align-items-center justify-content-between border py-3 rounded-3"
+            class="d-flex align-items-center justify-content-between border py-3 px-4 rounded-3 bg-light"
           >
-            <div class="">
-              <a
-                href="#"
-                class="text-decoration-none text-dark me-3 text-uppercase fw-bolder"
-                >Men's Team</a
-              >
-              <a
-                href="#"
-                class="text-decoration-none text-dark text-uppercase fw-bolder"
-              >
-                Women's Team</a
-              >
-            </div>
+            <!-- Bộ lọc theo danh mục (Men/Women) -->
             <div>
-              <select name="" id="">
+              <a
+                href="#"
+                class="filter-btn text-decoration-none text-dark me-3 text-uppercase fw-bolder"
+                data-filter="all"
+              >
+                Tất cả
+              </a>
+              <a
+                href="#"
+                class="filter-btn text-decoration-none text-dark me-3 text-uppercase fw-bolder"
+                data-filter="men"
+              >
+                Men's Team
+              </a>
+              <a
+                href="#"
+                class="filter-btn text-decoration-none text-dark text-uppercase fw-bolder"
+                data-filter="women"
+              >
+                Women's Team
+              </a>
+            </div>
+
+            <!-- Bộ lọc theo thông số -->
+            <div class="d-flex">
+              <select name="" id="filter-age" class="form-select me-3">
                 <option value="">Tuổi</option>
+                <option value="adult">Người lớn</option>
+                <option value="kid">Trẻ em</option>
+              </select>
+
+              <select name="" id="filter-size" class="form-select me-3">
                 <option value="">Kích thước</option>
-                <option value="">Màu sắc</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
               </select>
-              <select name="" id="" class="ms-3">
-                <option value="">Giá thấp - cao</option>
-                <option value="">Giá cao - thấp</option>
-                <option value="">Bán chạy nhât</option>
+
+              <select name="" id="priceFilter" class="form-select">
+                <option value="">Sắp xếp</option>
+                <option value="low-high">Giá thấp - cao</option>
+                <option value="high-low">Giá cao - thấp</option>
+                <option value="best-seller">Bán chạy nhất</option>
               </select>
             </div>
+          </div>
+
+          <!-- *Filter Branch* -->
+          <div class="d-flex justify-content-center my-3">
+            <button
+              class="filter-btn btn btn-outline-dark mx-2"
+              data-category="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn btn btn-outline-primary mx-2"
+              data-category="accessory"
+            >
+              Accessory
+            </button>
+            <button
+              class="filter-btn btn btn-outline-danger mx-2"
+              data-category="clothing"
+            >
+              Clothings
+            </button>
+            <button
+              class="filter-btn btn btn-outline-success mx-2"
+              data-category="shoes"
+            >
+              Shoes
+            </button>
           </div>
         </div>
 
         <div class="row">
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="text-decoration-none text-dark col-md-4">
-            <div class="mb-2 mt-3">
-              <img
-                src="/assets/Images/Shop/01.jpg"
-                alt=""
-                class="img-fluid rounded-2 shadow"
-              />
-            </div>
-            <div class="card-body">
-              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
-              <div class="card-text d-flex align-items-center mt-1">
-                <p class="mb-0 fw-bold">£ 51,00</p>
-                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
-                  £ 85,00
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="row">
-          <div
-            class="d-flex justify-content-center align-items-center flex-column mt-5"
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="puma"
+            data-category="shoes"
+            data-age="adult"
+            data-size="m"
+            data-price="high-low"
           >
-            <p class="mb-2">Showing 12 of 596 products</p>
-            <div class="d-flex align-items-center">
-              <a
-                href=""
-                class="text-decoration-none text-white btn btn-primary me-3"
-                >Xem thêm</a
-              >
-              <a
-                href=""
-                class="text-decoration-none text-white btn btn-secondary"
-                >Xem tất cả</a
-              >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/shoe02.webp"
+                alt="PUMA x ManCity Palermo 0161 Footwear"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
             </div>
-          </div>
+            <div class="card-body">
+              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 51,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 85,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="shirt"
+            data-category="clothing"
+            data-age="adult"
+            data-size="m"
+            data-price="high-low"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/cothing.webp"
+                alt="Manchester City Home Jersey 2024/25"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Manchester City Home Jersey 2024/25</div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 48,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 80,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="shirt"
+            data-category="clothing"
+            data-age="kid"
+            data-size="s"
+            data-price="high-low"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/cothing02.webp"
+                alt="Kids' Manchester City Home Jersey 2024/25"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                Kids' Manchester City Home Jersey 2024/25
+              </div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 36,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 60,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="rock"
+            data-category="accessory"
+            data-age="kid"
+            data-size="s"
+            data-price="low-high"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/socks.webp"
+                alt="Kids' Manchester City Socks 2024/25"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Kids' Manchester City Socks 2024/25</div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 8,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 16,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="puma"
+            data-category="shoes"
+            data-age="kid"
+            data-size="s"
+            data-price="low-high"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/shoe02.webp"
+                alt="PUMA x ManCity Palermo 0161 Footwear"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">PUMA x ManCity Palermo 0161 Footwear</div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 18,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 25,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="shirt"
+            data-category="accessory"
+            data-age="adult"
+            data-size="l"
+            data-price="high-low"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/comobo_big.webp"
+                alt="Manchester City Authentic Home Jersey 2024/25 In Gift Box"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                Manchester City Authentic Home Jersey 2024/25 In Gift Box
+              </div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 51,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 120,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="trousers"
+            data-category="clothing"
+            data-age="adult"
+            data-size="m"
+            data-price="best-seller"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/trousers02.webp"
+                alt="Kids' Manchester City Football Shorts 2024/25"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                Kids' Manchester City Football Shorts 2024/25
+              </div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 24,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 18,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="rock"
+            data-category="accessory"
+            data-age="adult"
+            data-size="m"
+            data-price="best-seller"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/socks.webp"
+                alt="Manchester City Socks 2024/25"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Manchester City Socks 2024/25</div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 8,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 18,00
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="text-decoration-none text-dark col-md-4 product-item"
+            data-filter="shirt"
+            data-category="clothing"
+            data-age="adult"
+            data-size="m"
+            data-price="high-low"
+          >
+            <div class="mb-2 mt-3 wrap__img">
+              <img
+                src="/assets/Images/Shop/cothing03.webp"
+                alt="Manchester City Home Jersey 2024/25 Long Sleeve"
+                class="img-fluid rounded-2 shadow"
+              />
+              <span class="discount">-10%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                Manchester City Home Jersey 2024/25 Long Sleeve
+              </div>
+              <div class="card-text d-flex align-items-center mt-1">
+                <p class="mb-0 fw-bold price">£ 51,00</p>
+                <p class="text-decoration-line-through opacity-50 mb-0 ms-2">
+                  £ 95,00
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -504,6 +578,7 @@
       </div>
     </footer>
   </body>
+  <script src="/services/filterProduct.js"></script>
   <!-- * B * -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
