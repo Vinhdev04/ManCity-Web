@@ -92,3 +92,32 @@ var myswiper = new Swiper(".feedbackSwiper", {
     },
   },
 });
+
+var swiper = new Swiper(".mySwipers", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  autoplay: {
+    delay: 3000,
+  },
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});

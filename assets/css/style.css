@@ -541,6 +541,11 @@ h5.card-title:hover {
 }
 
 /* ===================== HOME ========================== */
+.video__home .ratio {
+  border-radius: 10px; /* Bo góc */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
+}
 
 /* ===================== NEW ========================== */
 .news-header {

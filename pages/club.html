@@ -49,44 +49,52 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="new.html">News</a>
+              <a class="nav-link active text-white" href="new.html">News</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-white"
                 href="video.html"
                 id="videoDropdown"
                 data-bs-toggle="dropdown"
                 >Video</a
               >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Highlights</a></li>
-                <li><a class="dropdown-item" href="#">Interviews</a></li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Highlights</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Interviews</a>
+                </li>
               </ul>
             </li>
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-white"
                 href="ticket.html"
                 id="ticketsDropdown"
                 data-bs-toggle="dropdown"
                 >Tickets</a
               >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Buy Tickets</a></li>
-                <li><a class="dropdown-item" href="#">Season Pass</a></li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Buy Tickets</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Season Pass</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a class="nav-link text-white" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="player.html">Players</a>
+              <a class="nav-link text-white" href="player.html">Players</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-white"
                 href="club.html"
                 id="clubDropdown"
                 data-bs-toggle="dropdown"
@@ -96,16 +104,20 @@
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-white"
                 href="#"
                 id="moreDropdown"
                 data-bs-toggle="dropdown"
                 >More</a
               >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Community</a></li>
-                <li><a class="dropdown-item" href="#">Sponsors</a></li>
-                <li><a class="dropdown-item" href="#">Help</a></li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Community</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Sponsors</a>
+                </li>
+                <li><a class="dropdown-item text-white" href="#">Help</a></li>
               </ul>
             </li>
           </ul>
@@ -127,11 +139,9 @@
     crossorigin="anonymous"
   ></script>
   <script>
-    // Đảm bảo dropdown hoạt động trên mobile
     document.querySelectorAll(".dropdown-toggle").forEach((item) => {
       item.addEventListener("click", function (event) {
         if (window.innerWidth > 992) {
-          // Chỉ áp dụng trên màn hình lớn
           event.preventDefault();
           let dropdownMenu = this.nextElementSibling;
           dropdownMenu.style.display =
