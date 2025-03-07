@@ -24,15 +24,11 @@
   </head>
   <style></style>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="index.html">
-          <img
-            src="./assets/Images/Logo/crest.svg"
-            alt="Wix Logo"
-            height="70"
-          />
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
         </a>
 
         <!-- Toggle button for mobile -->
@@ -49,60 +45,32 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active text-white" href="new.html">News</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="video.html"
-                id="videoDropdown"
-                data-bs-toggle="dropdown"
-                >Video</a
+              <a class="nav-link active text-white" href="/pages/new.html"
+                >News</a
               >
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item text-white" href="#">Highlights</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white" href="#">Interviews</a>
-                </li>
-              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/video.html">Video</a>
             </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="ticket.html"
-                id="ticketsDropdown"
-                data-bs-toggle="dropdown"
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/ticket.html"
                 >Tickets</a
               >
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item text-white" href="#">Buy Tickets</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white" href="#">Season Pass</a>
-                </li>
-              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="shop.html">Shop</a>
+              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="player.html">Players</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="club.html"
-                id="clubDropdown"
-                data-bs-toggle="dropdown"
-                >Club</a
+              <a class="nav-link text-white" href="/pages/player.html"
+                >Players</a
               >
             </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/club.html">Club</a>
+            </li>
 
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle text-white"
                 href="#"
@@ -119,12 +87,15 @@
                 </li>
                 <li><a class="dropdown-item text-white" href="#">Help</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
 
           <!-- Sign In Button -->
           <div class="d-flex align-items-center">
-            <a href="signIn.html" class="btn btn-outline-dark btn-signin">
+            <a
+              href="/pages/signIn.html"
+              class="btn btn-outline-dark btn-signin"
+            >
               <i class="fas fa-user"></i> Sign In
             </a>
           </div>

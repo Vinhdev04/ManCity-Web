@@ -1,0 +1,187 @@
+{
+  "schedule": [
+    {
+      "id": "1",
+      "title": "Vòng 18",
+      "home": "Liverpool",
+      "away": "Man City",
+      "date": "Sat 08 Mar",
+      "time": "19:00",
+      "gtm": "GTM",
+      "stadium": "Anfield",
+      "logoHome": "/assets/Images/Logo/temp_liverpool.webp",
+      "logoAway": "/assets/Images/Logo/manchester_city_fc_badge.webp"
+    },
+
+    {
+      "id": "2",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "A Villa",
+      "date": "Sat 08 Feb",
+      "time": "19:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/a-villa-new-full.webp"
+    },
+
+    {
+      "id": "2",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "N Forest",
+      "date": "Sat 12 Mar",
+      "time": "12:30",
+      "gtm": "GTM",
+      "stadium": "City Ground",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/notting.webp"
+    },
+
+    {
+      "id": "3",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Brighton",
+      "date": "Sat 15 Mar",
+      "time": "22:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/brighton.webp"
+    },
+
+    {
+      "id": "4",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Leicester City",
+      "date": "Thu 03 Apr",
+      "time": "01:45",
+      "gtm": "GTM",
+      "stadium": "King Power",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/leicester.webp"
+    },
+    {
+      "id": "5",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Man United",
+      "date": "Sun 06 Apr",
+      "time": "22:30",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/manunited.webp"
+    },
+    {
+      "id": "6",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Crystal Palace",
+      "date": "Sun 06 Apr",
+      "time": "18:30",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/cpalace.webp"
+    },
+    {
+      "id": "7",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Everton",
+      "date": "Sun 06 Apr",
+      "time": "21:30",
+      "gtm": "GTM",
+      "stadium": "Goodison Park",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "8",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Wolves",
+      "date": "Sat 03 May",
+      "time": "21:30",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/wolves.webp"
+    },
+    {
+      "id": "9",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Southampton",
+      "date": "Sat 10 May",
+      "time": "21:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/southampton.webp"
+    },
+    {
+      "id": "10",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Fulham",
+      "date": "Sun 25 May",
+      "time": "21:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/wydad_ac_crest_2022.webp"
+    },
+    {
+      "id": "11",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Wydad AC",
+      "date": "Wed 18 Jun",
+      "time": "23:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/fulham.webp"
+    },
+    {
+      "id": "12",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Al Ain FC",
+      "date": "Mon 23 Jun",
+      "time": "08:00",
+      "gtm": "GTM",
+      "stadium": "Nady al-'Ayn",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/al_ain_fc_logo_2024.webp"
+    },
+    {
+      "id": "13",
+      "title": "Vòng 21",
+      "home": "Man City",
+      "away": "Juventus",
+      "date": "Fri 27 Jun",
+      "time": "02:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/temp_juventus_2.webp"
+    }
+  ]
+}
