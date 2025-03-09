@@ -19,3 +19,20 @@
   color: #e4d8d8;
   font-weight: bold;
 }
+
+/* -------- Custom Swiper  -------- */
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+  background: #5372f0;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-slide-button {
+  color: #5372f0;
+  margin-top: -35px;
+}
