@@ -36,3 +36,18 @@
   color: #5372f0;
   margin-top: -35px;
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Loại bỏ delay */
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Xóa delay */
+}
+
+/* Giữ layout đẹp */
+.dropdown-menu {
+  transition: all 0.2s ease-in-out;
+  visibility: visible;
+  opacity: 1;
+}

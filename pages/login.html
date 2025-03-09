@@ -10,6 +10,11 @@
       href="/assets/Images/Logo/crest.svg"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
     <!-- * B * -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -29,10 +34,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
-    <title>Manchester City FC | Official Website</title>
+    <title>Manchester City FC | SIGNIN</title>
   </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
+  <body style="background-color: #98c5e9">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="/index.html">
@@ -120,23 +125,118 @@
       </div>
     </nav>
 
-    <!-- SwiperJS CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <div
+      class="container register-container pt-5 d-flex justify-content-center align-items-center"
+      style="padding-top: 50px"
+    >
+      <div class="row h-100">
+        <div
+          class="wrap__form d-flex align-items-center bg-white p-5 shadow rounded-2"
+        >
+          <!-- Left: Image -->
+          <div class="col-md-6 register-image d-none d-md-block">
+            <div>
+              <img
+                src="/assets//Images/Poster/content_block_casuals_dec24.jpg"
+                alt=""
+                class="img-fluid w-100 shadow rounded-2 object-fit-cover"
+              />
+            </div>
+          </div>
 
-    <!-- SwiperJS Script -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <!-- Right: Register Form -->
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div class="form-box w-75">
+              <h2 class="form-title mb-4 text-center">Login Your Account</h2>
+
+              <form class="needs-validation" novalidate>
+                <div class="mb-2">
+                  <label for="username" class="form-label">Username</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    required
+                  />
+                  <div class="invalid-feedback">Please choose a username.</div>
+                </div>
+
+                <div class="mb-2">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please enter a valid email.
+                  </div>
+                </div>
+
+                <div class="mb-2">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    required
+                  />
+                  <div class="invalid-feedback">Please enter a password.</div>
+                </div>
+
+                <div class="mb-2 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="terms"
+                    required
+                  />
+                  <label class="form-check-label" for="terms"
+                    >Agree to terms & conditions</label
+                  >
+                  <div class="invalid-feedback">
+                    You must agree before registering.
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">
+                  Register
+                </button>
+
+                <p class="mt-3 text-center">
+                  Already have an account?
+                  <a href="/pages/signIn.html">Login here</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <script>
+    (() => {
+      const form = document.querySelector(".needs-validation");
+      form.addEventListener(
+        "submit",
+        (event) => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add("was-validated");
+        },
+        false
+      );
+    })();
+  </script>
   <!-- * B * -->
-
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
-  <script src="/assets/javascript/script.js" type="module"></script>
-  <script src="/services/handleSwiperJS.js" type="module"></script>
-  <script src="/services/callAPI.js" type="module"></script>
 </html>
