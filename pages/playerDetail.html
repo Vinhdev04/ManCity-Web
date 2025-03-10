@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <!-- * Favicon * -->
+    <link
+      rel="shortcut icon"
+      href="/assets/Images/Logo/crest.svg"
+      type="image/x-icon"
+    />
+    <!-- * B * -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- * Swiper* -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- * CSS * -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+    <title>Manchester City FC | PLAYER</title>
+    <style>
+      .card {
+        padding: 0 !important;
+      }
+
+      .detail__title .title {
+        color: #6caddf;
+        font-weight: bold;
+      }
+
+      .bio-text-wrapper {
+        max-width: 90%; /* thu hẹp độ rộng bên trong */
+      }
+
+      @media (min-width: 768px) {
+        .bio-text-wrapper {
+          max-width: 650px; /* độ rộng tối ưu trên desktop */
+        }
+      }
+
+      .detail__desc p {
+        font-size: 16px;
+        text-align: left; /* căn trái */
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
+        </a>
+
+        <!-- Toggle button for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="/pages/new.html"
+                >News</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/video.html">Video</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                href="/pages/ticket.html"
+                id="ticketsDropdown"
+                data-bs-toggle="dropdown"
+                >Tickets</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/player.html"
+                >Players</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/club.html">Club</a>
+            </li>
+          </ul>
+
+          <!-- Sign In Button -->
+          <div class="dropdown">
+            <a
+              class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2"
+              href="#"
+              id="userDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-user"></i> <span>Login</span>
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end mt-0"
+              aria-labelledby="userDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="/pages/login.html"
+                  ><i class="fas fa-sign-in-alt me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/Register.html"
+                  ><i class="fas fa-user-plus me-2"></i>Register</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/setting.html"
+                  ><i class="fas fa-cog me-2"></i>Setting</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row border-bottom pb-4">
+          <!-- BIO -->
+          <div class="col-lg-7 col-md-12 mb-4">
+            <div class="detail__title text-uppercase mb-3">
+              <h5 class="title fw-bold pb-2">BIO</h5>
+            </div>
+            <div class="detail__body">
+              <div class="detail__sub mb-3">
+                <h6 class="fw-bolder text-uppercase text-secondary">
+                  Value By All
+                </h6>
+              </div>
+              <div class="detail__desc">
+                <div class="bio-text-wrapper px-2 px-md-4 mx-auto">
+                  <p class="text-muted lh-lg text-start">
+                    The former England international goalkeeper signed a
+                    one-year contract extension with the Club in May 2023,
+                    keeping him at the club until the summer of 2024.
+                    <br /><br />
+                    Former England international goalkeeper Scott Carson signed
+                    another season-long loan deal with Manchester City in
+                    September 2020, having originally arrived on a season-long
+                    loan deal on deadline day of the August 2019 transfer
+                    window.
+                    <br /><br />
+                    Starting his career at Leeds United, Carson joined Rafael
+                    Benitez’ Liverpool in January 2005 and featured for the
+                    Anfield side against Juventus in their Champions League
+                    quarter-final first leg.
+                    <br /><br />
+                    Loan spells at Sheffield Wednesday, Charlton Athletic and
+                    Aston Villa soon followed, and his performances earned the
+                    goalkeeper both a place in England’s 2006 World Cup squad as
+                    well as a permanent move to Tony Mowbray’s West Brom in
+                    2008.
+                    <br /><br />
+                    After three successful years at the Baggies, including
+                    helping them gain promotion to the Premier League in 2010,
+                    Carson swapped the West Midlands for Turkey and moved to
+                    Bursaspor in 2011.
+                    <br /><br />
+                    His form in the Turkish top flight also saw the stopper earn
+                    a further England call-up, replacing Joe Hart for the second
+                    half of a friendly against Sweden in November 2011.
+                    <br /><br />
+                    Carson returned to England in 2013 to link up with Wigan
+                    Athletic before making the switch to Derby County two years
+                    later.
+                    <br /><br />
+                    He featured 30 times in the 2018/19 season as the Rams
+                    suffered play-off final heartache against Aston Villa.
+                    <br /><br />
+                    Carson has subsequently brought his experience and knowledge
+                    to bear in City’s goalkeeping department since he initially
+                    joined on loan in August 2019 followed by another
+                    season-long loan in September 2020.
+                    <br /><br />
+                    He was handed his City debut away to Newcastle towards the
+                    end of the 2020/21 season - and in 2021/22 he came on for
+                    Ederson in the 0-0 draw with Sporting Lisbon.
+                    <br /><br />
+                    Since then he has continued to be a valued voice and member
+                    of Guardiola‘s team and his impressive CV has allowed him to
+                    share his expertise with Ederson and Stefan Ortega Moreno
+                    throughout the 2022/23 campaign.
+                    <br /><br />
+                    Carson was part of the City team to be named Premier League
+                    title winners for a third consecutive season in May 2023 and
+                    was also part of the FA Cup winning team in June 2023.
+                    <br /><br />
+                    To top it off, he was part of Pep Guardiola‘s Treble-winning
+                    team after our 1-0 win over Inter in the Champions League
+                    final to lift the Champions League trophy for the first time
+                    in our history.
+                    <br /><br />
+                    Continuing success into the 2023/24 season, Carson was also
+                    part of Guardiola‘s squad who beat Sevilla in the UEFA Super
+                    Cup on penalties to win the European showpiece for the first
+                    time in the Club’s history.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Info -->
+          <div class="col-lg-5 col-md-12">
+            <div class="detail__title text-uppercase fw-bold mb-3">
+              <h5 class="title">Info</h5>
+            </div>
+            <ul class="list-group shadow-sm">
+              <li class="list-group-item d-flex justify-content-between">
+                <span class="fw-semibold">Date of Birth:</span>
+                <span class="fw-bold">1985-09-03</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span class="fw-semibold">Location:</span>
+                <span class="fw-bold text-uppercase">Whitehaven, England</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span class="fw-semibold">Nationality:</span>
+                <span class="fw-bold text-uppercase">England</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span class="fw-semibold">Position:</span>
+                <span class="fw-bold text-uppercase">Goalkeeper</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span class="fw-semibold">Joined City:</span>
+                <span class="fw-bold text-uppercase">2019-08-08</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row align-items-center mt-3">
+          <div class="col-md-4">
+            <div>
+              <h6 class="text-uppercase fw-bolder text-secondary small mb-0">
+                Carson's
+              </h6>
+              <h3 class="text-uppercase fw-bold title" style="color: #6caddf">
+                honours
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex flex-column align-items-center">
+                <img src="/assets/Images/Cup/primer.svg" alt="" />
+                <span>21-22</span>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="/assets/Images/Cup/primer.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <span>22-23</span>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <img src="/assets/Images/Cup/fa.svg" alt="" class="img-fluid" />
+                <span>22-23</span>
+              </div>
+              <div class="d-flex flex-column">
+                <img
+                  src="/assets/Images/Cup/champion.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <span>22-23</span>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="/assets/Images/Cup/club.webp"
+                  alt=""
+                  class="img-fluid"
+                  style="width: 44px; height: 44px"
+                />
+                <span>22-23</span>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="/assets/Images/Cup/primer.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <span>23-24</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- * B * -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/assets/javascript/script.js" type="module"></script>
+</html>
