@@ -1103,3 +1103,99 @@ button.active {
   color: #00285e;
   margin: 10px 0;
 }
+/* ===================== Player ========================== */
+.wrap__title .title {
+  color: #6caddf;
+  font-size: 40px;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.wrap__title .title {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.title::before {
+  content: "";
+  width: 160px;
+  height: 10px;
+  display: block;
+  color: red;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background: #fff;
+}
+
+.card-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(78, 77, 77, 0.5);
+  display: none;
+}
+
+.card:hover .card-img::before {
+  display: flex;
+  cursor: pointer;
+}
+
+.card:hover .card-title {
+  color: #6caddf;
+  cursor: pointer;
+}
+
+.card-img {
+  overflow: hidden;
+}
+
+.card-img img {
+  transition: 0.3s all ease-in;
+  overflow: hidden;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-body {
+  background: #ffff;
+}
+
+.card:hover .card-body {
+  background-color: #001838;
+}
+
+.card:hover .card-title {
+  color: #ffff;
+  font-weight: bold;
+}
+
+.card-body .card-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fit-text {
+  min-height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fit-text h5 {
+  font-weight: bold;
+}

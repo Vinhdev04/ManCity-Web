@@ -183,5 +183,53 @@
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/temp_juventus_2.webp"
     }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "EXCLUSIVE! Txiki & Fernandinho Call ☎️ | Watch LIFE AFTER FOOTBALL Documentary on City +",
+      "video": {
+        "src": "/video content/EXCLUSIVE! Txiki & Fernandinho Call ☎️ - Watch LIFE AFTER FOOTBALL Documentary on City +.mp4",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video."
+      },
+      "date": "Fri 07 Mar",
+      "time": "18:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/temp_liverpool.webp",
+      "href": ""
+    },
+    {
+      "id": "2",
+      "title": "Haaland Scissor Kick! | Man City Training shooting drills | Echeverri, Marmoush, Bobb and more!",
+      "video": {
+        "src": "/video content/Haaland_Scissor_Kick.mp4",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video."
+      },
+      "date": "Mon 09 Mar",
+      "time": "20:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/temp_liverpool.webp"
+    },
+    {
+      "id": "3",
+      "title": "DRIVING CHAOS AS MAN CITY PLAYERS CREATE THEIR OWN REMOTE CONTROLLED CARS!",
+      "video": {
+        "src": "/video content/Driving_Chaos_Remote_Cars.mp4",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video."
+      },
+      "date": "Tue 10 Mar",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    }
   ]
 }

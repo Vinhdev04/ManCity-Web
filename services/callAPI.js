@@ -35,9 +35,8 @@ const showData = async () => {
               </a>
             </div>
             <div class="text-center">
-              <p class="mb-0 small text-muted">Sân vận động: <strong>${
-                item.stadium
-              }</strong></p>
+              <p class="mb-0 small text-muted">Sân vận động: <strong>
+              ${item.stadium}</strong></p>
             </div>
             <div class="d-flex align-items-center justify-content-around mt-2">
               <div class="text-center d-flex flex-column align-items-center">
@@ -72,7 +71,7 @@ const showData = async () => {
       `;
     });
 
-    document.querySelector(".swiper-wrapper").innerHTML = html;
+    document.querySelector(".video").innerHTML = html;
   } else {
     console.error("Lỗi không có dữ liệu trả về từ API...");
     document.querySelector(".swiper-wrapper").innerHTML =
