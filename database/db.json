@@ -184,6 +184,7 @@
       "logoAway": "/assets/Images/Logo/temp_juventus_2.webp"
     }
   ],
+
   "videos": [
     {
       "id": "1",
@@ -230,6 +231,1875 @@
       "stadium": "Etihad",
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/everton.webp"
+    }
+  ],
+
+  "player": [
+    {
+      "id": "1",
+      "name": "Scott Carson",
+      "number": "31",
+      "images": "/assets/Images/Player/player01.webp",
+      "description": [
+        "The former England international goalkeeper signed a one-year contract extension with the Club in May 2023, keeping him at the club until the summer of 2024.",
+        "Scott Carson originally joined Manchester City on a season-long loan deal on deadline day of the August 2019 transfer window. He signed another loan in September 2020.",
+        "Starting his career at Leeds United, Carson joined Rafael Benitez’s Liverpool in January 2005 and featured against Juventus in the Champions League.",
+        "Loan spells at Sheffield Wednesday, Charlton Athletic and Aston Villa followed. His performances earned him a place in England’s 2006 World Cup squad and a permanent move to West Brom in 2008.",
+        "After three successful years at West Brom, Carson moved to Turkish side Bursaspor in 2011 and earned another England call-up in November 2011.",
+        "He returned to England in 2013 with Wigan Athletic before moving to Derby County in 2015, where he featured 30 times in the 2018/19 season.",
+        "Carson brought his experience to City’s goalkeeping team from 2019 onwards, eventually debuting in the 2020/21 season against Newcastle.",
+        "He also appeared in the 2021/22 season against Sporting Lisbon and has continued to support Ederson and Ortega in the 2022/23 campaign.",
+        "Carson was part of City's 2022/23 Premier League, FA Cup, and Champions League Treble-winning team.",
+        "He was also part of the squad that won the UEFA Super Cup against Sevilla in 2023."
+      ],
+      "date": "1985-09-03",
+      "location": "Whitehaven, England",
+      "nationality": "England",
+      "position": "Goalkeeper",
+      "joined": "2019-08-08",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2021/22",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/23",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/23",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Champions League",
+          "year": "2022/23",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/world.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "2",
+      "name": "Edison",
+      "number": "31",
+      "images": "/assets/Images/Player/player02.webp",
+      "description": [
+        "Ederson arrived at City on 1 July 2017 with a reputation as one of the brightest young goalkeeping prospects in world football.",
+        "Born Ederson Santana de Moraes, he began his youth career in his native Brazil with São Paulo FC, before venturing into Europe aged 16 to sign with Benfica.",
+        "It was in Portugal where his professional career began, initially with second-tier outfit Ribeirão, where his form earned him a move to Primeira Liga side, Rio Ave.",
+        "During a three year stay, he played 63 games in all competitions and enhanced his reputation so much so that Benfica brought him back to the Stadium of Light in 2015.",
+        "Ederson’s second spell in Lisbon began in the B team, as understudy to Brazil’s first choice ‘keeper, Julio Cesar, but he succeeded his compatriot in the 2016/17 campaign and helped the Eagles to a league and cup double.",
+        "With a habit of producing excellent reflex saves and boasting outstanding distribution, Pep Guardiola swooped for the then 23-year-old in the summer of 2017.",
+        "Ederson enjoyed a fantastic first campaign with City, keeping 16 clean sheets as an integral part of the Club’s Premier League success.",
+        "His form earned him a PFA Young Player of the Year nomination and saw him selected in Brazil’s 2018 World Cup squad.",
+        "In May 2018, he penned a new deal with City that tied him to the Club until 2025 and impressed again in 2018/19.",
+        "Twenty clean sheets saw him named in the PFA Team of the Year, whilst he also saved a penalty in the shootout as City beat Chelsea to lift the Carabao Cup.",
+        "Ederson’s fantastic footwork, including the sheer distance of some his kicks, has generated much admiration at the Etihad Stadium and in May 2018 he broke the Guinness World Record for the longest drop kick, registering 75.35 metres.",
+        "Since his arrival, the majority of keepers in this country have changed the way they play, with the emphasis on playing from the back now commonplace for many teams in England.",
+        "That means technique, control and distribution are all key elements for any top goalkeeper - though outstanding reflexes, agility and the ability to command the penalty area remain crucial.",
+        "He was able to do enough between the sticks to help City beat the Europa League champions and lift the European showpiece for the first time in the Club’s history.",
+        "Ederson also kept a clean sheet in the FIFA Club World Cup win over Fluminense in December 2023. "
+      ],
+      "date": "1993-08-17",
+      "location": "Osasco, Brazil",
+      "nationality": "Brazil",
+      "position": "Goalkeeper",
+      "joined": "2017-07-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "20124",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "3",
+      "name": "Ortega",
+      "number": "33",
+      "images": "/assets/Images/Player/player03.webp",
+      "description": [
+        "Stefan joined the Club on a free transfer in July 2022 after his contract at Arminia Bielefeld expired.The experienced German bolsters City’s goalkeeping options and wears the No. 18 shirt.",
+        "In total, he made 220 appearances across two different spells at a team he joined as a youngster in 2007. He made his first-team debut four years later, helping them win promotion to 2. Bundesliga in 2013.",
+        "He joined TSV 1860 Munich in 2014, making 64 appearances in three years, before re-signing for Arminia Bielefeld in 2017 and eventually becoming vice captain.",
+        "Though he has the formidable talent of Ederson ahead of him, he has played regularly in cup competitions and made several  impressive displays.",
+        "Stefan made his Premier League debut in May 2023, keeping a clean sheet in our 3-0 win over West Ham, helping continue City’s positive run of form to help us secure our third consecutive Premier League title and his first English title in his debut season with the Club. ",
+        "The German conceded just one goal in our journey to securing the 2022/23 FA Cup after City overcame Manchester United 2-1 in the final. ",
+        "To top off his first season with City, Ortega Moreno was part of Pep Guardiola‘s Champions League winning squad that completed the Treble and created history at City.",
+        "The goalkeeper was part of Pep Guardiola‘s squad that travelled to Athens in August for the 2023 Super Cup in which we beat Sevilla on penalties. "
+      ],
+      "date": "1992-11-06",
+      "location": "Hofgeismar, Germany",
+      "nationality": "Germany",
+      "position": "Goalkeeper",
+      "joined": "2022-07-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "4",
+      "name": "Manuel Akanji",
+      "number": "30",
+      "images": "/assets/Images/Player/player04.webp",
+      "description": [
+        "The 27-year-old Swiss central defender joined from Borussia Dortmund in September 2022, with Manuel having made more than 150 appearances in total for the Bundesliga club.",
+        "He began his career at FC Winterthur in his homeland before moving to Basel, where he impressed enough in his three seasons to convince Dortmund to swoop for him in January 2018.",
+        "During the course of his four-and-a-half year stay with the Black and Yellows, Manuel helped Dortmund to win the German Super Cup in 2019 and the German Cup in 2020/21.",
+        "He is also an experienced international, having won 49 caps with Switzerland to date, and featured for his country at both the 2018 World Cup finals and EURO 2020.",
+        "And, having made an accomplished start to his City career, Akanji was part of the Swiss squad that reached the last 16 at the 2022 World Cup finals.",
+        "Akanji made four appearances at the Qatar tournament, scoring in Switzerland’s last 16 loss to Portugal. ",
+        "His return to club football in December saw him flourish further in City’s defensive line that was the envy of all. ",
+        "In his 48 appearances in all competitions, City won 37, as they overcame a hectic fixture schedule in the final months of the season to create history.  ",
+        "The defender has continued to go from strength to strength at the beginning of the 2023/24 season. He played the entirety of our Super Cup win over Sevilla in Athens on 16 August 2023 as he adds his fourth accolade to his City career. ",
+        "And Manu collected yet another winner’s medal as City beat Fluminense to win the 2023 FIFA Club World Cup."
+      ],
+      "date": "1995-07-19",
+      "location": "Wiesendangen, Switzerland",
+      "nationality": "Switzerland",
+      "position": "Defender",
+      "joined": "2022-09-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/world.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "5",
+      "name": "Nathan Ake",
+      "number": "30",
+      "images": "/assets/Images/Player/player05.webp",
+      "description": [
+        "Nathan Ake was Manchester City’s second signing of summer 2020, arriving on a five-year deal which keeps him at the Club until 2025.",
+        "The 28-year-old defender joined from Bournemouth, where he made 109 appearances in three seasons.",
+        "Ake played predominantly at centre-half for the Cherries, but is capable of playing left-back and started his career as a holding midfielder.",
+        "The Netherlands international moved to England in 2011 at the age of 16, when Chelsea signed him from Feyenoord.",
+        "He made his first team debut on Boxing Day 2012 and went on to be part of the 2013 Europa League and 2014 League Cup winning squads.",
+        "Akanji made four appearances at the Qatar tournament, scoring in Switzerland’s last 16 loss to Portugal. ",
+        "However, first team opportunities were limited and he embarked on several loan spells, first at Reading, before a season with Watford in 2015/16, when he won the Hornets’ Young Player of the Year award. ",
+        "He joined Bournemouth on a six-month loan deal in 2016/17 and moved permanently for a club record fee the following summer. ",
+        "Ake‘s first campaign at the Etihad was hampered by muscular injuries and he was restricted to just 13 appearances.",
+        "He would suffer more frustrating injuries during 2021/22, but more than doubled his appearances from his first campaign with 27 and impressed whenever he featured.",
+        "He maintained his fine form out in Qatar, starting all five of the Netherlands’ games as they reached the quarter-finals before going out 4-3 on penalties to eventual champions Argentina.",
+        "He scored his first Premier League goal in sky blue in our 3-0 win over West Ham in May, two weeks prior to City being crowned Premier League champions for a third consecutive season. ",
+        "And to top off his best season for City, he won his first Champions League trophy with the Club as he featured for the entirety of our 1-0 win over Inter in June 2023.",
+        "Ake had an impressive start to the 2023/24 season as he featured for the entirety of City’s Super Cup win over Sevilla to see us win the showpiece for the first time in the Club’s history.Nathan was also part of th"
+      ],
+      "date": "1995-02-18",
+      "location": "The Hague, Netherlands",
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "joined": "2020-08-05",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2024",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "6",
+      "name": "Ruben Dias",
+      "number": "28",
+      "images": "/assets/Images/Player/player06.webp",
+      "description": [
+        "The 2020/21 Premier League Player of the Season, Football Writer’s Player of the Year and Etihad Player of the Season: Ruben Dias.",
+        "When the defender joined City in September 2020, aged 23, fans weren’t sure what to expect of the latest edition. ",
+        "Nicknamed ‘Ruby’, the Portugal international began his senior career at Benfica, progressing from the youth team to their B side in 2015. ",
+        "After 55 league appearances, he transitioned to their first-team, featuring in 91 league matches across four seasons. ",
+        "His confidence and towering presence enticed Pep Guardiola who snapped Dias up to add to City’s defensive structure.",
+        "A commanding presence with a deep-rooted passion and strong winning mentality, Dias’ influence has helped to seal a watertight defence, which during the 2020/21 season conceded the fewest Premier League goals and lifted the Carabao Cup for a fourth successive season. ",
+        "Muscular injuries in the second-half of the campaign kept him out for several weeks, but with 40 starts he more than played a crucial part of City’s successful Premier League title defence. ",
+        "Since the World Cup, Dias has featured in almost all of our Premier League matches, proving to be a key cog in City’s 10-game unbeaten run which helped us be crowned Premier League champions for a third consecutive season. ",
+        "Dias added his seventh trophy to his honours list after City won the UEFA Super Cup at the beginning of the 2023/24 season. Guardiola‘s side beat Sevilla on penalties after the score ended 1-1 on the final whistle.",
+        "Ruben also was a FIFA Club World Cup winner for the first time in December 2023 as City beat Fluminense 4-0  in Jeddah."
+      ],
+      "date": "1997-05-14",
+      "location": "Amadora, Lisbon, Portugal",
+      "nationality": "Portugal",
+      "position": "Defender",
+      "joined": "2020-09-29",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2024",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "7",
+      "name": "JoskoGvardiol",
+      "number": "23",
+      "images": "/assets/Images/Player/player07.webp",
+      "description": [
+        "Talented defender Josko Gvardiol joined City on a five-year deal in August 2023. ",
+        "The Croatian international moved from RB Leipzig, where he won two DFB Pokal Cups and played 87 times across two seasons. ",
+        "He was  also a key part of his nation’s run to a third place finish at the 2022 World Cup, starting all seven matches.",
+        "A powerful, composed left-footed player, Gvardiol is comfortable at centre-back and left-back. ",
+        "Renowned for his passing ability as much as his defensive nous, the youngster has shown incredible leadership at club and international level despite his tender age. ",
+        "Like compatriot and fellow summer signing Kovacic, Gvardiol began his senior career at Dinamo Zagreb, a breeding ground for some of the most talented Croatian players ever produced.  ",
+        "During two seasons in senior football in his homeland, he won two Croatian League titles, one Croatian Cup and a Croatian Super Cup before moving to Germany.  ",
+        "And he’s started his City career in style. The defender played the entirety of our Super Cup win over Sevilla to help us secure the European showpiece for the first time in the Club’s history.  ",
+        "Josko also played during the FIFA Club World Cup in December 2023 to claim his second major trophy with City."
+      ],
+      "date": "2002-01-23",
+      "location": "Zagreb, Croatia",
+      "nationality": "Croatia",
+      "position": "Defender",
+      "joined": "2023-08-05",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2024",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/world.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "8",
+      "name": "Abdukodir Khusanov",
+      "number": "21",
+      "images": "/assets/Images/Player/player08.webp",
+      "description": [
+        "Abdukodir Khusanov’s star has risen rapidly over the past couple of years. ",
+        "After coming to prominence at Uzbek side Bunyodkor, Khusanov moved to Belarus side Energetik-BGU aged 18.  ",
+        "In June 2023, Khusanov won his first full cap for Uzbekistan, coming on as a sub against Oman and at the time he joined City, he had already won 18 caps for his country. ",
+        "The young centre-back’s performance caught the attention of Ligue 1 side Lens who him up in July 2023 him after just 37 appearances for Energetik-BGU and he became the first Uzbek to play in the French topflight as a result. ",
+        "Fast and powerful, Khusanov enjoys a physical battle and is an excellent tackler.  ",
+        "He has played Champions League and Europa League games for Lens and had made just 31 appearances for the French side when Manchester City lodged a bid for the youngster’s services which proved successful.  ",
+        "Now he will look to develop his game under Pep Guardiola, while honing his skills in training alongside the likes of fellow central defenders Ruben Dias, John Stones, Nathan Ake and Manuel Akanji.   ",
+        "An exciting prospect. "
+      ],
+      "date": "2004-02-29",
+      "location": "Tashkent, Uzbekistan",
+      "nationality": "Uzbekistan",
+      "position": "Defender",
+      "joined": "2025-01-20",
+      "trophy": [{}]
+    },
+
+    {
+      "id": "9",
+      "name": "Rico Lewis",
+      "number": "21",
+      "images": "/assets/Images/Player/player09.webp",
+      "description": [
+        "Rico has progressed right through the academy since signing aged 8.",
+        "A versatile and tactically aware player, Rico primarily operates as a right-back but can also be deployed in holding midfield. ",
+        "Rico made his debut for the Under-18s aged 15 and was named captain of the squad for the 2021/22 season.",
+        "He played 17 times as City lifted the title and was rewarded for his efforts with the Under-18s Player of the Year award. ",
+        "Rico progressed to the EDS for the 2022/23 season and having impressed for City on our summer tour to the United States, he subsequently made his first team debut coming on as a substitute in our 4-0 Premier League win over Bournemouth in August.",
+        "Lewis was then afforded a first senior start in November’s 3-1 Champions League win over Sevilla and made history by scoring, becoming the youngest player at 17 years and 346 days to find the target on his maiden Champions League start.  ",
+        "Lewis has since been in and around the senior team and become an important squad member of Pep Guardiola‘s first team squad.",
+        "He was named part of the squad to win the 2022/23 Premier League title and, after three appearances in the competition, he lifted the 2023 FA Cup.  ",
+        "Starting the 2023/24 campaign off in a similar fashion to the end of the previous season, Lewis was part of the City squad to beat Sevilla in the UEFA Super Cup and in turn, lift the trophy for the first time in the Club’s history. ",
+        "Rico added a FIFA Club World Cup winner’s medal to his collection after a 4-0 win over Fluminense in December 2023."
+      ],
+      "date": "2004-11-21",
+      "location": "Manchester, England",
+      "nationality": "England",
+      "position": "Defender",
+      "joined": "2012-07-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+
+        {
+          "name": "Carabao Cup",
+          "year": "2022/3023",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+
+        {
+          "name": "Community Shield",
+          "year": "2022-2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2022-2023",
+          "thumb": "/assets/Images/Cup/club.webp"
+        }
+      ]
+    },
+
+    {
+      "id": "10",
+      "name": "Vitor Reis",
+      "number": "19",
+      "images": "/assets/Images/Player/player10.webp",
+      "description": [
+        "City signed 19-year-old Brazilian youth international Vitor Reis in January 2025 on a four-and-a-half-year deal.",
+        "A classy centre-back and regular captain on his journey through Palmeiras’ youth ranks, Reis made his senior debut in June 2024 and went on to be a key part of the team as they finished runners-up in the Brazilian Serie A. ",
+        "He played 22 times for his boyhood club, including 18 games in the league and two matches in the Copa Libertadores.",
+        "His performances even earned him national recognition as he was named in the Trofeu Mesa Redonda Team of the Year for all Brazilian football across 2024 ",
+        "He was our second signing of the January transfer window, joining fellow defender Abdukodir Khusanov through the door at the Etihad.",
+        "Alongside his natural reassuring presence, Reis’ raw physical capabilities are often the first thing to catch the eye when you watch him. ",
+        "Composure on the ball and an ability to pick a pass are prerequisites for any player in Pep Guardiola’s team, especially those at the back tasked with starting attacks from deep.",
+        "He was named part of the squad to win the 2022/23 Premier League title and, after three appearances in the competition, he lifted the 2023 FA Cup.  ",
+        "As a youngster seeking to develop, Reis will undoubtedly hope to grow his game under the tutelage of Pep Guardiola and be moulded into the kind of defender that has proved the backbone of our recent success. "
+      ],
+      "date": "2006-01-12",
+      "location": "Brazil",
+      "nationality": "Brazil",
+      "position": "Defender",
+      "joined": "2025-01-21",
+      "trophy": [{}]
+    },
+
+    {
+      "id": "11",
+      "name": "John Stones",
+      "number": "31",
+      "images": "/assets/Images/Player/player11.webp",
+      "description": [
+        "A product of Barnsley’s academy, John Stones built a reputation of an assured ball-playing centre-half with Everton before signing for City in August 2016.",
+        "Already an England international, the defender penned a six-year deal to become the eighth arrival of the summer 2016 transfer window and since then, has won every domestic honour available.",
+        "Stones rose through the ranks of his home town club, making his Barnsley debut against Reading in March 2011, the first of 28 appearances for the Tykes.",
+        "Having displayed a maturity beyond his years, he was promptly snapped up by Everton on the final day of the January 2013 transfer window. ",
+        "He was made to wait until the following season for his debut, but his role in the team grew with time and he went on to make 95 senior appearances in three seasons, netting his first goal in 3-0 win over Manchester United in April 2015.",
+        "His reputation was growing and City swooped, with Pep Guardiola an admirer of Stones’ ability to both neutralise the opposition and launch attacks of his own with his range of passing. ",
+        "A solid first season saw Stones make 41 appearances and he started his second campaign in superb form, netting twice against Feyenoord in the Champions League, before injury against Leicester disrupted his progress.",
+        "Nevertheless, he turned out 29 times to help City lift the 2017/18 Premier League and Carabao Cup – his first taste of success at senior level – and won a place in England’s 2018 World Cup squad. ",
+        "He missed the Carabao Cup final, but played in the Community Shield and FA Cup wins and made a vital goal line clearance to help City beat Liverpool in January 2018’s title showdown at the Etihad Stadium. ",
+        "He was included in the Euro 2016 squad, but didn’t see any playing time, meaning his major tournament debut came at the 2018 World Cup.",
+        "Extending our silverware success into the beginning of the 2023/24 season, Stones was part of the squad who beat Sevilla on penalties to win the UEFA Super Cup for the first time in the Club’s history.Stones was also part of the City squad who claimed the FIFA Club World Cup in December 2023."
+      ],
+      "date": "1994-05-28",
+      "location": "Hemsworth, England",
+      "nationality": "England",
+      "position": "Defender",
+      "joined": "2016-08-09",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "12",
+      "name": "Kyle Walker",
+      "number": "35",
+      "images": "/assets/Images/Player/player12.webp",
+      "description": [
+        "Kyle Walker was City’s third signing of summer 2017, arriving on a five-year deal from Tottenham Hotspur.",
+        "Taking the number two shirt, the England international has made the right-back slot his own and won six trophies in his first two seasons.",
+        "Stones rose through the ranks of his home town club, making his Barnsley debut against Reading in March 2011, the first of 28 appearances for the Tykes.",
+        "A product of the Sheffield United academy, he spent time on loan at Northampton Town before returning to Bramall Lane and impressing in the final few games of the 2008/09 season. ",
+        "Spurs moved for him that summer, but his progress continued at his home town club, who he immediately returned to on loan.",
+        "However, after impressing in the opening months of the 2009/10 season, he was recalled to Spurs and made two senior appearances. ",
+        "Further loan moves followed, to Queens Park Rangers and Aston Villa, in a bid to secure further first-team experience, but in 2011 he forced his way into the Spurs side and became their first-choice right-back.",
+        "He left White Hart Lane with 228 appearances to his name and won the PFA Young Player of the Year in 2012, as well as twice being selected in the PFA Team of the Year. ",
+        "An impressive debut campaign saw him win his first senior honours, the Carabao Cup and Premier League, and he went one better in 2019, adding the Community Shield and FA Cup to his medal collection.",
+        "At an international level, Walker has played more than 70 times since his 2011 debut, a 1-0 win over Spain, and sandwiched between his first two seasons at City was a World Cup campaign.",
+        "Kyle also captained the City side as we claimed the FIFA Club World Cup in December 2023 with a 4-0 win over Fluminense."
+      ],
+      "date": "1990-05-28",
+      "location": "Sheffield, England",
+      "nationality": "England",
+      "position": "Defender",
+      "joined": "2017-07-14",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "13",
+      "name": "Joshua Wilson-Esbrand",
+      "number": "23",
+      "images": "/assets/Images/Player/player13.webp",
+      "description": [
+        "Josh officially signed from West Ham in October 2019 as a scholar, following an impressive trial period with the Club.",
+        "A dynamic presence at left-back, the England age-group international moved up the EDS squad in 2020/21 following an impressive debut campaign.",
+        "Josh was handed his first team debut in September 2021, impressing in our 6-1 Carabao Cup win over Wycombe Wanderers while holding down a starting spot in the Premier League 2 title winning side.",
+        "Having further extended his first team experience  with appearances against Sevilla and FC Copenhagen in the Champions League, Josh spent the second half of the 2022/23 season on loan at Championship side Coventry City. ",
+        "He went on to make 14 Championship appearances, featuring heavily on the left-hand side of midfield, helping Coventry finish 5th.",
+        "The full-back spent the 2023/24 campaign on loan at Ligue 1 club Stade de Reims. "
+      ],
+      "date": "2002-12-26",
+      "location": "London, England",
+      "nationality": "England",
+      "position": "Defender",
+      "joined": "2019-10-01",
+      "trophy": [{}]
+    },
+
+    {
+      "id": "14",
+      "name": "Oscar Bobb",
+      "number": "22",
+      "images": "/assets/Images/Player/player14.webp",
+      "description": [
+        "Oscar officially joined the club as a scholar in July 2019 from Norweigan side Vålerenga.",
+        "A Norweigan youth international, Oscar was an integral part of the U18’s winning back-to-back league titles in 2019/20 and 2020/21.",
+        "An incredibly technically gifted midfielder, capable of playing centrally as well as out-wide, Oscar was promoted to the EDS squad for 2021/22.",
+        "He ended the season as EDS Player of the Year, following 26 appearances in the successful Premier League 2 campaign. ",
+        "He joined Pep Guardiola‘s squad for their pre-season tour in Asia where he showcased his ability and strong work ethic. ",
+        "Oscar won his first senior winner’s medal as part of the City team who won the 2023 FIFA Club World Cup."
+      ],
+      "date": "2002-12-26",
+      "location": "Oslo, Norway",
+      "nationality": "Norway",
+      "position": "Midfielder",
+      "joined": "2019-07-12",
+      "trophy": [
+        {
+          "name": "Community Shield",
+          "year": "2024",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/3024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "15",
+      "name": "Kevin De Bruyne",
+      "number": "34",
+      "images": "/assets/Images/Player/player15.webp",
+      "description": [
+        "A highly rated youngster who has developed into one of the finest midfielders in the game, City secured Kevin De Bruyne’s services in the summer of 2015.",
+        "Known as one of the continent’s assist kings, he arrived with a huge reputation, but after just one full season in Manchester it was evident that it was more than justified.",
+        "The Belgian’s senior career began in 2009 with Genk and he went on to become an integral part of their title-winning side, making 17 assists and scoring six goals in the 2010/11 season.",
+        "Chelsea moved for De Bruyne in January 2012, though he remained with Genk until the end of that season and spent the following campaign on loan at Werder Bremen. ",
+        "He found first-team opportunities hard to come by, though, and after just nine appearances, De Bruyne signed for Wolfsburg in January 2014. ",
+        "It was there that he blossomed into one of the best playmakers in world football, hitting 16 goals and breaking the Bundesliga record with 21 assists, as his side finished second and won the German Cup in 2014/15.",
+        "And to top off another impressive season with City, De Bruyne featured in the first half of our 1-0 win over Inter in the Champions League final, helping City make history in securing the Treble. "
+      ],
+      "date": "1991-06-28",
+      "location": "Drongen, Belgium",
+      "nationality": "Belgium",
+      "position": "Midfielder",
+      "joined": "2015-08-30",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "16",
+      "name": "Jeremy Doku",
+      "number": "19",
+      "images": "/assets/Images/Player/player16.webp",
+      "description": [
+        "Jeremy Doku is City’s third summer signing of the 2023/24 season and has joined the Club on a five-year deal, keeping him at City until the summer of 2028",
+        "The Belgium international made the move from Stade Rennais, where he played 92 games in his three seasons with the Ligue 1 outfit.",
+        "He has recently become a regular name in his national team’s squad list, having featured for the Red Devils in the 2020 Euros and 2022 World Cup.",
+        "His time in France has been slightly overshadowed with injuries but after careful reintroduction to the Stade Rennais squad last season, Doku made a significant contribution to the team’s fourth-place finish.",
+        "After 37 appearances in the Belgian topflight, Doku moved to Ligue One side Stade Rennais on 5 October 2020. ",
+        "Despite his tender years, Echeverri represented River Plate’s senior side 48 times, scoring four goals and providing eight assists.",
+        " He leaves Stade Rennais having scored 12 goals and assisted 10 in his 92 appearances."
+      ],
+      "date": "2002-05-27",
+      "location": "Antwerp, Belgium",
+      "nationality": " Belgium",
+      "position": "Midfielder",
+      "joined": "2023-08-24",
+      "trophy": [
+        {
+          "name:": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2023-2024",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "17",
+      "name": "Claudio Echeverri",
+      "number": "19",
+      "images": "/assets/Images/Player/player17.webp",
+      "description": [
+        "Exciting attacking midfielder Claudio Echeverri joined up with Pep’s squad in February 2025 after signing for the Club in January 2024.",
+        "The 19-year-old arrives in Manchester off the back of a spectacular Under-20 South American Championship campaign, where he captained his nation to a runners-up finish.",
+        "He has recently become a regular name in his national team’s squad list, having featured for the Red Devils in the 2020 Euros and 2022 World Cup.",
+        "His six goals in nine appearances made him the second highest scorer at the tournament, with braces against Brazil and Uruguay the standout contributions. ",
+        "It was the latest landmark in a glittering youth international career, after captaining Argentina at the 2023 U17 World Cup and scoring five goals, including a hat-trick against Brazil. ",
+        "Despite his tender years, Echeverri represented River Plate’s senior side 48 times, scoring four goals and providing eight assists.",
+        " With a contract at City that runs until the summer of 2028, he will now be part of our squad for the remainder of the 2024/25 campaign and beyond."
+      ],
+      "date": "2006-01-02",
+      "location": "Resistencia, Argentina",
+      "nationality": " Argentina",
+      "position": "Midfielder",
+      "joined": "2024-01-25",
+      "trophy": [{}]
+    },
+
+    {
+      "id": "18",
+      "name": "Phil Foden",
+      "number": "25",
+      "images": "/assets/Images/Player/player18.webp",
+      "description": [
+        "Widely regarded as one of England’s most gifted players, lifelong Blue Phil Foden excelled at youth level before graduating into the first-team. ",
+        "A creative, left-footed midfielder, Foden allies his eye for a pass with an ability to glide past opponents, something which stood out during his time in the Academy.",
+        "He was an FA Youth Cup final runner-up in 2016/17, scoring in the first leg of the final as City lost to Chelsea. He also found the net 11 times in the Under-18 Premier League that season.",
+        "His form prompted Pep Guardiola to include him in his squad for the Champions League tie against Celtic in December 2016.",
+        "The following summer Foden made the England Under-17 squad for the European Championships and scored in the final, where the Young Lions lost to Spain on penalties, but he returned to City for pre-season and was included in the first-team tour of the United States. ",
+        "He produced several impressive displays and made several matchday squads in the early part of the 2017/18 season before departing for the Under-17 World Cup in India.",
+        " And to top off arguably his best season for his boyhood club, Foden was named the Premier League Player of the Season after he scored 19 goals and assisted eight during his vital role in City laying claim to a historic fourth successive Premier League title. "
+      ],
+      "date": "2000-05-28",
+      "location": "Stockport, Manchester, England",
+      "nationality": "England",
+      "position": "Midfielder",
+      "joined": "2016-07-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "19",
+      "name": "Jack Grealish",
+      "number": "30",
+      "images": "/assets/Images/Player/player19.webp",
+      "description": [
+        "Jack Grealish joined City from Aston Villa for a British-record fee having established himself as one of the Premier League’s finest midfield technicians. ",
+        "Coming through the ranks at his boyhood club, Grealish was first given a taste of senior football whilst on loan at then-League One outfit Notts County, grabbing five goals and seven assists in 37 appearances across the 2013/14 campaign.",
+        "The 18-year-old had proven he could stand up to the rigours of men’s football, and would make his Villa debut before the season’s end, coming on for a late cameo away to Manchester City in May 2014.",
+        "Becoming a regular in the Villa first team towards the end of the 2014/15 campaign under Tim Sherwood, Jack gained attention for a particularly mesmerising display against Liverpool in that season’s FA Cup semi-final, in which he had a hand in both goals to help see out a 2-1 victory.",
+        "The Midlands club would ultimately lose the Wembley showpiece to Arsenal and were relegated from the Premier League the following season, bringing about a three-year hiatus from the top flight, but Grealish remained a key fixture in the side. ",
+        "The midfielder’s stock continued to rise as he helped steer the Villans to Premier League survival, curling home a sumptuous strike away to Manchester United in December 2019 as well as the goal which ultimately secured his club’s top flight status on the final day against West Ham.",
+        " Jack was also part of the City squad who claimed the FIFA Club World Cup in December 2023 with a 4-0 win over Fluminense."
+      ],
+      "date": "1995-09-10",
+      "location": "Birmingham, England",
+      "nationality": "England",
+      "position": "Midfielder",
+      "joined": "2021-08-05",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "20",
+      "name": "Ilkay Gundogan",
+      "number": "35",
+      "images": "/assets/Images/Player/player20.webp",
+      "description": [
+        "Ilkay Gundogan first moved to City having earned a reputation as an energetic, intelligent midfielder during the early stages of his career in his native Germany.  ",
+        "He spent time on the books of several clubs as a youth, including Borussia Dortmund’s arch-rivals Schalke 04, until his senior career began in earnest with a move to FC Nurnberg in 2009. ",
+        "His debut did not arrive until March 2010, but following a handful of appearances that season, he impressed in the side that finished sixth in the 2010-11 edition of the Bundesliga. ",
+        "Gundogan’s form warranted a first senior cap for Germany against Belgium in October 2011, and he played a major role in Jurgen Klopp’s Dortmund side as it went on to claim its second successive Bundesliga title. ",
+        "Gundogan spearheaded the team, continuously motivating the players during our push for another league title which came to fruition three games prior to the end of the 2022/23 season as we were crowned Premier League champions for a third consecutive season.   ",
+        "The German international captained City to our second FA Cup trophy under Pep Guardiola in June. He scored both goals in our 2-1 win over Manchester United, with the first goal in the 12th second becoming the fastest goal to be scored in the final of the FA Cup.  ",
+        " And after making 51 appearances for the Catalan giants, he returned to the Etihad Stadium ahead of the 2024/25 season – ready to write another chapter in his illustrious City career. "
+      ],
+      "date": "1990-10-24",
+      "location": "Gelsenkirchen, Germany",
+      "nationality": "Germany",
+      "position": "Midfielder",
+      "joined": "2024-08-23",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "21",
+      "name": "Mateo Kovacic",
+      "number": "35",
+      "images": "/assets/Images/Player/player21.webp",
+      "description": [
+        "Mateo Kovacic was Manchester City’s first signing of summer 2023, arriving on a four-year deal which keeps him at the Club until 2027.  ",
+        "The Croatian international joins Pep Guardiola’s ranks from Chelsea, where he made 221 appearances across five seasons. ",
+        "His debut did not arrive until March 2010, but following a handful of appearances that season, he impressed in the side that finished sixth in the 2010-11 edition of the Bundesliga. ",
+        "In August 2015, Kovacic moved to Spain on a six-year contract where he would go on to be part of the Real Madrid side to win three consecutive Champions League titles, two Super Cups, two Club World Cups as well as being crowned La Liga champions in the 2016/17 season.      ",
+        "Kovacic added yet another winner’s medal to his impressive collection as part of the City squad who claimed the FIFA Club World Cup in December 2023.  ",
+        "He had an impressive spell in the heart of midfield before scoring his penalty kick in the shoot-out win over 2022/23 Europa League winners Sevilla.   "
+      ],
+      "date": "1994-05-06",
+      "location": "Linz, Croatia",
+      "nationality": "Croatia",
+      "position": "Midfielder",
+      "joined": "2023-06-26",
+      "trophy": [
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champions.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/super.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "22",
+      "name": "James McAtee",
+      "number": "23",
+      "images": "/assets/Images/Player/player22.webp",
+      "description": [
+        "James has progressed through the academy from Under-11’s to the EDS after signing his first professional contract in July 2020. ",
+        "A technically gifted and versatile attacking player, James has also featured regularly for England at youth international level. ",
+        "He was afforded his senior City debut in September 2021, coming on as a substitute in our Carabao Cup win over Wycombe Wanderers ",
+        "James spent the 2022/23 season on loan with Sheffield United, helping them achieve promotion back to the top flight.      ",
+        "He completed a further loan move back to the Blades for the 2023/24 campaign. "
+      ],
+      "date": "2002-10-18",
+      "location": "Salford, England",
+      "nationality": "England",
+      "position": "Midfielder",
+      "joined": "0001-01-01",
+      "trophy": [
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "23",
+      "name": "Matheus Nunes",
+      "number": "28",
+      "images": "/assets/Images/Player/player24.webp",
+      "description": [
+        "Matheus Nunes was Manchester City’s fourth signing of summer 2023, arriving on a five-year deal which keeps him at the Club until 2028.",
+        "The Portugal international has joined Pep Guardiola‘s side following his one-year tenure at Wolverhampton Wanderers.  ",
+        "Deployed in midfield, Nunes has been regarded by Guardiola to be “one of the best players in the world”. ",
+        "And after impressing against Sporting in a Taca da Liga fixture, Nunes secured a move to the club in January 2019.     ",
+        "Nunes collected a winner’s medal as part of the City squad who claimed the FIFA Club World Cup in December 2023 with a  4-0 win over Fluminense. "
+      ],
+      "date": "1998-04-27",
+      "location": "Rio de Janeiro, Brazil",
+      "nationality": "Portugal",
+      "position": "Midfielder",
+      "joined": "2023-09-01",
+      "trophy": [
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/club.webp"
+        }
+      ]
+    },
+
+    {
+      "id": "24",
+      "name": "Nico O'Reilly",
+      "number": "20",
+      "images": "/assets/Images/Player/player25.webp",
+      "description": [
+        "A player able to operate in a number of attacking positions, Nico has progressed right through the Manchester City age-groups since signing with the Academy aged eight.",
+        "He continued this form in the 2022/23 season where he made 32 appearances in all competitions, scored 13 goals and assisted 14 as he captained the Under-18 team to Under-18 Premier League glory. ",
+        "O’Reilly continued his development in the EDS squad for the 2023/24 season, winning the Academy Goal of the Year prize when he scored from the halfway line against Nottingham Forest. ",
+        "2024 has continued to see O’Reilly grow in stature and was one of the few Academy players selected to attend the pre-season tour to the United States. In one of the friendlies, he scored his first senior goal for the Club against Barcelona, days after making his senior debut against Celtic.    ",
+        "And already in the 2024/25 season, the midfielder has made his professional senior debut. He started in City’s Community Shield penalty shoot-out triumph over Manchester United at Wembley Stadium. "
+      ],
+      "date": "2005-03-21",
+      "location": "Manchester, England",
+      "nationality": "England",
+      "position": "Midfielder",
+      "joined": "0001-01-01",
+      "trophy": [
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "25",
+      "name": "Maximo Perrone",
+      "number": "20",
+      "images": "/assets/Images/Player/player26.webp",
+      "description": [
+        "The 20-year-old Argentinian midfielder moved to the Etihad Stadium in January 2023 on a five-and-half year deal. ",
+        "He joined from Velez Sarsfield, where he made his debut in March 2022 and featured in 33 games in total, scoring three times with two assists. ",
+        "He also helped the Buenos Aires club to the semi-finals of the Copa Libertadores but missed both legs of the last-four defeat to Flamengo. ",
+        "Perrone played for Argentina Under-16s and was part of the national squad at the Under-20 South American Championship in Colombia in January.    ",
+        "Continuing to be a key young figure in the senior team for the 2023/24 season, Perrone travelled to Athens with the squad for our debut performance in the UEFA Super Cup in AugustHe was an unused substitute as Guardiola‘s side beat Europa League champions Sevilla on penalties. "
+      ],
+      "date": "2003-01-07",
+      "location": "Buenos Aires, Argentina",
+      "nationality": "Argentina",
+      "position": "Midfielder",
+      "joined": "2023-01-23",
+      "trophy": [
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/club.webp"
+        }
+      ]
+    },
+
+    {
+      "id": "26",
+      "name": "Kalvin Phillips",
+      "number": "30",
+      "images": "/assets/Images/Player/player27.webp",
+      "description": [
+        "Kalvin Phillips spent the first 12 years of his football career as a Leeds United player, progressing from the junior teams through the ranks until he made his debut against Wolves in April 2015 aged 19.",
+        "He then marked his senior home debut by scoring a goal in a 2-1 defeat to Cardiff that same month – realising a boyhood dream of scoring at Elland Road. ",
+        "He figured 43 times during the 2016/17 campaign as he furthered his football education, and also won the Championship Young Player of the Month award for the first time in October 2017. ",
+        "The appointment of the visionary former Argentine and Chile boss saw Phillips converted into a more deep lying player in the engine room as well as also, at times, being deployed into central defence.   ",
+        "Such was his instant impact, Phillips earned a place in the EFL Championship Team of the Year as Leeds finished third in the table, only to be pipped by Derby in the Championship play-off semi-final. ",
+        "The midfielder joined West Ham United on loan for the rest of the 2023/24 campaign in the January transfer window."
+      ],
+      "date": "1995-12-02",
+      "location": "Leeds, England",
+      "nationality": "England",
+      "position": "Midfielder",
+      "joined": "2022-07-04",
+      "trophy": [
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "27",
+      "name": "Rodigo",
+      "number": "29",
+      "images": "/assets/Images/Player/player28.webp",
+      "description": [
+        "Rodrigo, the then 23-year-old Spanish midfielder, joined from Atletico Madrid and became Pep Guardiola’s second signing of the summer on 4 July 2019. ",
+        "The defensively minded midfielder is most at home sitting in front of the back four, where Rodrigo has earned a reputation as one of Europe’s most exciting prospects.",
+        "Born Rodrigo Hernandez Cascante on 22 June 1996, City’s newest recruit supported Atleti as a boy and progressed through the academy ranks before departing in 2013 to complete his youth development at Villarreal.. ",
+        "One of their most coveted prospects, Rodri made his debut in December 2015 aged 19 and went on to represent the Yellow Submarine 84 times in three seasons. ",
+        "Such was his instant impact, Phillips earned a place in the EFL Championship Team of the Year as Leeds finished third in the table, only to be pipped by Derby in the Championship play-off semi-final. ",
+        "Combining an impressive reading of the game with great touch, Rodrigo won admirers for his ability to break up opposition attacks before setting up his own with his thoughtful range of passing.",
+        "And in acknowledgement of his consistent, outstanding performances as a defensive midfielder for both club and country, Rodrigo was named the 2024 Men’s Ballon d’Or winner, making him the first Manchester City player to receive the prestigious award.  "
+      ],
+      "date": "1996-06-22",
+      "location": "Madrid, Spain",
+      "nationality": "Spain",
+      "position": "Midfielder",
+      "joined": "2019-07-04",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "28",
+      "name": "Savinho",
+      "number": "21",
+      "images": "/assets/Images/Player/player29.webp",
+      "description": [
+        "Talented and exciting winger Savinho joined City on a five-year contract in July 2024. ",
+        "TBut, Savinho‘s most recent campaign saw him help La Liga outfit Girona reach the UEFA Champions League for the first time in the Club’s history following a season-long loan in Spain",
+        "Born Rodrigo Hernandez Cascante on 22 June 1996, City’s newest recruit supported Atleti as a boy and progressed through the academy ranks before departing in 2013 to complete his youth development at Villarreal.. ",
+        "One of their most coveted prospects, Rodri made his debut in December 2015 aged 19 and went on to represent the Yellow Submarine 84 times in three seasons. ",
+        "Such was his instant impact, Phillips earned a place in the EFL Championship Team of the Year as Leeds finished third in the table, only to be pipped by Derby in the Championship play-off semi-final. ",
+        "In 2022, Savinho joined Troyes and was then sent out on loan to Dutch club PSV Eindhoven where he mixed between the Under-21s and senior squad",
+        "The first summer signing ahead of the 2024/25 campaign, Savinho began learning his trade with Atletico Mineiro who handed him his senior debut aged 16. "
+      ],
+      "date": "2004-04-10",
+      "location": "Sao Mateus, Brazil",
+      "nationality": "Brazil",
+      "position": "Midfielder",
+      "joined": "2024-07-18",
+      "trophy": [{}]
+    },
+
+    {
+      "id": "29",
+      "name": "Bernardo Silva",
+      "number": "31",
+      "images": "/assets/Images/Player/player30.webp",
+      "description": [
+        "City signed Bernardo Silva in July 2017 after he helped Monaco to the Ligue 1 title and a hugely impressive run to the Champions League semi-finals.",
+        "Blessed with balance, guile and great technique the Portuguese midfielder is a threat both centrally and out wide and earned the nickname ‘Bubblegum’ due to the manner in which the ball sticks to his feet on mazy dribbles ",
+        "Add to that a tireless work-rate and it’s easy to understand why Bernardo has been such an influential player under Pep Guardiola‘s leadership.  ",
+        "A third place finish and Champions League run to the quarter-finals in 2015/16 was eclipsed the following year when Bernardo provided 12 assists and scored 11 goals as Monaco won Ligue 1 and reached the Champions League last four.",
+        "He also played a major part of the City squad who claimed the FIFA Club World Cup in December 2023 with a 4-0 win over Fluminense.",
+        "The win saw Pep Guardiola’s men become the first English team in history to hold the Premier League, FA Cup, UEFA Champions League, Super Cup and the FIFA Club World Cup simultaneously. "
+      ],
+      "date": "1994-08-10",
+      "location": "Lisbon, Portugal",
+      "nationality": "Portugal",
+      "position": "Midfielder",
+      "joined": "2017-07-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "30",
+      "name": "Erling Haaland",
+      "number": "25",
+      "images": "/assets/Images/Player/player31.webp",
+      "description": [
+        "Erling Haaland joined City from Borussia Dortmund in July 2022, and subsequently signed a new deal keeping him at the Etihad Stadium until the summer of 2034.",
+        "The son of former City player Alfie, Haaland junior is widely regarded as one of Europe’s best strikers and arrived at the Club with a formidable goalscoring reputation following impressive spells at Molde FK, Red Bull Salzburg and Dortmund.",
+        "An established Norwegian international, he scored 86 goals in 89 games in two-and-a-half seasons with the Black and Yellows, winning the German Cup and the Bundesliga Player of the Season award in 2020/21.",
+        "Haaland’s career so far has been characterised by one thing: goals. He has hit the back of the net at an astonishing rate in the six-years since his professional debut and his attributes mean he is the archetypal centre-forward in every sense of the word.",
+        "Strong, tall, quick, good in the air and capable of scoring a variety of goals off either foot, he is providing this City side with the option of an out and out striker that has been unavailable since Sergio Aguero’s departure.",
+        "A move to Molde followed and a winning goal off the bench on his debut was a sign of things to come. He ended the 2018 season as the Club’s top scorer, netting 12 goals in 25 league games, whilst still only 18 years of age. "
+      ],
+      "date": "2000-07-21",
+      "location": "Leeds, England",
+      "nationality": "Noway",
+      "position": "Forward",
+      "joined": "2022-07-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
+    },
+
+    {
+      "id": "31",
+      "name": "Omar Marmoush",
+      "number": "26",
+      "images": "/assets/Images/Player/player32.webp",
+      "description": [
+        "Omar Marmoush arrived at City as arguably one of the world’s most coveted forwards. With many strings to his bow, the Egyptian is fast, strong and a thorn in any opposing defender’s side with his energy and pressing ability",
+        "Happy scoring goals or creating them for others - as well as being something of a free-kick specialist -Marmoush is a welcome addition to City’s attacking arsenal. ",
+        "An established Norwegian international, he scored 86 goals in 89 games in two-and-a-half seasons with the Black and Yellows, winning the German Cup and the Bundesliga Player of the Season award in 2020/21.",
+        "Marmoush signed for Wolfsburg in 2017 aged only 18 and the first three years would be spent largely with the Bundesliga outfit’s second XI in the Regionalliga Nord – the fourth tier of German football - making 36 appearances and scoring 11 goals.",
+        "He was also loaned out to St Pauli and VfB Stuttgart – while occasionally playing for his parent club in-between. For St Pauli, he would play 21 times and score seven goals in the 2.Bundesliga in 2020/21 and then spent the 2021/22 campaign with Bundesliga giants Stuttgart, making 21 appearances and scoring three goals. ",
+        "Omar’s four-year stay with Wolfsburg yielded 48 appearances and six goals. His various loan spells helped shape him as a player, and he was a first-team regular in 2022/23 - his final campaign with Die Wölfe, before he moved to Eintracht Frankfurt on a free transfer – and what a piece of business that proved to be for Frankfurt. "
+      ],
+      "date": "1999-02-07",
+      "location": "Cairo, Egypt",
+      "nationality": "Egypt",
+      "position": "Forward",
+      "joined": "2022-07-01",
+      "trophy": [{}]
+    },
+
+    {
+      "id": "32",
+      "name": "Pep Guardiola",
+      "number": "54",
+      "images": "/assets/Images/Player/manager.webp",
+      "description": [
+        "Guardiola‘s ascent from Barcelona B Head Coach to UEFA Champions League winner took place against a footballing backdrop very different to the one he has created since joining City. ",
+        "Following an era where the moment of transition between defence and attack had been pinpointed as the single most decisive action in a match, allowing pragmatic, counter-attacking football to prosper, Guardiola showed that there was another way.",
+        "He won the La Liga title in three of his four seasons at the Camp Nou and lifted the UEFA Champions League twice.",
+        "In addition, the Catalan giants won the Supercopa de Espana three times, as well as twice lifting the Copa del Rey, the UEFA Super Cup and the FIFA Club World Cup.",
+        "Could Pep do it without Messi? Without Iniesta, Xavi and Busquets? Without his mother tongue? In another culture? In another league? How do you take over a treble-winning Bayern Munich side at the peak of its powers?",
+        "A new manager in a new country with an unfamiliar group of players who’ve won it all – far from a task of merely keeping the Bavarian juggernaut on track, Guardiola set about taking the players he had to the next level.",
+        "He made just one signing in his first transfer window, subverting the footballing trope that a manager must build from a position of strength. Pep absorbed the best of the footballing institution that is Bayern and blended it with his own innovative tactical ideas to produce some of the best football that Germany has ever seen.",
+        "He improved his players. Champions League and World Cup-winning players. He taught them to play new positions, showed them another way to win as a collective and they loved him for it.",
+        "Seeing off the threat of Borussia Dortmund, Pep led his all-conquering Bayern to the last four of the UEFA Champions League in each of his three seasons, landing the Bundesliga three times and winning the league and cup double twice.",
+        "Guardiola made a stunning start to life at City, winning his first 11 games in charge and was twice nominated for the Premier League Manager of the Month award in August and September 2016. ",
+        "In his second season he guided the Blues to the Premier League title and the Carabao Cup, smashing records along the way in a stunning season.",
+        "An exciting prospect. ",
+        "He picked up four successive Manager of the Month awards and was voted the Premier League Manager of the Season and the LMA Manager of the Year.",
+        "He was again voted Premier League manager of the year after guiding City to four more trophies in 2018/19 to become the Club’s most successful boss ever with six trophies in three seasons.",
+        "City added the Carabao Cup and Community Shield to Pep’s list in 2019/20, but the Catalan won yet more silverware in 2020/21, with another Premier League title and Carabao Cup success.",
+        "Our winning form has continued for the remainder of the season under Guardiola‘s leadership, helping City lift our third consecutive Premier League title with three games remaining of the 2022/23 campaign. ",
+        "Pep also won his fourth FIFA Club World Cup in December 2023 as City beat Fluminense 4-0 in Jeddah."
+      ],
+      "date": "1971-01-18",
+      "location": "Santpedor, Spain",
+      "nationality": " Spain",
+      "position": "Manager",
+      "joined": "2016-07-01",
+      "trophy": [
+        {
+          "name": "Premier League",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2017/2018",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2017-2018",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2018/2019",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+        {
+          "name": "Community Shield",
+          "year": "2018-2019",
+          "thumb": "/assets/Images/Cup/budes.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2019/2020",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2021/2022",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "Carabao Cup",
+          "year": "2020/2021",
+          "thumb": "/assets/Images/Cup/cara.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        },
+        {
+          "name": "FA Cup",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/fa.svg"
+        },
+
+        {
+          "name": "Champions League",
+          "year": "2022/2023",
+          "thumb": "/assets/Images/Cup/champion.svg"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/club.webp"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "year": "2023",
+          "thumb": "/assets/Images/Cup/world.svg"
+        },
+        {
+          "name": "Premier League",
+          "year": "2023/2024",
+          "thumb": "/assets/Images/Cup/primer.svg"
+        }
+      ]
     }
   ]
 }
