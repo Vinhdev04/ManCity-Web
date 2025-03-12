@@ -267,9 +267,9 @@ nav {
 
 h5.card-title {
   transition: 0.2s linear;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+  /* text-overflow: ellipsis; */
+  /* overflow: hidden;
+  white-space: nowrap; */
 }
 
 h5.card-title:hover {
@@ -292,6 +292,7 @@ h5.card-title:hover {
 } */
 
 /* ===================== SHOP ========================== */
+
 .banner__shop .sale-off {
   color: #000;
 }
@@ -361,6 +362,53 @@ h5.card-title:hover {
   color: #000;
   border: 2px solid #000;
   font-weight: 700;
+}
+
+.card-item {
+  background-color: transparent !important;
+}
+.card-item.card {
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 10px !important;
+  box-shadow: unset !important;
+}
+.card-item.card .card-title {
+  font-size: 20px;
+  word-wrap: break-word;
+}
+.card-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #fff;
+}
+.card img {
+  border-radius: 0;
+  box-shadow: unset;
+}
+
+/* ===================== SHOP[HOME KIT] ========================== */
+.product-item {
+  transition: 0.3s ease-in;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+.product-item:hover .card-body {
+  color: #001838;
+  font-weight: bold;
+}
+.product-item .card-title.card-product--price {
+  font-size: 20px;
+  text-align: left;
+}
+
+.product-item img {
+  transition: 0.3s linear;
+}
+
+.product-item:hover img {
+  transform: scale(1.1);
+  box-shadow: #001838;
 }
 /* ===================== NEW ========================== */
 
@@ -1061,7 +1109,7 @@ button.active {
 
 .card img {
   width: 100%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .card h3 {

@@ -2101,5 +2101,15 @@
         }
       ]
     }
+  ],
+
+  "products": [
+    {
+      "id": "1",
+      "name": "Football",
+      "description": "A popular sport in Europe, football is played between two teams of eleven players on a rectangular field, with goals being scored by striking the ball with the foot or a football-like object into the opponent's goal.",
+      "price": 30.99,
+      "image": "/assets/Images/Products/football.jpg"
+    }
   ]
 }
