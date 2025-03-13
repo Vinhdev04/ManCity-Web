@@ -2103,6 +2103,954 @@
     }
   ],
 
+  "results": [
+    {
+      "id": "1",
+      "season": "2024-2025",
+      "league": "Premier League",
+      "round": "Vòng 28",
+      "home_team": {
+        "name": "Nottingham Forest",
+        "logo": "https://www.mancity.com/meta/media/1xjhro13/imager20190425t1213184271png.png width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-03-08",
+      "time": "19:330",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "stadium": "The City Ground"
+    },
+    {
+      "id": "2",
+      "season": "2024-2025",
+      "league": "FA Cup",
+      "round": "Vòng 5",
+      "home_team": {
+        "name": "Man City ",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/ku0ghchr/1920px-plymouth_argyle_f-c-_logo-svg.png?width=36"
+      },
+      "date": "2025-03-02",
+      "time": "00:45",
+      "timezone": "UTC",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "stadium": "Etihad Stadium"
+    },
+    {
+      "id": "3",
+      "season": "2024-2025",
+      "league": "Premier League",
+      "round": "Vòng 27",
+      "home_team": {
+        "name": "Tottenham Horspur",
+        "logo": "https://www.mancity.com/meta/media/t02jppxo/spurs-logo-with-outline.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-02-27",
+      "time": "02:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "stadium": " Tottenham Hotspur Stadium"
+    },
+    {
+      "id": "4",
+      "season": "2024-2025",
+      "league": "Premier League",
+      "round": "Vòng 26",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Liverpool",
+        "logo": "https://www.mancity.com/meta/media/cyrbp1df/temp_liverpool.png?width=36"
+      },
+      "date": "2025-02-23",
+      "time": "23:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "stadium": "Etihad Stadium"
+    },
+    {
+      "id": "5",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "...",
+      "home_team": {
+        "name": "Real Madrid",
+        "logo": "https://www.mancity.com/meta/media/c0mpiqhr/real_madrid_cf_2-fw.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-02-20",
+      "time": "03:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "stadium": " Estadio Santiago Bernabéu"
+    },
+    {
+      "id": "6",
+      "season": "2024-2025",
+      "league": "Premier League",
+      "round": "Vòng 25",
+      "home_team": {
+        "name": "Man City ",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Newcastle United",
+        "logo": "https://www.mancity.com/meta/media/cyrbp1df/temp_liverpool.png?width=36"
+      },
+      "date": "2025-02-15",
+      "time": "22:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "stadium": "Etihad Stadium"
+    },
+    {
+      "id": "7",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "Vòng 25",
+      "home_team": {
+        "name": "Man City ",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Real Madird",
+        "logo": "https://www.mancity.com/meta/media/c0mpiqhr/real_madrid_cf_2-fw.png?width=36"
+      },
+      "date": "2025-02-20",
+      "time": "03:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "stadium": "Etihad Stadium"
+    },
+    {
+      "id": "8",
+      "season": "2024-2025",
+      "league": "FA Cup",
+      "round": "Vòng 4",
+      "home_team": {
+        "name": "Leyton Orient",
+        "logo": "https://www.mancity.com/meta/media/3v4byc3y/leyton_orient_fc.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-02-08",
+      "time": "19:15",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "stadium": "Brisbane Road"
+    },
+    {
+      "id": "9",
+      "season": "2024-2025",
+      "league": "Premier League",
+      "round": "Vòng 24",
+      "home_team": {
+        "name": "Arsenal",
+        "logo": "https://www.mancity.com/meta/media/lmtfrilx/arsenal.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City ",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-02-02",
+      "time": "23:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "stadium": "Emirates Stadium"
+    },
+    {
+      "id": "10",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "Vòng 8",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Club Brugge",
+        "logo": "https://www.mancity.com/meta/media/z32n1alu/brugge-500x500.png?width=36"
+      },
+      "date": "2025-01-30",
+      "time": "03:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "stadium": "Etihad Stadium"
+    },
+    {
+      "id": "11",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 23",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Chelsea",
+        "logo": "https://www.mancity.com/meta/media/bbbbljr5/chelsea.png?width=36"
+      },
+      "date": "2025-01-26",
+      "time": "00:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "stadium": "Etihad Stadium"
+    },
+    {
+      "id": "12",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "Vòng 7",
+      "home_team": {
+        "name": "Paris S.Germain ",
+        "logo": "https://www.mancity.com/meta/media/0ranljfd/paris_saint-germain.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-01-23",
+      "time": "03:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "stadium": "Parc des Princes "
+    },
+    {
+      "id": "13",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 22",
+      "home_team": {
+        "name": "Ipswich Town ",
+        "logo": "https://www.mancity.com/meta/media/2typ1tb3/283px-ipswich_town-fw.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-01-19",
+      "time": "23:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 0,
+        "away": 6
+      },
+      "stadium": "Portman Road Stadium "
+    },
+    {
+      "id": "14",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 21",
+      "home_team": {
+        "name": "Brentford ",
+        "logo": "https://www.mancity.com/meta/media/rqzhkwz1/1920px-brentford_fc_crest-svg.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2025-01-15",
+      "time": "02:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "stadium": " Brentford Community Stadium "
+    },
+    {
+      "id": "15",
+      "season": "2024-2025",
+      "league": "FA Cup",
+      "round": "Vòng 2",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Salford",
+        "logo": "https://www.mancity.com/meta/media/rbpdq1bf/salford-full.png?width=36"
+      },
+      "date": "2025-01-11",
+      "time": "02:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 8,
+        "away": 0
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "16",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 20",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "West Ham",
+        "logo": "https://www.mancity.com/meta/media/vxuduons/west_ham_united.png?width=36"
+      },
+      "date": "2025-01-04",
+      "time": "22:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "stadium": " EtihadEtihad Stadium "
+    },
+    {
+      "id": "17",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 19",
+      "home_team": {
+        "name": "Leicester City",
+        "logo": "https://www.mancity.com/meta/media/tualebgx/leicester.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-12-29",
+      "time": "21:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "stadium": " King Power Stadium "
+    },
+    {
+      "id": "18",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 18",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Everton",
+        "logo": "https://www.mancity.com/meta/media/2vujb1uo/everton.png?width=36"
+      },
+      "date": "2024-12-26",
+      "time": "19:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "19",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 17",
+      "home_team": {
+        "name": "Aston Villa",
+        "logo": "https://www.mancity.com/meta/media/klbh3x01/a-villa-new-full.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-12-21",
+      "time": "19:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "stadium": " Villa Park "
+    },
+    {
+      "id": "20",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 16",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Man United",
+        "logo": "https://www.mancity.com/meta/media/d1zedbrg/manunited.png?width=36"
+      },
+      "date": "2024-12-15",
+      "time": "23:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "21",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "Vòng 6",
+      "home_team": {
+        "name": "Juventus",
+        "logo": "https://www.mancity.com/meta/media/q1sbjvze/temp_juventus_2.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-12-12",
+      "time": "03:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "stadium": " Allianz Stadium "
+    },
+    {
+      "id": "22",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 15",
+      "home_team": {
+        "name": "Crystal Palace",
+        "logo": "https://www.mancity.com/meta/media/ttda4o0h/cpalace.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-12-07",
+      "time": "22:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "stadium": " Selhurst Park "
+    },
+    {
+      "id": "23",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 14",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Nottingham Forest",
+        "logo": "https://www.mancity.com/meta/media/1xjhro13/imager20190425t1213184271png.png?width=36"
+      },
+      "date": "2024-12-05",
+      "time": "02:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "24",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 13",
+      "home_team": {
+        "name": "Liverpool",
+        "logo": "https://www.mancity.com/meta/media/cyrbp1df/temp_liverpool.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-12-01",
+      "time": "23:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "stadium": " Anfield "
+    },
+    {
+      "id": "25",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "Vòng 5",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Feyenoord",
+        "logo": "https://www.mancity.com/meta/media/qsqfpvuf/1920px-feyenoord_logo-svg.png?width=36"
+      },
+      "date": "2024-11-27",
+      "time": "03:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "26",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 14",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "Tottenham Hotspur",
+        "logo": "https://www.mancity.com/meta/media/t02jppxo/spurs-logo-with-outline.png?width=36"
+      },
+      "date": "2024-11-24",
+      "time": "00:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "27",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 11",
+      "home_team": {
+        "name": "Brighton & Hove",
+        "logo": "https://www.mancity.com/meta/media/pwinp3vk/brighton.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-11-10",
+      "time": "00:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "stadium": " Broadfield Stadium"
+    },
+    {
+      "id": "28",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "Vòng 4",
+      "home_team": {
+        "name": "Sporting CP",
+        "logo": "https://www.mancity.com/meta/media/bfeicihr/sporting-cp.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-11-06",
+      "time": "03:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "stadium": " Estádio José Alvalade"
+    },
+    {
+      "id": "29",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 10",
+      "home_team": {
+        "name": "AFC Bournemouth ",
+        "logo": "https://www.mancity.com/meta/media/rain5fkc/bournemouth.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-11-02",
+      "time": "22:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "stadium": " Vitality Stadium"
+    },
+    {
+      "id": "30",
+      "season": "2024-2025",
+      "league": "EFL Cup",
+      "round": "Vòng ...",
+      "home_team": {
+        "name": "Tottenham Hotspur ",
+        "logo": "https://www.mancity.com/meta/media/t02jppxo/spurs-logo-with-outline.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-10-31",
+      "time": "03:15",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "stadium": " Tottenham Hotspur Stadium"
+    },
+    {
+      "id": "31",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 9",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": " Southampton",
+        "logo": "https://www.mancity.com/meta/media/x1gl4nzn/southampton.png?width=36"
+      },
+      "date": "2024-10-26",
+      "time": "21:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "32",
+      "season": "2024-2025",
+      "league": "Champions League",
+      "round": "Vòng 3",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "  Sparta Prague",
+        "logo": "https://www.mancity.com/meta/media/xuyjuby2/sparta.png?width=36"
+      },
+      "date": "2024-10-24",
+      "time": "02:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "33",
+      "season": "2024-2025",
+      "league": "Primier Legue",
+      "round": "Vòng 8",
+      "home_team": {
+        "name": "Wolverhampton ",
+        "logo": "https://www.mancity.com/meta/media/k3qkdzvx/wolves.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-10-20",
+      "time": "20:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "stadium": " Molineux Stadium"
+    },
+    {
+      "id": "34",
+      "season": "2024-2025",
+      "league": "Primier League",
+      "round": "Vòng 7",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "  Fulham",
+        "logo": "https://www.mancity.com/meta/media/1g5hz52o/fulham.png?width=36"
+      },
+      "date": "2024-10-05",
+      "time": "21:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 3,
+        "away": 22
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "35",
+      "season": "2024-2025",
+      "league": "Champions Legue",
+      "round": "Vòng 2",
+      "home_team": {
+        "name": "Slovan Bratislava ",
+        "logo": "https://www.mancity.com/meta/media/3mgftn1q/slovan.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-10-02",
+      "time": "02:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "stadium": "  Štadión Tehelné pole"
+    },
+    {
+      "id": "36",
+      "season": "2024-2025",
+      "league": "Primier Legue",
+      "round": "Vòng 6",
+      "home_team": {
+        "name": "Newcastle United",
+        "logo": "https://www.mancity.com/meta/media/rp4pwzgv/newcastle.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-09-28",
+      "time": "18:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "stadium": " St. James' Park"
+    },
+    {
+      "id": "37",
+      "season": "2024-2025",
+      "league": "EFL Cup",
+      "round": "Vòng ...",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": " Watford",
+        "logo": "https://www.mancity.com/meta/media/vqlelchf/watford.png?width=36"
+      },
+      "date": "2024-09-25",
+      "time": "01:45",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "38",
+      "season": "2024-2025",
+      "league": "Primier league",
+      "round": "Vòng 5",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": " Arsenal",
+        "logo": "https://www.mancity.com/meta/media/lmtfrilx/arsenal.png?width=36"
+      },
+      "date": "2024-09-22",
+      "time": "22:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "39",
+      "season": "2024-2025",
+      "league": "Champions league",
+      "round": "Vòng 1",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "  Inter Milan",
+        "logo": "https://www.mancity.com/meta/media/qbwgbciz/inter-milan.png?width=36"
+      },
+      "date": "2024-09-19",
+      "time": "02:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "40",
+      "season": "2024-2025",
+      "league": "Primier league",
+      "round": "Vòng 4",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "   Brentford",
+        "logo": "https://www.mancity.com/meta/media/rqzhkwz1/1920px-brentford_fc_crest-svg.png?width=36"
+      },
+      "date": "2024-09-14",
+      "time": "21:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "41",
+      "season": "2024-2025",
+      "league": "Primier Legue",
+      "round": "Vòng 3",
+      "home_team": {
+        "name": "West Ham ",
+        "logo": "https://www.mancity.com/meta/media/vxuduons/west_ham_united.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-08-31",
+      "time": "23:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "stadium": "  London Stadium"
+    },
+    {
+      "id": "42",
+      "season": "2024-2025",
+      "league": "Primier league",
+      "round": "Vòng 22",
+      "home_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "away_team": {
+        "name": "   Ipswich Town",
+        "logo": "https://www.mancity.com/meta/media/2typ1tb3/283px-ipswich_town-fw.png?width=36"
+      },
+      "date": "2024-08-24",
+      "time": "21:00",
+      "timezone": "UTC",
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "stadium": " Etihad Stadium "
+    },
+    {
+      "id": "43",
+      "season": "2024-2025",
+      "league": "Primier Legue",
+      "round": "Vòng 1",
+      "home_team": {
+        "name": "Chelsea ",
+        "logo": "https://www.mancity.com/meta/media/bbbbljr5/chelsea.png?width=36"
+      },
+      "away_team": {
+        "name": "Man City",
+        "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
+      },
+      "date": "2024-08-18",
+      "time": "22:30",
+      "timezone": "UTC",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "stadium": "  Stamford Bridge"
+    }
+  ],
   "products": [
     {
       "id": "1",
