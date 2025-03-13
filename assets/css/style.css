@@ -1247,3 +1247,242 @@ body {
 .fit-text h5 {
   font-weight: bold;
 }
+
+/* ===================== CLUB ========================== */
+.wrap__club--header {
+  background: #001838;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.wrap__club--header a {
+  position: relative;
+}
+
+.wrap__club--header a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #001838, #1d264d);
+  opacity: 0.8;
+  z-index: -1;
+  border-right: 1px solid #fff;
+}
+
+.wrap__club--link {
+  transition: 0.3s ease-in;
+}
+
+.wrap__club--link:hover {
+  opacity: 0.7;
+}
+
+.info-club--one {
+  background: #001838;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+.info-club--three,
+.info-club--two,
+.info-club--four {
+  background: #fff;
+  min-height: 250px;
+}
+
+.info-club--three h2,
+.info-club--two h2,
+.info-club--four h2 {
+  color: #1d264d;
+}
+
+.club-info--wrap {
+  transition: 0.3s ease-in;
+}
+
+.club-info--wrap:hover .club-box {
+  background: #1d264d;
+  color: #fff;
+}
+
+.club-info--wrap {
+  transition: 0.3s ease-in;
+}
+
+.club-info--wrap:hover {
+  transform: translateY(10px);
+}
+
+.club-info--wrap:hover .info-club--one {
+  background: #fff;
+}
+
+.text--one {
+  color: #fff;
+}
+
+.club-info--wrap:hover .info-club--one .text--one {
+  color: #001838;
+}
+
+.club-info--wrap:hover .info-club--two,
+.club-info--wrap:hover .info-club--three,
+.club-info--wrap:hover .info-club--four {
+  background: #1d264d;
+}
+
+.club-info--wrap:hover .info-club--two h2,
+.club-info--wrap:hover .info-club--three h2,
+.club-info--wrap:hover .info-club--four h2 {
+  color: #fff;
+}
+
+.club-info--wrap:hover .info-club--two p,
+.club-info--wrap:hover .info-club--three p,
+.club-info--wrap:hover .info-club--four p {
+  color: #fff;
+}
+
+.box-partners {
+  background: #fff;
+}
+
+.box-partners,
+.box-partners--link h4 {
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.box-partners:hover .box-partners--link > h4 {
+  text-decoration: underline;
+}
+
+.stadium .wrap__item {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.stadium-name {
+  font-weight: bold;
+  color: #001838;
+}
+
+.club-news {
+  background: #f8f9fa;
+}
+
+.news-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in;
+}
+
+.news-card:hover {
+  transform: scale(1.05);
+}
+.club-news a:hover {
+  color: #001838;
+}
+.club-news a {
+  transition: 0.3s ease-in;
+}
+.news-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 10px;
+}
+
+.news-content h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.club-news h2 {
+  font-weight: bold;
+  color: #001838;
+}
+.category {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.useful-links {
+  background: #f8f9fa;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #001f3f;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.list-group-item h5 {
+  font-weight: bold;
+  color: #001f3f;
+}
+
+.list-group-item:hover {
+  background: #e9ecef;
+}
+
+.downloads {
+  background: #f8f9fa;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #001f3f;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.download-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.download-item i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #001f3f;
+}
+
+.file-title {
+  font-weight: bold;
+  color: #001f3f;
+  text-decoration: none;
+}
+
+.file-title:hover {
+  text-decoration: underline;
+}
+
+.file-size {
+  font-size: 14px;
+  color: #6c757d;
+  margin-left: 5px;
+}
