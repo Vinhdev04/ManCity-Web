@@ -17,67 +17,93 @@ const callAPI = async () => {
 // Show data from API
 const showData = async () => {
   const data = await callAPI();
-  console.log(data);
-
   if (data) {
-    let html = ""; // Biến chứa HTML
+    let slidesHTML = "";
 
     data.forEach((item) => {
-      html += `
-        <div class="swiper-slide">
-          <div class="border p-3">
-            <div class="d-flex justify-content-between mt-1 mb-2 align-items-center">
-              <h5 class="text-uppercase text-secondary small mb-0">
-                ${"Next Fixture"}
-              </h5>
-               <a href="#!" class="text-dark me-2 fw-bolder">
-               All fixtures <i class="ri-arrow-right-line"></i>
-              </a>
+      slidesHTML += `
+
+      <div class="swiper-slide">
+          <div class="border p-3 shadow-sm bg-white rounded-3">
+            <div class="d-flex justify-content-between mb-2 align-items-center">
+              <h5 class="text-uppercase text-secondary small mb-0">Next Fixture</h5>
+              <a href="#!" class="text-dark fw-bolder">All fixtures <i class="ri-arrow-right-line"></i></a>
             </div>
-            <div class="text-center">
-              <p class="mb-0 small text-muted">Sân vận động: <strong>
-              ${item.stadium}</strong></p>
+            <div class="text-center mb-2">
+              <p class="mb-0 small text-muted">Sân vận động: <strong>${item.stadium}</strong></p>
             </div>
             <div class="d-flex align-items-center justify-content-around mt-2">
-              <div class="text-center d-flex flex-column align-items-center">
-                <img src="${item.logoHome}" alt="${
-        item.home
-      }" class="img-fluid" style="max-width: 50px" />
-                <span class="fw-bold">${item.home}</span>
+              <div class="text-center">
+                <img src="${item.logoHome}" alt="${item.home}" style="max-width: 50px" />
+                <span class="fw-bold d-block mt-1">${item.home}</span>
               </div>
-              <div class="time text-center bg-light border rounded px-3 shadow-sm">
+              <div class="text-center bg-light border rounded px-3 py-1 shadow-sm">
                 <p class="mb-0 fw-bold text-dark">${item.time}</p>
                 <p class="mb-0 small text-secondary">${item.gtm}</p>
-               </div>
-
-
-              <div class="text-center d-flex flex-column align-items-center mt-2">
-                <img src="${item.logoAway}" alt="${
-        item.away
-      }" class="img-fluid" style="max-width: 50px" />
-                <span class="fw-bold">${item.away}</span>
+              </div>
+              <div class="text-center">
+                <img src="${item.logoAway}" alt="${item.away}" style="max-width: 50px" />
+                <span class="fw-bold d-block mt-1">${item.away}</span>
               </div>
             </div>
-            <div class="d-flex align-items-center justify-content-center mt-3">
-              <button class="btn btn-outline-secondary text-uppercase fw-bold shadow me-3">
-                Preview
-              </button>
-              <button class="btn btn-outline-primary text-uppercase fw-bold shadow">
-              Buy Tickets
-              </button>
+            <div class="d-flex justify-content-center mt-3 gap-2">
+              <button class="btn btn-outline-secondary text-uppercase fw-bold">Preview</button>
+              <button class="btn btn-outline-primary text-uppercase fw-bold">Buy Tickets</button>
             </div>
           </div>
         </div>
       `;
     });
 
-    document.querySelector(".video").innerHTML = html;
+    // Gắn HTML đúng cấu trúc Swiper
+    const html = `
+    <div class="container">
+      <div class="swiper mySwipers">
+        <div class="swiper-wrapper">
+          ${slidesHTML}
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev swiper-slide-button d-none"></div>
+        <div class="swiper-button-next swiper-slide-button d-none"></div>
+      </div>
+      </div>
+    `;
+
+    document.querySelector(".schedule__slider").innerHTML = html;
+
+    // Khởi tạo Swiper sau khi render xong HTML
+    new Swiper(".mySwipers", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 3000,
+      },
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 4,
+        },
+      },
+    });
   } else {
-    console.error("Lỗi không có dữ liệu trả về từ API...");
-    document.querySelector(".swiper-wrapper").innerHTML =
+    document.querySelector(".schedule__slider").innerHTML =
       "<p class='text-danger'>Không có trận đấu nào.</p>";
   }
-  console.log(data);
 };
 
 showData();
