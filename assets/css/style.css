@@ -751,6 +751,68 @@ h5.card-title:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
 }
 
+.homepage__title {
+  color: #001838;
+}
+.blog__home .homepage__title {
+  margin-bottom: 30px;
+}
+.homepage__title {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+}
+.homepage__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 50%;
+  height: 4px;
+  background-color: rgb(80, 153, 231);
+}
+
+@keyframes blink {
+  0% {
+    color: #ff0000;
+  }
+  50% {
+    color: #0000ff;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+
+.text-primary {
+  animation: blink 1s infinite alternate;
+}
+.highlight-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #d9a7c7, #f5c8a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 2s ease-in-out infinite;
+  transition: all 0.3s ease-in;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.highlight-title:hover {
+  text-shadow: 0 0 10px rgba(217, 167, 199, 0.5); /* Hiệu ứng phát sáng nhẹ */
+  transform: scale(1.02);
+}
+
 /* ===================== NEW ========================== */
 .news-header {
   color: #5fa8ff;
