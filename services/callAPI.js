@@ -14,16 +14,33 @@ const callAPI = async () => {
   }
 };
 
-// Show data from API
+// Hiển thị dữ liệu từ API
 const showData = async () => {
   const data = await callAPI();
-  if (data) {
-    let slidesHTML = "";
+  const container = document.querySelector(".schedule__slider .container");
 
+  if (data) {
+    let resultsContainer = container.querySelector(".container .row");
+
+    // Nếu chưa có `.row`, thêm vào để chứa tiêu đề
+    if (!resultsContainer) {
+      resultsContainer = document.createElement("div");
+      resultsContainer.classList.add("row");
+      resultsContainer.innerHTML = `
+        <div class="col">
+          <h2 class="text-uppercase text-primary mb-4 highlight-title">
+            Lịch thi đấu mùa giải 2024/2025
+          </h2>
+        </div>
+      `;
+      container.insertAdjacentElement("afterbegin", resultsContainer);
+    }
+
+    // Tạo nội dung Swiper
+    let slidesHTML = "";
     data.forEach((item) => {
       slidesHTML += `
-
-      <div class="swiper-slide">
+        <div class="swiper-slide">
           <div class="border p-3 shadow-sm bg-white rounded-3">
             <div class="d-flex justify-content-between mb-2 align-items-center">
               <h5 class="text-uppercase text-secondary small mb-0">Next Fixture</h5>
@@ -55,9 +72,8 @@ const showData = async () => {
       `;
     });
 
-    // Gắn HTML đúng cấu trúc Swiper
-    const html = `
-    <div class="container">
+    // Thêm Swiper vào sau tiêu đề mà không ghi đè nội dung khác
+    let sliderHTML = `
       <div class="swiper mySwipers">
         <div class="swiper-wrapper">
           ${slidesHTML}
@@ -66,12 +82,14 @@ const showData = async () => {
         <div class="swiper-button-prev swiper-slide-button d-none"></div>
         <div class="swiper-button-next swiper-slide-button d-none"></div>
       </div>
-      </div>
     `;
 
-    document.querySelector(".schedule__slider").innerHTML = html;
+    // Xóa phần slider cũ và thêm nội dung mới
+    let existingSwiper = container.querySelector(".swiper");
+    if (existingSwiper) existingSwiper.remove();
+    container.insertAdjacentHTML("beforeend", sliderHTML);
 
-    // Khởi tạo Swiper sau khi render xong HTML
+    // Khởi tạo Swiper
     new Swiper(".mySwipers", {
       slidesPerView: 1,
       spaceBetween: 20,
@@ -89,20 +107,13 @@ const showData = async () => {
         dynamicBullets: true,
       },
       breakpoints: {
-        0: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 4,
-        },
+        0: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 4 },
       },
     });
   } else {
-    document.querySelector(".schedule__slider").innerHTML =
-      "<p class='text-danger'>Không có trận đấu nào.</p>";
+    container.innerHTML = "<p class='text-danger'>Không có trận đấu nào.</p>";
   }
 };
 

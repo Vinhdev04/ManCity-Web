@@ -30,8 +30,71 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
     <title>Manchester City FC | Official Website</title>
+    <style>
+      .homepage__title {
+        color: #001838;
+      }
+      .blog__home .homepage__title {
+        margin-bottom: 30px;
+      }
+      .homepage__title {
+        position: relative;
+        display: inline-block;
+        font-size: 2rem;
+      }
+      .homepage__title::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 50%;
+        height: 4px;
+        background-color: rgb(80, 153, 231);
+      }
+
+      @keyframes blink {
+        0% {
+          color: #ff0000;
+        }
+        50% {
+          color: #0000ff;
+        }
+        100% {
+          color: #ff0000;
+        }
+      }
+
+      .text-primary {
+        animation: blink 1s infinite alternate;
+      }
+      .highlight-title {
+        font-size: 2.5rem;
+        font-weight: 900;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(45deg, #d9a7c7, #f5c8a3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: fadeIn 2s ease-in-out infinite;
+        transition: all 0.3s ease-in;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .highlight-title:hover {
+        text-shadow: 0 0 10px rgba(217, 167, 199, 0.5); /* Hiệu ứng phát sáng nhẹ */
+        transform: scale(1.02);
+      }
+    </style>
   </head>
-  <body>
+  <body style="background: #001838">
     <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
         <!-- Logo -->
@@ -116,11 +179,13 @@
       </div>
     </nav>
 
-    <section class="banner__home py-5">
+    <!-- ** -->
+    <section class="py-5">
       <div class="container">
         <div class="row g-0">
           <div
-            class="col-md-3 bg-dark text-white d-flex flex-column justify-content-between p-4"
+            class="col-md-3 text-white d-flex flex-column justify-content-between p-4"
+            style="background: #001838"
           >
             <div class="text-uppercase mb-0">
               <h3 class="fw-bold">
@@ -131,34 +196,42 @@
               </h2>
               <p class="text-white-50 fs-4 text-secondary mt-2 mb-1">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
-                earum?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                earum?
               </p>
             </div>
             <a
               class="btn btn-primary rounded-3 shadow mt-1 align-self-start"
-              href="/pages/tableAllClub.html"
+              href="#"
             >
               Read More
             </a>
           </div>
           <div class="col-md-9">
-            <img
-              src="./assets/Images/Banner/man-city-podcast_assets_jg_wide_clean.webp"
-              alt="Podcast Banner"
-              class="img-fluid w-100 h-100 object-fit-cover"
-              style="object-fit: cover"
-            />
+            <div class="h-100">
+              <img
+                src="./assets/Images/Banner/man-city-podcast_assets_jg_wide_clean.webp"
+                alt="Podcast Banner"
+                class="img-fluid w-100 h-100 object-fit-cover"
+                style="object-fit: cover"
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="blog__home py-5">
+    <!-- ** -->
+    <section class="blog__home py-5 bg-white">
       <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="homepage__title fw-bold">Newsletter</h2>
+          </div>
+        </div>
+
         <div class="row g-3">
-          <!-- Bài viết 1 -->
           <div class="col-sm-12 col-md-6 col-lg-4">
-            <a href="#!" class="text-decoration-none text-dark">
+            <a href="/pages/new.html" class="text-decoration-none text-dark">
               <div>
                 <img
                   src="/assets/Images/Banner/nathan-ake-injury-update.webp"
@@ -179,9 +252,8 @@
             </a>
           </div>
 
-          <!-- Bài viết 2 -->
           <div class="col-sm-12 col-md-6 col-lg-4">
-            <a href="#!" class="text-decoration-none text-dark">
+            <a href="/pages/new.html" class="text-decoration-none text-dark">
               <div>
                 <img
                   src="/assets/Images/Banner/wide_feb_new.webp"
@@ -201,9 +273,8 @@
             </a>
           </div>
 
-          <!-- Bài viết 3 -->
           <div class="col-sm-12 col-md-6 col-lg-4">
-            <a href="#!" class="text-decoration-none text-dark">
+            <a href="#" class="text-decoration-none text-dark">
               <div>
                 <img
                   src="/assets/Images/Banner/wide-gameforest.webp"
@@ -226,16 +297,19 @@
       </div>
     </section>
 
+    <!-- *Schedules* -->
     <section class="schedule__slider py-5">
-      <div class="container">
-        <h2 class="text-uppercase text-primary mb-4">
-          Lịch Trình Mùa Giải 2024/2025
-        </h2>
-      </div>
+      <div class="container"></div>
     </section>
 
-    <section class="latest-news py-4">
+    <!-- **Newsletters -->
+    <section class="latest-news bg-white py-5 border-bottom">
       <div class="container">
+        <div class="row">
+          <div class="col mb-3">
+            <h2 class="homepage__title fw-bold">Blog</h2>
+          </div>
+        </div>
         <div class="row g-3">
           <!-- Bài viết 1 -->
           <div class="col-md-3">
@@ -402,7 +476,45 @@
         </div>
       </div>
     </section>
-    <section class="py-5 results"><div class="container"></div></section>
+
+    <!-- ** -->
+    <section class="banner__home py-5">
+      <div class="container">
+        <div class="row" style="background: #f3f6f9; padding: 20px">
+          <a href="#" class="col-md-4 text-decoration-none text-dark">
+            <img
+              src="/assets/Images/Logo/bannerHome04.png"
+              alt="Banner 1"
+              class="img-fluid shadow"
+              loading="lazy"
+            />
+          </a>
+          <a href="#" class="col-md-4 text-decoration-none text-dark">
+            <img
+              src="/assets/Images/Logo/bannerHome05.jpg"
+              alt="Banner 2"
+              class="img-fluid shadow"
+              loading="lazy"
+            />
+          </a>
+          <a href="#" class="col-md-4 text-decoration-none text-dark">
+            <img
+              src="/assets/Images/Logo/bannerHome06.jpg"
+              alt="Banner 3"
+              class="img-fluid shadow"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- *Result-Match* -->
+    <section class="py-5 results bg-white">
+      <div class="container"></div>
+    </section>
+
+    <!-- *Banner-Homepage* -->
     <section class="banner__home py-5">
       <div class="container">
         <div class="row" style="background: #f3f6f9; padding: 20px">
@@ -434,400 +546,54 @@
       </div>
     </section>
 
-    <section class="results__slider py-5">
+    <!-- *Banner* -->
+    <section class="py-5">
       <div class="container">
-        <h2 class="text-uppercase text-primary mb-4">
-          Kết quả thi đấu màu giải 2024/2025
-        </h2>
-        <div class="swiper mySwipers">
-          <div class="swiper-wrapper">
-            <!-- Trận 1 -->
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Premier League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_liverpool.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Liverpool</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
+        <div class="row g-0">
+          <div
+            class="col-md-3 text-white d-flex flex-column justify-content-between p-4"
+            style="background: #3a3939"
+          >
+            <div class="text-uppercase mb-0">
+              <h3 class="fw-bold">
+                City <sup class="fw-bold text-primary fs-5 mb-2">+</sup>
+              </h3>
+              <h2 class="fw-bolder fs-3 mb-2">
+                In conversation with Josko Gvardiol | Official Man City Podcast
+              </h2>
+              <p class="text-white-50 fs-4 text-secondary mb-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
+                earum?
+              </p>
             </div>
-
-            <!-- Thêm các trận tiếp theo (sao chép swiper-slide) -->
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Champion League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_juventus_2.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Juventus</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Champion League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_juventus_2.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Juventus</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Champion League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_juventus_2.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Juventus</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Champion League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_juventus_2.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Juventus</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Champion League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_juventus_2.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Juventus</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Champion League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_juventus_2.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Juventus</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="border p-3">
-                <div class="d-flex justify-content-between mt-2">
-                  <h5 class="text-uppercase text-secondary small">
-                    Last result
-                  </h5>
-                  <a href="#!" class="text-dark me-2"
-                    >All Fixture <i class="ri-arrow-right-line"></i
-                  ></a>
-                </div>
-                <div class="text-center">
-                  <p class="mb-0 fw-bold">Sat 09 Mar</p>
-                  <p class="mb-0">Champion League</p>
-                </div>
-                <div
-                  class="d-flex align-items-center justify-content-around mt-2"
-                >
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Man City</span>
-                  </div>
-                  <div class="score">
-                    <p class="text-white">0 - 2</p>
-                  </div>
-                  <div class="text-center">
-                    <img
-                      src="/assets/Images/Logo/temp_juventus_2.webp"
-                      alt=""
-                      class="img-fluid"
-                      style="max-width: 50px"
-                    />
-                    <span class="fw-bold">Juventus</span>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button class="btn btn-outline-primary fw-bold shadow">
-                    Match Report
-                  </button>
-                </div>
-              </div>
+            <a
+              class="btn btn-primary rounded-3 shadow mt-1 align-self-start"
+              href="#"
+            >
+              Read More
+            </a>
+          </div>
+          <div class="col-md-9">
+            <div class="h-100">
+              <img
+                src="./assets/Images/Banner/man-city-podcast_assets_jg_wide_clean.webp"
+                alt="Podcast Banner"
+                class="img-fluid w-100 h-100 object-fit-cover"
+                style="object-fit: cover"
+              />
             </div>
           </div>
-
-          <!-- Pagination & Navigation -->
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev swiper-slide-button d-none"></div>
-          <div class="swiper-button-next swiper-slide-button d-none"></div>
         </div>
       </div>
     </section>
 
-    <section class="video__home py-5">
+    <!-- *Highlight* -->
+    <section class="video__home bg-white py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12">
-            <h2 class="text-uppercase text-primary mb-4">
-              TUYỂN TẬP NHỮNG KHOẢNH KHẮC ĐẸP NHẤT MÀU GIẢI
+            <h2 class="text-uppercase text-primary mb-4 highlight-title">
+              Khoảnh khắc đẹp nhất nhất mùa giải 2023/2024
             </h2>
           </div>
           <!-- *Video 1* -->
@@ -1022,38 +788,7 @@
       </div>
     </section>
 
-    <section class="banner__home py-5">
-      <div class="container">
-        <div class="row p-0">
-          <a
-            href="#!"
-            class="col-md-3 text-decoration-none bg-dark text-white m-0 p-0"
-          >
-            <div class="wrap h-100 text-uppercase" style="padding: 20px">
-              <h3 class="fw-bold">
-                EDS & Academy
-                <sup class="fw-bold text-primary fs-5 mb-0">+</sup>
-              </h3>
-              <h2 class="fw-bolder">
-                Highlights: Hoffenheim 1-2 City Under-19s Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Deserunt, ullam!
-              </h2>
-              <button class="btn btn-primary rounded-3 shadow mt-3">
-                Read More
-              </button>
-            </div>
-          </a>
-          <a href="#!" class="col-md-9 text-decoration-none m-0 p-0">
-            <img
-              src="./assets/Images/Logo/hlts_16x9_hof_uyl.webp"
-              alt=""
-              class="img-fluid"
-            />
-          </a>
-        </div>
-      </div>
-    </section>
-
+    <!-- ** -->
     <section class="banner__home py-5">
       <div class="container">
         <div class="row" style="background: #f3f6f9; padding: 20px">
@@ -1085,92 +820,7 @@
       </div>
     </section>
   </body>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      fetch("http://localhost:3000/results")
-        .then((response) => response.json())
-        .then((data) => {
-          let html = `
-            <div class="row">
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper">`;
 
-          data.forEach((item) => {
-            html += `
-           
-              <div class="swiper-slide">
-                <div class="border p-3">
-                  <div class="d-flex justify-content-between mt-2">
-                    <h5 class="text-uppercase text-secondary small">Last Result</h5>
-                    <a href="#!" class="text-dark me-2">All Fixture <i class="ri-arrow-right-line"></i></a>
-                  </div>
-                  <div class="text-center ">
-                    <p class="mb-0 fw-bold">${item.date}</p>
-                    <p class="mb-0">${item.league}</p>
-                  </div>
-                  <div class="d-flex align-items-center justify-content-around mt-2">
-                    <div class="text-center d-flex flex-column ">
-                      <img src="${item.home_team.logo}" alt="${item.home_team.name}" class="img-fluid" style="width: 50px">
-                      <span class="fw-bold">${item.home_team.name}</span>
-                    </div>
-                    <div class="text-center bg-dark text-white p-2 fw-bold">
-                      ${item.score.home} - ${item.score.away}
-                    </div>
-                    <div class="text-center d-flex flex-column">
-                      <img src="${item.away_team.logo}" alt="${item.away_team.name}" class="img-fluid" style="width: 50px">
-                      <span class="fw-bold">${item.away_team.name}</span>
-                    </div>
-                  </div> 
-                  <div class="text-center mt-3">
-                    <button class="btn btn-outline-primary fw-bold shadow">Match Report</button>
-                  </div>
-                </div>
-              
-              </div>`;
-          });
-
-          html += `</div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next d-none"></div>
-                <div class="swiper-button-prev d-none"></div>
-              </div>
-            </div>`;
-
-          document.querySelector(".results .container").innerHTML = html;
-
-          // Khởi động Swiper sau khi nội dung được gán
-          new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 20,
-            autoplay: {
-              delay: 3000,
-            },
-            loop: true,
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-              dynamicBullets: true,
-            },
-            breakpoints: {
-              0: {
-                slidesPerView: 1,
-              },
-              768: {
-                slidesPerView: 2,
-              },
-              1024: {
-                slidesPerView: 4,
-              },
-            },
-          });
-        })
-        .catch((error) => console.error("Lỗi Fetch API:", error));
-    });
-  </script>
   <!-- SwiperJS CSS -->
   <link
     rel="stylesheet"

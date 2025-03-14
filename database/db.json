@@ -57,7 +57,7 @@
       "id": "4",
       "title": "Vòng 21",
       "home": "Man City",
-      "away": "Leicester City",
+      "away": "Leicester ",
       "date": "Thu 03 Apr",
       "time": "01:45",
       "gtm": "GTM",
@@ -83,7 +83,7 @@
       "id": "6",
       "title": "Vòng 21",
       "home": "Man City",
-      "away": "Crystal Palace",
+      "away": " Palace",
       "date": "Sun 06 Apr",
       "time": "18:30",
       "gtm": "GTM",
@@ -122,7 +122,7 @@
       "id": "9",
       "title": "Vòng 21",
       "home": "Man City",
-      "away": "Southampton",
+      "away": "Southamp",
       "date": "Sat 10 May",
       "time": "21:00",
       "gtm": "GTM",
@@ -2110,7 +2110,7 @@
       "league": "Premier League",
       "round": "Vòng 28",
       "home_team": {
-        "name": "Nottingham Forest",
+        "name": "N Forest",
         "logo": "https://www.mancity.com/meta/media/1xjhro13/imager20190425t1213184271png.png width=36"
       },
       "away_team": {
@@ -2154,7 +2154,7 @@
       "league": "Premier League",
       "round": "Vòng 27",
       "home_team": {
-        "name": "Tottenham Horspur",
+        "name": "Tottenham ",
         "logo": "https://www.mancity.com/meta/media/t02jppxo/spurs-logo-with-outline.png?width=36"
       },
       "away_team": {
@@ -2224,7 +2224,7 @@
         "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
       },
       "away_team": {
-        "name": "Newcastle United",
+        "name": "Newcastle",
         "logo": "https://www.mancity.com/meta/media/cyrbp1df/temp_liverpool.png?width=36"
       },
       "date": "2025-02-15",
@@ -2352,7 +2352,7 @@
       "league": "Champions League",
       "round": "Vòng 7",
       "home_team": {
-        "name": "Paris S.Germain ",
+        "name": "Paris  ",
         "logo": "https://www.mancity.com/meta/media/0ranljfd/paris_saint-germain.png?width=36"
       },
       "away_team": {
@@ -2462,7 +2462,7 @@
       "league": "Primier League",
       "round": "Vòng 19",
       "home_team": {
-        "name": "Leicester City",
+        "name": "Leicester ",
         "logo": "https://www.mancity.com/meta/media/tualebgx/leicester.png?width=36"
       },
       "away_team": {
@@ -2506,7 +2506,7 @@
       "league": "Primier League",
       "round": "Vòng 17",
       "home_team": {
-        "name": "Aston Villa",
+        "name": "A Villa",
         "logo": "https://www.mancity.com/meta/media/klbh3x01/a-villa-new-full.png?width=36"
       },
       "away_team": {
@@ -2572,7 +2572,7 @@
       "league": "Primier League",
       "round": "Vòng 15",
       "home_team": {
-        "name": "Crystal Palace",
+        "name": "Crystal ",
         "logo": "https://www.mancity.com/meta/media/ttda4o0h/cpalace.png?width=36"
       },
       "away_team": {
@@ -2598,7 +2598,7 @@
         "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
       },
       "away_team": {
-        "name": "Nottingham Forest",
+        "name": "N Forest",
         "logo": "https://www.mancity.com/meta/media/1xjhro13/imager20190425t1213184271png.png?width=36"
       },
       "date": "2024-12-05",
@@ -2664,7 +2664,7 @@
         "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
       },
       "away_team": {
-        "name": "Tottenham Hotspur",
+        "name": "Tottenham ",
         "logo": "https://www.mancity.com/meta/media/t02jppxo/spurs-logo-with-outline.png?width=36"
       },
       "date": "2024-11-24",
@@ -2682,7 +2682,7 @@
       "league": "Primier League",
       "round": "Vòng 11",
       "home_team": {
-        "name": "Brighton & Hove",
+        "name": "Brighton ",
         "logo": "https://www.mancity.com/meta/media/pwinp3vk/brighton.png?width=36"
       },
       "away_team": {
@@ -2704,7 +2704,7 @@
       "league": "Champions League",
       "round": "Vòng 4",
       "home_team": {
-        "name": "Sporting CP",
+        "name": "Sporting ",
         "logo": "https://www.mancity.com/meta/media/bfeicihr/sporting-cp.png?width=36"
       },
       "away_team": {
@@ -2726,7 +2726,7 @@
       "league": "Primier League",
       "round": "Vòng 10",
       "home_team": {
-        "name": "AFC Bournemouth ",
+        "name": "Bournemouth ",
         "logo": "https://www.mancity.com/meta/media/rain5fkc/bournemouth.png?width=36"
       },
       "away_team": {
@@ -2748,7 +2748,7 @@
       "league": "EFL Cup",
       "round": "Vòng ...",
       "home_team": {
-        "name": "Tottenham Hotspur ",
+        "name": "Tottenham  ",
         "logo": "https://www.mancity.com/meta/media/t02jppxo/spurs-logo-with-outline.png?width=36"
       },
       "away_team": {
@@ -2796,7 +2796,7 @@
         "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?width=36"
       },
       "away_team": {
-        "name": "  Sparta Prague",
+        "name": "  Sparta ",
         "logo": "https://www.mancity.com/meta/media/xuyjuby2/sparta.png?width=36"
       },
       "date": "2024-10-24",
@@ -2814,7 +2814,7 @@
       "league": "Primier Legue",
       "round": "Vòng 8",
       "home_team": {
-        "name": "Wolverhampton ",
+        "name": "Wolver ",
         "logo": "https://www.mancity.com/meta/media/k3qkdzvx/wolves.png?width=36"
       },
       "away_team": {
@@ -2858,7 +2858,7 @@
       "league": "Champions Legue",
       "round": "Vòng 2",
       "home_team": {
-        "name": "Slovan Bratislava ",
+        "name": " Bratislava ",
         "logo": "https://www.mancity.com/meta/media/3mgftn1q/slovan.png?width=36"
       },
       "away_team": {
@@ -2880,7 +2880,7 @@
       "league": "Primier Legue",
       "round": "Vòng 6",
       "home_team": {
-        "name": "Newcastle United",
+        "name": "Newcastle ",
         "logo": "https://www.mancity.com/meta/media/rp4pwzgv/newcastle.png?width=36"
       },
       "away_team": {
