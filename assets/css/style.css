@@ -990,22 +990,15 @@ button.active {
   background-color: #031c48 !important; /* Màu nền xanh đậm */
   padding: 3px 0;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #aeaeae;
 }
 
 .sub-nav ul {
   list-style: none;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 16px;
-  padding: 10px;
-  background-color: transparent !important;
-  /* align-items: center; */
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 0;
+  background-color: transparent !important; /* Đảm bảo không có màu nền khác */
 }
 
 .sub-nav ul li {
@@ -1053,7 +1046,7 @@ button.active {
   color: yellow;
   padding: 50px 20px;
   text-align: center;
-  /* margin-top: 30px; */
+  margin-top: 30px;
 }
 
 .hero p {
@@ -1124,6 +1117,439 @@ button.active {
 
 .ticket-box a:hover {
   background-color: #0047a5;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 79%;
+  margin: auto;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid black; /* Màu của đường kẻ */
+}
+
+.divider-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid black; /* Viền bao quanh chữ */
+  background-color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  color: #00285e;
+  margin: 10px 0;
+}
+
+.card p {
+  flex-grow: 1; /* Đẩy đoạn văn lên trên, tạo khoảng trống cho nút ở dưới */
+}
+
+.card a {
+  margin-top: auto;
+  color: #00285e;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card-content {
+  flex-grow: 1; /* Đẩy nội dung chính lên trên */
+}
+
+.card-footer {
+  margin-top: auto; /* Đẩy phần này xuống cuối */
+}
+
+.small-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.small-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.small-card h3 {
+  color: #00285e;
+  margin: 10px 0;
+}
+
+/* Container của bộ lọc */
+.filter-container {
+  background-color: #001138; /* Màu nền xanh đậm */
+  padding: 20px 30px;
+  width: 80%; /* Giữ cho bộ lọc không quá rộng */
+  max-width: 1100px;
+  border-radius: 10px;
+  margin: 0 auto; /* Căn giữa */
+  margin-top: 40px;
+}
+
+/* Tiêu đề */
+.filter-container h2 {
+  color: #dfff00; /* Màu vàng sáng */
+  font-size: 24px; /* Tăng kích thước chữ để giống hình */
+  font-weight: bold; /* Chữ đậm */
+  margin-bottom: 20px; /* Giảm khoảng cách dưới */
+  text-align: left; /* Căn trái */
+  text-transform: uppercase; /* Chữ in hoa */
+}
+
+/* Nhóm bộ lọc (dropdown + nút) */
+.filter-options {
+  display: flex;
+  gap: 15px; /* Giảm khoảng cách giữa các phần tử để giống hình */
+  align-items: center;
+  justify-content: space-between; /* Trải đều các phần tử */
+  width: 100%;
+}
+
+/* Label */
+.filter-options label {
+  display: block; /* Đặt label trên dropdown */
+  color: white; /* Màu chữ trắng */
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  margin-bottom: 5px; /* Khoảng cách giữa label và dropdown */
+}
+
+/* Dropdown */
+.filter-options select {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 10px; /* Điều chỉnh padding để giống hình */
+  width: 200px; /* Giảm chiều rộng để phù hợp hơn */
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  cursor: pointer;
+  appearance: none; /* Xóa giao diện mặc định của dropdown */
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>"); /* Thêm mũi tên trắng */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Đặt mũi tên bên phải */
+}
+
+/* Khi focus dropdown */
+.filter-options select:focus {
+  outline: none;
+  border-color: #dfff00; /* Viền vàng khi focus */
+}
+
+/* Nút lọc */
+.filter-button {
+  background-color: #dfff00;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px; /* Điều chỉnh padding để giống hình */
+  border: none;
+  cursor: pointer;
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  text-transform: uppercase; /* Chữ in hoa */
+  transition: background 0.3s;
+}
+
+/* Hiệu ứng hover */
+.filter-button:hover {
+  background-color: #c7e600;
+}
+
+.wrapper {
+  margin-top: 70px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #00aaff;
+  margin-bottom: 20px;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.match-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.home-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.match-info {
+  width: 150px;
+}
+
+.match-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.competition,
+.stadium {
+  color: #666;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.team-home,
+.team-away {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.team-name {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.team-logo {
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+.match-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+}
+
+.match-time p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.match-time p:last-child {
+  font-size: 12px;
+  color: #666;
+}
+
+.buy-tickets {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.buy-now-btn {
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-now-btn:hover {
+  background-color: #0088cc;
+}
+
+.match-note {
+  text-align: center;
+  font-size: 14px;
+  color: #667;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.line-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 79%;
+  margin: auto;
+}
+
+.line-divider::before,
+.line-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid black; /* Màu của đường kẻ */
+}
+
+.line-divider-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid black; /* Viền bao quanh chữ */
+  background-color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.news-slider {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.news-item-video {
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.news-item-video img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+.overlay h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.overlay p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.banner-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.banner-container .membership-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.banner-container .sub-text {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .banner-image {
+    height: 250px;
+  }
+  .banner-container .membership-text {
+    font-size: 2em;
+    left: 5%;
+  }
+  .banner-container .sub-text {
+    font-size: 1em;
+    left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-image {
+    height: 200px;
+  }
+  .banner-container .membership-text {
+    font-size: 1.5em;
+    left: 5%;
+  }
+  .banner-container .sub-text {
+    font-size: 0.9em;
+    left: 5%;
+  }
 }
 
 .divider {

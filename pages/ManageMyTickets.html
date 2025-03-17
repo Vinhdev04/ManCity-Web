@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <!-- * Favicon * -->
+    <link
+      rel="shortcut icon"
+      href="./assets/Images/Logo/crest.svg"
+      type="image/x-icon"
+    />
+    <!-- * B * -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- * Swiper* -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- * CSS * -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/ticket.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+    <title>Manchester City FC | TICKET</title>
+    <style>
+      body {
+        background-color: #f4f4f4;
+      }
+      .membership-container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .membership-card {
+        position: relative;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+
+      .member,
+      .wrap__member {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      .membership-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+      }
+      .membership-title {
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .membership-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .btn-custom {
+        background: yellow;
+        color: black;
+        font-weight: bold;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      .btn-light {
+        width: 100%;
+        padding: 10px;
+      }
+      .membership-image {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        /* max-height: 280px; */
+        object-fit: cover;
+      }
+      .membership-content {
+        position: relative;
+        z-index: 2;
+        margin-top: 250px;
+      }
+      .wrap__member {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .membership-card--first {
+        margin-top: 50px;
+      }
+      .membership-card--three {
+        margin-top: 50px;
+      }
+      .member-title {
+        max-width: 900px;
+        color: #001f3f;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+      }
+      .members {
+        background-color: #fff;
+      }
+      body {
+        background-color: #f0f4f8;
+      }
+      .table-container {
+        margin-top: 50px;
+      }
+      .table {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      th {
+        background-color: #f8f9fa;
+        font-size: 1.2rem;
+        text-align: center;
+        color: #0046be;
+      }
+      th,
+      td {
+        /* text-align: center; */
+
+        vertical-align: middle;
+        padding: 12px;
+      }
+      .highlight {
+        background-color: #e3efff;
+        font-weight: bold;
+      }
+      .checkmark {
+        color: #000;
+        /* font-size: 1.5rem; */
+      }
+      .checkmark-blue {
+        color: #009fe3;
+        /* font-size: 1.5rem; */
+      }
+      .checkmark-gold {
+        color: #ff9800;
+        /* font-size: 1.5rem; */
+      }
+      .table-hover tbody tr:hover {
+        background-color: #f1f8ff;
+      }
+      .category-header {
+        background: #cfe2ff !important;
+        font-size: 1.1rem;
+      }
+      .member__sub-nav ul {
+        margin: 0;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
+        </a>
+
+        <!-- Toggle button for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="/pages/new.html"
+                >News</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/video.html">Video</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/tickets.html"
+                >Tickets</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/player.html"
+                >Players</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/club.html">Club</a>
+            </li>
+          </ul>
+
+          <!-- Sign In Button -->
+          <div class="dropdown">
+            <a
+              class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2"
+              href="#"
+              id="userDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-user"></i> <span>Login</span>
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end mt-0"
+              aria-labelledby="userDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="/pages/login.html"
+                  ><i class="fas fa-sign-in-alt me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/Register.html"
+                  ><i class="fas fa-user-plus me-2"></i>Register</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/setting.html"
+                  ><i class="fas fa-cog me-2"></i>Setting</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- * Ticket * -->
+    <div class="member__sub-nav sub-nav">
+      <ul>
+        <li><a href="/pages/tickets/tickets.html">Tickets & Hospitality</a></li>
+        <li><a href="/pages/tickets/Memberships.html">Memberships</a></li>
+        <li><a href="/pages/tickets/Tours.html">Tours</a></li>
+        <li>
+          <a href="/pages/tickets/Manage My Tickets.html">Manage My Tickets</a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="container-fluid ps-0 pe-0">
+        <div>
+          <img
+            src="/assets/Images/Tickets/main-desktop-image.webp"
+            alt="Manchester City Fans Celebrating"
+            class="w-100 object-fit-cover img-fluid ms-0 me-0"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="py-5 members">
+      <div class="container membership-container">
+        <div class="col">
+          <div class="d-flex justify-content-center align-items-center">
+            <h1 class="mb-4 member-title">
+              GET CLOSER TO THE CLUB WITH EXCLUSIVE BENEFITS AND DISCOUNTS
+            </h1>
+          </div>
+        </div>
+        <div class="member d-flex" style="gap: 20px">
+          <div class="wrap__member">
+            <div
+              class="membership-card membership-card--first"
+              style="background: #6caddf"
+            >
+              <div>
+                <img
+                  src="/assets/Images/Banner/doku.webp"
+                  alt="Cityzens Player"
+                  class="membership-image img-fluid object-fit-cover w-100 shadow"
+                />
+              </div>
+              <div class="membership-content">
+                <h2 class="membership-title">CITYZENS MEMBERSHIP</h2>
+                <h3 class="membership-price">&pound;25</h3>
+                <p>VIDEO CALLS WITH PLAYERS, A WELCOME GIFT AND MORE</p>
+                <button class="btn btn-custom mb-2">JOIN NOW</button>
+                <button class="btn btn-light">MORE INFO</button>
+              </div>
+            </div>
+
+            <div class="membership-card" style="background: #001f3f">
+              <div>
+                <img
+                  src="/assets/Images/Banner/grealish.webp"
+                  alt="Cityzens Player"
+                  class="membership-image img-fluid object-fit-cover w-100 shadow"
+                />
+              </div>
+              <div class="membership-content">
+                <h2 class="membership-title">MATCHDAY MEMBERSHIP</h2>
+                <h3 class="membership-price">&pound;35</h3>
+                <p>ACCESS TO TICKETS AND EXCLUSIVE BENEFITS</p>
+                <button class="btn btn-custom mb-2">JOIN NOW</button>
+                <button class="btn btn-light">MORE INFO</button>
+              </div>
+            </div>
+
+            <div
+              class="membership-card membership-card--three"
+              style="background: #00aaff"
+            >
+              <div>
+                <img
+                  src="/assets/Images/Banner/ruben-dias.webp"
+                  alt="Cityzens Player"
+                  class="membership-image img-fluid object-fit-cover w-100 shadow"
+                />
+              </div>
+              <div class="membership-content">
+                <h2 class="membership-title">JUNIOR MEMBERSHIP</h2>
+                <h3 class="membership-price">&pound;20</h3>
+                <p>ACCESS TO TICKETS AND EXCLUSIVE CLUB OPPORTUNITIES</p>
+                <button class="btn btn-custom mb-2">JOIN NOW</button>
+                <button class="btn btn-light">MORE INFO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-5">
+      <div class="container table-container">
+        <h2 class="text-center fw-bold mb-4">COMPARE MAN CITY MEMBERSHIPS</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th></th>
+                <th class="highlight">£25</th>
+                <th class="highlight">£35</th>
+                <th class="highlight">£20</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="category-header">
+                <td colspan="4" class="fw-bold" style="background: aliceblue">
+                  Ticket Benefits
+                </td>
+              </tr>
+              <tr>
+                <td>Access to tickets for home games</td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>£5 off all men's home match tickets</td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark">✔</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>10% discount on women's tickets</td>
+                <td><span class="checkmark-gold">✔</span></td>
+                <td><span class="checkmark-gold">✔</span></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+
+              <tr class="category-header">
+                <td colspan="4" class="fw-bold" style="background: aliceblue">
+                  Rewards and Discounts
+                </td>
+              </tr>
+              <tr>
+                <td>Video Calls With Players</td>
+                <td><span class="checkmark-gold">✔</span></td>
+                <td></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>£15 Online Shop Voucher</td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>CITY+ annual subscription discount</td>
+                <td><span class="checkmark-gold">✔</span></td>
+                <td><span class="checkmark-gold">✔</span></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>10% City Shop discount</td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>Priority access on retail lines</td>
+                <td><span class="checkmark-gold">✔</span></td>
+                <td><span class="checkmark-gold">✔</span></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>20% off The Manchester City Stadium Tour</td>
+                <td><span class="checkmark">✔</span></td>
+                <td><span class="checkmark">✔</span></td>
+                <td></td>
+              </tr>
+
+              <tr class="category-header">
+                <td colspan="4" class="fw-bold" style="background: aliceblue">
+                  Junior Only Benefits
+                </td>
+              </tr>
+              <tr>
+                <td>Matchday mascot opportunity (ages 5-12)</td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>One free Junior pass to stadium tour</td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+              <tr>
+                <td>Junior only competitions</td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark-blue">✔</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center text-uppercase mb-3">FAQ</h2>
+          <div class="accordion mb-3" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Làm thế nào để đăng ký thành viên Manchester City?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Bạn có thể đăng ký thành viên bằng cách truy cập trang
+                  Membership trên trang web chính thức của Man City. Chọn gói
+                  thành viên phù hợp, điền thông tin cá nhân và thanh toán trực
+                  tuyến.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Những quyền lợi khi trở thành thành viên của Manchester City?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  + Thành viên sẽ nhận được nhiều quyền lợi như:
+                  <br />
+                  + Ưu tiên mua vé trận đấu trên sân nhà.
+                  <br />
+                  + Giảm giá vé và sản phẩm từ Man City Store. <br />
+                  + Truy cập nội dung độc quyền trên CITY+. <br />
+                  + Cơ hội tham gia các sự kiện và cuộc thi dành riêng cho thành
+                  viên.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Làm thế nào để mua vé xem Manchester City thi đấu?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Bạn có thể mua vé trực tiếp trên trang web chính thức của câu
+                  lạc bộ, trong mục Tickets. Thành viên có quyền mua trước theo
+                  chính sách ưu tiên. Vé cũng có thể được mua qua ứng dụng di
+                  động của Man City.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  Tôi có thể hủy tư cách thành viên không?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Có, bạn có thể yêu cầu hủy tư cách thành viên bất kỳ lúc nào.
+                  Tuy nhiên, phí thành viên đã thanh toán sẽ không được hoàn
+                  lại. Hãy liên hệ bộ phận hỗ trợ khách hàng để biết thêm chi
+                  Four
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  Tôi có thể tham gia tour tham quan sân vận động Etihad không?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Có! Man City cung cấp nhiều gói tham quan sân vận động Etihad.
+                  Thành viên của câu lạc bộ còn được giảm giá lên đến 20% khi
+                  đặt tour. Bạn có thể đặt vé trực tuyến trong mục Stadium Tour
+                  trên trang web chính thức.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  Tôi có thể xem trực tiếp các trận đấu của Manchester City ở
+                  đâu?
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Các trận đấu của Man City được phát sóng trên nhiều nền tảng
+                  truyền hình như Sky Sports, BT Sport, BBC (ở Anh) hoặc trên
+                  các kênh thể thao quốc tế tùy theo khu vực. Bạn cũng có thể
+                  xem trực tuyến trên CITY+, nền tảng phát sóng chính thức của
+                  câu lạc bộ.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  Làm thế nào để cập nhật tin tức mới nhất về cầu thủ Man City?
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Bạn có thể theo dõi trang web chính thức, ứng dụng di động,
+                  hoặc các tài khoản mạng xã hội của câu lạc bộ để cập nhật tin
+                  tức về đội hình, chấn thương và chuyển nhượng cầu thủ.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight"
+                >
+                  Làm thế nào để biết một trận đấu có bị hoãn hay thay đổi lịch
+                  không?
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Nếu có bất kỳ thay đổi nào về lịch thi đấu, câu lạc bộ sẽ
+                  thông báo trên trang web, ứng dụng di động và email đến người
+                  đã mua vé. Bạn cũng có thể theo dõi tin tức qua các kênh chính
+                  thức như Facebook, Twitter, Instagram của Man City.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column">
+            <p>Visit our Help Centre for all our FAQs on Memberships.</p>
+          </div>
+        </div>
+        <button class="text-decoration-none btn btn-warning text-white">
+          Help Center
+        </button>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
