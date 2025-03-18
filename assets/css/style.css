@@ -833,7 +833,7 @@ h5.card-title:hover {
   font-weight: bold;
   padding: 10px 20px;
   text-transform: uppercase;
-  transition: all 0.3s;
+  transition: color 0.3s;
 }
 
 .nav-tabs .nav-link:hover {
@@ -852,45 +852,47 @@ h5.card-title:hover {
   justify-content: space-between;
 }
 
+/* Bài viết */
 .news-item {
-  display: none; /* Ẩn tất cả bài viết mặc định */
-  flex: 1 1 calc(50% - 10px); /* Chia cột linh hoạt */
+  display: none;
+  flex: 1 1 calc(20% - 10px);
   align-items: center;
   padding: 15px;
   border-radius: 8px;
   background: white;
   transition: all 0.3s;
+  gap: 15px;
 }
 
 .news-item.show {
-  display: flex !important; /* Khi hiển thị, chắc chắn hiện */
+  display: flex;
 }
 
-/* Ảnh trong bài viết */
+/* Ảnh */
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+/* hình */
 .news-item img {
-  width: 150px;
+  width: 300px;
   height: auto;
   border-radius: 8px;
 }
 
-/* Nội dung tin tức */
 .news-text {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; /* Đảm bảo nội dung thẳng hàng */
   flex-grow: 1;
-  max-width: 60%; /* Giữ nội dung không quá dài */
 }
-
-/* Tiêu đề tin */
+/* tên bài báo */
 .news-text h5 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-/* Link tiêu đề */
 .news-text h5 a {
   text-decoration: none;
   color: #003366;
@@ -901,7 +903,6 @@ h5.card-title:hover {
   color: #0056b3;
 }
 
-/* Phần phụ, ví dụ: "CLUB NEWS" */
 .news-text p {
   margin: 5px 0 0;
   color: gray;
@@ -922,11 +923,188 @@ h5.card-title:hover {
 
 .fixtures {
   flex: 1;
-  background: #f8f9fa !important;
+  background: #f8f9fa;
   padding: 15px;
   border-radius: 8px;
   text-align: center;
-  margin: 20px 0;
+}
+
+.fixture-teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fixture-teams img {
+  width: 50px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.pagination button:hover {
+  background: #bbb;
+}
+
+.pagination button.active {
+  background: #004080;
+  color: white;
+}
+
+.pagination button:disabled {
+  background: lightgray;
+  cursor: not-allowed;
+}
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block !important;
+}
+.mc-fixture-start-time__content {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+/* club new next fixtures */
+
+.fixture-img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.news-text {
+  text-align: left;
+  margin-left: 10px;
+  flex: 1;
+}
+.fixture-box {
+  margin-bottom: 16px;
+}
+/* next fixtures */
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news-header {
+  color: #5fa8ff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Tabs */
+.nav-tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0056b3;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #0056b3;
+}
+
+/* News List */
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.news-item {
+  flex: 1 1 calc(50% - 10px);
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s;
+  display: none; /* Mặc định ẩn, JS sẽ bật hiển thị */
+}
+
+.news-item.show {
+  display: flex; /* Hiển thị khi cần */
+}
+
+.news-item img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.news-text {
+  margin-left: 15px;
+}
+
+.news-text h5 a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.news-text h5 a:hover {
+  color: #0056b3;
+}
+
+.news-text p {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Đồng bộ layout */
+.news-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.club-news,
+.all-news {
+  flex: 2;
+}
+
+.fixtures {
+  flex: 1;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .fixture-teams {
@@ -972,17 +1150,196 @@ h5.card-title:hover {
   cursor: not-allowed;
 }
 .news-item {
-  display: none;
+  display: none; /* Ẩn tất cả bài viết */
+}
+.news-item.show {
+  display: flex !important; /* Khi hiển thị, chắc chắn hiện */
+}
+.news-item {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  gap: 15px; /* Tạo khoảng cách giữa ảnh và nội dung */
+  padding: 10px 0; /* Thêm khoảng cách trên dưới */
+}
+
+.news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Căn giữa nội dung */
+  flex-grow: 1; /* Để nó chiếm toàn bộ không gian có thể */
+}
+
+.news-text h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.news-text p {
+  margin: 0;
+  color: gray;
+  font-size: 0.9rem;
+  text-align: left; /* Đảm bảo chữ CLUB NEWS nằm dưới title */
+}
+.news-header {
+  color: #5fa8ff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Tabs */
+.nav-tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0056b3;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #0056b3;
+}
+
+/* News List */
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+/* Bài viết */
+.news-item {
+  display: none; /* Ẩn mặc định */
+  flex: 1 1 calc(33.33% - 10px);
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s;
+  gap: 15px; /* Khoảng cách giữa ảnh và nội dung */
 }
 
 .news-item.show {
-  display: flex !important;
+  display: flex;
 }
-button.active {
-  background-color: #0056b3;
+
+/* Ảnh */
+.news-item img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Nội dung */
+.news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.news-text h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.news-text h5 a {
+  text-decoration: none;
+  color: #003366;
+  transition: color 0.3s;
+}
+
+.news-text h5 a:hover {
+  color: #0056b3;
+}
+
+.news-text p {
+  margin: 5px 0 0;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+/* Đồng bộ layout */
+.news-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.club-news,
+.all-news {
+  flex: 2;
+}
+
+.fixtures {
+  flex: 1;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.fixture-teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fixture-teams img {
+  width: 50px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.pagination button:hover {
+  background: #bbb;
+}
+
+.pagination button.active {
+  background: #004080;
   color: white;
 }
 
+.pagination button:disabled {
+  background: lightgray;
+  cursor: not-allowed;
+}
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block !important;
+}
 /* ===================== Ticket ========================== */
 
 /* Header phụ */
@@ -1125,6 +1482,906 @@ button.active {
   text-align: center;
   width: 79%;
   margin: auto;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid black; /* Màu của đường kẻ */
+}
+
+.divider-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid black; /* Viền bao quanh chữ */
+  background-color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  color: #00285e;
+  margin: 10px 0;
+}
+
+.card p {
+  flex-grow: 1; /* Đẩy đoạn văn lên trên, tạo khoảng trống cho nút ở dưới */
+}
+
+.card a {
+  margin-top: auto;
+  color: #00285e;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card-content {
+  flex-grow: 1; /* Đẩy nội dung chính lên trên */
+}
+
+.card-footer {
+  margin-top: auto; /* Đẩy phần này xuống cuối */
+}
+
+.small-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.small-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.small-card h3 {
+  color: #00285e;
+  margin: 10px 0;
+}
+
+/* Container của bộ lọc */
+.filter-container {
+  background-color: #001138; /* Màu nền xanh đậm */
+  padding: 20px 30px;
+  width: 80%; /* Giữ cho bộ lọc không quá rộng */
+  max-width: 1100px;
+  border-radius: 10px;
+  margin: 0 auto; /* Căn giữa */
+  margin-top: 40px;
+}
+
+/* Tiêu đề */
+.filter-container h2 {
+  color: #dfff00; /* Màu vàng sáng */
+  font-size: 24px; /* Tăng kích thước chữ để giống hình */
+  font-weight: bold; /* Chữ đậm */
+  margin-bottom: 20px; /* Giảm khoảng cách dưới */
+  text-align: left; /* Căn trái */
+  text-transform: uppercase; /* Chữ in hoa */
+}
+
+/* Nhóm bộ lọc (dropdown + nút) */
+.filter-options {
+  display: flex;
+  gap: 15px; /* Giảm khoảng cách giữa các phần tử để giống hình */
+  align-items: center;
+  justify-content: space-between; /* Trải đều các phần tử */
+  width: 100%;
+}
+
+/* Label */
+.filter-options label {
+  display: block; /* Đặt label trên dropdown */
+  color: white; /* Màu chữ trắng */
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  margin-bottom: 5px; /* Khoảng cách giữa label và dropdown */
+}
+
+/* Dropdown */
+.filter-options select {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 10px; /* Điều chỉnh padding để giống hình */
+  width: 200px; /* Giảm chiều rộng để phù hợp hơn */
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  cursor: pointer;
+  appearance: none; /* Xóa giao diện mặc định của dropdown */
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>"); /* Thêm mũi tên trắng */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Đặt mũi tên bên phải */
+}
+
+/* Khi focus dropdown */
+.filter-options select:focus {
+  outline: none;
+  border-color: #dfff00; /* Viền vàng khi focus */
+}
+
+/* Nút lọc */
+.filter-button {
+  background-color: #dfff00;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px; /* Điều chỉnh padding để giống hình */
+  border: none;
+  cursor: pointer;
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  text-transform: uppercase; /* Chữ in hoa */
+  transition: background 0.3s;
+}
+
+/* Hiệu ứng hover */
+.filter-button:hover {
+  background-color: #c7e600;
+}
+
+.wrapper {
+  margin-top: 70px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #00aaff;
+  margin-bottom: 20px;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.match-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.home-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.match-info {
+  width: 150px;
+}
+
+.match-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.competition,
+.stadium {
+  color: #666;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.team-home,
+.team-away {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.team-name {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.team-logo {
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+.match-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+}
+
+.match-time p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.match-time p:last-child {
+  font-size: 12px;
+  color: #666;
+}
+
+.buy-tickets {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.buy-now-btn {
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-now-btn:hover {
+  background-color: #0088cc;
+}
+
+.match-note {
+  text-align: center;
+  font-size: 14px;
+  color: #667;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.line-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 79%;
+  margin: auto;
+}
+
+.line-divider::before,
+.line-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid black; /* Màu của đường kẻ */
+}
+
+.line-divider-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid black; /* Viền bao quanh chữ */
+  background-color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.ticketing-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin: auto;
+  font-size: 45px;
+  font-weight: bold;
+  color: #001838;
+  padding-left: 200px; /* Để chữ không dính sát vào mép trái */
+}
+
+.news-slider {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.news-item-video {
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.news-item-video img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+.overlay h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.overlay p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 79%;
+  margin: auto;
+}
+.signin {
+  display: inline-block;
+  background-color: #bdf1ff;
+  border: none;
+  border-radius: 25px;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.signin:hover {
+  background-color: #a7e2f3;
+  transform: scale(1.05);
+}
+
+.signin:focus {
+  outline: none;
+}
+
+/* Header phụ */
+.sub-nav {
+  background-color: #031c48 !important; /* Màu nền xanh đậm */
+  padding: 3px 0;
+  text-align: center;
+}
+
+.sub-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+  background-color: transparent !important; /* Đảm bảo không có màu nền khác */
+}
+
+.sub-nav ul li {
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Chữ màu trắng và bỏ gạch chân */
+.sub-nav ul li a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Thêm dấu gạch dọc | giữa các mục */
+.sub-nav ul li:not(:last-child)::after {
+  content: " | ";
+  color: white;
+  margin-left: 10px;
+}
+
+/* Hiệu ứng gạch dưới khi hover hoặc active */
+.sub-nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #68a5ff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Khi hover hoặc active, gạch dưới mở rộng 100% */
+.sub-nav ul li a:hover::after,
+.sub-nav ul li a.active::after {
+  width: 100%;
+}
+
+/* Banner chính */
+.hero {
+  background-color: #031c48;
+  color: yellow;
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hero p {
+  color: white;
+  font-size: 16px;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+/* Phần hiển thị vé */
+.tickets {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Khoảng cách giữa các thẻ */
+  margin: 40px;
+}
+
+.ticket-box {
+  background: white;
+  padding: 20px;
+  width: 550px; /* Giảm chiều rộng */
+  height: 450px; /* Tăng chiều cao để tạo hình chữ nhật đứng */
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Cân đối khoảng cách giữa các phần */
+}
+
+.ticket-box:hover {
+  transform: scale(1.05);
+}
+
+.ticket-box img {
+  width: 100%;
+  height: 250px; /* Tăng chiều cao ảnh */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  border-radius: 10px;
+}
+
+.ticket-box h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #00285e;
+}
+
+.ticket-box p {
+  font-size: 18px;
+  color: #444;
+  padding: 0 15px; /* Giúp chữ không quá sát mép */
+}
+
+.ticket-box a {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 12px 25px;
+  font-size: 18px;
+  color: white;
+  background-color: #00285e;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.ticket-box a:hover {
+  background-color: #0047a5;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 79%;
+  margin: auto;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid black; /* Màu của đường kẻ */
+}
+
+.divider-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid black; /* Viền bao quanh chữ */
+  background-color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  color: #00285e;
+  margin: 10px 0;
+}
+
+.card p {
+  flex-grow: 1; /* Đẩy đoạn văn lên trên, tạo khoảng trống cho nút ở dưới */
+}
+
+.card a {
+  margin-top: auto;
+  color: #00285e;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card-content {
+  flex-grow: 1; /* Đẩy nội dung chính lên trên */
+}
+
+.card-footer {
+  margin-top: auto; /* Đẩy phần này xuống cuối */
+}
+
+.small-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.small-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.small-card h3 {
+  color: #00285e;
+  margin: 10px 0;
+}
+
+/* Container của bộ lọc */
+.filter-container {
+  background-color: #001138; /* Màu nền xanh đậm */
+  padding: 20px 30px;
+  width: 80%; /* Giữ cho bộ lọc không quá rộng */
+  max-width: 1100px;
+  border-radius: 10px;
+  margin: 0 auto; /* Căn giữa */
+  margin-top: 40px;
+}
+
+/* Tiêu đề */
+.filter-container h2 {
+  color: #dfff00; /* Màu vàng sáng */
+  font-size: 24px; /* Tăng kích thước chữ để giống hình */
+  font-weight: bold; /* Chữ đậm */
+  margin-bottom: 20px; /* Giảm khoảng cách dưới */
+  text-align: left; /* Căn trái */
+  text-transform: uppercase; /* Chữ in hoa */
+}
+
+/* Nhóm bộ lọc (dropdown + nút) */
+.filter-options {
+  display: flex;
+  gap: 15px; /* Giảm khoảng cách giữa các phần tử để giống hình */
+  align-items: center;
+  justify-content: space-between; /* Trải đều các phần tử */
+  width: 100%;
+}
+
+/* Label */
+.filter-options label {
+  display: block; /* Đặt label trên dropdown */
+  color: white; /* Màu chữ trắng */
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  margin-bottom: 5px; /* Khoảng cách giữa label và dropdown */
+}
+
+/* Dropdown */
+.filter-options select {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 10px; /* Điều chỉnh padding để giống hình */
+  width: 200px; /* Giảm chiều rộng để phù hợp hơn */
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  cursor: pointer;
+  appearance: none; /* Xóa giao diện mặc định của dropdown */
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>"); /* Thêm mũi tên trắng */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Đặt mũi tên bên phải */
+}
+
+/* Khi focus dropdown */
+.filter-options select:focus {
+  outline: none;
+  border-color: #dfff00; /* Viền vàng khi focus */
+}
+
+/* Nút lọc */
+.filter-button {
+  background-color: #dfff00;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px; /* Điều chỉnh padding để giống hình */
+  border: none;
+  cursor: pointer;
+  font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  text-transform: uppercase; /* Chữ in hoa */
+  transition: background 0.3s;
+}
+
+/* Hiệu ứng hover */
+.filter-button:hover {
+  background-color: #c7e600;
+}
+
+.wrapper {
+  margin-top: 70px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #00aaff;
+  margin-bottom: 20px;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.match-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.home-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.match-info {
+  width: 150px;
+}
+
+.match-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.competition,
+.stadium {
+  color: #666;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.team-home,
+.team-away {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.team-name {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.team-logo {
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+.match-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+}
+
+.match-time p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.match-time p:last-child {
+  font-size: 12px;
+  color: #666;
+}
+
+.buy-tickets {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.buy-now-btn {
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-now-btn:hover {
+  background-color: #0088cc;
+}
+
+.match-note {
+  text-align: center;
+  font-size: 14px;
+  color: #667;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.line-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 79%;
+  margin: auto;
+}
+
+.line-divider::before,
+.line-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid black; /* Màu của đường kẻ */
+}
+
+.line-divider-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid black; /* Viền bao quanh chữ */
+  background-color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.ticketing-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin: auto;
+  font-size: 45px;
+  font-weight: bold;
+  color: #001838;
+  padding-left: 200px; /* Để chữ không dính sát vào mép trái */
+}
+
+.news-slider {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.news-item-video {
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.news-item-video img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+.overlay h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.overlay p {
+  font-size: 14px;
+  margin: 5px 0;
 }
 
 .divider::before,
@@ -1668,6 +2925,9 @@ body {
   background: #fff;
 }
 
+header p {
+  max-width: unset;
+}
 .card-img::before {
   content: "";
   position: absolute;
@@ -1678,7 +2938,9 @@ body {
   background: rgba(78, 77, 77, 0.5);
   display: none;
 }
-
+.card {
+  transition: 0.3s all ease-in;
+}
 .card:hover .card-img::before {
   display: flex;
   cursor: pointer;
@@ -1691,6 +2953,7 @@ body {
 
 .card-img {
   overflow: hidden;
+  transition: 0.3s all ease-in;
 }
 
 .card-img img {
@@ -1698,18 +2961,18 @@ body {
   overflow: hidden;
 }
 
-.card:hover img {
+/* .card:hover img {
   transform: scale(1.1);
   cursor: pointer;
-}
+} */
 
 .card-body {
   background: #ffff;
 }
-
+/* 
 .card:hover .card-body {
   background-color: #001838;
-}
+} */
 
 .card:hover .card-title {
   color: #ffff;
@@ -1973,4 +3236,377 @@ body {
   font-size: 14px;
   color: #6c757d;
   margin-left: 5px;
+}
+
+/* ===================== Tour ========================== */
+
+/* Định dạng banner */
+.banner {
+  background-color: #001b42; /* Màu xanh đậm */
+  color: white;
+  text-align: center;
+  padding: 30px;
+  max-width: 950px;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* Định dạng tiêu đề chính */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #e6ff00; /* Màu vàng neon */
+  text-transform: uppercase;
+}
+
+/* Định dạng đoạn mô tả */
+p {
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+/* Định dạng ghi chú cuối */
+.note {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.ticketing-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #061a40;
+  margin-bottom: 20px;
+}
+
+.tour-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Khoảng cách giữa các tour */
+}
+
+.tour-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 900px;
+  margin: auto;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.tour-image {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.tour-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tour-content {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tour-content h2 {
+  font-size: 22px;
+  color: #003087;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tour-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tour-content ul li {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 2px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.tour-content ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #00aaff;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tour-card {
+    flex-direction: column;
+  }
+
+  .tour-image,
+  .tour-content {
+    width: 100%;
+  }
+}
+
+.group-tour-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Banner xanh đậm */
+.group-tour-banner {
+  background-color: #001a3d;
+  color: #ffff00;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 950px;
+  margin: auto;
+}
+
+/* Tiêu đề */
+.group-tour-banner h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Nút "ENQUIRE NOW" */
+.enquire-btn {
+  background-color: #ffff00;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 300px;
+  border: none;
+  cursor: pointer;
+}
+
+.enquire-btn:hover {
+  background-color: #ffd700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .info-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ------------------Honours----------------------- */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.honour-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.honour-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.honour-card img {
+  width: 100%;
+  height: auto;
+}
+
+.honour-card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.honour-card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.honour-card a {
+  font-weight: bold;
+  color: #001838;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.honour-card a:hover {
+  text-decoration: underline;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body a {
+  margin-top: auto;
+}
+/* ---------------team honours, club honours, individual honours------------------------- */
+
+.grid {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.honours-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.honours-list {
+  font-size: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+.honours-list p strong {
+  font-size: 1.6rem;
+  color: #000;
+  display: block;
+  margin-top: 10px;
+}
+
+.side-section .card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.side-section .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.side-section .card-body {
+  padding: 15px;
+}
+
+.side-section .btn {
+  width: 100%;
+  border-width: 2px;
+  padding: 10px;
+}
+
+.mt-5 {
+  margin-top: 40px !important;
+}
+
+.right-img {
+  width: 80%;
+  max-width: 350px;
+  border-radius: 10px;
+}
+/* ============================= */
+.honours-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #add8e6;
+  padding: 20px 0;
+}
+
+.honours-banner img {
+  width: 50%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.honor-clb .card {
+  height: unset;
+}
+
+/* =========================Etihad Campus Development========================== */
+.slider-container {
+  width: 90%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  height: 500px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.fullscreen-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
 }

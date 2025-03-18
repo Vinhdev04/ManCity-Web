@@ -1,0 +1,248 @@
+/* Định dạng banner */
+.banner {
+  background-color: #001b42; /* Màu xanh đậm */
+  color: white;
+  text-align: center;
+  padding: 30px;
+  max-width: 950px;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* Định dạng tiêu đề chính */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #e6ff00; /* Màu vàng neon */
+  text-transform: uppercase;
+}
+
+/* Định dạng đoạn mô tả */
+p {
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+/* Định dạng ghi chú cuối */
+.note {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.ticketing-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #061a40;
+  margin-bottom: 20px;
+}
+
+.tour-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Khoảng cách giữa các tour */
+}
+
+.tour-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 900px;
+  margin: auto;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.tour-image {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.tour-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tour-content {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tour-content h2 {
+  font-size: 22px;
+  color: #003087;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tour-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tour-content ul li {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 2px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.tour-content ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #00aaff;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tour-card {
+    flex-direction: column;
+  }
+
+  .tour-image,
+  .tour-content {
+    width: 100%;
+  }
+}
+
+.group-tour-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Banner xanh đậm */
+.group-tour-banner {
+  background-color: #001a3d;
+  color: #ffff00;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 950px;
+  margin: auto;
+}
+
+/* Tiêu đề */
+.group-tour-banner h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Nút "ENQUIRE NOW" */
+.enquire-btn {
+  background-color: #ffff00;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 300px;
+  border: none;
+  cursor: pointer;
+}
+
+.enquire-btn:hover {
+  background-color: #ffd700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .info-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.wrapper {
+  display: flex;
+  max-width: 1000px;
+  position: relative;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343f4f;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i:hover {
+  background: #f2f2f2;
+}
+
+.wrapper i:first-child {
+  left: -22px;
+  display: none;
+}
+
+.wrapper i:last-child {
+  right: -22px;
+}
+
+.wrapper .carousel {
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+  pointer-events: none;
+}
+
+.carousel img {
+  height: 200px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+
+.carousel img:first-child {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .carousel img {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img {
+    width: 100%;
+  }
+}

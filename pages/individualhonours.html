@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manchester City Honours</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      #searchInput {
+        border-radius: 25px;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: #004080;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbars">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/new.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/video.html">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/tickets.html"
+                >Tickets</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/player.html"
+                >Players</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/club.html">Club</a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <a
+              class="btn btn-outline-light dropdown-toggle"
+              href="#"
+              id="userDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-user"></i> Login
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="userDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="/pages/login.html">Login</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/Register.html"
+                  >Register</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/setting.html">Setting</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="container-fluid p-0">
+      <img
+        src="/assets/Images/Honours/honoursindividual.jpg"
+        class="img-fluid w-100"
+        alt="Team Honours Banner"
+      />
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Content Column -->
+        <div class="col-md-8">
+          <h1 class="mb-4"><strong>INDIVIDUAL HONOURS</strong></h1>
+
+          <!-- Search Input -->
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for an honour or player..."
+          />
+
+          <!-- Accordion -->
+          <div class="accordion" id="honoursAccordion">
+            <!-- Example Item (repeat for each type) -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse1"
+                >
+                  Men’s Ballon d’Or
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse show">
+                <div class="accordion-body">Rodri 2024</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse2"
+                >
+                  PFA Players' Player of the Year
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Erling Haaland 2022/23, Kevin De Bruyne 2020/21 & 2019/20,
+                  Phil Foden 2023/24
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse3"
+                >
+                  PFA Young Player of the Year
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Phil Foden 2020/21, 2021/22, Erling Haaland 2022/23
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                >
+                  Football Writers' Association Footballer of the Year
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Raheem Sterling 2018/19, Rúben Dias 2020/21, Erling Haaland
+                  2022/23
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                >
+                  Premier League Player of the Season
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Kevin De Bruyne 2019/20, 2021/22, Rúben Dias 2020/21, Erling
+                  Haaland 2022/23
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse6"
+                >
+                  Premier League Young Player of the Season
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Phil Foden 2020/21, 2021/22, Erling Haaland 2022/23
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse7"
+                >
+                  Premier League Golden Boot
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Sergio Agüero 2014/15, Erling Haaland 2022/23
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse8"
+                >
+                  Premier League Playmaker of the Season
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Kevin De Bruyne 2017/18, 2019/20, 2020/21, 2022/23
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse9"
+                >
+                  UEFA Champions League Player of the Season
+                </button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse">
+                <div class="accordion-body">Rodri 2022/23</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse10"
+                >
+                  UEFA Champions League Team of the Season
+                </button>
+              </h2>
+              <div id="collapse10" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Kevin De Bruyne, Erling Haaland, Rúben Dias, Bernardo Silva,
+                  Ilkay Gündogan, Ederson, Rodri (multiple appearances across
+                  seasons)
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse11"
+                >
+                  UEFA Men's Player of the Year
+                </button>
+              </h2>
+              <div id="collapse11" class="accordion-collapse collapse">
+                <div class="accordion-body">Erling Haaland 2022/23</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse12"
+                >
+                  FIFA FIFPro Men's World XI
+                </button>
+              </h2>
+              <div id="collapse12" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Kevin De Bruyne, Erling Haaland, João Cancelo, Rúben Dias
+                  (various seasons)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Column -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm mb-4 text-center">
+            <img
+              src="/assets/Images/Honours/honoursteam.jpg"
+              class="card-img-top"
+              alt="Team Honours"
+            />
+            <div class="card-body">
+              <h5 class="fw-bold text-dark">TEAM HONOURS</h5>
+              <a
+                href="/pages/teamhonours.html"
+                class="btn btn-outline-dark btn-lg fw-bold"
+                >VIEW</a
+              >
+            </div>
+          </div>
+          <div class="card border-0 shadow-sm text-center">
+            <img
+              src="/assets/Images/Honours/honoursclub.jpg"
+              class="card-img-top"
+              alt="Club Honours"
+            />
+            <div class="card-body">
+              <h5 class="fw-bold text-dark">CLUB HONOURS</h5>
+              <a
+                href="/pages/clbHonours.html"
+                class="btn btn-outline-dark btn-lg fw-bold"
+                >VIEW</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const searchInput = document.getElementById("searchInput");
+      const accordionItems = document.querySelectorAll(".accordion-item");
+
+      searchInput.addEventListener("input", function () {
+        const query = this.value.toLowerCase();
+        accordionItems.forEach((item) => {
+          const headerText = item
+            .querySelector(".accordion-button")
+            .textContent.toLowerCase();
+          const bodyText = item
+            .querySelector(".accordion-body")
+            .textContent.toLowerCase();
+          if (headerText.includes(query) || bodyText.includes(query)) {
+            item.style.display = "block";
+          } else {
+            item.style.display = "none";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

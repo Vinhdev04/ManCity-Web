@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
 
     <!-- * Favicon * -->
     <link
@@ -20,93 +24,10 @@
       crossorigin="anonymous"
     />
     <!-- * CSS * -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Manchester City FC | NEW</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
-      <div class="container">
-        <!-- Logo -->
-        <a class="navbar-brand" href="/index.html">
-          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
-        </a>
-
-        <!-- Toggle button for mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar items -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active text-white" href="/pages/new.html"
-                >News</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/video.html">Video</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/tickets.html"
-                >Tickets</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/player.html"
-                >Players</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/club.html">Club</a>
-            </li>
-          </ul>
-
-          <!-- Sign In Button -->
-          <div class="dropdown">
-            <a
-              class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2"
-              href="#"
-              id="userDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <i class="fas fa-user"></i> <span>Login</span>
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-end mt-0"
-              aria-labelledby="userDropdown"
-            >
-              <li>
-                <a class="dropdown-item" href="/pages/login.html"
-                  ><i class="fas fa-sign-in-alt me-2"></i>Login</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="/pages/Register.html"
-                  ><i class="fas fa-user-plus me-2"></i>Register</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="/pages/setting.html"
-                  ><i class="fas fa-cog me-2"></i>Setting</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
     <div class="container">
       <!-- Tiêu đề -->
       <h1 class="news-header">NEWS</h1>
@@ -252,7 +173,7 @@
               </div>
               <!-- 7 -->
               <div class="news-item mt-3">
-                <img src="./assets/Images/New/new8.jpg" />
+                <img src="/assets/Images/New/new8.jpg" />
                 <div class="news-text">
                   <h5>
                     <a
@@ -503,30 +424,37 @@
                   <div
                     class="fixture-teams d-flex align-items-center justify-content-between"
                   >
-                    <img src="/assets/Images/New/tthlogo.jpg" alt="Spurs" />
-                    <span>19:30 GMT</span>
-                    <img src="/assets/Images/New/mclogo.jpg" alt="Man City" />
+                    <img src="/assets/Images/Logo/manunited.webp" alt="Spurs" />
+                    <div class="mc-fixture-start-time__content">
+                      <time class="mc-fixture-start-time__time">19:30</time>
+                      <p class="mc-fixture-start-time__tz">GMT</p>
+                    </div>
+                    <img
+                      src="/assets/Images/Logo/manchester_city_fc_badge.webp"
+                      alt="Man City"
+                    />
                   </div>
-                  <a
-                    href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
-                    class="btn btn-primary"
-                    target="_blank"
-                  >
-                    PREVIEW
-                  </a>
-
-                  <a
-                    class="btn btn-warning text-decoration-none"
-                    href="/pages/ticket.html"
-                    >BUY TICKETS</a
-                  >
+                  <div class="button-container">
+                    <a
+                      href="https://www.sportscasting.com/uk/news/tottenham-vs-man-city-preview-prediction-team-news-predicted-lineups/"
+                      class="btn btn-primary"
+                      target="_blank"
+                    >
+                      PREVIEW</a
+                    >
+                    <button
+                      class="btn btn-warning"
+                      onclick="window.location.href='tickets.html'"
+                    >
+                      BUY TICKETS
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="pagination"></div>
         </div>
-
         <!-- ---------------------------------------------------------------- -->
         <!-- Tab Men's Team -->
         <div class="tab-pane fade" id="mensTeam">
@@ -534,40 +462,43 @@
           <div class="row">
             <!-- Cột bộ lọc -->
             <div class="col-md-3">
-              <h5 class="fw-bold">
-                Filter <span class="text-primary">Men's</span>
-              </h5>
-              <button
-                class="btn btn-outline-dark d-block mb-2 filter-btn"
-                data-filter="picture-special"
-              >
-                Picture Special
-              </button>
-              <button
-                class="btn btn-outline-dark d-block mb-2 filter-btn"
-                data-filter="match-report"
-              >
-                Match Report
-              </button>
-              <button
-                class="btn btn-outline-dark d-block mb-2 filter-btn"
-                data-filter="media-watch"
-              >
-                Media Watch
-              </button>
-              <button
-                class="btn btn-outline-dark d-block mb-2 filter-btn"
-                data-filter="match-preview"
-              >
-                Match Preview
-              </button>
-              <button
-                class="btn btn-outline-dark d-block mb-2 filter-btn"
-                data-filter="all"
-              >
-                All
-              </button>
+              <div class="fixtures">
+                <h5 class="fw-bold">
+                  Filter <span class="text-primary">Men's</span>
+                </h5>
+                <button
+                  class="btn btn-outline-dark d-block mb-2 filter-btn"
+                  data-filter="picture-special"
+                >
+                  Picture Special
+                </button>
+                <button
+                  class="btn btn-outline-dark d-block mb-2 filter-btn"
+                  data-filter="match-report"
+                >
+                  Match Report
+                </button>
+                <button
+                  class="btn btn-outline-dark d-block mb-2 filter-btn"
+                  data-filter="media-watch"
+                >
+                  Media Watch
+                </button>
+                <button
+                  class="btn btn-outline-dark d-block mb-2 filter-btn"
+                  data-filter="match-preview"
+                >
+                  Match Preview
+                </button>
+                <button
+                  class="btn btn-outline-dark d-block mb-2 filter-btn"
+                  data-filter="all"
+                >
+                  All
+                </button>
+              </div>
             </div>
+
             <!-- Cột tin tức -->
             <div class="col-md-9">
               <!-- PICTURE SPECIAL -->
@@ -714,7 +645,7 @@
               </div>
               <!-- 9 -->
               <div class="news-item mt-3" data-category="picture-special">
-                <img src="/assets/Images/New/men26.jpg" alt="news image" />
+                <img src="/assets/Images/New/men27.jpg" alt="news image" />
                 <div class="news-text">
                   <h5>
                     <a
@@ -1026,25 +957,92 @@
           </div>
           <div class="pagination"></div>
         </div>
-
+        <!-- button men's team -->
+        <script src="/services/btnmensteam.js"></script>
+        <!-- ----------------------------------------------------------------- -->
         <!-- Tab Club News -->
         <div class="tab-pane fade" id="clubNews">
-          <h2 class="fw-bold">CLUB NEWS</h2>
-          <div class="club-news-container"></div>
+          <div class="row">
+            <!-- cột club news -->
+            <div class="col-md-7">
+              <h2 class="fw-bold">CLUB NEWS</h2>
+              <div class="club-news-container"></div>
+            </div>
+            <!-- cột next fixtures  -->
+            <div class="col-md-5">
+              <div class="fixtures">
+                <div class="row">
+                  <p class="col-md-6 fw-bold">NEXT FIXTURES</p>
+                  <a class="col-md-6 fw-bold text-dark" href="new.html">
+                    ALL FIXTURES <i class="bi bi-arrow-right"></i>
+                  </a>
+                  <use xlink:href="#icon-arrow"></use>
+                </div>
+                <div class="fixture-box">
+                  <div class="fixture-box d-flex align-items-start">
+                    <img
+                      src="/assets/Images/New/new16.jpg"
+                      class="fixture-img"
+                    />
+                    <div class="news-text">
+                      <p class="small fw-bold">
+                        <a
+                          href="https://www.skysports.com/football/leyton-or-vs-man-city/report/526168"
+                          target="_blank"
+                          class="text-decoration-none text-dark"
+                        >
+                          Leyton Orient 1-2 Man City: Kevin De Bruyne fires Pep
+                          Guardiola's side into FA Cup fifth round after
+                          first-half scare
+                        </a>
+                      </p>
+                      <p>CLUB NEWS</p>
+                    </div>
+                  </div>
+                  <!-- 1 -->
+                  <div class="fixture-box d-flex align-items-start">
+                    <img
+                      src="/assets/Images/New/new23.jpg"
+                      class="fixture-img"
+                    />
+                    <div class="news-text">
+                      <p class="small fw-bold">
+                        <a
+                          href="https://www.manchestercity.news/abdukodir-khusanov-shares-who-his-best-friend-is-at-manchester-city/"
+                          target="_blank"
+                          class="text-decoration-none text-dark"
+                        >
+                          Abdukodir Khusanov shares who his best friend is at
+                          Manchester City
+                        </a>
+                      </p>
+                      <p>CLUB NEWS</p>
+                    </div>
+                  </div>
+                  <!--  -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ----- -->
         </div>
         <div class="pagination"></div>
       </div>
     </div>
-
-    <script src="/services/addNews.js " type="module"></script>
-    <script src="/services/handleNextPaginationNew.js " type="module"></script>
-
+    <!-- add news from  tab all news to tab men's team and club news -->
+    <script src="/services/addNew.js"></script>
+    <!--  -->
+    <!-- next page 1,2,... -->
+    <script src="/services/btnmensteam.js"></script>
+    <script src="/services/nextpage.js"></script>
+    <!--  -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Custom JS -->
     <script src="/assets/js/script.js"></script>
-    <script src="/services/nextpage.js" type="module"></script>
+    <!--  -->
   </body>
-
+  <!-- * B * -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
