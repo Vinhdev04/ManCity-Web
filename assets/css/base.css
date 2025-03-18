@@ -51,3 +51,34 @@
   visibility: visible;
   opacity: 1;
 }
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  background-color: #10458a !important;
+}
+.navbar-nav .nav-link {
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease-in;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 60%;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: rgb(103, 92, 201) !important; /* Highlight màu vàng nhạt */
+}
