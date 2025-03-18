@@ -12,7 +12,6 @@
       "logoHome": "/assets/Images/Logo/temp_liverpool.webp",
       "logoAway": "/assets/Images/Logo/manchester_city_fc_badge.webp"
     },
-
     {
       "id": "2",
       "title": "Vòng 21",
@@ -25,7 +24,6 @@
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/a-villa-new-full.webp"
     },
-
     {
       "id": "2",
       "title": "Vòng 21",
@@ -35,11 +33,9 @@
       "time": "12:30",
       "gtm": "GTM",
       "stadium": "City Ground",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/notting.webp"
     },
-
     {
       "id": "3",
       "title": "Vòng 21",
@@ -52,7 +48,6 @@
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/brighton.webp"
     },
-
     {
       "id": "4",
       "title": "Vòng 21",
@@ -62,7 +57,6 @@
       "time": "01:45",
       "gtm": "GTM",
       "stadium": "King Power",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/leicester.webp"
     },
@@ -75,7 +69,6 @@
       "time": "22:30",
       "gtm": "GTM",
       "stadium": "Etihad",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/manunited.webp"
     },
@@ -88,7 +81,6 @@
       "time": "18:30",
       "gtm": "GTM",
       "stadium": "Etihad",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/cpalace.webp"
     },
@@ -101,7 +93,6 @@
       "time": "21:30",
       "gtm": "GTM",
       "stadium": "Goodison Park",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/everton.webp"
     },
@@ -114,7 +105,6 @@
       "time": "21:30",
       "gtm": "GTM",
       "stadium": "Etihad",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/wolves.webp"
     },
@@ -127,7 +117,6 @@
       "time": "21:00",
       "gtm": "GTM",
       "stadium": "Etihad",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/southampton.webp"
     },
@@ -140,7 +129,6 @@
       "time": "21:00",
       "gtm": "GTM",
       "stadium": "Etihad",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/wydad_ac_crest_2022.webp"
     },
@@ -153,7 +141,6 @@
       "time": "23:00",
       "gtm": "GTM",
       "stadium": "Etihad",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/fulham.webp"
     },
@@ -166,7 +153,6 @@
       "time": "08:00",
       "gtm": "GTM",
       "stadium": "Nady al-'Ayn",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/al_ain_fc_logo_2024.webp"
     },
@@ -179,12 +165,10 @@
       "time": "02:00",
       "gtm": "GTM",
       "stadium": "Etihad",
-
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/temp_juventus_2.webp"
     }
   ],
-
   "videos": [
     {
       "id": "1",
@@ -233,7 +217,6 @@
       "logoAway": "/assets/Images/Logo/everton.webp"
     }
   ],
-
   "player": [
     {
       "id": "1",
@@ -290,7 +273,6 @@
         }
       ]
     },
-
     {
       "id": "2",
       "name": "Edison",
@@ -401,7 +383,6 @@
         }
       ]
     },
-
     {
       "id": "3",
       "name": "Ortega",
@@ -433,7 +414,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2023",
@@ -451,7 +431,6 @@
         }
       ]
     },
-
     {
       "id": "4",
       "name": "Manuel Akanji",
@@ -485,7 +464,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2023",
@@ -513,7 +491,6 @@
         }
       ]
     },
-
     {
       "id": "5",
       "name": "Nathan Ake",
@@ -551,7 +528,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2023",
@@ -567,7 +543,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/champion.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2023-2024",
@@ -595,7 +570,6 @@
         }
       ]
     },
-
     {
       "id": "6",
       "name": "Ruben Dias",
@@ -644,19 +618,16 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2023",
           "thumb": "/assets/Images/Cup/budes.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/champion.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2023-2024",
@@ -667,7 +638,6 @@
           "year": "2023-2024",
           "thumb": "/assets/Images/Cup/club.webp"
         },
-
         {
           "name": "Community Shield",
           "year": "2024",
@@ -675,7 +645,6 @@
         }
       ]
     },
-
     {
       "id": "7",
       "name": "JoskoGvardiol",
@@ -703,19 +672,16 @@
           "year": "2023/2024",
           "thumb": "/assets/Images/Cup/primer.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2024",
           "thumb": "/assets/Images/Cup/budes.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/champion.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2023-2024",
@@ -723,7 +689,6 @@
         }
       ]
     },
-
     {
       "id": "8",
       "name": "Abdukodir Khusanov",
@@ -744,9 +709,10 @@
       "nationality": "Uzbekistan",
       "position": "Defender",
       "joined": "2025-01-20",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
-
     {
       "id": "9",
       "name": "Rico Lewis",
@@ -780,19 +746,16 @@
           "year": "2023/2024",
           "thumb": "/assets/Images/Cup/primer.svg"
         },
-
         {
           "name": "Carabao Cup",
           "year": "2022/3023",
           "thumb": "/assets/Images/Cup/cara.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/champion.svg"
         },
-
         {
           "name": "Community Shield",
           "year": "2022-2023",
@@ -805,7 +768,6 @@
         }
       ]
     },
-
     {
       "id": "10",
       "name": "Vitor Reis",
@@ -827,9 +789,10 @@
       "nationality": "Brazil",
       "position": "Defender",
       "joined": "2025-01-21",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
-
     {
       "id": "11",
       "name": "John Stones",
@@ -926,7 +889,6 @@
         }
       ]
     },
-
     {
       "id": "12",
       "name": "Kyle Walker",
@@ -1011,7 +973,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
@@ -1034,7 +995,6 @@
         }
       ]
     },
-
     {
       "id": "13",
       "name": "Joshua Wilson-Esbrand",
@@ -1053,9 +1013,10 @@
       "nationality": "England",
       "position": "Defender",
       "joined": "2019-10-01",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
-
     {
       "id": "14",
       "name": "Oscar Bobb",
@@ -1092,7 +1053,6 @@
         }
       ]
     },
-
     {
       "id": "15",
       "name": "Kevin De Bruyne",
@@ -1173,7 +1133,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
@@ -1196,7 +1155,6 @@
         }
       ]
     },
-
     {
       "id": "16",
       "name": "Jeremy Doku",
@@ -1229,7 +1187,6 @@
         }
       ]
     },
-
     {
       "id": "17",
       "name": "Claudio Echeverri",
@@ -1249,9 +1206,10 @@
       "nationality": " Argentina",
       "position": "Midfielder",
       "joined": "2024-01-25",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
-
     {
       "id": "18",
       "name": "Phil Foden",
@@ -1332,7 +1290,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
@@ -1355,7 +1312,6 @@
         }
       ]
     },
-
     {
       "id": "19",
       "name": "Jack Grealish",
@@ -1413,7 +1369,6 @@
         }
       ]
     },
-
     {
       "id": "20",
       "name": "Ilkay Gundogan",
@@ -1471,7 +1426,6 @@
         }
       ]
     },
-
     {
       "id": "21",
       "name": "Mateo Kovacic",
@@ -1513,7 +1467,6 @@
         }
       ]
     },
-
     {
       "id": "22",
       "name": "James McAtee",
@@ -1539,7 +1492,6 @@
         }
       ]
     },
-
     {
       "id": "23",
       "name": "Matheus Nunes",
@@ -1575,7 +1527,6 @@
         }
       ]
     },
-
     {
       "id": "24",
       "name": "Nico O'Reilly",
@@ -1601,7 +1552,6 @@
         }
       ]
     },
-
     {
       "id": "25",
       "name": "Maximo Perrone",
@@ -1637,7 +1587,6 @@
         }
       ]
     },
-
     {
       "id": "26",
       "name": "Kalvin Phillips",
@@ -1684,7 +1633,6 @@
         }
       ]
     },
-
     {
       "id": "27",
       "name": "Rodigo",
@@ -1765,7 +1713,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
@@ -1788,7 +1735,6 @@
         }
       ]
     },
-
     {
       "id": "28",
       "name": "Savinho",
@@ -1808,9 +1754,10 @@
       "nationality": "Brazil",
       "position": "Midfielder",
       "joined": "2024-07-18",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
-
     {
       "id": "29",
       "name": "Bernardo Silva",
@@ -1890,7 +1837,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
@@ -1913,7 +1859,6 @@
         }
       ]
     },
-
     {
       "id": "30",
       "name": "Erling Haaland",
@@ -1943,7 +1888,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
@@ -1966,7 +1910,6 @@
         }
       ]
     },
-
     {
       "id": "31",
       "name": "Omar Marmoush",
@@ -1985,9 +1928,10 @@
       "nationality": "Egypt",
       "position": "Forward",
       "joined": "2022-07-01",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
-
     {
       "id": "32",
       "name": "Pep Guardiola",
@@ -2078,7 +2022,6 @@
           "year": "2022/2023",
           "thumb": "/assets/Images/Cup/fa.svg"
         },
-
         {
           "name": "Champions League",
           "year": "2022/2023",
@@ -2102,7 +2045,6 @@
       ]
     }
   ],
-
   "results": [
     {
       "id": "1",
@@ -3064,5 +3006,70 @@
       "image": "/assets/Images/Products/football.jpg"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Vinh",
+      "lastName": "Pham",
+      "username": "assa",
+      "email": "huedm.c3chuyen@thainguyen.edu.vn",
+      "password": "saasssa"
+    },
+    {
+      "id": 2,
+      "firstName": "Thanh",
+      "lastName": "Duc",
+      "username": "john_doe",
+      "email": "vinhnam04012004@gmail.com",
+      "password": "1123"
+    },
+    {
+      "id": 3,
+      "firstName": "Pham",
+      "lastName": "Tuan",
+      "username": "taun123@bit",
+      "email": "tuan123@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": 4,
+      "firstName": "Tuan",
+      "lastName": "Tran",
+      "username": "tuanTran12",
+      "email": "tuantran123@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": 5,
+      "firstName": "Tran Xuan",
+      "lastName": "Bao",
+      "username": "baolove12",
+      "email": "baolove123@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "firstName": "Mai",
+      "lastName": "Phuong",
+      "username": "maiphuong12",
+      "email": "huedm.c3chuyen@thainguyen.edu.vn",
+      "password": "122121"
+    },
+    {
+      "id": 7,
+      "firstName": "Nhat",
+      "lastName": "Nam",
+      "username": "nhanam123",
+      "email": "nhatnam@123gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": 8,
+      "firstName": "",
+      "lastName": "",
+      "username": "",
+      "email": "",
+      "password": ""
+    }
+  ]
 }
