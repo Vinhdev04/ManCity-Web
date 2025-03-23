@@ -367,19 +367,29 @@ h5.card-title:hover {
 .card-item {
   background-color: transparent !important;
 }
-.card-item.card {
+
+.top-sale .card-item.card {
   background: transparent !important;
   padding: 0 !important;
   border-radius: 10px !important;
   box-shadow: unset !important;
+  width: unset;
 }
-.card-item.card .card-title {
+.top-sale .card-item img {
+  width: 100%;
+  height: unset;
+}
+.top-sale .card-item.card .card-title {
   font-size: 20px;
   word-wrap: break-word;
 }
 .card-item:hover {
   background-color: rgba(0, 0, 0, 0.05);
-  color: #fff;
+  /* color: #fff; */
+  color: #001138;
+}
+.card-item:hover h5.card-title {
+  color: #0000ff;
 }
 .card img {
   border-radius: 0;

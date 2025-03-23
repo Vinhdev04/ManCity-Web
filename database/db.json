@@ -709,9 +709,7 @@
       "nationality": "Uzbekistan",
       "position": "Defender",
       "joined": "2025-01-20",
-      "trophy": [
-        {}
-      ]
+      "trophy": [{}]
     },
     {
       "id": "9",
@@ -789,9 +787,7 @@
       "nationality": "Brazil",
       "position": "Defender",
       "joined": "2025-01-21",
-      "trophy": [
-        {}
-      ]
+      "trophy": [{}]
     },
     {
       "id": "11",
@@ -1013,9 +1009,7 @@
       "nationality": "England",
       "position": "Defender",
       "joined": "2019-10-01",
-      "trophy": [
-        {}
-      ]
+      "trophy": [{}]
     },
     {
       "id": "14",
@@ -1206,9 +1200,7 @@
       "nationality": " Argentina",
       "position": "Midfielder",
       "joined": "2024-01-25",
-      "trophy": [
-        {}
-      ]
+      "trophy": [{}]
     },
     {
       "id": "18",
@@ -1754,9 +1746,7 @@
       "nationality": "Brazil",
       "position": "Midfielder",
       "joined": "2024-07-18",
-      "trophy": [
-        {}
-      ]
+      "trophy": [{}]
     },
     {
       "id": "29",
@@ -1928,9 +1918,7 @@
       "nationality": "Egypt",
       "position": "Forward",
       "joined": "2022-07-01",
-      "trophy": [
-        {}
-      ]
+      "trophy": [{}]
     },
     {
       "id": "32",
@@ -3008,7 +2996,7 @@
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "firstName": "Vinh",
       "lastName": "Pham",
       "username": "assa",
@@ -3016,7 +3004,7 @@
       "password": "saasssa"
     },
     {
-      "id": 2,
+      "id": "2",
       "firstName": "Thanh",
       "lastName": "Duc",
       "username": "john_doe",
@@ -3024,7 +3012,7 @@
       "password": "1123"
     },
     {
-      "id": 3,
+      "id": "3",
       "firstName": "Pham",
       "lastName": "Tuan",
       "username": "taun123@bit",
@@ -3032,7 +3020,7 @@
       "password": "123123"
     },
     {
-      "id": 4,
+      "id": "4",
       "firstName": "Tuan",
       "lastName": "Tran",
       "username": "tuanTran12",
@@ -3040,7 +3028,7 @@
       "password": "123123"
     },
     {
-      "id": 5,
+      "id": "5",
       "firstName": "Tran Xuan",
       "lastName": "Bao",
       "username": "baolove12",
@@ -3048,7 +3036,7 @@
       "password": "123456"
     },
     {
-      "id": 6,
+      "id": "6",
       "firstName": "Mai",
       "lastName": "Phuong",
       "username": "maiphuong12",
@@ -3056,20 +3044,12 @@
       "password": "122121"
     },
     {
-      "id": 7,
+      "id": "7",
       "firstName": "Nhat",
       "lastName": "Nam",
       "username": "nhanam123",
       "email": "nhatnam@123gmail.com",
       "password": "123123"
-    },
-    {
-      "id": 8,
-      "firstName": "",
-      "lastName": "",
-      "username": "",
-      "email": "",
-      "password": ""
     }
   ]
 }

@@ -22,6 +22,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- *LazySizes* -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+    />
+    <!-- *Fontawesome* -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <!-- * CSS * -->
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/base.css" />
@@ -30,7 +40,35 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
     <title>Manchester City FC | Official Website</title>
-    <style></style>
+    <style>
+      .contact-sidebar {
+        position: fixed;
+        top: 35%;
+        right: 10px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .contact-btn {
+        width: 50px;
+        height: 50px;
+        background-color: #0d6efd;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s;
+      }
+
+      .contact-btn:hover {
+        background-color: #0d6efd;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
@@ -54,9 +92,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a
-                class="nav-link text-white active fw-bolder"
-                href="/pages/new.html"
+              <a class="nav-link text-white active fw-bolder" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder" href="/pages/new.html"
                 >News</a
               >
             </li>
@@ -126,6 +167,20 @@
       </div>
     </nav>
 
+    <section class="home-slide">
+      <div class="container-fluid p-0 m-0">
+        <div class="row">
+          <div>
+            <img
+              data-src="/assets/Images/Tickets/main-desktop-image.webp"
+              alt="Manchester City Fans Celebrating"
+              class="w-100 object-fit-cover img-fluid ms-0 me-0 lazyload"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ** -->
     <section class="py-5">
       <div class="container">
@@ -181,9 +236,9 @@
             <a href="/pages/new.html" class="text-decoration-none text-dark">
               <div>
                 <img
-                  src="/assets/Images/Banner/nathan-ake-injury-update.webp"
+                  data-src="/assets/Images/Banner/nathan-ake-injury-update.webp"
                   alt=""
-                  class="img-fluid w-100 rounded-2 shadow"
+                  class="img-fluid w-100 rounded-2 shadow lazyload"
                 />
               </div>
               <div>
@@ -203,9 +258,9 @@
             <a href="/pages/new.html" class="text-decoration-none text-dark">
               <div>
                 <img
-                  src="/assets/Images/Banner/wide_feb_new.webp"
+                  data-src="/assets/Images/Banner/wide_feb_new.webp"
                   alt=""
-                  class="img-fluid w-100 rounded-2 shadow"
+                  class="img-fluid w-100 rounded-2 shadow lazyload"
                 />
               </div>
               <div>
@@ -224,9 +279,9 @@
             <a href="#" class="text-decoration-none text-dark">
               <div>
                 <img
-                  src="/assets/Images/Banner/wide-gameforest.webp"
+                  data-src="/assets/Images/Banner/wide-gameforest.webp"
                   alt=""
-                  class="img-fluid w-100 rounded-2 shadow"
+                  class="img-fluid w-100 rounded-2 shadow lazyload"
                 />
               </div>
               <div>
@@ -766,8 +821,158 @@
         </div>
       </div>
     </section>
-  </body>
 
+    <!-- *Sidebar* -->
+    <div class="contact-sidebar">
+      <button
+        class="contact-btn"
+        title="Đặt lịch"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Đặt lịch"
+      >
+        <i class="fa-solid fa-calendar-check"></i>
+      </button>
+      <button
+        class="contact-btn"
+        title="Gọi điện"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Gọi điện"
+      >
+        <i class="fa-solid fa-phone"></i>
+      </button>
+      <button
+        class="contact-btn"
+        title="Chat"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Chat với bác sĩ"
+      >
+        <i class="fa-solid fa-comments"></i>
+      </button>
+      <button
+        class="contact-btn"
+        title="Email"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Gửi email"
+      >
+        <i class="fa-solid fa-envelope"></i>
+      </button>
+      <button
+        id="scrollTopBtn"
+        class="contact-btn d-none"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Lên đầu trang"
+        onclick="scrollToTop()"
+      >
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </div>
+
+    <!-- *Footer* -->
+    <footer class="bg-dark text-white pt-4 pb-2">
+      <div class="container">
+        <div class="row">
+          <!-- Logo và giới thiệu -->
+          <div class="col-md-3">
+            <img
+              data-src="/assets/Images/Logo/manchester_city_fc_badge.webp"
+              alt="Manchester City Logo"
+              class="mb-3 lazyload"
+              width="80"
+            />
+            <p>
+              Manchester City Football Club là một đội bóng chuyên nghiệp đến từ
+              Anh, với lịch sử lâu đời và thành công vang dội.
+            </p>
+          </div>
+
+          <!-- Menu điều hướng -->
+          <div class="col-md-3">
+            <h5 class="text-uppercase">Liên kết</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Trang chủ</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Lịch thi đấu</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Cầu thủ</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Tin tức</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Thông tin sân vận động -->
+          <div class="col-md-3">
+            <h5 class="text-uppercase">Sân vận động</h5>
+            <p>
+              <strong>Etihad Stadium</strong><br />
+              Địa chỉ: Ashton New Rd, Manchester M11 3FF, Vương Quốc Anh<br />
+              Sức chứa: 53,000 chỗ ngồi
+            </p>
+          </div>
+
+          <!-- Mạng xã hội -->
+          <div class="col-md-3">
+            <h5 class="text-uppercase">Theo dõi chúng tôi</h5>
+            <a href="#" class="text-white me-3"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="fab fa-twitter fa-lg"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="fab fa-instagram fa-lg"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-youtube fa-lg"></i
+            ></a>
+          </div>
+        </div>
+
+        <hr class="my-3 border-light" />
+
+        <!-- Bản quyền -->
+        <div
+          class="text-center d-flex align-items-center justify-content-center"
+        >
+          <p class="mb-0">© 2025 By Man Fc. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    // Cuộn lên đầu trang
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 100) {
+        scrollTopBtn.classList.remove("d-none");
+      } else {
+        scrollTopBtn.classList.add("d-none");
+      }
+    });
+    const tooltipTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="tooltip"]'
+    );
+    const tooltipList = [...tooltipTriggerList].map(
+      (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+    );
+  </script>
   <!-- SwiperJS CSS -->
   <link
     rel="stylesheet"
@@ -787,4 +992,8 @@
   <script src="/services/handleSwiperJS.js" type="module"></script>
   <script src="/services/callAPI.js" type="module"></script>
   <script src="/services/callAPI.js" type="module"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+    async
+  ></script>
 </html>
