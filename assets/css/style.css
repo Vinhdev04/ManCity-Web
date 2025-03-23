@@ -395,7 +395,37 @@ h5.card-title:hover {
   border-radius: 0;
   box-shadow: unset;
 }
+.top-player:hover {
+  transition: 0.3s ease-in;
+  overflow: hidden;
+}
+.top-player {
+  box-shadow: 0 10px 10px rgba(0, 24, 56, 0.815);
+  overflow: hidden;
+}
+.img-player {
+  transition: 0.3s ease-in;
+  overflow: hidden;
+}
 
+.wrap__img-player {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  transition: 0.3s ease-in;
+}
+
+.img-player:hover {
+  transform: scale(1.1);
+}
+
+.card-body--player {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  overflow: hidden;
+}
 /* ===================== SHOP[HOME KIT] ========================== */
 .product-item {
   transition: 0.3s ease-in;
@@ -822,7 +852,33 @@ h5.card-title:hover {
   text-shadow: 0 0 10px rgba(217, 167, 199, 0.5); /* Hiệu ứng phát sáng nhẹ */
   transform: scale(1.02);
 }
+.contact-sidebar {
+        position: fixed;
+        top: 35%;
+        right: 10px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
 
+      .contact-btn {
+        width: 50px;
+        height: 50px;
+        background-color: #0d6efd;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s;
+      }
+
+      .contact-btn:hover {
+        background-color: #0d6efd;
+      }
 /* ===================== NEW ========================== */
 .news-header {
   color: #5fa8ff;
@@ -2957,6 +3013,7 @@ header p {
 .card:hover .card-img::before {
   display: flex;
   cursor: pointer;
+  color: #6caddf;
 }
 
 .card:hover .card-title {
@@ -2988,8 +3045,8 @@ header p {
 } */
 
 .card:hover .card-title {
-  color: #ffff;
   font-weight: bold;
+  color: #001838;
 }
 
 .card-body .card-title {
@@ -3012,6 +3069,13 @@ header p {
   font-weight: bold;
 }
 
+.card-player {
+  padding: 0 !important;
+  width: unset !important;
+}
+.card-player.card img {
+  height: unset !important;
+}
 /* ===================== CLUB ========================== */
 .wrap__club--header {
   background: #001838;

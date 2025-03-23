@@ -40,35 +40,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
     <title>Manchester City FC | Official Website</title>
-    <style>
-      .contact-sidebar {
-        position: fixed;
-        top: 35%;
-        right: 10px;
-        z-index: 1000;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-      }
-
-      .contact-btn {
-        width: 50px;
-        height: 50px;
-        background-color: #0d6efd;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        transition: background 0.3s;
-      }
-
-      .contact-btn:hover {
-        background-color: #0d6efd;
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
@@ -952,27 +923,7 @@
       </div>
     </footer>
   </body>
-  <script>
-    // Cuộn lên đầu trang
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-    const scrollTopBtn = document.getElementById("scrollTopBtn");
 
-    window.addEventListener("scroll", function () {
-      if (window.scrollY > 100) {
-        scrollTopBtn.classList.remove("d-none");
-      } else {
-        scrollTopBtn.classList.add("d-none");
-      }
-    });
-    const tooltipTriggerList = document.querySelectorAll(
-      '[data-bs-toggle="tooltip"]'
-    );
-    const tooltipList = [...tooltipTriggerList].map(
-      (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
-    );
-  </script>
   <!-- SwiperJS CSS -->
   <link
     rel="stylesheet"
@@ -992,6 +943,7 @@
   <script src="/services/handleSwiperJS.js" type="module"></script>
   <script src="/services/callAPI.js" type="module"></script>
   <script src="/services/callAPI.js" type="module"></script>
+  <script src="/assets/javascript/handleSidebar.js"></script>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
     async
