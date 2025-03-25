@@ -19,11 +19,14 @@
   </head>
   <body class="bg-light">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
+        <!-- Logo -->
         <a class="navbar-brand" href="/index.html">
-          <img src="/assets/Images/Logo/crest.svg" alt="Logo" height="60" />
+          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
         </a>
+
+        <!-- Toggle button for mobile -->
         <button
           class="navbar-toggler"
           type="button"
@@ -32,55 +35,61 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- Navbar items -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/new.html">News</a>
+              <a class="nav-link text-white active fw-bolder" href="/index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/video.html">Video</a>
+              <a class="nav-link text-white fw-bolder" href="/pages/new.html"
+                >News</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/tickets.html"
+              <a class="nav-link text-white fw-bolder" href="/pages/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bolder"
+                href="/pages/tickets.html"
                 >Tickets</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
+              <a class="nav-link text-white fw-bolder" href="/pages/shop.html"
+                >Shop</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/player.html"
+              <a class="nav-link text-white fw-bolder" href="/pages/player.html"
                 >Players</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/club.html">Club</a>
+              <a class="nav-link text-white fw-bolder" href="/pages/club.html"
+                >Club</a
+              >
             </li>
           </ul>
-          <div class="dropdown">
+
+          <!-- Sign In Button -->
+          <div class="">
             <a
-              class="btn btn-outline-light dropdown-toggle"
-              href="#"
+              class="btn btn-outline-light d-flex align-items-center gap-2"
+              href="/pages/login.html"
               id="userDropdown"
               role="button"
-              data-bs-toggle="dropdown"
+              data-bs-toggle=""
               aria-expanded="false"
             >
-              <i class="fas fa-user"></i> Login
+              <i class="fas fa-user"></i> <span>Login</span>
             </a>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li>
-                <a class="dropdown-item" href="/pages/login.html">Login</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/pages/Register.html"
-                  >Register</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="/pages/setting.html">Setting</a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

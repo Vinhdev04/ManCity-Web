@@ -41,10 +41,10 @@
     <title>Manchester City FC | TICKET</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/index.html">
           <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
         </a>
 
@@ -62,73 +62,57 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="new.html">News</a>
+              <a class="nav-link text-white active fw-bolder" href="/index.html"
+                >Home</a
+              >
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="video.html"
-                id="videoDropdown"
-                data-bs-toggle="dropdown"
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder" href="/pages/new.html"
+                >News</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder" href="/pages/video.html"
                 >Video</a
               >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Highlights</a></li>
-                <li><a class="dropdown-item" href="#">Interviews</a></li>
-              </ul>
             </li>
-
-            <li class="nav-item dropdown">
+            <li class="nav-item">
               <a
-                class="nav-link dropdown-toggle"
-                href="ticket.html"
-                id="ticketsDropdown"
-                data-bs-toggle="dropdown"
+                class="nav-link text-white fw-bolder"
+                href="/pages/tickets.html"
                 >Tickets</a
               >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Buy Tickets</a></li>
-                <li><a class="dropdown-item" href="#">Season Pass</a></li>
-              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a class="nav-link text-white fw-bolder" href="/pages/shop.html"
+                >Shop</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="player.html">Players</a>
+              <a class="nav-link text-white fw-bolder" href="/pages/player.html"
+                >Players</a
+              >
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="club.html"
-                id="clubDropdown"
-                data-bs-toggle="dropdown"
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder" href="/pages/club.html"
                 >Club</a
               >
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="moreDropdown"
-                data-bs-toggle="dropdown"
-                >More</a
-              >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Community</a></li>
-                <li><a class="dropdown-item" href="#">Sponsors</a></li>
-                <li><a class="dropdown-item" href="#">Help</a></li>
-              </ul>
             </li>
           </ul>
 
           <!-- Sign In Button -->
-          <li>
-            <a href="signIn.html" class="signin">
-              <strong>Sign in</strong>
+          <div class="">
+            <a
+              class="btn btn-outline-light d-flex align-items-center gap-2"
+              href="/pages/login.html"
+              id="userDropdown"
+              role="button"
+              data-bs-toggle=""
+              aria-expanded="false"
+            >
+              <i class="fas fa-user"></i> <span>Login</span>
             </a>
-          </li>
+          </div>
         </div>
       </div>
     </nav>

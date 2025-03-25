@@ -172,29 +172,110 @@
   "videos": [
     {
       "id": "1",
-      "title": "EXCLUSIVE! Txiki & Fernandinho Call ☎️ | Watch LIFE AFTER FOOTBALL Documentary on City +",
+      "title": "CHELSEA VÀ MAN CITY SẼ ĐUA TOP 4 PREMIER LEAGUE NHƯ THẾ NÀO?",
       "video": {
-        "src": "/video content/EXCLUSIVE! Txiki & Fernandinho Call ☎️ - Watch LIFE AFTER FOOTBALL Documentary on City +.mp4",
+        "href": "https://www.youtube.com/embed/6_hjY8QjcRc?si=aa70CzFv41_4um0v",
         "type": "video/mp4",
-        "fallback": "Your browser does not support HTML5 video."
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "CHELSEA VÀ MAN CITY SẼ ĐUA TOP 4 PREMIER LEAGUE NHƯ THẾ NÀO? Mùa giải 2024-2025 của Premier League đang tiến gần đến hồi kết, và trong khi Liverpool đang một mình một ngựa lao về đích, cuộc chiến phía sau họ đang căng thẳng hơn bao giờ hết. Chelsea và Manchester City, đang giành giật một suất dự Champions League Một bên là Chelsea, đội bóng đã tiêu tốn hàng trăm triệu bảng trên thị trường chuyển nhượng nhưng vẫn chưa thể khẳng định vị thế xứng đáng của mình. Một bên là Man City, gã khổng lồ của bóng đá Anh, nhưng đang đứng trước nguy cơ có một mùa giải trắng tay nếu không kịp bứt phá trong giai đoạn cuối. Lịch thi đấu, phong độ, yếu tố tinh thần và những biến số không thể đoán trước sẽ khiến cuộc đua này trở nên khắc nghiệt hơn bất kỳ ai có thể tưởng tượng. Khi vạch đích đang dần hiện ra, ai sẽ là kẻ đủ bản lĩnh để sống sót? Ai sẽ vỡ mộng ngay khi tưởng chừng đã chạm vào chiếc vé Champions League?"
       },
-      "date": "Fri 07 Mar",
-      "time": "18:00",
+      "date": "18 Mar 2025",
+      "time": "14:00",
       "gtm": "GTM",
       "stadium": "Etihad",
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
-      "logoAway": "/assets/Images/Logo/temp_liverpool.webp",
-      "href": ""
+      "logoAway": "/assets/Images/Logo/everton.webp"
     },
     {
       "id": "2",
-      "title": "Haaland Scissor Kick! | Man City Training shooting drills | Echeverri, Marmoush, Bobb and more!",
+      "title": "LEICESTER CITY - MAN UNITED | HOJLUND - GARNACHO GIẢI HẠN, QUỶ ĐỎ GẦM VANG | NGOẠI HẠNG ANH 24/25",
       "video": {
-        "src": "/video content/Haaland_Scissor_Kick.mp4",
+        "href": "https://www.youtube.com/embed/iL8E_APFJjI?si=lYBs5kBsaBiiAc39",
         "type": "video/mp4",
-        "fallback": "Your browser does not support HTML5 video."
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "LEICESTER CITY - MAN UNITED | HOJLUND - GARNACHO GIẢI HẠN, QUỶ ĐỎ GẦM VANG | NGOẠI HẠNG ANH 24/25 #kplussports #ngoaihanganh #highlight #manchesterunited #leicestercity #premierleague "
       },
-      "date": "Mon 09 Mar",
+      "date": "17 Mar 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "3",
+      "title": "MAN CITY - BRIGHTON: HỤT HƠI ĐUA TOP 4, TẠI SAO VẪN LÀ KHUSANOV? | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/N5myIA9kgNA?si=JjGAeyEscqmAzIQ1",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - BRIGHTON: HỤT HƠI ĐUA TOP 4, TẠI SAO VẪN LÀ KHUSANOV? | NGOẠI HẠNG ANH 24/25"
+      },
+      "date": "16 Mar 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "4",
+      "title": "ERLING HAALAND ĐÓNG GÓP 100 BÀN THẮNG CHO MAN CITY SAU 94 TRẬN ĐẤU | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/k3nlOz4gJ7g?si=Qpi_4bl1Sbu0r0lj",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "ERLING HAALAND ĐÓNG GÓP 100 BÀN THẮNG CHO MAN CITY SAU 94 TRẬN ĐẤU | NGOẠI HẠNG ANH 24/25"
+      },
+      "date": "15 Mar 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "5",
+      "title": "NOTTM FOREST - MAN CITY | CỰU SAO CHELSEA LÊN TIẾNG, BA ĐIỂM XỨNG ĐÁNG | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/CQDH_pwWzkY?si=PYKwz9Gwd2j7OWPs",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "NOTTM FOREST - MAN CITY | CỰU SAO CHELSEA LÊN TIẾNG, BA ĐIỂM XỨNG ĐÁNG | NGOẠI HẠNG ANH 24/25 #kplussports #highlight #nottinghamforest #manchestercity  #ngoaihanganh #EPL"
+      },
+      "date": "8 Mar 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "6",
+      "title": "TOTTENHAM - MAN CITY: THẮNG LỢI NHỌC NHẰN, NGÀY THĂNG HOA CỦA DOKU VÀ HAALAND | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/Pd7FF2wnbbs?si=JcgRzeFLQN-aXasH",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "TOTTENHAM - MAN CITY: THẮNG LỢI NHỌC NHẰN, NGÀY THĂNG HOA CỦA DOKU VÀ HAALAND | NGOẠI HẠNG ANH 24/25"
+      },
+      "date": "27 Feb 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "7",
+      "title": "MAN CITY - LIVERPOOL | SALAH - SZOBOSZLAI GIÚP THE KOP TĂNG TỐC ĐUA VÔ ĐỊCH | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/2iyjZF1Ls2I?si=sqe-pSQ19h0WWPWw",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - LIVERPOOL | SALAH - SZOBOSZLAI GIÚP THE KOP TĂNG TỐC ĐUA VÔ ĐỊCH | NGOẠI HẠNG ANH 24/25 "
+      },
+      "date": "24 Feb 2025",
       "time": "20:00",
       "gtm": "GTM",
       "stadium": "Etihad",
@@ -202,14 +283,320 @@
       "logoAway": "/assets/Images/Logo/temp_liverpool.webp"
     },
     {
-      "id": "3",
-      "title": "DRIVING CHAOS AS MAN CITY PLAYERS CREATE THEIR OWN REMOTE CONTROLLED CARS!",
+      "id": "8",
+      "title": "MAN CITY - NEWCASTLE: CÚ HATTRICK CỦA MARMOUSH, EDERSON ĐI VÀO LỊCH SỬ | NGOẠI HẠNG ANH 24/25",
       "video": {
-        "src": "/video content/Driving_Chaos_Remote_Cars.mp4",
+        "href": "https://www.youtube.com/embed/d9OsT3YLutc?si=YXa6IHnFiu54Ezej",
         "type": "video/mp4",
-        "fallback": "Your browser does not support HTML5 video."
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - NEWCASTLE: CÚ HATTRICK CỦA MARMOUSH, EDERSON ĐI VÀO LỊCH SỬ | NGOẠI HẠNG ANH 24/25 #mancity #newcastle #kplussports  "
       },
-      "date": "Tue 10 Mar",
+      "date": "16 Feb 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "9",
+      "title": "ARSENAL - MAN CITY | KHAI XUÂN BÙNG NỔ, MIKEL ARTETA HỦY DIỆT PEP GUARDIOLA | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/STvcNAzORSM?si=z1gYrIelbhi8c2_b",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "ARSENAL - MAN CITY | KHAI XUÂN BÙNG NỔ, MIKEL ARTETA HỦY DIỆT PEP GUARDIOLA | NGOẠI HẠNG ANH 24/25 #kplussports #ngoaihanganh #highlight #Arsenal #ManchesterCity #premierleague "
+      },
+      "date": "3 Feb 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "10",
+      "title": "MAN CITY - CHELSEA | HAALAND - FODEN LÊN TIẾNG, PALMER GẶP KHÓ TẠI ETIHAD | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/EvIGQsTwjuQ?si=ODNK8HsAg41DA1F3",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - CHELSEA | HAALAND - FODEN LÊN TIẾNG, PALMER GẶP KHÓ TẠI ETIHAD | NGOẠI HẠNG ANH 24/25 #kplussports #ngoaihanganh #highlight #mancity #chelsea #premierleague "
+      },
+      "date": "26 Jan 2025",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "11",
+      "title": "LEICESTER CITY - MAN CITY | NHÀ VUA TRỞ LẠI, HAALAND VÀ SAVINHO ĐẦY NGẠO NGHỄ | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/luqpuYzzluw?si=uhl6sm9qnkdeRMVI",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "LEICESTER CITY - MAN CITY | NHÀ VUA TRỞ LẠI, HAALAND VÀ SAVINHO ĐẦY NGẠO NGHỄ | NGOẠI HẠNG ANH 24/25"
+      },
+      "date": "29 Dec 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "12",
+      "title": "MAN CITY - MAN UNITED | SÂN KHẤU RIÊNG CỦA AMAD DIALLO, PEP GẶP KHẮC TINH | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/4w-1r4tQ_5Y?si=fscXZHoQNOkjs_Sq",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - MAN UNITED | SÂN KHẤU RIÊNG CỦA AMAD DIALLO, PEP GẶP KHẮC TINH | NGOẠI HẠNG ANH 24/25"
+      },
+      "date": "16 Dec 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "13",
+      "title": "LIVERPOOL - MAN CITY | SALAH LÊN TIẾNG, ANFIELD THỔI LỬA VÀO CUỘC ĐUA VÔ ĐỊCH | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/DW020KjtlH0?si=1pXEI5UZiIZiqnyb",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "LIVERPOOL - MAN CITY | SALAH LÊN TIẾNG, ANFIELD THỔI LỬA VÀO CUỘC ĐUA VÔ ĐỊCH | NGOẠI HẠNG ANH 24/25 #kplussports #ngoaihanganh #highlight #Liverpool #ManCity  #premierleague K+ Siêu nền tảng đa tầng giải trí !!!"
+      },
+      "date": "2 Dec 2024",
+      "time": "18:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/temp_liverpool.webp"
+    },
+    {
+      "id": "14",
+      "title": "MAN CITY - TOTTENHAM | HAALAND GẶP KHÓ, MADDISON - KULUSEVSKI KÉO SẬP ETIHAD | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/lBlX-aOCc1w?si=KAjgz6Ng4ERrXhaV",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - TOTTENHAM | HAALAND GẶP KHÓ, MADDISON - KULUSEVSKI KÉO SẬP ETIHAD | NGOẠI HẠNG ANH 24/25."
+      },
+      "date": "24 Nov 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "15",
+      "title": "WOLVES - MAN CITY | HẬU VỆ HÓA NGƯỜI HÙNG, BÙNG NỔ PHÚT BÙ GIỜ | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/ZjsuPBv4wJc?si=tsHGKfvk84SovzdL",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "WOLVES - MAN CITY | HẬU VỆ HÓA NGƯỜI HÙNG, BÙNG NỔ PHÚT BÙ GIỜ | NGOẠI HẠNG ANH 24/25"
+      },
+      "date": "20 Oct 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "16",
+      "title": "MAN CITY - FULHAM | KOVACIC CỨU NGUY KỊP THỜI, DOKU VUNG CHÂN KIẾM SIÊU PHẨM | NGOẠI HẠNG ANH 24/25",
+      "video": {
+        "href": "https://www.youtube.com/embed/UUqXCSUs4Eo?si=I0B50OZTK6Ewmo-b",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - FULHAM | KOVACIC CỨU NGUY KỊP THỜI, DOKU VUNG CHÂN KIẾM SIÊU PHẨM | NGOẠI HẠNG ANH 24/25 #highlight #ngoaihanganh #kplussports #manchestercity #fulham "
+      },
+      "date": "5 Oct 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "17",
+      "title": "MAN CITY - QUEENS PARK RANGERS | AGUERO ĐI VÀO LỊCH SỬ, THE CITIZENS NGẠO NGHỄ | CLASSIC MATCH 11/12",
+      "video": {
+        "href": "https://www.youtube.com/embed/4n5hrdSpyL0?si=6mOc5DM7IeWiXqam",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - QUEENS PARK RANGERS | AGUERO ĐI VÀO LỊCH SỬ, THE CITIZENS NGẠO NGHỄ | CLASSIC MATCH 11/12 #classicmatch #KplusSports #ManCity #QueensParkRangers #ngoaihanganh"
+      },
+      "date": "23 Jul 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "18",
+      "title": "LIVERPOOL - MAN CITY | TAM TẤU GẦM VANG, KLOPP NHẤN CHÌM PEP TẠI ANFIELD | CLASSIC MATCH 17/18 của Kplus Sports",
+      "video": {
+        "href": "https://www.youtube.com/embed/Sb_8hUTT3kY?si=4QwlR8Bs3bBawXPA",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "LIVERPOOL - MAN CITY | TAM TẤU GẦM VANG, KLOPP NHẤN CHÌM PEP TẠI ANFIELD | CLASSIC MATCH 17/18"
+      },
+      "date": "22 Jul 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "19",
+      "title": "LỄ TRAO CUP CHO MAN CITY - NHÀ VÔ ĐỊCH NGOẠI HẠNG ANH 23-24 | CHỨC VÔ ĐỊCH LẦN THỨ 4 LIÊN TIẾP",
+      "video": {
+        "href": "https://www.youtube.com/embed/gfTosTx17zA?si=zJZjUYH7-sDwaikG",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "LỄ TRAO CUP CHO MAN CITY - NHÀ VÔ ĐỊCH NGOẠI HẠNG ANH 23-24 | CHỨC VÔ ĐỊCH LẦN THỨ 4 LIÊN TIẾP"
+      },
+      "date": "20 May 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "20",
+      "title": "HIGHLIGHTS: MAN CITY - REAL MADRID | NHÀ VUA TRỞ THÀNH CỰU VƯƠNG, DNA C1 BẤT TỬ | UCL 23/24",
+      "video": {
+        "href": "https://www.youtube.com/embed/X6zRuWPVg24?si=4ZpAnji3Qe6qTkAv",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "HIGHLIGHTS: MAN CITY - REAL MADRID | NHÀ VUA TRỞ THÀNH CỰU VƯƠNG, DNA C1 BẤT TỬ | UCL 23/24"
+      },
+      "date": "18 Apr 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "21",
+      "title": "LIVERPOOL - MAN CITY: KẾT ĐẸP CHO TRẬN ĐẤU CUỐI, DỒN DẬP CƠ HỘI TẤN CÔNG | NGOẠI HẠNG ANH 23-24",
+      "video": {
+        "href": "https://www.youtube.com/embed/8VEAtrdmraw?si=LN7oql2ly7CeF1SB",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "LIVERPOOL - MAN CITY: KẾT ĐẸP CHO TRẬN ĐẤU CUỐI, DỒN DẬP CƠ HỘI TẤN CÔNG | NGOẠI HẠNG ANH 23-24"
+      },
+      "date": "11 Mar 2024",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+
+    {
+      "id": "22",
+      "title": "HIGHLIGHTS: MAN CITY - INTER | LUKAKU PHÒNG NGỰ XUẤT SẮC, RODRI SÚT CHÁY LƯỚI MANG VỀ CÚ ĂN 3 VĨ ĐẠI",
+      "video": {
+        "href": "https://www.youtube.com/embed/xiPejNMLFvE?si=6CYN-28mL2n5c5TM",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "HIGHLIGHTS: MAN CITY - INTER | LUKAKU PHÒNG NGỰ XUẤT SẮC, RODRI SÚT CHÁY LƯỚI MANG VỀ CÚ ĂN 3 VĨ ĐẠI"
+      },
+      "date": "11 Jun 2023",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "23",
+      "title": "HIGHLIGHTS MAN CITY - HÀNH TRÌNH VÔ ĐỊCH CHAMPIONS LEAGUE MÙA GIẢI 22/23 | FPT BÓNG ĐÁ",
+      "video": {
+        "href": "https://www.youtube.com/embed/7Uw54hOQYrw?si=Pnd68CmIuBKFn7Pv",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "HIGHLIGHTS MAN CITY - HÀNH TRÌNH VÔ ĐỊCH CHAMPIONS LEAGUE MÙA GIẢI 22/23 | FPT BÓNG ĐÁ"
+      },
+      "date": "11 Jun 2023",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "24",
+      "title": "HIGHLIGHTS: MAN CITY - REAL MADRID | “ĐỘT BIẾN GEN” C1, SỨC MẠNH ĐÁNG SỢ LẬT ĐỔ NGAI VÀNG NHÀ VUA",
+      "video": {
+        "href": "https://www.youtube.com/embed/IfZ9KDOJpwE?si=Aual1GwomIli5LoH",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "HIGHLIGHTS: MAN CITY - REAL MADRID | “ĐỘT BIẾN GEN” C1, SỨC MẠNH ĐÁNG SỢ LẬT ĐỔ NGAI VÀNG NHÀ VUA"
+      },
+      "date": "18 May 2023",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "25",
+      "title": "MAN CITY - ARSENAL: TRẬN CHUNG KẾT OUT TRÌNH, THIÊN TÀI KEVIN DE BRUYNE | NGOẠI HẠNG ANH 22/23",
+      "video": {
+        "href": "https://www.youtube.com/embed/Oa7e9KOGZD8?si=5c6PNbMOHqNjvQyk",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - ARSENAL: TRẬN CHUNG KẾT OUT TRÌNH, THIÊN TÀI KEVIN DE BRUYNE | NGOẠI HẠNG ANH 22/23 #ngoaihanganh #mancity #arsenal "
+      },
+      "date": "27 Apr 2023",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "26",
+      "title": "MAN CITY - MAN UNITED: SẮC XANH ÁP ĐẢO THÀNH MANCHESTER",
+      "video": {
+        "href": "https://www.youtube.com/embed/aoTDeJNWkpI?si=dwIEHIqP8n3G1F1l",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MAN CITY - MAN UNITED: SẮC XANH ÁP ĐẢO THÀNH MANCHESTER, THẾ TRẬN MỘT CHIỀU | NGOẠI HẠNG ANH 21/22 #ngoạihạnganh #mancity #manunited"
+      },
+      "date": "7 Mar 2022",
+      "time": "14:00",
+      "gtm": "GTM",
+      "stadium": "Etihad",
+      "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
+      "logoAway": "/assets/Images/Logo/everton.webp"
+    },
+    {
+      "id": "27",
+      "title": "MANCHESTER UNITED - MANCHESTER CITY | RONALDO BẾ TẮC - SILVA XUẤT SẮC | NGOẠI HẠNG ANH 21/22",
+      "video": {
+        "href": "https://www.youtube.com/embed/nQetLdj0vWA?si=K2gkiVCJmA9kGWat",
+        "type": "video/mp4",
+        "fallback": "Your browser does not support HTML5 video.",
+        "des": "MANCHESTER UNITED - MANCHESTER CITY | RONALDO BẾ TẮC - SILVA XUẤT SẮC | NGOẠI HẠNG ANH 21/22 #NgoaiHangAnh #ManchesterUnited #ManchesterCity"
+      },
+      "date": "6 Nov 2021",
       "time": "14:00",
       "gtm": "GTM",
       "stadium": "Etihad",
@@ -217,6 +604,7 @@
       "logoAway": "/assets/Images/Logo/everton.webp"
     }
   ],
+
   "player": [
     {
       "id": "1",

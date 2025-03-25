@@ -1,0 +1,326 @@
+/* ------------------------------------------
+   PHẦN TỔNG QUAN
+------------------------------------------ */
+body {
+    background-color: #001b42; /* Nền xanh đậm */
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* -------- *Custom Swiper*  -------- */
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+  background: #5372f0;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-slide-button {
+  color: #5372f0;
+  margin-top: -35px;
+}
+
+.top-sale .swiper-slide-button {
+  color: #e4d8d8;
+  font-weight: bold;
+}
+
+/* -------- Custom Swiper  -------- */
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+  background: #5372f0;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-slide-button {
+  color: #5372f0;
+  margin-top: -35px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Loại bỏ delay */
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Xóa delay */
+}
+
+/* Giữ layout đẹp */
+.dropdown-menu {
+  transition: all 0.2s ease-in-out;
+  visibility: visible;
+  opacity: 1;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  background-color: #10458a !important;
+}
+.navbar-nav .nav-link {
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease-in;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+/* Hiển thị gạch dưới khi hover hoặc tab active */
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 60%;
+}
+
+/* Màu của liên kết khi hover và active */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: rgb(103, 92, 201) !important; /* Highlight màu khi hover hoặc active */
+}
+
+/* Loại bỏ gạch dưới cho các liên kết không active */
+.navbar-nav .nav-link:not(.active)::after {
+  width: 0%;  /* Khi không active, không hiển thị gạch dưới */
+}
+
+  
+
+  
+/* Cập nhật giao diện cho phần video */
+.card {
+    background-color: #8595ab; /* Màu nền cho thẻ card */
+    color: white; /* Màu chữ trắng */
+    border-radius: 10px; /* Bo góc thẻ card */
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 2rem; /* Đặt kích thước chữ tiêu đề */
+    font-weight: bold; /* Chữ đậm */
+    color: white; /* Màu chữ tiêu đề */
+  }
+  
+  .card-subtitle {
+    font-size: 1rem; /* Kích thước chữ phụ */
+    color: #f7f7f7; /* Màu chữ phụ */
+  }
+  
+  .card-text {
+    color: white; /* Màu chữ mô tả */
+    font-size: 1rem;
+  }
+  
+  /* Điều chỉnh kích thước video */
+  .ratio-16x9 iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Giao diện cho nút bấm */
+  .btn {
+    background-color: #006699; /* Màu nền của nút */
+    color: white; /* Màu chữ trắng */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Tạo một số khoảng cách cho phần tử */
+  .video {
+    padding: 20px;
+  }
+  
+  
+ 
+  
+  /* ------------------------------------------
+     FOLLOW CITYTV
+  ------------------------------------------ */
+  /* Căn giữa phần FOLLOW CITYTV */
+footer {
+    text-align: center !important; /* Căn giữa toàn bộ nội dung của footer */
+    padding: 20px 0;
+  }
+  
+  footer h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Thêm chữ in hoa nếu muốn */
+  }
+  
+  .d-flex.align-items-center {
+    justify-content: center; /* Căn giữa các biểu tượng xã hội */
+    margin-top: 10px;
+  }
+  
+  .d-flex.align-items-center a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 1rem; /* Thêm khoảng cách giữa các icon */
+    transition: color 0.3s ease;
+  }
+  
+  .d-flex.align-items-center a:hover {
+    color: #6cabdd;
+  }
+  
+  /* Nút Back to the top */
+.back-to-top {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+  }
+  
+  .back-to-top-btn {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .back-to-top-btn span {
+    font-size: 1.5rem;
+    margin-left: 5px;
+  }
+  
+  .back-to-top-btn:hover {
+    color: #6cabdd;
+  }
+  
+  /* ------------------------------------------
+     RESPONSIVE TINH CHỈNH
+  ------------------------------------------ */
+  @media (max-width: 575.98px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .card-body h5 {
+      font-size: 0.85rem;
+    }
+  }
+  /* ------------------------------------------
+   CHỈNH SỬA GIAO DIỆN CARD CHO VIDEO
+------------------------------------------ */
+.video .card {
+    background-color: #1e3a62; /* Nền màu xanh đậm cho thẻ card */
+    color: white; /* Màu chữ trắng */
+    border-radius: 10px; /* Bo góc cho thẻ card */
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Thêm bóng cho card */
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px; /* Tạo khoảng cách cho tiêu đề */
+}
+
+.card-subtitle {
+    font-size: 1.1rem;
+    color: #f7f7f7;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #f7f7f7;
+    line-height: 1.6;
+    margin-top: 20px; /* Tạo khoảng cách cho phần mô tả */
+}
+
+/* Điều chỉnh kích thước video */
+.ratio-16x9 iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none; /* Loại bỏ viền iframe */
+}
+
+/* ------------------------------------------
+   RESPONSIVE MOBILE
+------------------------------------------ */
+@media (max-width: 575.98px) {
+    .card-body h2 {
+        font-size: 1.5rem; /* Giảm kích thước tiêu đề trên di động */
+    }
+
+    .card-body h6 {
+        font-size: 0.9rem; /* Giảm kích thước phụ đề */
+    }
+
+    .card-body p {
+        font-size: 0.9rem; /* Giảm kích thước mô tả */
+    }
+
+    .ratio-16x9 iframe {
+        height: 200px; /* Điều chỉnh chiều cao iframe cho di động */
+    }
+}
+/* ------------------------------------------
+   BUTTON SHARE CSS
+------------------------------------------ */
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .share-btn {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white !important; /* Màu chữ trắng */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    text-decoration: none;
+  }
+  
+  .share-btn:hover {
+    background-color: #6cabdd;
+    transform: scale(1.1); /* Tăng kích thước khi hover */
+    color: #001b42; /* Màu chữ tối khi hover */
+  }
+  
+  .share-btn i {
+    margin-right: 5px;
+  }
+  
+  .share-title {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  
