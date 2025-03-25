@@ -27,6 +27,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- *Fontawesome* -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <!-- * CSS * -->
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/base.css" />
@@ -36,9 +41,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
     <title>Manchester City FC | TICKET</title>
+    <style>
+      .card.ticket-card {
+        transition: transform 0.3s all ease-in;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-       <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="/index.html">
@@ -114,8 +125,8 @@
       </div>
     </nav>
     <!-- * Ticket * -->
-    <div class="sub-nav">
-      <ul>
+    <div class="sub-nav border-bottom">
+      <ul class="mb-0 py-1">
         <li><a href="/pages/tickets.html">Tickets & Hospitality</a></li>
         <li><a href="/pages/Memberships.html">Memberships</a></li>
         <li><a href="/pages/Tours.html">Tours</a></li>
@@ -125,30 +136,50 @@
       </ul>
     </div>
 
-    <section class="hero">
-      <h1>TICKETS AND HOSPITALITY</h1>
-      <p>
-        Buy official Manchester City tickets and hospitality experiences direct
-        from the Club
-      </p>
+    <section class="hero mt-0">
+      <div class="container">
+        <div class="row">
+          <h1>TICKETS AND HOSPITALITY</h1>
+          <p>
+            Buy official Manchester City tickets and hospitality experiences
+            direct from the Club
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="tickets">
-      <div class="ticket-box">
-        <img src="/assets/Images/Tickets/men's tickets.webp" alt="Men's Team" />
-        <h2>MEN'S TICKETS</h2>
-        <p>Buy Men's Team Tickets and Hospitality online.</p>
-        <a href="#">All Men's Tickets →</a>
-      </div>
-
-      <div class="ticket-box">
-        <img
-          src="/assets/Images/Tickets/women's tickets.webp"
-          alt="Women's Team"
-        />
-        <h2>WOMEN'S TICKETS</h2>
-        <p>Buy Women's Team Tickets and Hospitality online.</p>
-        <a href="#">All Women's Tickets →</a>
+      <div class="container">
+        <div class="row">
+          <div class="ticket-box">
+            <img
+              src="/assets/Images/Tickets/men's tickets.webp"
+              alt="Men's Team"
+            />
+            <h2>MEN'S TICKETS</h2>
+            <p>Buy Men's Team Tickets and Hospitality online.</p>
+            <a href="#">All Men's Tickets →</a>
+          </div>
+          <div class="ticket-box">
+            <img
+              src="/assets/Images/Tickets/women's tickets.webp"
+              alt="Women's Team"
+            />
+            <h2>WOMEN'S TICKETS</h2>
+            <p>Buy Women's Team Tickets and Hospitality online.</p>
+            <a href="#">All Women's Tickets →</a>
+          </div>
+          <div class="text-center mt-3">
+            <h2>WOMEN'S TICKETS</h2>
+            <p
+              class="text-center d-flex align-items-center justify-content-center"
+              style="max-width: unset"
+            >
+              Buy Women's Team Tickets and Hospitality online.
+            </p>
+            <a href="#">All Women's Tickets →</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -156,91 +187,95 @@
       <span class="divider-text">ACCESSIBILITY INFORMATION →</span>
     </div>
 
-    <div class="grid-container">
-      <div class="card ticket-card">
-        <img
-          src="/assets/Images/Tickets/kid looking.webp"
-          alt="Matchday Hospitality"
-        />
-        <h3>MATCHDAY HOSPITALITY</h3>
-        <p>
-          Extraordinary experiences bringing you closer to the club than ever
-          before.
-        </p>
-        <a href="#">Explore →</a>
-      </div>
-      <div class="card ticket-card">
-        <img
-          src="/assets/Images/Tickets/halland siuu.webp"
-          alt="Matchday Membership"
-        />
-        <h3>MATCHDAY MEMBERSHIP</h3>
-        <p>
-          Access to home tickets, £5 off all home match tickets and more. Now
-          with a choice of welcome gift.
-        </p>
-        <a href="#">Join →</a>
-      </div>
-      <div class="card ticket-card">
-        <img
-          src="/assets/Images/Tickets/stadium tours.webp"
-          alt="Stadium Tours"
-        />
-        <h3>STADIUM TOURS</h3>
-        <p>The most immersive tour experience in Premier League football.</p>
-        <a href="#">Book a Tour →</a>
+    <div class="container py-5">
+      <div class="row g-3 text-center">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card ticket-card rounded shadow-sm h-100">
+            <img
+              src="/assets/Images/Tickets/kid looking.webp"
+              class="card-img-top"
+              alt="Matchday Hospitality"
+            />
+            <div class="card-body">
+              <h3 class="card-title">MATCHDAY HOSPITALITY</h3>
+              <p class="card-text">
+                Extraordinary experiences bringing you closer to the club than
+                ever before.
+              </p>
+              <a href="#" class="btn btn-primary text-white">Explore →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card ticket-card rounded shadow-sm h-100">
+            <img
+              src="/assets/Images/Tickets/halland siuu.webp"
+              class="card-img-top"
+              alt="Matchday Membership"
+            />
+            <div class="card-body">
+              <h3 class="card-title">MATCHDAY MEMBERSHIP</h3>
+              <p class="card-text">
+                Access to home tickets, £5 off all home match tickets and more.
+                Now with a choice of welcome gift.
+              </p>
+              <a href="#" class="btn btn-primary text-white">Join →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card ticket-card rounded shadow-sm h-100">
+            <img
+              src="/assets/Images/Tickets/stadium tours.webp"
+              class="card-img-top"
+              alt="Stadium Tours"
+            />
+            <div class="card-body">
+              <h3 class="card-title">STADIUM TOURS</h3>
+              <p class="card-text">
+                The most immersive tour experience in Premier League football.
+              </p>
+              <a href="#" class="btn btn-primary text-white">Book a Tour →</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="grid-container small-grid">
-      <div class="small-card">
-        <h3>MATCHDAY PARKING</h3>
-        <h3>→</h3>
-        <p>Pre-book your matchday parking.</p>
-      </div>
-      <div class="small-card">
-        <h3>MANAGE YOUR TICKETS →</h3>
-      </div>
-      <div class="small-card">
-        <h3>HELP AND SUPPORT</h3>
-        <h3>→</h3>
-        <p>Visit our help centre.</p>
-      </div>
-      <div class="small-card">
-        <h3>KIDS FAN ZONE</h3>
-        <h3>→</h3>
-        <p>Pre-book your free Kids Fan Zone tickets.</p>
-      </div>
-    </div>
+    <div class="filter-container" style="max-width: unset">
+      <div class="container">
+        <div class="row">
+          <h2>UPCOMING MATCHES</h2>
+          <div class="filter-options">
+            <label for="team">Team</label>
+            <select id="team">
+              <option style="color: black">Men's Team</option>
+              <option style="color: black">Women's Team</option>
+              <option style="color: black">EDS Team</option>
+              <option style="color: black">Academy Team</option>
+            </select>
 
-    <div class="filter-container">
-      <h2>UPCOMING MATCHES</h2>
-      <div class="filter-options">
-        <label for="team">Team</label>
-        <select id="team">
-          <option style="color: black">Men's Team</option>
-          <option style="color: black">Women's Team</option>
-          <option style="color: black">EDS Team</option>
-          <option style="color: black">Academy Team</option>
-        </select>
+            <label for="competition">Competition</label>
+            <select id="competition">
+              <option style="color: black">All Competitions</option>
+              <option style="color: black">Premier League</option>
+              <option style="color: black">Carabao Cup</option>
+              <option style="color: black">UEFA Champions League</option>
+              <option style="color: black">Emirates FA Cup</option>
+            </select>
 
-        <label for="competition">Competition</label>
-        <select id="competition">
-          <option style="color: black">All Competitions</option>
-          <option style="color: black">Premier League</option>
-          <option style="color: black">Carabao Cup</option>
-          <option style="color: black">UEFA Champions League</option>
-          <option style="color: black">Emirates FA Cup</option>
-        </select>
+            <label for="location">Location</label>
+            <select id="location">
+              <option style="color: black">All Locations</option>
+              <option style="color: black">Home</option>
+              <option style="color: black">Away</option>
+            </select>
 
-        <label for="location">Location</label>
-        <select id="location">
-          <option style="color: black">All Locations</option>
-          <option style="color: black">Home</option>
-          <option style="color: black">Away</option>
-        </select>
-
-        <button class="filter-button">FILTER</button>
+            <button class="filter-button">FILTER</button>
+          </div>
+        </div>
       </div>
     </div>
 

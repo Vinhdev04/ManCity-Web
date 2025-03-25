@@ -8,6 +8,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- *Fontawesome* -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -132,24 +137,21 @@
         <!-- Honours Accordion -->
         <div class="col-md-8">
           <h1 class="mb-4"><strong>Team Honours</strong></h1>
-          <div class="accordion" id="honoursAccordion">
-            <!-- Premier League -->
+          <!-- Accordion -->
+          <div class="accordion fw-bold" id="honoursAccordion">
+            <!-- Example Item (repeat for each type) -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="heading1">
+              <h2 class="accordion-header">
                 <button
                   class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapse1"
                 >
-                  Premier League Champions
+                  Football League/Premier League Champions (first tier)
                 </button>
               </h2>
-              <div
-                id="collapse1"
-                class="accordion-collapse collapse show"
-                data-bs-parent="#honoursAccordion"
-              >
+              <div id="collapse1" class="accordion-collapse collapse show">
                 <div class="accordion-body">
                   1936/37, 1967/68, 2011/12, 2013/14, 2017/18, 2018/19, 2020/21,
                   2021/22, 2022/23, 2023/24
@@ -157,57 +159,393 @@
               </div>
             </div>
 
-            <!-- Champions League -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="heading2">
+              <h2 class="accordion-header">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapse2"
                 >
-                  UEFA Champions League
+                  WSL Champions
                 </button>
               </h2>
-              <div
-                id="collapse2"
-                class="accordion-collapse collapse"
-                data-bs-parent="#honoursAccordion"
-              >
-                <div class="accordion-body">
-                  Winners: 2022/23<br />Runners-Up: 2020/21
-                </div>
+              <div id="collapse2" class="accordion-collapse collapse">
+                <div class="accordion-body">2016</div>
               </div>
             </div>
 
-            <!-- FA Cup -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="heading3">
+              <h2 class="accordion-header">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapse3"
                 >
-                  FA Cup Titles
+                  FIFA Club World Cup Winners
                 </button>
               </h2>
-              <div
-                id="collapse3"
-                class="accordion-collapse collapse"
-                data-bs-parent="#honoursAccordion"
-              >
+              <div id="collapse3" class="accordion-collapse collapse">
+                <div class="accordion-body">2023</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                >
+                  Champions League Winners
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse">
+                <div class="accordion-body">2022/23</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                >
+                  European Cup Winners’ Cup
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse">
+                <div class="accordion-body">1969/70</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse6"
+                >
+                  UEFA Super Cup Winners
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse">
+                <div class="accordion-body">2023</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse7"
+                >
+                  FIFA Club World Cup Winners
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse">
+                <div class="accordion-body">2023</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse8"
+                >
+                  Champions League Runners-Up
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse">
+                <div class="accordion-body">2020/21</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse9"
+                >
+                  Football League/Premier League Runners-Up
+                </button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse">
                 <div class="accordion-body">
-                  Winners: 1903/04, 1933/34, 1955/56, 1968/69, 2010/11, 2018/19,
-                  2022/23<br />
-                  Runners-Up: 1925/26, 1932/33, 1954/55, 1980/81, 2012/13,
-                  2023/24
+                  1903/04, 1920/21, 1976/77, 2012/13, 2014/15, 2019/20
                 </div>
               </div>
             </div>
 
-            <!-- Add More Sections Here... -->
-            <!-- Bạn có thể thêm các danh hiệu khác theo cấu trúc tương tự -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse10"
+                >
+                  WSL Runners-Up
+                </button>
+              </h2>
+              <div id="collapse10" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  2015, 2017, 2017/18, 2018/19, 2019/20, 2020/21, 2023/24
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse11"
+                >
+                  FA Cup Winners
+                </button>
+              </h2>
+              <div id="collapse11" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  1903/04, 1933/34, 1955/56, 1968/69, 2010/11, 2018/19, 2022/23
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse12"
+                >
+                  Women’s FA Cup Winners
+                </button>
+              </h2>
+              <div id="collapse12" class="accordion-collapse collapse">
+                <div class="accordion-body">2016/17, 2018/19, 2019/20</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse13"
+                >
+                  FA Cup Runners-Up
+                </button>
+              </h2>
+              <div id="collapse13" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  1925/26, 1932/33, 1954/55, 1980/81, 2012/13, 2023/24
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse14"
+                >
+                  Women’s FA Cup Runners-Up
+                </button>
+              </h2>
+              <div id="collapse14" class="accordion-collapse collapse">
+                <div class="accordion-body">2021/22</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse15"
+                >
+                  League Cup Winners
+                </button>
+              </h2>
+              <div id="collapse15" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  1969/70, 1975/76, 2013/14, 2015/16, 2017/18, 2018/19, 2019/20,
+                  2020/21
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse16"
+                >
+                  Women’s League Cup Winners
+                </button>
+              </h2>
+              <div id="collapse16" class="accordion-collapse collapse">
+                <div class="accordion-body">2014, 2016, 2018/19, 2021/22</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse17"
+                >
+                  League Cup Runners-up
+                </button>
+              </h2>
+              <div id="collapse17" class="accordion-collapse collapse">
+                <div class="accordion-body">1973/74</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse18"
+                >
+                  Women’s League Cup Runners-Up
+                </button>
+              </h2>
+              <div id="collapse18" class="accordion-collapse collapse">
+                <div class="accordion-body">2017/18</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse19"
+                >
+                  FA Community/Charity Shield Winners
+                </button>
+              </h2>
+              <div id="collapse19" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  1937, 1968, 1972, 2012, 2018, 2019, 2024
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse20"
+                >
+                  Premier League 2 Winners
+                </button>
+              </h2>
+              <div id="collapse20" class="accordion-collapse collapse">
+                <div class="accordion-body">2020/21, 2021/22, 2022/23</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse21"
+                >
+                  Reserve League Champions
+                </button>
+              </h2>
+              <div id="collapse21" class="accordion-collapse collapse">
+                <div class="accordion-body">1977/78, 1986/87, 1999/2000</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse22"
+                >
+                  FA Youth Cup Winners
+                </button>
+              </h2>
+              <div id="collapse22" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  1985/86, 2007/08, 2019/20, 2023/24
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse23"
+                >
+                  FA Youth Cup Runners-Up
+                </button>
+              </h2>
+              <div id="collapse23" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  1978/79, 1979/80, 1988/89, 2005/06, 2014/15, 2015/16, 2016/17,
+                  2018/19
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse24"
+                >
+                  Under-18 Premier League National Champions
+                </button>
+              </h2>
+              <div id="collapse24" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  2015/16, 2020/21, 2021/22, 2022/23
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

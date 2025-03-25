@@ -3,66 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <!-- * Favicon * -->
+    <title>Manchester City Honours</title>
     <link
-      rel="shortcut icon"
-      href="/assets/Images/Logo/crest.svg"
-      type="image/x-icon"
-    />
-    <!-- * B * -->
-    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
     />
-    <!-- * Swiper* -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <!-- * CSS * -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/new.css" />
     <link rel="stylesheet" href="/assets/css/base.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
-    />
-    <title>Manchester City FC | NEW</title>
-    <style>
-      .top-player:hover {
-        transition: 0.3s ease-in;
-        overflow: hidden;
-      }
-      .top-player {
-        box-shadow: 0 10px 10px rgba(0, 24, 56, 0.815);
-        overflow: hidden;
-      }
-      .img-player {
-        transition: 0.3s ease-in;
-        overflow: hidden;
-      }
-
-      .wrap__img-player {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        transition: 0.3s ease-in;
-      }
-
-      .img-player:hover {
-        transform: scale(1.1);
-      }
-
-      .card-body--player {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 2px;
-        border-bottom-right-radius: 2px;
-        overflow: hidden;
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
@@ -86,12 +33,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link text-white active fw-bolder" href="/index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/new.html"
+              <a
+                class="nav-link text-white active fw-bolder"
+                href="/pages/new.html"
                 >News</a
               >
             </li>
@@ -125,23 +69,43 @@
           </ul>
 
           <!-- Sign In Button -->
-          <div class="">
+          <div class="dropdown">
             <a
-              class="btn btn-outline-light d-flex align-items-center gap-2"
-              href="/pages/login.html"
+              class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2"
+              href="#"
               id="userDropdown"
               role="button"
-              data-bs-toggle=""
+              data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               <i class="fas fa-user"></i> <span>Login</span>
             </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end mt-0"
+              aria-labelledby="userDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="/pages/login.html"
+                  ><i class="fas fa-sign-in-alt me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/Register.html"
+                  ><i class="fas fa-user-plus me-2"></i>Register</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/setting.html"
+                  ><i class="fas fa-cog me-2"></i>Setting</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
-
-    <div class="container">
+    <!--  -->
+    <div class="article container">
       <!-- Tiêu đề -->
       <h1 class="news-header">NEWS</h1>
       <!-- Tabs -->
@@ -162,7 +126,6 @@
           >
         </li>
       </ul>
-
       <!-- Nội dung các tab -->
       <div class="tab-content mt-3">
         <!-- -------------------------------------------------- -->
@@ -173,9 +136,9 @@
             <div class="col-md-8">
               <h2 class="fw-bold">ALL NEWS</h2>
               <!-- 0 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new1.jpg" />
-                <div class="news-text d-flex">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://metro.co.uk/2025/01/28/pep-guardiola-confirms-man-city-injury-boost-ahead-arsenal-clash-22449981/#:~:text=Pep%20Guardiola%20has%20confirmed%20that%20Oscar%20Bobb%20could,City%20after%20a%20lengthy%20spell%20on%20the%20sidelines."
@@ -189,9 +152,9 @@
                 </div>
               </div>
               <!--1 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new2.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://onefootball.com/en/news/bernardo-premier-league-standard-highest-ive-seen-40759151"
@@ -204,9 +167,9 @@
                 </div>
               </div>
               <!-- 2-->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new3.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.espn.com/soccer/story/_/id/44008606/pep-guardiola-rebuilding-man-city-not-biggest-challenge-career"
@@ -220,9 +183,9 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new4.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.manchestereveningnews.co.uk/sport/football/football-news/transfer-u-turn-kevin-de-31078914"
@@ -236,9 +199,9 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new5.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.premierleague.com/news/4171693"
@@ -253,9 +216,9 @@
                 </div>
               </div>
               <!-- 5 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new6.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://cityxtra.co.uk/6898/how-every-single-manchester-city-player-performed-on-international-duty-in-october-2023/"
@@ -269,9 +232,9 @@
                 </div>
               </div>
               <!-- 6 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new7.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://bitterandblue.sbnation.com/2023/3/30/23662550/manchester-city-players-on-international-duty-five-things-we-learned"
@@ -285,9 +248,9 @@
                 </div>
               </div>
               <!-- 7 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new8.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.90min.com/pep-guardiola-promising-erling-haaland-injury-update-ahead-of-tottenham-clash"
@@ -301,9 +264,9 @@
                 </div>
               </div>
               <!-- 8 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new9.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.espn.com/football/match/_/gameId/704540/manchester-city-tottenham-hotspur"
@@ -316,9 +279,9 @@
                 </div>
               </div>
               <!-- 9 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new10.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.90min.com/tottenham-vs-man-city-preview-predictions-lineups-26-2-25"
@@ -331,9 +294,9 @@
                 </div>
               </div>
               <!-- 10 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new11.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.90min.com/jeremy-doku-regret-trent-alexander-arnold-humiliation"
@@ -347,9 +310,9 @@
                 </div>
               </div>
               <!-- 11 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new12.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.90min.com/erling-haaland-facing-late-fitness-test-tottenham-clash"
@@ -363,9 +326,9 @@
                 </div>
               </div>
               <!-- 12 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new13.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.givemesport.com/manchester-city-transfer-news-matheus-nunes-elevated-status-injury-crisis-etihad-stadium/"
@@ -379,9 +342,9 @@
                 </div>
               </div>
               <!-- 13 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new14.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11679/13304770/man-city-launch-fresh-legal-challenge-on-premier-leagues-associated-party-transaction-rules"
@@ -395,9 +358,9 @@
                 </div>
               </div>
               <!-- 14 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new15.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11679/13305033/man-city-charges-verdict-pep-guardiola-expects-outcome-in-one-month"
@@ -411,9 +374,9 @@
                 </div>
               </div>
               <!-- 15 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new16.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/leyton-or-vs-man-city/report/526168"
@@ -428,9 +391,9 @@
                 </div>
               </div>
               <!-- 16 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new17.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/video/12606/13307611/man-city-vs-real-madrid-pep-guardiola-we-are-all-to-blame"
@@ -444,9 +407,9 @@
                 </div>
               </div>
               <!-- 17 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new18.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11679/13309195/manuel-akanji-man-city-defender-to-have-surgery-and-miss-eight-to-10-weeks-says-pep-guardiola"
@@ -460,9 +423,9 @@
                 </div>
               </div>
               <!-- 18 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new19.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11945/13307728/vinicius-jr-real-madrid-forward-admits-man-citys-banner-mocking-his-ballon-dor-defeat-gave-him-strength-in-champions-league-tie"
@@ -477,9 +440,9 @@
                 </div>
               </div>
               <!-- 19 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new20.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11095/13309322/pep-guardiola-man-city-boss-says-40-man-squads-needed-to-cope-with-schedule-but-clubs-would-go-bankrupt"
@@ -493,9 +456,9 @@
                 </div>
               </div>
               <!-- 20 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new21.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/man-city-vs-newcastle/report/506053"
@@ -509,9 +472,9 @@
                 </div>
               </div>
               <!-- 21 -->
-              <div class="news-item mt-3">
+              <div class="article-item mt-3">
                 <img src="/assets/Images/New/new22.jpg" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11095/13308607/man-city-rediscover-flair-in-crucial-win-over-newcastle-as-mikel-merino-steps-up-for-arsenal-premier-league-hits-and-misses"
@@ -529,13 +492,13 @@
             </div>
             <!-- Cột Next Fixtures -->
             <div class="col-md-4">
-              <div class="fixtures">
+              <div class="match-schedule">
                 <h2 class="fw-bold">NEXT FIXTURES</h2>
-                <div class="fixture-box">
+                <div class="match-box">
                   <p><strong>Wed 26 Feb</strong></p>
                   <p>Premier League</p>
                   <div
-                    class="fixture-teams d-flex align-items-center justify-content-between"
+                    class="match-teams d-flex align-items-center justify-content-between"
                   >
                     <img src="/assets/Images/Logo/manunited.webp" alt="Spurs" />
                     <div class="mc-fixture-start-time__content">
@@ -571,7 +534,7 @@
         <!-- ---------------------------------------------------------------- -->
         <!-- Tab Men's Team -->
         <div class="tab-pane fade" id="mensTeam">
-          <h2 class="fw-bold">MEN'S TEAM NEWS</h2>
+          <h2 class="fw-bold">MEN'S TEAM</h2>
           <div class="row">
             <!-- Cột bộ lọc -->
             <div class="col-md-3">
@@ -615,9 +578,9 @@
             <!-- Cột tin tức -->
             <div class="col-md-9">
               <!-- PICTURE SPECIAL -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men1.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.beinsports.com/en-au/football/fa-cup/articles/o-reilly-brace-prevents-fa-cup-upset-for-city-2025-03-01"
@@ -630,9 +593,9 @@
                 </div>
               </div>
               <!-- 1 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men7.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.manchestereveningnews.co.uk/sport/football/gallery/man-city-fan-pictures-gallery-17999477"
@@ -645,9 +608,9 @@
                 </div>
               </div>
               <!-- 2 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men8.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-players-know-change-31121414"
@@ -661,9 +624,9 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men9.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.nottinghampost.com/sport/football/football-news/man-city-missing-five-players-9991948"
@@ -677,9 +640,9 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men10.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.express.co.uk/sport/football/2022186/Man-City-news-Pep-Guardiola-Arsenal-Chelsea-Cesc-Fabregas"
@@ -693,9 +656,9 @@
                 </div>
               </div>
               <!-- 5 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men23.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.footballinsider247.com/man-city-plan-to-accept-john-stones-offer-as-replacement-lined-up/"
@@ -709,9 +672,9 @@
                 </div>
               </div>
               <!-- 6 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men24.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.sportsmole.co.uk/football/man-city/transfer-talk/news/no-one-is-safe-city-player-tipped-to-leave-after-arrival-of-special-echeverri_567043.html"
@@ -725,9 +688,9 @@
                 </div>
               </div>
               <!-- 7 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men25.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-just-spent-62m-31073354"
@@ -741,9 +704,9 @@
                 </div>
               </div>
               <!-- 8 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men26.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://the4thofficial.net/2025/03/pep-guardiola-pushing-manchester-city-to-sign-this-bayern-munich-star-good-selection/"
@@ -757,9 +720,9 @@
                 </div>
               </div>
               <!-- 9 -->
-              <div class="news-item mt-3" data-category="picture-special">
+              <div class="article-item mt-3" data-category="picture-special">
                 <img src="/assets/Images/New/men27.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://thehardtackle.com/transfer-news/2025/03/04/pep-guardiola-wants-andriy-lunin-move-manchester-city-line-up-e30-million-offer/"
@@ -774,25 +737,11 @@
               </div>
               <!--  -->
               <!-- MATCH REPORT -->
-              <div class="news-item mt-3" data-category="match-report">
-                <img src="/assets/Images/New/men4.jpg" alt="news image" />
-                <div class="news-text">
-                  <h5>
-                    <a
-                      href="https://www.cricketnmore.com/sports-news/oreilly-scores-brace-as-city-battle-beat-plymouth-to-enter-fa-cup-qf-23297"
-                      target="_blank"
-                    >
-                      O’Reilly Scores Brace As City Battle Beat Plymouth To
-                      Enter FA Cup QF
-                    </a>
-                  </h5>
-                  <p>MATCH REPORT</p>
-                </div>
-              </div>
+
               <!-- 1 -->
-              <div class="news-item mt-3" data-category="match-report">
+              <div class="article-item mt-3" data-category="match-report">
                 <img src="/assets/Images/New/men11.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-already-miracle-solution-31123435"
@@ -806,9 +755,9 @@
                 </div>
               </div>
               <!-- 2 -->
-              <div class="news-item mt-3" data-category="match-report">
+              <div class="article-item mt-3" data-category="match-report">
                 <img src="/assets/Images/New/men12.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/man-city-vs-plymouth/report/528560"
@@ -822,9 +771,9 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="news-item mt-3" data-category="match-report">
+              <div class="article-item mt-3" data-category="match-report">
                 <img src="/assets/Images/New/men13.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/34651/13320284/fa-cup-quarter-finals-draw-bournemouth-to-host-man-city-fulham-to-play-palace-aston-villa-face-preston"
@@ -838,9 +787,9 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="news-item mt-3" data-category="match-report">
+              <div class="article-item mt-3" data-category="match-report">
                 <img src="/assets/Images/New/men14.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11679/13318200/man-city-laliga-files-complaint-to-eu-commission-alleging-premier-league-champions-have-breached-eu-competition-law"
@@ -854,9 +803,9 @@
                 </div>
               </div>
               <!-- 5 -->
-              <div class="news-item mt-3" data-category="match-report">
+              <div class="article-item mt-3" data-category="match-report">
                 <img src="/assets/Images/New/men28.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.espn.co.uk/football/story/_/id/44104005/man-city-defender-nathan-ake-sidelined-foot-surgery"
@@ -869,9 +818,9 @@
                 </div>
               </div>
               <!-- 6 -->
-              <div class="news-item mt-3" data-category="match-report">
+              <div class="article-item mt-3" data-category="match-report">
                 <img src="/assets/Images/New/men29.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://esteemedkompany.com/2025/03/04/manchester-citys-two-young-centre-backs-will-now-assume-responsibility-as-injuries-strike-once-again/"
@@ -886,9 +835,9 @@
                 </div>
               </div>
               <!-- 7 -->
-              <div class="news-item mt-3" data-category="match-report">
+              <div class="article-item mt-3" data-category="match-report">
                 <img src="/assets/Images/New/men30.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.mirror.co.uk/sport/football/news/jack-grealish-man-city-guardiola-34793867"
@@ -903,9 +852,9 @@
               </div>
               <!--  -->
               <!-- MEDIA WATCH -->
-              <div class="news-item mt-3" data-category="media-watch">
+              <div class="article-item mt-3" data-category="media-watch">
                 <img src="/assets/Images/New/men5.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.manchestereveningnews.co.uk/sport/football/football-news/phil-foden-man-city-stars-29952686"
@@ -919,9 +868,9 @@
                 </div>
               </div>
               <!-- 1 -->
-              <div class="news-item mt-3" data-category="media-watch">
+              <div class="article-item mt-3" data-category="media-watch">
                 <img src="/assets/Images/New/men19.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11095/13313187/champions-league-qualification-who-is-most-likely-to-win-race-and-how-many-spots-will-premier-league-teams-have"
@@ -935,9 +884,9 @@
                 </div>
               </div>
               <!-- 2 -->
-              <div class="news-item mt-3" data-category="media-watch">
+              <div class="article-item mt-3" data-category="media-watch">
                 <img src="/assets/Images/New/men20.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11095/13314144/win-one-million-pounds-for-free-with-super-6-predict-six-premier-league-scorelines"
@@ -951,9 +900,9 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="news-item mt-3" data-category="media-watch">
+              <div class="article-item mt-3" data-category="media-watch">
                 <img src="/assets/Images/New/men21.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11095/13313062/pep-guardiola-says-nothing-is-eternal-after-manchester-city-are-humbled-by-real-madrid-in-champions-league"
@@ -967,9 +916,9 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="news-item mt-3" data-category="media-watch">
+              <div class="article-item mt-3" data-category="media-watch">
                 <img src="/assets/Images/New/men22.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11679/13316109/kevin-de-bruynes-decline-at-man-city-daniel-munozs-wing-back-role-and-jean-ricner-bellegarde-transformed"
@@ -984,9 +933,9 @@
               </div>
               <!--  -->
               <!-- MATCH PREVIEW -->
-              <div class="news-item mt-3" data-category="match-preview">
+              <div class="article-item mt-3" data-category="match-preview">
                 <img src="/assets/Images/New/men6.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.sportscasting.com/uk/news/manchester-city-nottingham-forest-preview-prediction-team-news-confirmed-lineups/"
@@ -1000,9 +949,9 @@
                 </div>
               </div>
               <!-- 1 -->
-              <div class="news-item mt-3" data-category="match-preview">
+              <div class="article-item mt-3" data-category="match-preview">
                 <img src="/assets/Images/New/men15.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11095/13312142/man-city-bernardo-silva-claims-team-is-not-in-same-dark-place-but-admits-season-hinges-on-real-madrid-tie"
@@ -1016,9 +965,9 @@
                 </div>
               </div>
               <!-- 2 -->
-              <div class="news-item mt-3" data-category="match-preview">
+              <div class="article-item mt-3" data-category="match-preview">
                 <img src="/assets/Images/New/men16.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/transfer-paper-talk/12709/13313637/manchester-city-are-ready-to-sanction-sale-of-jack-grealish-and-seven-others-in-the-summer-transfer-window-paper-talk"
@@ -1033,9 +982,9 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="news-item mt-3" data-category="match-preview">
+              <div class="article-item mt-3" data-category="match-preview">
                 <img src="/assets/Images/New/men17.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/man-city-vs-liverpool/report/506064"
@@ -1050,9 +999,9 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="news-item mt-3" data-category="match-preview">
+              <div class="article-item mt-3" data-category="match-preview">
                 <img src="/assets/Images/New/men18.jpg" alt="news image" />
-                <div class="news-text">
+                <div class="article-text">
                   <h5>
                     <a
                       href="https://www.skysports.com/football/news/11679/13315893/man-city-need-a-full-reset-after-their-latest-humbling-at-the-hands-of-liverpool-says-gary-neville"
@@ -1076,28 +1025,27 @@
         <!-- Tab Club News -->
         <div class="tab-pane fade" id="clubNews">
           <div class="row">
-            <!-- cột club news -->
-            <div class="col-md-7">
+            <!-- Cột club news -->
+            <div class="col-md-7 club-news-column">
               <h2 class="fw-bold">CLUB NEWS</h2>
-              <div class="club-news-container"></div>
+              <div class="article-container"></div>
             </div>
-            <!-- cột next fixtures  -->
-            <div class="col-md-5">
-              <div class="fixtures">
+            <!-- Cột next fixtures  -->
+            <div class="col-md-5 next-fixtures-column">
+              <div class="match-schedule sticky-top">
                 <div class="row">
                   <p class="col-md-6 fw-bold">NEXT FIXTURES</p>
                   <a class="col-md-6 fw-bold text-dark" href="new.html">
                     ALL FIXTURES <i class="bi bi-arrow-right"></i>
                   </a>
-                  <use xlink:href="#icon-arrow"></use>
                 </div>
-                <div class="fixture-box">
-                  <div class="fixture-box d-flex align-items-start">
+                <div class="match-box">
+                  <div class="newss-item">
                     <img
                       src="/assets/Images/New/new16.jpg"
                       class="fixture-img"
                     />
-                    <div class="news-text">
+                    <div class="article-text">
                       <p class="small fw-bold">
                         <a
                           href="https://www.skysports.com/football/leyton-or-vs-man-city/report/526168"
@@ -1113,12 +1061,12 @@
                     </div>
                   </div>
                   <!-- 1 -->
-                  <div class="fixture-box d-flex align-items-start">
+                  <div class="newss-item">
                     <img
-                      src="/assets/Images/New/new23.jpg"
+                      src="/assets/Images/New/new22.jpg"
                       class="fixture-img"
                     />
-                    <div class="news-text">
+                    <div class="article-text">
                       <p class="small fw-bold">
                         <a
                           href="https://www.manchestercity.news/abdukodir-khusanov-shares-who-his-best-friend-is-at-manchester-city/"
@@ -1132,13 +1080,13 @@
                       <p>CLUB NEWS</p>
                     </div>
                   </div>
-                  <!--  -->
                 </div>
               </div>
             </div>
+            <!--  -->
           </div>
-          <!-- ----- -->
         </div>
+
         <div class="pagination"></div>
       </div>
     </div>

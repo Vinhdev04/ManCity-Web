@@ -1,47 +1,95 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const allNewsItems = document.querySelectorAll("#allNews .news-item");
-  const clubNewsContainer = document.querySelector(
-    "#clubNews .club-news-container"
-  );
-  const mensTeamContainer = document.querySelector("#mensTeam .col-md-9");
+  // Lấy tất cả bài báo từ tab All News
+  const allArticles = document.querySelectorAll("#allNews .article-item");
 
-  if (!clubNewsContainer || !mensTeamContainer) {
-    console.error("Không tìm thấy container!");
-    return;
-  }
-
-  allNewsItems.forEach((item) => {
-    const category = item.querySelector("p")?.innerText.trim().toUpperCase();
-
-    if (category === "CLUB NEWS") {
-      const cloneItem = item.cloneNode(true);
-      cloneItem.classList.add("show"); // Đảm bảo hiển thị
-      clubNewsContainer.appendChild(cloneItem);
-    } else if (category === "MEN'S TEAM") {
-      const cloneItem = item.cloneNode(true);
-      cloneItem.classList.add("show");
-      mensTeamContainer.appendChild(cloneItem);
+  // Hàm thêm bài báo vào tab tương ứng
+  function populateTab(
+    tabId,
+    category,
+    containerSelector = ".article-container"
+  ) {
+    const articleContainer = document.querySelector(
+      `#${tabId} ${containerSelector}`
+    );
+    if (!articleContainer) {
+      console.error(`Không tìm thấy ${containerSelector} trong #${tabId}`);
+      return;
     }
 
-    item.classList.add("show"); // Hiển thị tất cả trên tab "All News"
-  });
+    // Xóa nội dung cũ nếu có (trừ tab Men's Team vì đã có dữ liệu riêng)
+    if (tabId !== "mensTeam") {
+      articleContainer.innerHTML = "";
+    }
 
-  // Xử lý chuyển tab
-  document.querySelectorAll(".nav-tabs .nav-link").forEach((tab) => {
-    tab.addEventListener("click", function (e) {
-      e.preventDefault();
-      document
-        .querySelectorAll(".nav-tabs .nav-link")
-        .forEach((t) => t.classList.remove("active"));
-      this.classList.add("active");
+    // Lọc và thêm các bài báo phù hợp từ All News
+    allArticles.forEach((article) => {
+      const categoryText = article
+        .querySelector(".article-text p")
+        .textContent.trim();
+      if (categoryText === category) {
+        const clonedArticle = article.cloneNode(true);
+        articleContainer.appendChild(clonedArticle);
+      }
+    });
+  }
 
-      const tabId = this.getAttribute("data-tab");
+  // Đổ dữ liệu từ All News vào các tab
+  populateTab("clubNews", "CLUB NEWS"); // Thêm vào tab Club News
+  populateTab("mensTeam", "MEN'S TEAM", ".col-md-9"); // Thêm vào tab Men's Team
 
-      document.querySelectorAll(".news-list").forEach((list) => {
-        list.style.display = "none";
+  // Xử lý chức năng lọc trong tab Men's Team
+  const filterButtons = document.querySelectorAll("#mensTeam .filter-btn");
+  const mensTeamArticles = document.querySelectorAll("#mensTeam .article-item");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const filterValue = this.getAttribute("data-filter");
+
+      mensTeamArticles.forEach((article) => {
+        const category = article.getAttribute("data-category");
+
+        if (filterValue === "all" || category === filterValue) {
+          article.style.display = "block";
+        } else {
+          article.style.display = "none";
+        }
       });
 
-      document.getElementById(tabId).style.display = "flex"; // Hiển thị tab được chọn
+      // Cập nhật trạng thái nút active
+      filterButtons.forEach((btn) => btn.classList.remove("active"));
+      this.classList.add("active");
     });
   });
+
+  // Xử lý chuyển đổi tab
+  const tabLinks = document.querySelectorAll(".nav-tabs .nav-link");
+  if (tabLinks.length > 0) {
+    tabLinks.forEach((link) => {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        // Xóa trạng thái active từ tất cả các tab
+        document.querySelectorAll(".tab-pane").forEach((tab) => {
+          tab.classList.remove("show", "active");
+        });
+        tabLinks.forEach((tab) => {
+          tab.classList.remove("active");
+        });
+
+        // Kích hoạt tab được nhấp
+        this.classList.add("active");
+        const tabId = this.getAttribute("href").substring(1);
+        const targetTab = document.getElementById(tabId);
+        if (targetTab) {
+          targetTab.classList.add("show", "active");
+        }
+      });
+    });
+  }
+
+  // Đặt tab đầu tiên làm active nếu cần
+  const firstTab = document.querySelector("#allNews");
+  if (firstTab) {
+    firstTab.classList.add("show", "active");
+  }
 });

@@ -1,39 +1,33 @@
 document.addEventListener("DOMContentLoaded", function () {
   const filterButtons = document.querySelectorAll(".filter-btn");
-  const newsItems = document.querySelectorAll(".news-item");
-
-  // Ẩn tất cả bài báo khi load trang
-  function hideAllNews() {
-    newsItems.forEach((item) => {
-      item.style.display = "none";
-    });
-  }
-
-  // Ẩn tất cả bài báo khi tải trang
-  hideAllNews();
+  const articles = document.querySelectorAll(".article-item");
 
   filterButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      const category = this.getAttribute("data-filter");
+      const filterValue = this.getAttribute("data-filter");
 
-      // Ẩn tất cả bài báo trước khi hiển thị cái cần thiết
-      hideAllNews();
-
-      if (category === "all") {
-        newsItems.forEach((item) => {
-          item.style.display = "flex"; // Hiện tất cả bài báo
-        });
-      } else {
-        newsItems.forEach((item) => {
-          if (item.getAttribute("data-category") === category) {
-            item.style.display = "flex"; // Hiện bài báo có category tương ứng
-          }
-        });
-      }
-
-      // Xóa class active của tất cả nút, rồi thêm vào nút đang chọn
       filterButtons.forEach((btn) => btn.classList.remove("active"));
       this.classList.add("active");
+
+      articles.forEach((article) => {
+        const category = article.getAttribute("data-category");
+        if (filterValue === "all" || category === filterValue) {
+          article.style.display = "flex"; // Đảm bảo display: flex
+          article.style.opacity = "1";
+          article.style.transition = "opacity 0.3s ease";
+        } else {
+          article.style.opacity = "0";
+          article.style.transition = "opacity 0.3s ease";
+          setTimeout(() => {
+            article.style.display = "none";
+          }, 300);
+        }
+      });
     });
   });
+
+  const allButton = document.querySelector('.filter-btn[data-filter="all"]');
+  if (allButton) {
+    allButton.click();
+  }
 });

@@ -1,81 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const itemsPerPage = 5;
   const tabData = {
-    allNews: { container: "#allNews .news-item", currentPage: 1 },
-    clubNews: {
-      container: "#clubNews .club-news-container .news-item",
-      currentPage: 1,
-    },
-    mensTeam: { container: "#mensTeam .col-md-9 .news-item", currentPage: 1 },
-  };
-
-  function showPage(tabId, page) {
-    const items = document.querySelectorAll(tabData[tabId].container);
-    const totalPages = Math.ceil(items.length / itemsPerPage);
-
-    items.forEach((item, index) => {
-      item.style.display =
-        index >= (page - 1) * itemsPerPage && index < page * itemsPerPage
-          ? "flex"
-          : "none";
-    });
-
-    updatePagination(tabId, totalPages);
-  }
-
-  function updatePagination(tabId, totalPages) {
-    const paginationContainer = document.querySelector(`#${tabId} .pagination`);
-    if (!paginationContainer) return;
-    paginationContainer.innerHTML = "";
-
-    for (let i = 1; i <= totalPages; i++) {
-      const btn = document.createElement("button");
-      btn.innerText = i;
-      btn.classList.add("page-btn");
-      if (i === tabData[tabId].currentPage) {
-        btn.classList.add("active");
-      }
-      btn.addEventListener("click", function () {
-        tabData[tabId].currentPage = i;
-        showPage(tabId, i);
-      });
-      paginationContainer.appendChild(btn);
-    }
-  }
-
-  document.querySelectorAll(".nav-tabs .nav-link").forEach((tab) => {
-    tab.addEventListener("click", function (e) {
-      e.preventDefault();
-      document
-        .querySelectorAll(".nav-tabs .nav-link")
-        .forEach((t) => t.classList.remove("active"));
-      this.classList.add("active");
-
-      const tabId = this.getAttribute("data-tab");
-      document.querySelectorAll(".news-list").forEach((list) => {
-        list.style.display = "none";
-      });
-      document.getElementById(tabId).style.display = "flex";
-
-      tabData[tabId].currentPage = 1; // Reset về trang 1
-      showPage(tabId, 1);
-    });
-  });
-
-  // Khởi tạo phân trang cho từng tab
-  Object.keys(tabData).forEach((tabId) => {
-    showPage(tabId, 1);
-  });
-});
-document.addEventListener("DOMContentLoaded", function () {
-  const itemsPerPage = 5;
-  const tabData = {
-    allNews: { container: "#allNews .news-item", currentPage: 1 },
-    clubNews: {
-      container: "#clubNews .club-news-container .news-item",
-      currentPage: 1,
-    },
-    mensTeam: { container: "#mensTeam .col-md-9 .news-item", currentPage: 1 },
+    allNews: { container: "#allNews .article-item", currentPage: 1 },
+    clubNews: { container: "#clubNews .article-item", currentPage: 1 },
+    mensTeam: { container: "#mensTeam .article-item", currentPage: 1 },
   };
 
   function showPage(tabId, page) {
@@ -108,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Nút Previous
       const prevBtn = document.createElement("button");
       prevBtn.innerText = "«";
-      prevBtn.classList.add("page-btn");
+      prevBtn.classList.add("page-btn", "prev-btn");
       prevBtn.disabled = tabData[tabId].currentPage === 1;
       prevBtn.addEventListener("click", function () {
         if (tabData[tabId].currentPage > 1) {
@@ -122,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
       for (let i = 1; i <= totalPages; i++) {
         const btn = document.createElement("button");
         btn.innerText = i;
-        btn.classList.add("page-btn");
+        btn.classList.add("page-btn", "num-btn");
         if (i === tabData[tabId].currentPage) {
           btn.classList.add("active");
         }
@@ -136,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Nút Next
       const nextBtn = document.createElement("button");
       nextBtn.innerText = "»";
-      nextBtn.classList.add("page-btn");
+      nextBtn.classList.add("page-btn", "next-btn");
       nextBtn.disabled = tabData[tabId].currentPage === totalPages;
       nextBtn.addEventListener("click", function () {
         if (tabData[tabId].currentPage < totalPages) {
