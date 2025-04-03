@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- *Fontawesome* -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- *Fontawesome* -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -226,6 +227,62 @@
       .container.active .toggle-right {
         transform: translateX(200%);
       }
+      /* CSS mới bổ sung */
+      .reset-password {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .reset-password h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .reset-password input {
+        margin: 12px 0;
+        padding: 12px 15px;
+        font-size: 14px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        width: 100%;
+        outline: none;
+      }
+
+      .reset-password button {
+        background-color: #512da8;
+        color: #fff;
+        font-size: 14px;
+        padding: 12px 45px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 15px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .reset-password a {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        color: #512da8;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      .reset-password a:hover {
+        text-decoration: underline;
+      }
+
+      .form-container {
+        padding: 20px;
+      }
     </style>
   </head>
 
@@ -244,10 +301,15 @@
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
           </div>
-          <span>or use your email for registeration</span>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <span>or use your email for registration</span>
+          <input type="text" class="registerUser" placeholder="Username" />
+          <input
+            type="email"
+            class="registerEmail"
+            placeholder="Email"
+            required
+          />
+          <input type="password" class="registerPass" placeholder="Password" />
           <button>Sign Up</button>
         </form>
       </div>
@@ -264,13 +326,28 @@
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
           </div>
-          <span>or use your email password</span>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <a href="#">Forget Your Password?</a>
+          <span>or use your email and password</span>
+          <input type="email" class="loginEmail" placeholder="Email" required />
+          <input type="password" class="loginPass" placeholder="Password" />
+          <a href="./reset-password.html">Forget Your Password?</a>
           <button>Sign In</button>
         </form>
       </div>
+      <div class="form-container reset-password" style="display: none">
+        <form>
+          <h1>Reset Password</h1>
+          <input
+            type="email"
+            required
+            class="resetEmail"
+            required
+            placeholder="Enter your email"
+          />
+          <button type="button" class="resetBtn">Reset Password</button>
+          <a href="#" id="backToLogin">Back to Login</a>
+        </form>
+      </div>
+
       <div class="toggle-container">
         <div class="toggle">
           <div class="toggle-panel toggle-left">
@@ -287,19 +364,154 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const container = document.getElementById("container");
+        const registerBtn = document.getElementById("register");
+        const loginBtn = document.getElementById("login");
+
+        registerBtn.addEventListener("click", () => {
+          container.classList.add("active");
+        });
+
+        loginBtn.addEventListener("click", () => {
+          container.classList.remove("active");
+        });
+
+        // Kiểm tra email hợp lệ
+        function validateEmail(email) {
+          const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+          return emailRegex.test(email);
+        }
+
+        // Kiểm tra mật khẩu mạnh
+        function validatePassword(password) {
+          const passwordRegex =
+            /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+          return passwordRegex.test(password);
+        }
+
+        // Hiển thị/Ẩn mật khẩu
+        function togglePassword(inputId) {
+          let passwordField = document.getElementById(inputId);
+          passwordField.type =
+            passwordField.type === "password" ? "text" : "password";
+        }
+
+        // Lưu email vào localStorage
+        function saveEmail(email) {
+          localStorage.setItem("userEmail", email);
+        }
+
+        // Tự động điền email nếu có trong localStorage
+        let savedEmail = localStorage.getItem("userEmail");
+        if (savedEmail) {
+          document.querySelector(".loginEmail").value = savedEmail;
+        }
+
+        // Đăng ký
+        document
+          .querySelector(".sign-up button")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            register();
+          });
+
+        // Đăng nhập
+        document
+          .querySelector(".sign-in button")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            login();
+          });
+
+        // Hàm đăng ký
+        function register() {
+          let username = document.querySelector(".registerUser").value.trim();
+          let email = document.querySelector(".registerEmail").value.trim();
+          let pass = document.querySelector(".registerPass").value.trim();
+
+          if (!username || !email || !pass) {
+            alert("Vui lòng nhập đủ thông tin");
+            return;
+          }
+
+          if (!validateEmail(email)) {
+            alert("Email không hợp lệ!");
+            return;
+          }
+
+          if (!validatePassword(pass)) {
+            alert(
+              "Mật khẩu phải có ít nhất 8 ký tự, bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt!"
+            );
+            return;
+          }
+
+          saveEmail(email);
+
+          const apiUrl = "http://localhost:3000/users";
+          const userData = { username, email, password: pass };
+
+          fetch(apiUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(userData),
+          })
+            .then((response) => response.json())
+            .then(() => {
+              alert("Đăng ký thành công!");
+              setTimeout(() => {
+                container.classList.remove("active");
+              }, 1000);
+            })
+            .catch((error) => {
+              console.error("Lỗi khi gửi dữ liệu:", error);
+              alert("Đã xảy ra lỗi, vui lòng thử lại!");
+            });
+        }
+
+        // Hàm đăng nhập
+        function login() {
+          let email = document.querySelector(".loginEmail").value.trim();
+          let pass = document.querySelector(".loginPass").value.trim();
+
+          if (!validateEmail(email)) {
+            alert("Email không hợp lệ!");
+            return;
+          }
+
+          if (!pass) {
+            alert("Vui lòng nhập mật khẩu!");
+            return;
+          }
+
+          saveEmail(email);
+
+          const apiUrl = "http://localhost:3000/users";
+
+          fetch(apiUrl)
+            .then((response) => response.json())
+            .then((users) => {
+              const user = users.find(
+                (u) => u.email === email && u.password === pass
+              );
+
+              if (user) {
+                alert("Đăng nhập thành công!");
+                setTimeout(() => {
+                  window.location.href = "../index.html";
+                }, 1000);
+              } else {
+                alert("Sai thông tin đăng nhập!");
+              }
+            })
+            .catch((error) => {
+              console.error("Lỗi khi kiểm tra đăng nhập:", error);
+              alert("Đã xảy ra lỗi, vui lòng thử lại!");
+            });
+        }
+      });
+    </script>
   </body>
-  <script>
-    const container = document.getElementById("container");
-    const registerBtn = document.getElementById("register");
-    const loginBtn = document.getElementById("login");
-
-    registerBtn.addEventListener("click", () => {
-      container.classList.add("active");
-    });
-
-    loginBtn.addEventListener("click", () => {
-      container.classList.remove("active");
-    });
-  </script>
 </html>

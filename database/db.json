@@ -506,7 +506,6 @@
       "logoHome": "/assets/Images/Logo/manchester_city_fc_badge.webp",
       "logoAway": "/assets/Images/Logo/everton.webp"
     },
-
     {
       "id": "22",
       "title": "HIGHLIGHTS: MAN CITY - INTER | LUKAKU PHÒNG NGỰ XUẤT SẮC, RODRI SÚT CHÁY LƯỚI MANG VỀ CÚ ĂN 3 VĨ ĐẠI",
@@ -604,7 +603,6 @@
       "logoAway": "/assets/Images/Logo/everton.webp"
     }
   ],
-
   "player": [
     {
       "id": "1",
@@ -1097,7 +1095,9 @@
       "nationality": "Uzbekistan",
       "position": "Defender",
       "joined": "2025-01-20",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "9",
@@ -1175,7 +1175,9 @@
       "nationality": "Brazil",
       "position": "Defender",
       "joined": "2025-01-21",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "11",
@@ -1397,7 +1399,9 @@
       "nationality": "England",
       "position": "Defender",
       "joined": "2019-10-01",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "14",
@@ -1588,7 +1592,9 @@
       "nationality": " Argentina",
       "position": "Midfielder",
       "joined": "2024-01-25",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "18",
@@ -2134,7 +2140,9 @@
       "nationality": "Brazil",
       "position": "Midfielder",
       "joined": "2024-07-18",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "29",
@@ -2306,7 +2314,9 @@
       "nationality": "Egypt",
       "position": "Forward",
       "joined": "2022-07-01",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "32",
@@ -3385,59 +3395,51 @@
   "users": [
     {
       "id": "1",
-      "firstName": "Vinh",
-      "lastName": "Pham",
       "username": "assa",
       "email": "huedm.c3chuyen@thainguyen.edu.vn",
       "password": "saasssa"
     },
     {
-      "id": "2",
-      "firstName": "Thanh",
-      "lastName": "Duc",
-      "username": "john_doe",
-      "email": "vinhnam04012004@gmail.com",
-      "password": "1123"
+      "id": "a0b0",
+      "username": "sucvat",
+      "email": "sucvat@gmail.com",
+      "password": "123"
     },
     {
-      "id": "3",
-      "firstName": "Pham",
-      "lastName": "Tuan",
-      "username": "taun123@bit",
-      "email": "tuan123@gmail.com",
-      "password": "123123"
+      "id": "94ff",
+      "username": "bakfsakgk",
+      "email": "baolgmail.com",
+      "password": "123"
     },
     {
-      "id": "4",
-      "firstName": "Tuan",
-      "lastName": "Tran",
-      "username": "tuanTran12",
-      "email": "tuantran123@gmail.com",
-      "password": "123123"
+      "id": "4afd",
+      "username": "bakfsakgk",
+      "email": "baolgmail.com",
+      "password": "123"
     },
     {
-      "id": "5",
-      "firstName": "Tran Xuan",
-      "lastName": "Bao",
-      "username": "baolove12",
-      "email": "baolove123@gmail.com",
-      "password": "123456"
+      "id": "92c1",
+      "username": "baolll",
+      "email": "123@gmail.com",
+      "password": "123"
     },
     {
-      "id": "6",
-      "firstName": "Mai",
-      "lastName": "Phuong",
-      "username": "maiphuong12",
-      "email": "huedm.c3chuyen@thainguyen.edu.vn",
-      "password": "122121"
+      "id": "2ac5",
+      "username": "bb",
+      "email": "bb@gmail.com",
+      "password": "@Bb12345"
     },
     {
-      "id": "7",
-      "firstName": "Nhat",
-      "lastName": "Nam",
-      "username": "nhanam123",
-      "email": "nhatnam@123gmail.com",
-      "password": "123123"
+      "id": "0c70",
+      "username": "ghehh",
+      "email": "q@gmail.com",
+      "password": "Bb@123456"
+    },
+    {
+      "id": "d9dc",
+      "username": "aaaaa",
+      "email": "bao123@gmail.com",
+      "password": "123456B@o"
     }
   ]
 }
