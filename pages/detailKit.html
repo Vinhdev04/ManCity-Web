@@ -2,46 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <!-- * Favicon * -->
+    <title>Kit Details</title>
     <link
-      rel="shortcut icon"
-      href="/assets/Images/Logo/crest.svg"
-      type="image/x-icon"
-    />
-    <!-- * B * -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    />
+    <script
+      src="https://kit.fontawesome.com/your-fontawesome-kit.js"
       crossorigin="anonymous"
-    />
-    <!-- * Swiper* -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <!-- *Fontawesome* -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <!-- * CSS * -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/assets/css/base.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
-    />
-    <title>Manchester City FC | Home Kit Sale</title>
+    ></script>
+    <style>
+      nav.navbar.navbar-expand-lg {
+        background-color: #10458a !important;
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
+    <nav class="navbar navbar-expand-lg" id="navbars">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="/index.html">
@@ -116,248 +93,148 @@
         </div>
       </div>
     </nav>
-
     <section class="py-5">
       <div class="container">
         <div class="row">
           <a href="#" class="text-decoration-none col-md-6">
             <div
-              class="d-flex justify-content-center align-items-center"
-              style="border: 1px solid #ccc; width: 500px"
+              class="d-flex justify-content-center align-items-center border p-2"
             >
               <img
-                src="/assets/Images/Shop/cothing.webp"
+                src=""
                 alt=""
-                class="img-fluid object-fit-cover shadow w-100"
+                class="img-fluid shadow w-100"
+                id="product-image"
               />
             </div>
           </a>
 
           <div class="col-md-6">
-            <div class="detail-title">
-              <h2>PUMA x ManCity Palermo 0161 Footwear</h2>
-            </div>
-
-            <div class="detail-price">
-              <span class="detail-price--new fw-bold">£ 51,00</span>
+            <h2 id="product-title" class="fw-bold"></h2>
+            <div class="detail-price mb-3">
+              <span id="price-new" class="text-danger fw-bold fs-4">£</span>
               <span
-                class="detail-price--old text-decoration-line-through opacity-50"
-                >£ 85,00</span
+                id="price-old"
+                class="text-decoration-line-through text-muted ms-2"
+                >£</span
               >
             </div>
+            <p id="product-desc" class="text-justify"></p>
 
-            <div class="detail-desc mb-2" style="text-align: justify">
-              The PUMA x Man City Palermo 0161 Footwear combine style and
-              performance, making them a perfect choice for fans and athletes
-              alike. Featuring a breathable mesh base for enhanced ventilation,
-              these shoes are crafted with a suede formstrip and tongue,
-              showcasing a debossed PUMA branded label for a sleek, premium
-              touch. The synthetic leather sockliner is adorned with a unique
-              Manchester City graphic, while foil-printed PUMA branding on the
-              quarter panel flap adds a bold accent. With screen-printed 0161
-              branding on the front, these shoes capture the essence of
-              Manchester City's heritage, blending iconic design with modern
-              athletic flair.
-            </div>
-
+            <!-- Accordion -->
             <div class="accordion" id="accordionExample">
-              <div class="accordion-item border-0">
+              <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
-                    class="accordion-button text-uppercase ps-0 pe-0 fw-bold"
+                    class="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
                   >
                     Product Details
                   </button>
                 </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  data-bs-parent="#accordionExample"
-                >
+                <div id="collapseOne" class="accordion-collapse collapse show">
                   <div class="accordion-body">
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">Mesh Base</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">Suede formstrip</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">
-                        Suede tongue with debossed PUMA branded label
-                      </p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">Official Licensed MCFC Fan Product</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">
-                        Synthetic leather sockliner with Manchester City graphic
-                      </p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">
-                        Foil printed PUMA branding on quarter panel flap
-                      </p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">Screen printed 0161 branding on FOT</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">Synthetic leather lining</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">
-                        Synthetic leather sockliner with Manchester City graphic
-                      </p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <i class="fa-solid fa-check me-3"></i>
-                      <p class="mb-0">Extra pair of white laces included</p>
-                    </div>
+                    <ul class="">
+                      <li><i class="fa-solid fa-check me-2"></i>Mesh Base</li>
+                      <li>
+                        <i class="fa-solid fa-check me-2"></i>Suede formstrip
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-check me-2"></i>Suede tongue with
+                        PUMA label
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-check me-2"></i>Official Licensed
+                        MCFC Product
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
 
-              <div class="accordion-item border-0">
+              <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
-                    class="accordion-button text-uppercase ps-0 pe-0 fw-bold"
+                    class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
                   >
-                    Shipping and payment
+                    Shipping and Payment
                   </button>
                 </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
+                <div id="collapseTwo" class="accordion-collapse collapse">
                   <div class="accordion-body">
-                    <div>
-                      <strong>Shipping</strong>
-                      <span class="d-flex align-items-center border-bottom">
-                        <i class="fa-solid fa-check me-3"></i>
-                        <p class="mb-0">
-                          Free delivery on orders over €100, otherwise €4.95.
-                        </p>
-                      </span>
-                    </div>
-                    <div class="mt-2 mb-2">
-                      <strong>Payment</strong>
-                      <span
-                        class="d-flex align-items-center mt-0 border-bottom"
-                      >
-                        <i class="fa-solid fa-check me-3"></i>
-                        <p class="mb-0">
-                          We accept all major forms of payment types including
-                          credit/debit card and PayPal.
-                        </p>
-                      </span>
-                    </div>
-                    <div class="mt-2">
-                      <img
-                        src="/assets/Images/Shop/payment-methods.svg"
-                        alt=""
-                        class="img-fluid"
-                      />
-                    </div>
+                    <p>
+                      <strong>Shipping:</strong> Free delivery on orders over
+                      €100.
+                    </p>
+                    <p>
+                      <strong>Payment:</strong> Credit/debit card, PayPal
+                      supported.
+                    </p>
                   </div>
                 </div>
               </div>
 
-              <div class="accordion-item border-0">
+              <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
-                    class="accordion-button text-uppercase ps-0 pe-0 fw-bold"
+                    class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
                   >
                     Official Man City Merchandise
                   </button>
                 </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
+                <div id="collapseThree" class="accordion-collapse collapse">
                   <div class="accordion-body">
-                    <div>
-                      <strong
-                        >Official Licensed Manchester City merchandise</strong
-                      >
-
-                      <p class="mb-0">
-                        When ordering from the official Man City store, you’re
-                        ordering directly from the club. As a fan, this gives
-                        you the guarantee you’re getting 100% official, licensed
-                        merchandise every time.
-                      </p>
-                    </div>
+                    <p>
+                      Guaranteed 100% official Manchester City merchandise when
+                      ordering from the official store.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- End accordion -->
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer__shop py-5 bg-info-subtle">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="control__head d-flex align-items-center text-white">
-              <a href="#" class="text-capitalize text-dark"
-                >Terms & Conditions</a
-              >
-              <a href="#" class="text-capitalize text-dark">Privacy</a>
-              <a href="#" class="text-capitalize text-dark">About Us</a>
-              <a href="#" class="text-capitalize text-dark">Cookie Policy</a>
-              <a href="#" class="text-capitalize text-dark">Return Policy</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="control__card d-flex flex-column align-items-center">
-              <img
-                src="/assets/Images/Logo/payment-methods.svg"
-                alt=""
-                class="img-fluid mb-3"
-              />
-              <p class="card-text text-secondary text-dark">
-                © 2024 stichd Sportmerchandising bv Live chat: FC
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <script>
+      const path = "http://localhost:3000/shop";
+      const params = new URLSearchParams(window.location.search);
+      const productId = params.get("id");
+
+      if (!productId) {
+        console.error("Product ID not found in URL.");
+      } else {
+        fetch(`${path}/${productId}`)
+          .then((res) => {
+            if (!res.ok) throw new Error("Product not found");
+            return res.json();
+          })
+          .then((data) => {
+            document.getElementById("product-title").innerText = data.name;
+            document.getElementById("price-new").innerText = `£ ${data.price}`;
+            document.getElementById("price-old").innerText =
+              data.oldPrice && data.oldPrice !== data.price
+                ? `£ ${data.oldPrice}`
+                : "";
+            document.getElementById("product-desc").innerText =
+              data.description;
+            document.getElementById("product-image").src = data.image;
+            document.getElementById("product-image").alt = data.name;
+          })
+          .catch((err) => console.error("Error loading product:", err));
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
-  <!-- * B * -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
-  <script src="/assets/javascript/script.js" type="module"></script>
 </html>
