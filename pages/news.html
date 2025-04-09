@@ -7,7 +7,7 @@
     <!-- * Favicon * -->
     <link
       rel="shortcut icon"
-      href="/assets/Images/Logo/crest.svg"
+      href="../assets/Images/Logo/crest.svg"
       type="image/x-icon"
     />
     <!-- * B * -->
@@ -24,8 +24,16 @@
     />
     <!-- *Fontawesome* -->
     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
+    <!-- * CSS * -->
+
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/style2.css" />
+    <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
     <title>Manchester City FC | Official Website</title>
   </head>
@@ -33,8 +41,8 @@
     <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="/index.html">
-          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
         </a>
 
         <!-- Toggle button for mobile -->
@@ -54,687 +62,442 @@
               <a class="nav-link text-white active fw-bolder" href="/index.html"
                 >Home</a
               >
-            </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/new.html"
+              <a class="nav-link active text-white" href="/pages/new.html"
                 >News</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/video.html"
-                >Video</a
-              >
+              <a class="nav-link text-white" href="/pages/video.html">Video</a>
             </li>
+
             <li class="nav-item">
               <a
-                class="nav-link text-white fw-bolder"
-                href="/pages/tickets.html"
-                >Tickets</a
+              class="nav-link text-white fw-bolder"
+              href="/pages/tickets.html"
+              >Tickets</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/shop.html"
-                >Shop</a
-              >
+              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/player.html"
+              <a class="nav-link text-white" href="/pages/player.html"
                 >Players</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/club.html"
-                >Club</a
-              >
+              <a class="nav-link text-white" href="/pages/club.html">Club</a>
             </li>
           </ul>
 
           <!-- Sign In Button -->
-          <div class="">
+          <div class="dropdown">
             <a
-              class="btn btn-outline-light d-flex align-items-center gap-2"
-              href="/pages/login.html"
+              class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2"
+              href="#"
               id="userDropdown"
               role="button"
-              data-bs-toggle=""
+              data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               <i class="fas fa-user"></i> <span>Login</span>
             </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end mt-0"
+              aria-labelledby="userDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="/pages/login.html"
+                  ><i class="fas fa-sign-in-alt me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/Register.html"
+                  ><i class="fas fa-user-plus me-2"></i>Register</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/setting.html"
+                  ><i class="fas fa-cog me-2"></i>Setting</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
     <!-- HEADER BANNER & DANH MỤC -->
-    <div class="py-4" style="background-color: #001b42">
-      <div class="container">
+    <div class="py-4" style="background-color: #001b42;">
+        <div class="container">
         <!-- Tiêu đề lớn VIDEO -->
         <h1
           class="mb-4"
-          style="color: #6cabdd; font-size: 5rem; font-weight: 700"
+          style="color: #6CABDD; font-size: 5rem; font-weight: 700;"
         >
           VIDEO
         </h1>
-
+    
         <!-- Thanh danh mục -->
-        <ul class="nav mb-4" style="border-bottom: 1px solid #ffffff33">
-          <li class="nav-item">
+        <ul class="nav mb-4" style="border-bottom: 1px solid #ffffff33;">
+            <li class="nav-item">
             <a
-              class="nav-link px-3 text-white"
-              href="video.html"
-              style="border-bottom: 3px solid transparent; border-radius: 0"
-              >All Video</a
+                class="nav-link px-3 text-white"
+                href="video.html"
+                style="border-bottom: 3px solid transparent; border-radius: 0; "
+                >All Video</a
             >
-          </li>
-          <!-- Tab HIGHLIGHT có thể không cần thiết, hoặc bạn có thể thay đổi URL -->
-          <li class="nav-item">
+            </li>
+            <!-- Tab HIGHLIGHT có thể không cần thiết, hoặc bạn có thể thay đổi URL -->
+            <li class="nav-item">
             <a
-              class="nav-link px-3 text-white"
-              href="HIGHLIGHT.html"
-              style="border-bottom: 3px solid transparent; border-radius: 0"
-              >HIGHLIGHT</a
+                class="nav-link px-3 text-white"
+                href="highlight.html"
+                style="border-bottom: 3px solid transparent; border-radius: 0;"
+                >HIGHLIGHT</a
             >
-          </li>
-          <!-- Đặt tab NEWS làm danh mục chính -->
-          <li class="nav-item">
+            </li>
+            <!-- Đặt tab NEWS làm danh mục chính -->
+            <li class="nav-item">
             <a
-              class="nav-link px-3"
-              href="NEWS.html"
-              style="
-                color: #fff;
-                border-bottom: 3px solid #6cabdd;
-                border-radius: 0;
-              "
-              >NEWS</a
+                class="nav-link px-3"
+                href="news.html"
+                style="color: #fff; border-bottom: 3px solid #6CABDD; border-radius: 0;"
+                >NEWS</a
             >
-          </li>
+            </li>
         </ul>
-      </div>
+        </div>
     </div>
+  
 
     <!-- MAIN CONTENT: MEN'S TEAM VIDEOS -->
-    <div class="py-4" style="background-color: #001b42">
+    <div class="py-4" style="background-color: #001b42;">
       <div class="container">
-        <!-- Tiêu đề lớn -->
-        <h1
-          class="mb-4"
-          style="color: #6cabdd; font-size: 3rem; font-weight: 700"
-        >
-          NEWS VIDEOS
-        </h1>
-        <!-- Cấu trúc bố cục với hai phần: Tiêu đề & Filter bên trái, Video bên phải -->
-        <div class="row">
+          <!-- Tiêu đề lớn -->
+          <h1 class="mb-4" 
+          style="color:#6CABDD;font-size:  3rem; font-weight: 700;">
+              NEWS VIDEOS 
+          </h1>   
+          <!-- Cấu trúc bố cục với hai phần: Tiêu đề & Filter bên trái, Video bên phải -->
+          <div class="row">
           <!-- Phần Tiêu đề và Filter bên trái -->
           <div class="col-md-3">
-            <!-- Horizontal Line Divider -->
-            <hr style="border-top: 2px solid #0066cc" />
-
+             <!-- Horizontal Line Divider -->
+          <hr style="border-top: 2px solid #0066cc;">
+  
             <!-- Thanh tìm kiếm -->
-            <div class="text-white" style="font-size: 2rem; font-weight: 500">
+            <div class="text-white"
+            style="font-size: 2rem;font-weight: 500;">
               VIDEOS FILTERS
-            </div>
+          </div>
             <div class="form-group mb-4">
               <label for="searchInput" class="text-white">Search Videos</label>
-              <input
-                type="text"
-                id="searchInput"
-                class="form-control"
+              <input 
+                type="text" 
+                id="searchInput" 
+                class="form-control" 
                 placeholder="Search for videos..."
               />
             </div>
-
+  
             <!-- Button tìm kiếm -->
             <div class="form-group mb-4">
-              <button
-                id="searchButton"
-                class="btn btn-primary"
-                title="Search for videos"
-              >
-                Search
-              </button>
+              <button id="searchButton" class="btn btn-primary" title="Search for videos">Search</button>
             </div>
-
+  
             <div class="form-group mb-4">
               <label for="sortDropdown" class="text-white">Sort by</label>
               <select id="sortDropdown" class="form-control">
-                <option value="newest">Newest First</option>
-                <option value="oldest">Oldest First</option>
+                  <option value="newest">Newest First</option>
+                  <option value="oldest">Oldest First</option>
               </select>
-            </div>
           </div>
-
-          <!-- Phần Video bên phải -->
-          <div class="col-md-9">
-            <!-- Horizontal Line Divider -->
-            <hr style="border-top: 2px solid #0066cc" />
+          
+          </div>
+  
+            <!-- Phần Video bên phải -->
+              <div class="col-md-9">
+               <!-- Horizontal Line Divider -->
+              <hr style="border-top: 2px solid #0066cc;">
             <!-- Month Group 1: March 2025 -->
-            <div
-              class="video-group"
-              data-year="2025"
-              data-month="3"
-              id="video-group-march-2025"
-            >
-              <h6
-                class="mb-4"
-                style="color: #6cabdd; font-size: 2rem; font-weight: 500"
-              >
-                March 2025
-              </h6>
-              <div class="row mb-4">
-                <!-- *Video 1* -->
-                <a
-                  href="detailVideo.html?id=1"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/6_hjY8QjcRc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDj_u3iwZbDFeBQL6sryJUCT1XSmg"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <!-- Vì không có dấu "-" nên ta chia theo " SẼ " để lấy phần "CHELSEA VÀ MAN CITY" -->
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      NEWS
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      CHELSEA VÀ MAN CITY SẼ ĐUA TOP 4 PREMIER LEAGUE NHƯ THẾ
-                      NÀO?
-                    </h5>
-                  </div>
-                </a>
+            <div class="video-group" data-year="2025" data-month="3" id="video-group-march-2025">
+              <h6 class="mb-4"
+              style="color: #6CABDD; font-size: 2rem;font-weight: 500;">March 2025</h6>
+            <div class="row mb-4">
+            <!-- *Video 1* -->
+            <a href="detailVideo.html?id=1" class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none">
+                <div class="ratio ratio-16x9">
+                  <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                  style="background-color: transparent;" 
+                  src="https://i.ytimg.com/vi/6_hjY8QjcRc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDj_u3iwZbDFeBQL6sryJUCT1XSmg">
+                </div>
+                <div class="card-body1">
+                  <!-- Vì không có dấu "-" nên ta chia theo " SẼ " để lấy phần "CHELSEA VÀ MAN CITY" -->
+                  <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">NEWS</p>
+                  <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">CHELSEA VÀ MAN CITY SẼ ĐUA TOP 4 PREMIER LEAGUE NHƯ THẾ NÀO?</h5>
+                </div>
+              </a>
 
-                <!-- *Video 2* -->
-                <a
-                  href="detailVideo.html?id=4"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/k3nlOz4gJ7g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLCTbTQS7bbE0bNd-eagHniWns8siA"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <!-- Với title của video 17, không có "-" nên ta dùng toàn bộ phần trước dấu "|" -->
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      NEWS
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      ERLING HAALAND ĐÓNG GÓP 100 BÀN THẮNG CHO MAN CITY SAU 94
-                      TRẬN ĐẤU | NGOẠI HẠNG ANH 24/25
-                    </h5>
-                  </div>
-                </a>
-              </div>
+            <!-- *Video 2* -->
+            <a href="detailVideo.html?id=4" class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none">
+                <div class="ratio ratio-16x9">
+                  <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                  style="background-color: transparent;" 
+                  src="https://i.ytimg.com/vi/k3nlOz4gJ7g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLCTbTQS7bbE0bNd-eagHniWns8siA">
+                </div>
+                <div class="card-body1">
+                  <!-- Với title của video 17, không có "-" nên ta dùng toàn bộ phần trước dấu "|" -->
+                  <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">NEWS</p>
+                  <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">ERLING HAALAND ĐÓNG GÓP 100 BÀN THẮNG CHO MAN CITY SAU 94 TRẬN ĐẤU | NGOẠI HẠNG ANH 24/25</h5>
+                </div>
+              </a>
+            </div>
             </div>
             <!-- Month Group 2: July 2024 -->
-            <div
-              class="video-group"
-              data-year="2024"
-              data-month="7"
-              id="video-group-Jul-2024"
-            >
-              <h6
-                class="mb-4"
-                style="color: #6cabdd; font-size: 2rem; font-weight: 500"
-              >
-                July 2024
-              </h6>
-              <div class="row mb-4">
-                <!-- *Video 5* -->
-                <a
-                  href="detailVideo.html?id=17"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/4n5hrdSpyL0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLBikurF-YvngSo5iiELRb0QkiXIEA"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <!-- Từ title "MAN CITY - QUEENS PARK RANGERS | AGUERO ĐI VÀO LỊCH SỬ, THE CITIZENS NGẠO NGHỄ | CLASSIC MATCH 11/12"
+            <div class="video-group" data-year="2024" data-month="7" id="video-group-Jul-2024">
+              <h6 class="mb-4"
+              style="color: #6CABDD; font-size: 2rem;font-weight: 500;">July 2024</h6>
+            <div class="row mb-4">
+              <!-- *Video 5* -->
+              <a href="detailVideo.html?id=17" class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none">
+                <div class="ratio ratio-16x9">
+                  <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                  style="background-color: transparent;" 
+                  src="https://i.ytimg.com/vi/4n5hrdSpyL0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLBikurF-YvngSo5iiELRb0QkiXIEA">
+                </div>
+                <div class="card-body1">
+                  <!-- Từ title "MAN CITY - QUEENS PARK RANGERS | AGUERO ĐI VÀO LỊCH SỬ, THE CITIZENS NGẠO NGHỄ | CLASSIC MATCH 11/12"
                       ta trích "QUEENS PARK RANGERS" -->
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      CLASSIC MATCH
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      MAN CITY - QUEENS PARK RANGERS | AGUERO ĐI VÀO LỊCH SỬ,
-                      THE CITIZENS NGẠO NGHỄ | CLASSIC MATCH 11/12
-                    </h5>
-                  </div>
-                </a>
+                  <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">CLASSIC MATCH</p>
+                  <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">MAN CITY - QUEENS PARK RANGERS | AGUERO ĐI VÀO LỊCH SỬ, THE CITIZENS NGẠO NGHỄ | CLASSIC MATCH 11/12</h5>
+                </div>
+              </a>       
 
-                <!-- *Video 6* -->
-                <a
-                  href="detailVideo.html?id=18"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/Sb_8hUTT3kY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDBi_HEGaFfxhQZmo8tHhYen96z6w"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      CLASSIC MATCH
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      LIVERPOOL - MAN CITY | TAM TẤU GẦM VANG, KLOPP NHẤN CHÌM
-                      PEP TẠI ANFIELD | CLASSIC MATCH 17/18 của Kplus Sports
-                    </h5>
-                  </div>
-                </a>
+              <!-- *Video 6* -->
+              <a href="detailVideo.html?id=18" class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none">
+              <div class="ratio ratio-16x9">
+                <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                style="background-color: transparent;" 
+                src="https://i.ytimg.com/vi/Sb_8hUTT3kY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDBi_HEGaFfxhQZmo8tHhYen96z6w">
               </div>
+              <div class="card-body1">
+                <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">CLASSIC MATCH</p>
+                <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">LIVERPOOL - MAN CITY | TAM TẤU GẦM VANG, KLOPP NHẤN CHÌM PEP TẠI ANFIELD | CLASSIC MATCH 17/18 của Kplus Sports</h5>
+              </div>
+            </a>
+            </div>
             </div>
             <!-- Month Group 3: May 2024 -->
-            <div
-              class="video-group"
-              data-year="2024"
-              data-month="5"
-              id="video-group-May-2024"
+            <div class="video-group" data-year="2024" data-month="5" id="video-group-May-2024">
+              <h6 class="mb-4"
+              style="color: #6CABDD; font-size: 2rem;font-weight: 500;">May 2024</h6>
+            <div class="row mb-4">
+              <!-- *Video 9* -->
+              <a
+              href="detailVideo.html?id=19"
+              class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
             >
-              <h6
-                class="mb-4"
-                style="color: #6cabdd; font-size: 2rem; font-weight: 500"
-              >
-                May 2024
-              </h6>
-              <div class="row mb-4">
-                <!-- *Video 9* -->
-                <a
-                  href="detailVideo.html?id=19"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/gfTosTx17zA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDxW3zW4JV9SzYUtZ9XwT7zg87wiQ"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      CL 23-24
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      LỄ TRAO CUP CHO MAN CITY - NHÀ VÔ ĐỊCH NGOẠI HẠNG ANH
-                      23-24 | CHỨC VÔ ĐỊCH LẦN THỨ 4 LIÊN TIẾP
-                    </h5>
-                  </div>
-                </a>
+              <div class="ratio ratio-16x9">
+                <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                style="background-color: transparent;" 
+                src="https://i.ytimg.com/vi/gfTosTx17zA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDxW3zW4JV9SzYUtZ9XwT7zg87wiQ">
               </div>
+              <div class="card-body1">
+                <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">
+                  CL 23-24
+                </p>
+                <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">
+                  LỄ TRAO CUP CHO MAN CITY - NHÀ VÔ ĐỊCH NGOẠI HẠNG ANH 23-24 |
+                  CHỨC VÔ ĐỊCH LẦN THỨ 4 LIÊN TIẾP
+                </h5>
+              </div>
+            </a>   
+        </div>
             </div>
             <!-- Month Group 3: April 2024 -->
-            <div
-              class="video-group"
-              data-year="2024"
-              data-month="4"
-              id="video-group-apr-2024"
+            <div class="video-group" data-year="2024" data-month="4" id="video-group-apr-2024">
+              <h6 class="mb-4"
+              style="color: #6CABDD; font-size: 2rem;font-weight: 500;">April 2024</h6>
+            <div class="row mb-4">
+              <!-- *Video 10* -->
+              <a
+              href="detailVideo.html?id=20"
+              class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
             >
-              <h6
-                class="mb-4"
-                style="color: #6cabdd; font-size: 2rem; font-weight: 500"
-              >
-                April 2024
-              </h6>
-              <div class="row mb-4">
-                <!-- *Video 10* -->
-                <a
-                  href="detailVideo.html?id=20"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/X6zRuWPVg24/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDljlGaS03Csd1ucsIxHyG1zf18jQ"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      CL
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      HIGHLIGHTS: MAN CITY - REAL MADRID | NHÀ VUA TRỞ THÀNH CỰU
-                      VƯƠNG, "DNA C1 BẤT TỬ" | UCL 23/24
-                    </h5>
-                  </div>
-                </a>
+              <div class="ratio ratio-16x9">
+                <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                style="background-color: transparent;" 
+                src="https://i.ytimg.com/vi/X6zRuWPVg24/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDljlGaS03Csd1ucsIxHyG1zf18jQ">
               </div>
+              <div class="card-body1">
+                <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">
+                  CL
+                </p>
+                <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">
+                  HIGHLIGHTS: MAN CITY - REAL MADRID | NHÀ VUA TRỞ THÀNH CỰU
+                  VƯƠNG, "DNA C1 BẤT TỬ" | UCL 23/24
+                </h5>
+              </div>
+            </a>
+            </div>
             </div>
             <!-- Month Group 3: June 2023 -->
-            <div
-              class="video-group"
-              data-year="2023"
-              data-month="6"
-              id="video-group-jun-2023"
+            <div class="video-group" data-year="2023" data-month="6" id="video-group-jun-2023">
+              <h6 class="mb-4"
+              style="color: #6CABDD; font-size: 2rem;font-weight: 500;">June 2023</h6>
+            <div class="row mb-4">
+              <!-- *Video 13* -->
+              <a
+              href="detailVideo.html?id=22"
+              class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
             >
-              <h6
-                class="mb-4"
-                style="color: #6cabdd; font-size: 2rem; font-weight: 500"
-              >
-                June 2023
-              </h6>
-              <div class="row mb-4">
-                <!-- *Video 13* -->
-                <a
-                  href="detailVideo.html?id=22"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/xiPejNMLFvE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAEPrDSzP3G5I6tsbNSDAl-hcGGzg"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      Final CL
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      HIGHLIGHTS: MAN CITY - INTER | LUKAKU PHÒNG NGỰ XUẤT SẮC,
-                      RODRI SÚT CHÁY LƯỚI MANG VỀ CÚ ĂN 3 VĨ ĐẠI
-                    </h5>
-                  </div>
-                </a>
-                <!-- *Video 13* -->
-                <a
-                  href="detailVideo.html?id=23"
-                  class="col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
-                >
-                  <div class="ratio ratio-16x9">
-                    <img
-                      alt=""
-                      class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
-                      style="background-color: transparent"
-                      src="https://i.ytimg.com/vi/7Uw54hOQYrw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLCcI-B8390rE5odZY-uvlQScGKI_w"
-                    />
-                  </div>
-                  <div class="card-body">
-                    <p
-                      class="cart-title text-uppercase fw-bolder mt-3 mb-1"
-                      style="font-size: 2rem; font-weight: 500"
-                    >
-                      CHAMPIONS
-                    </p>
-                    <h5
-                      class="card-text small"
-                      style="font-size: 1rem; font-weight: 500"
-                    >
-                      HIGHLIGHTS MAN CITY - HÀNH TRÌNH VÔ ĐỊCH CHAMPIONS LEAGUE
-                      MÙA GIẢI 22/23 | FPT BÓNG ĐÁ
-                    </h5>
-                  </div>
-                </a>
+              <div class="ratio ratio-16x9">
+                <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                style="background-color: transparent;" 
+                src="https://i.ytimg.com/vi/xiPejNMLFvE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAEPrDSzP3G5I6tsbNSDAl-hcGGzg">
               </div>
-            </div>
+              <div class="card-body1">
+                <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">
+                  Final CL
+                </p>
+                <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">
+                  HIGHLIGHTS: MAN CITY - INTER | LUKAKU PHÒNG NGỰ XUẤT SẮC, RODRI
+                  SÚT CHÁY LƯỚI MANG VỀ CÚ ĂN 3 VĨ ĐẠI
+                </h5>
+              </div>
+            </a>
+            <!-- *Video 13* -->
+            <a
+              href="detailVideo.html?id=23"
+              class="video-item col-12 col-sm-6 col-md-4 mb-4 text-decoration-none"
+            >
+              <div class="ratio ratio-16x9">
+                <img alt="" class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" 
+                style="background-color: transparent;" 
+                src="https://i.ytimg.com/vi/7Uw54hOQYrw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLCcI-B8390rE5odZY-uvlQScGKI_w">
+              </div>
+              <div class="card-body1">
+                <p class="cart-title text-uppercase fw-bolder mt-3 mb-1"style=" font-size: 2rem;font-weight: 500;">
+                  CHAMPIONS
+                </p>
+                <h5 class="card-text1 small"style=" font-size: 1rem;font-weight: 500;">
+                  HIGHLIGHTS MAN CITY - HÀNH TRÌNH VÔ ĐỊCH CHAMPIONS LEAGUE MÙA
+                  GIẢI 22/23 | FPT BÓNG ĐÁ
+                </h5>
+              </div>
+            </a>
+          </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Lớp bọc pagination -->
-    <div class="pagination-layer">
+  </div>
+  <!-- Lớp bọc pagination -->
+  <div class="pagination-layer">
       <nav aria-label="Video pagination">
-        <ul class="pagination justify-content-center">
-          <li class="page-item" id="prev-btn">
-            <a class="page-link" href="#">Previous</a>
-          </li>
-          <li class="page-item" id="page-1">
-            <a class="page-link" href="#">1</a>
-          </li>
-          <li class="page-item" id="page-2">
-            <a class="page-link" href="#">2</a>
-          </li>
-          <li class="page-item" id="next-btn">
-            <a class="page-link" href="#">Next</a>
-          </li>
-        </ul>
+          <ul class="pagination justify-content-center">
+              <li class="page-item" id="prev-btn">
+                  <a class="page-link" href="#">Previous</a>
+              </li>
+              <li class="page-item" id="page-1">
+                  <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item" id="page-2">
+                  <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item" id="next-btn">
+                  <a class="page-link" href="#">Next</a>
+              </li>
+          </ul>
       </nav>
-    </div>
-    <!-- *Sidebar* -->
-    <div class="contact-sidebar">
-      <button
-        class="contact-btn"
-        title="Đặt lịch"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Đặt lịch"
-      >
-        <i class="fa-solid fa-calendar-check"></i>
-      </button>
-      <button
-        class="contact-btn"
-        title="Gọi điện"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Gọi điện"
-      >
-        <i class="fa-solid fa-phone"></i>
-      </button>
-      <button
-        class="contact-btn"
-        title="Chat"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Chat với bác sĩ"
-      >
-        <i class="fa-solid fa-comments"></i>
-      </button>
-      <button
-        class="contact-btn"
-        title="Email"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Gửi email"
-      >
-        <i class="fa-solid fa-envelope"></i>
-      </button>
-      <button
-        id="scrollTopBtn"
-        class="contact-btn d-none"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Lên đầu trang"
-        onclick="scrollToTop()"
-      >
-        <i class="fa-solid fa-chevron-up"></i>
-      </button>
-    </div>
+  </div>
+  <!-- *Sidebar* -->
+  <div class="contact-sidebar">
+    <button
+      class="contact-btn"
+      title="Đặt lịch"
+      data-bs-toggle="tooltip"
+      data-bs-placement="left"
+      title="Đặt lịch"
+    >
+      <i class="fa-solid fa-calendar-check"></i>
+    </button>
+    <button
+      class="contact-btn"
+      title="Gọi điện"
+      data-bs-toggle="tooltip"
+      data-bs-placement="left"
+      title="Gọi điện"
+    >
+      <i class="fa-solid fa-phone"></i>
+    </button>
+    <button
+      class="contact-btn"
+      title="Chat"
+      data-bs-toggle="tooltip"
+      data-bs-placement="left"
+      title="Chat với bác sĩ"
+    >
+      <i class="fa-solid fa-comments"></i>
+    </button>
+    <button
+      class="contact-btn"
+      title="Email"
+      data-bs-toggle="tooltip"
+      data-bs-placement="left"
+      title="Gửi email"
+    >
+      <i class="fa-solid fa-envelope"></i>
+    </button>
+    <button
+      id="scrollTopBtn"
+      class="contact-btn d-none"
+      data-bs-toggle="tooltip"
+      data-bs-placement="left"
+      title="Lên đầu trang"
+      onclick="scrollToTop()"
+    >
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+  </div>
     <!-- FOLLOW CITYTV -->
     <div class="container">
-      <h3
-        class="text-white mt-5 mb-3"
-        style="text-align: center; font-weight: 700"
-      >
-        FOLLOW CITYTV
-      </h3>
+      <h3 class="text-white mt-5 mb-3" style="text-align: center; font-weight: 700;">FOLLOW CITYTV</h3>
       <div class="d-flex align-items-center">
-        <a
-          href="https://www.youtube.com/mancity"
-          class="me-4 text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.youtube.com/mancity" target="_blank" rel="noopener noreferrer" class="me-4 text-white" style="font-size: 1.5rem;">
           <i class="ri-youtube-line"></i>
         </a>
-        <a
-          href="https://www.instagram.com/mancity/"
-          class="me-4 text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.instagram.com/mancity/" target="_blank" rel="noopener noreferrer" class="me-4 text-white" style="font-size: 1.5rem;">
           <i class="ri-instagram-line"></i>
         </a>
-        <a
-          href="https://www.twitter.com/mancity"
-          class="me-4 text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.twitter.com/mancity" target="_blank" rel="noopener noreferrer" class="me-4 text-white" style="font-size: 1.5rem;">
           <i class="ri-twitter-x-line"></i>
         </a>
-        <a
-          href="https://www.facebook.com/mancity/"
-          class="text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.facebook.com/mancity/" target="_blank" rel="noopener noreferrer" class="text-white" style="font-size: 1.5rem;">
           <i class="ri-facebook-line"></i>
         </a>
       </div>
-      <!-- Nút Back to the top -->
-      <div class="back-to-top">
-        <a href="#top" class="back-to-top-btn">
-          Back to the top <span>↑</span>
-        </a>
-      </div>
+            <!-- Nút Back to the top -->
+            <div class="back-to-top">
+            <a href="#top" class="back-to-top-btn">
+                 Back to the top <span>↑</span>
+            </a>
+          </div>
     </div>
-    <!-- *Footer* -->
-    <footer class="bg-dark text-white pt-4 pb-2">
-      <div class="container">
-        <div class="row">
-          <!-- Logo và giới thiệu -->
-          <div class="col-md-3">
-            <img
-              data-src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-              alt="Manchester City Logo"
-              class="mb-3 lazyload"
-              width="80"
-            />
-            <p>
-              Manchester City Football Club là một đội bóng chuyên nghiệp đến từ
-              Anh, với lịch sử lâu đời và thành công vang dội.
-            </p>
-          </div>
-
-          <!-- Menu điều hướng -->
-          <div class="col-md-3">
-            <h5 class="text-uppercase">Liên kết</h5>
-            <ul class="list-unstyled">
-              <li>
-                <a href="#" class="text-white text-decoration-none"
-                  >Trang chủ</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-white text-decoration-none"
-                  >Lịch thi đấu</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-white text-decoration-none">Cầu thủ</a>
-              </li>
-              <li>
-                <a href="#" class="text-white text-decoration-none">Tin tức</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Thông tin sân vận động -->
-          <div class="col-md-3">
-            <h5 class="text-uppercase">Sân vận động</h5>
-            <p>
-              <strong>Etihad Stadium</strong><br />
-              Địa chỉ: Ashton New Rd, Manchester M11 3FF, Vương Quốc Anh<br />
-              Sức chứa: 53,000 chỗ ngồi
-            </p>
-          </div>
-
-          <!-- Mạng xã hội -->
-          <div class="col-md-3">
-            <h5 class="text-uppercase">Theo dõi chúng tôi</h5>
-            <a href="#" class="text-white me-3"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-twitter fa-lg"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-instagram fa-lg"></i
-            ></a>
-            <a href="#" class="text-white"
-              ><i class="fab fa-youtube fa-lg"></i
-            ></a>
-          </div>
-        </div>
-
-        <hr class="my-3 border-light" />
-
-        <!-- Bản quyền -->
-        <div
-          class="text-center d-flex align-items-center justify-content-center"
-        >
-          <p class="mb-0">© 2025 By Man Fc. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
     <!-- Bootstrap JS Bundle -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="/services/script-new.js"></script>
+    <script src="../services/script-new.js"></script>
     <script>
-      // Cuộn lên đầu trang
-      function scrollToTop() {
+        function scrollToTop() {
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
       const scrollTopBtn = document.getElementById("scrollTopBtn");
-
+      
       window.addEventListener("scroll", function () {
         if (window.scrollY > 100) {
           scrollTopBtn.classList.remove("d-none");
@@ -748,7 +511,6 @@
       const tooltipList = [...tooltipTriggerList].map(
         (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
       );
-    </script>
-    <script src="/services/script.js"></script>
+        </script>
   </body>
 </html>

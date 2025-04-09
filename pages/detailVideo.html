@@ -24,15 +24,10 @@
     />
     <!-- * CSS * -->
     <link rel="stylesheet" href="../assets/css/styleDV.css" />
-
+  
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
-    />
-    <!-- *Fontawesome* -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <title>Manchester City FC | Official Website</title>
   </head>
@@ -40,8 +35,8 @@
     <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="/index.html">
-          <img src="/assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/Images/Logo/crest.svg" alt="Wix Logo" height="70" />
         </a>
 
         <!-- Toggle button for mobile -->
@@ -58,192 +53,133 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link text-white active fw-bolder" href="/index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/new.html"
+              <a class="nav-link active text-white" href="/pages/new.html"
                 >News</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/video.html"
-                >Video</a
-              >
+              <a class="nav-link text-white" href="/pages/video.html">Video</a>
             </li>
+
             <li class="nav-item">
               <a
-                class="nav-link text-white fw-bolder"
-                href="/pages/tickets.html"
+                class="nav-link text-white"
+                href="/pages/ticket.html"
+                id="ticketsDropdown"
+                data-bs-toggle="dropdown"
                 >Tickets</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/shop.html"
-                >Shop</a
-              >
+              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/player.html"
+              <a class="nav-link text-white" href="/pages/player.html"
                 >Players</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/club.html"
-                >Club</a
-              >
+              <a class="nav-link text-white" href="/pages/club.html">Club</a>
             </li>
           </ul>
 
           <!-- Sign In Button -->
-          <div class="">
+          <div class="dropdown">
             <a
-              class="btn btn-outline-light d-flex align-items-center gap-2"
-              href="/pages/login.html"
+              class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2"
+              href="#"
               id="userDropdown"
               role="button"
-              data-bs-toggle=""
+              data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               <i class="fas fa-user"></i> <span>Login</span>
             </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end mt-0"
+              aria-labelledby="userDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="/pages/login.html"
+                  ><i class="fas fa-sign-in-alt me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/Register.html"
+                  ><i class="fas fa-user-plus me-2"></i>Register</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/setting.html"
+                  ><i class="fas fa-cog me-2"></i>Setting</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
     <!-- /NAVBAR -->
 
+
     <!-- MAIN CONTENT -->
-    <div class="video py-5">
-      <div class="col-md-12 col-sm-12"></div>
+   <div class="video py-5">
+    <div class="col-md-12 col-sm-12">
+      
     </div>
-    <!-- *Sidebar* -->
-    <div class="contact-sidebar">
-      <button
-        class="contact-btn"
-        title="Đặt lịch"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Đặt lịch"
-      >
-        <i class="fa-solid fa-calendar-check"></i>
-      </button>
-      <button
-        class="contact-btn"
-        title="Gọi điện"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Gọi điện"
-      >
-        <i class="fa-solid fa-phone"></i>
-      </button>
-      <button
-        class="contact-btn"
-        title="Chat"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Chat với bác sĩ"
-      >
-        <i class="fa-solid fa-comments"></i>
-      </button>
-      <button
-        class="contact-btn"
-        title="Email"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Gửi email"
-      >
-        <i class="fa-solid fa-envelope"></i>
-      </button>
-      <button
-        id="scrollTopBtn"
-        class="contact-btn d-none"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Lên đầu trang"
-        onclick="scrollToTop()"
-      >
-        <i class="fa-solid fa-chevron-up"></i>
-      </button>
-    </div>
+   </div>
     <!-- FOLLOW CITYTV -->
     <div class="container">
-      <h3
-        class="text-white mt-5 mb-3"
-        style="text-align: center; font-weight: 700"
-      >
-        FOLLOW CITYTV
-      </h3>
+      <h3 class="text-white mt-5 mb-3" style="text-align: center; font-weight: 700;">FOLLOW CITYTV</h3>
       <div class="d-flex align-items-center">
-        <a
-          href="https://www.youtube.com/mancity"
-          class="me-4 text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.youtube.com/mancity" target="_blank" rel="noopener noreferrer" class="me-4 text-white" style="font-size: 1.5rem;">
           <i class="ri-youtube-line"></i>
         </a>
-        <a
-          href="https://www.instagram.com/mancity/"
-          class="me-4 text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.instagram.com/mancity/" target="_blank" rel="noopener noreferrer" class="me-4 text-white" style="font-size: 1.5rem;">
           <i class="ri-instagram-line"></i>
         </a>
-        <a
-          href="https://www.twitter.com/mancity"
-          class="me-4 text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.twitter.com/mancity" target="_blank" rel="noopener noreferrer" class="me-4 text-white" style="font-size: 1.5rem;">
           <i class="ri-twitter-x-line"></i>
         </a>
-        <a
-          href="https://www.facebook.com/mancity/"
-          class="text-white"
-          style="font-size: 1.5rem"
-        >
+        <a href="https://www.facebook.com/mancity/" target="_blank" rel="noopener noreferrer" class="text-white" style="font-size: 1.5rem;">
           <i class="ri-facebook-line"></i>
         </a>
       </div>
-      <!-- Nút Back to the top -->
-      <div class="back-to-top">
-        <a href="#top" class="back-to-top-btn">
-          Back to the top <span>↑</span>
-        </a>
-      </div>
+            <!-- Nút Back to the top -->
+            <div class="back-to-top">
+            <a href="#top" class="back-to-top-btn">
+                 Back to the top <span>↑</span>
+            </a>
+          </div>
     </div>
 
-    <!-- Bootstrap JS Bundle -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+
+     <!-- Bootstrap JS Bundle -->
+     <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"
+   ></script>
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- CUSTOM SCRIPT -->
-    <script src="/assets/javascript/script.js" type="module"></script>
-    <script src="/services/test.js" type="module"></script>
-    <script>
-      // Cuộn lên đầu trang
-      function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-      const scrollTopBtn = document.getElementById("scrollTopBtn");
-
-      window.addEventListener("scroll", function () {
-        if (window.scrollY > 100) {
-          scrollTopBtn.classList.remove("d-none");
-        } else {
-          scrollTopBtn.classList.add("d-none");
-        }
+    <script src="../assets/javascript/script.js" type="module"></script>
+    <script src="../services/test.js" type="module"></script>
+    <script> document.addEventListener('DOMContentLoaded', function () {
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      
+      // Kiểm tra URL hiện tại
+      const currentUrl = window.location.href;
+  
+      // Kiểm tra nếu URL chứa 'detailVideo' thì thêm class 'active' cho tab Video
+      navLinks.forEach(link => {
+          if (currentUrl.includes('detailVideo') && link.textContent.trim() === 'Video') {
+              link.classList.add('active');
+          } else {
+              link.classList.remove('active');
+          }
       });
-      const tooltipTriggerList = document.querySelectorAll(
-        '[data-bs-toggle="tooltip"]'
-      );
-      const tooltipList = [...tooltipTriggerList].map(
-        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
-      );
-    </script>
+  });
+  </script>
   </body>
 </html>
