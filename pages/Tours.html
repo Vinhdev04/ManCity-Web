@@ -26,11 +26,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <!-- *Fontawesome* -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
     <!-- * CSS * -->
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/base.css" />
@@ -44,6 +39,12 @@
     <script src="/assets/javascript/Tours.js" defer></script>
     <title>Manchester City FC | TICKET</title>
   </head>
+  <style>
+    .card.ticket-card {
+        transition: transform 0.3s all ease-in;
+        cursor: pointer;
+      }
+  </style>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
       <div class="container">
@@ -66,64 +67,72 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link text-white active fw-bolder" href="/index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/new.html"
+              <a class="nav-link active text-white" href="/pages/new.html"
                 >News</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/video.html"
-                >Video</a
-              >
+              <a class="nav-link text-white" href="/pages/video.html">Video</a>
             </li>
+
             <li class="nav-item">
-              <a
-                class="nav-link text-white fw-bolder"
-                href="/pages/tickets.html"
+              <a class="nav-link text-white" href="/pages/tickets.html"
                 >Tickets</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/shop.html"
-                >Shop</a
-              >
+              <a class="nav-link text-white" href="/pages/shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/player.html"
+              <a class="nav-link text-white" href="/pages/player.html"
                 >Players</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bolder" href="/pages/club.html"
-                >Club</a
-              >
+              <a class="nav-link text-white" href="/pages/club.html">Club</a>
             </li>
           </ul>
 
           <!-- Sign In Button -->
-          <div class="">
+          <div class="dropdown">
             <a
-              class="btn btn-outline-light d-flex align-items-center gap-2"
-              href="/pages/login.html"
+              class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2"
+              href="#"
               id="userDropdown"
               role="button"
-              data-bs-toggle=""
+              data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               <i class="fas fa-user"></i> <span>Login</span>
             </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end mt-0"
+              aria-labelledby="userDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="/pages/login.html"
+                  ><i class="fas fa-sign-in-alt me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/Register.html"
+                  ><i class="fas fa-user-plus me-2"></i>Register</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pages/setting.html"
+                  ><i class="fas fa-cog me-2"></i>Setting</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
 
     <!-- * Ticket * -->
-    <div class="sub-nav border-bottom">
-      <ul class="m-0 py-1">
+    <div class="sub-nav">
+      <ul>
         <li><a href="/pages/tickets.html">Tickets & Hospitality</a></li>
         <li><a href="/pages/Memberships.html">Memberships</a></li>
         <li><a href="/pages/Tours.html">Tours</a></li>
@@ -136,7 +145,7 @@
     <!-- Header Image -->
     <div class="container-fluid ps-0 pe-0">
       <img
-        class="lazy-image header-photo image-unit img-fluid object-fit-cover w-100"
+        class="lazy-image header-photo image-unit img-fluid object-fit-cover"
         src="/assets/Images/Tickets/Tours pic/htdr.webp"
         alt="Manchester City Educational Tours"
         onerror="markAsImgLoadFailed(this)"
@@ -164,17 +173,17 @@
 
     <div class="banner">
       <h1>VISIT THE HOME OF MANCHESTER CITY THIS EASTER!</h1>
-      <p>
+      <p style="text-align: center; margin: auto;">
         Immerse yourself in the City story as you take part in our Easter egg
         hunt featuring Moonchester, for your chance to win a mascot place!
       </p>
-      <p class="note">
+      <p class="note" style="margin: auto;">
         *available on all tours booked April 7th-21st excluding matchdays
       </p>
     </div>
 
     <div class="container">
-      <h2 class="ticketing-title">OUR TOURS</h2>
+      <h2 class="ticketing-title" style="text-align: left;">OUR TOURS</h2>
       <div class="tour-section">
         <!-- Tour 1 -->
         <div class="tour-card">
@@ -304,26 +313,9 @@
           <h2>BOOK A GROUP TOUR</h2>
           <button class="enquire-btn">ENQUIRE NOW</button>
         </div>
-
-        <div class="grid-container small-grid">
-          <div class="small-card">
-            <h3>INFORMATION HUB</h3>
-            <h3>→</h3>
-          </div>
-          <div class="small-card">
-            <h3>GIFT VOUCHERS</h3>
-            <h3>→</h3>
-          </div>
-          <div class="small-card">
-            <h3>ACCESSIBILITY</h3>
-            <h3>→</h3>
-          </div>
-          <div class="small-card">
-            <h3>TERMS & CONDITIONS</h3>
-            <h3>→</h3>
-          </div>
-        </div>
       </div>
+
+        
 
       <div class="wrapper">
         <i id="left" class="fa-solid fa-angle-left"></i>
@@ -362,142 +354,7 @@
         <i id="right" class="fa-solid fa-angle-right"></i>
       </div>
     </div>
-    <!-- *Sidebar* -->
-    <div class="contact-sidebar">
-      <a
-        href="mailto:pcv.fed@gmail.com"
-        class="contact-btn text-decoration-none"
-        target="_blank"
-        title="Đặt lịch"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Đặt lịch"
-      >
-        <i class="fa-solid fa-calendar-check"></i>
-      </a>
-      <a
-        href="tel:0352032375"
-        class="contact-btn text-decoration-none"
-        target="_blank"
-        title="Gọi điện"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Gọi điện"
-      >
-        <i class="fa-solid fa-phone"></i>
-      </a>
-      <a
-        href="https://www.facebook.com/i.padygamy1210"
-        class="contact-btn text-decoration-none"
-        target="_blank"
-        title="Chat"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Chat"
-      >
-        <i class="fa-solid fa-comments"></i>
-      </a>
-      <a
-        href="mailto:pcv.fed@gmail.com"
-        class="contact-btn text-decoration-none"
-        target="_blank"
-        title="Email"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Gửi email"
-      >
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-      <button
-        id="scrollTopBtn"
-        class="contact-btn d-none"
-        data-bs-toggle="tooltip"
-        data-bs-placement="left"
-        title="Lên đầu trang"
-        onclick="scrollToTop()"
-      >
-        <i class="fa-solid fa-chevron-up"></i>
-      </button>
-    </div>
-    <!-- *Footer* -->
-    <footer class="bg-dark text-white pt-4 pb-2">
-      <div class="container">
-        <div class="row">
-          <!-- Logo và giới thiệu -->
-          <div class="col-md-3">
-            <img
-              data-src="/assets/Images/Logo/manchester_city_fc_badge.webp"
-              alt="Manchester City Logo"
-              class="mb-3 lazyload"
-              width="80"
-            />
-            <p>
-              Manchester City Football Club là một đội bóng chuyên nghiệp đến từ
-              Anh, với lịch sử lâu đời và thành công vang dội.
-            </p>
-          </div>
 
-          <!-- Menu điều hướng -->
-          <div class="col-md-3">
-            <h5 class="text-uppercase">Liên kết</h5>
-            <ul class="list-unstyled">
-              <li>
-                <a href="#" class="text-white text-decoration-none"
-                  >Trang chủ</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-white text-decoration-none"
-                  >Lịch thi đấu</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-white text-decoration-none">Cầu thủ</a>
-              </li>
-              <li>
-                <a href="#" class="text-white text-decoration-none">Tin tức</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Thông tin sân vận động -->
-          <div class="col-md-3">
-            <h5 class="text-uppercase">Sân vận động</h5>
-            <p>
-              <strong>Etihad Stadium</strong><br />
-              Địa chỉ: Ashton New Rd, Manchester M11 3FF, Vương Quốc Anh<br />
-              Sức chứa: 53,000 chỗ ngồi
-            </p>
-          </div>
-
-          <!-- Mạng xã hội -->
-          <div class="col-md-3">
-            <h5 class="text-uppercase">Theo dõi chúng tôi</h5>
-            <a href="#" class="text-white me-3"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-twitter fa-lg"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-instagram fa-lg"></i
-            ></a>
-            <a href="#" class="text-white"
-              ><i class="fab fa-youtube fa-lg"></i
-            ></a>
-          </div>
-        </div>
-
-        <hr class="my-3 border-light" />
-
-        <!-- Bản quyền -->
-        <div
-          class="text-center d-flex align-items-center justify-content-center"
-        >
-          <p class="mb-0">© 2025 By Man Fc. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
     <!-- JavaScript -->
     <script>
       function markAsImgLoadFailed(img) {
@@ -509,6 +366,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="/services/script.js"></script>
   </body>
 </html>
+
+
+
+

@@ -13,7 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Login Page | heheh</title>
+    <title>Login Page | MC-FC</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
@@ -309,12 +309,7 @@
             placeholder="Email"
             required
           />
-          <input
-            type="password"
-            class="registerPass"
-            placeholder="Password"
-            required
-          />
+          <input type="password" class="registerPass" placeholder="Password" />
           <button>Sign Up</button>
         </form>
       </div>
@@ -333,12 +328,7 @@
           </div>
           <span>or use your email and password</span>
           <input type="email" class="loginEmail" placeholder="Email" required />
-          <input
-            type="password"
-            class="loginPass"
-            placeholder="Password"
-            required
-          />
+          <input type="password" class="loginPass" placeholder="Password" />
           <a href="./reset-password.html">Forget Your Password?</a>
           <button>Sign In</button>
         </form>
@@ -379,6 +369,249 @@
         const container = document.getElementById("container");
         const registerBtn = document.getElementById("register");
         const loginBtn = document.getElementById("login");
+        
+        // Thêm container cho toast notifications
+        const toastContainer = document.createElement("div");
+        toastContainer.className = "toast-container";
+        toastContainer.id = "toast-container";
+        document.body.appendChild(toastContainer);
+        
+        // Thêm CSS cho toast notifications
+        const styleElement = document.createElement("style");
+        styleElement.textContent = `
+          /* Toast Container */
+          .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+          }
+
+          /* Toast Notification */
+          .toast {
+            min-width: 300px;
+            margin-bottom: 10px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateX(120%);
+            transition: transform 0.5s ease;
+            background-color: white;
+            border-left: 5px solid #512da8;
+            overflow: hidden;
+          }
+
+          .toast.show {
+            transform: translateX(0);
+          }
+
+          .toast.hiding {
+            transform: translateX(120%);
+          }
+
+          /* Toast Icon */
+          .toast-icon {
+            margin-right: 15px;
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          /* Toast Content */
+          .toast-content {
+            flex-grow: 1;
+          }
+
+          .toast-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 4px;
+          }
+
+          .toast-message {
+            font-size: 14px;
+            color: #666;
+          }
+
+          /* Close Button */
+          .toast-close {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: #999;
+          }
+
+          /* Toast Types */
+          .toast-success {
+            border-left-color: #4caf50;
+          }
+          .toast-success .toast-icon {
+            color: #4caf50;
+          }
+
+          .toast-error {
+            border-left-color: #f44336;
+          }
+          .toast-error .toast-icon {
+            color: #f44336;
+          }
+
+          .toast-warning {
+            border-left-color: #ff9800;
+          }
+          .toast-warning .toast-icon {
+            color: #ff9800;
+          }
+
+          .toast-info {
+            border-left-color: #2196f3;
+          }
+          .toast-info .toast-icon {
+            color: #2196f3;
+          }
+
+          /* Progress Bar */
+          .toast-progress {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.1);
+          }
+
+          .toast-progress-bar {
+            height: 100%;
+            width: 100%;
+            transition: width linear;
+          }
+
+          .toast-success .toast-progress-bar {
+            background-color: #4caf50;
+          }
+
+          .toast-error .toast-progress-bar {
+            background-color: #f44336;
+          }
+
+          .toast-warning .toast-progress-bar {
+            background-color: #ff9800;
+          }
+
+          .toast-info .toast-progress-bar {
+            background-color: #2196f3;
+          }
+        `;
+        document.head.appendChild(styleElement);
+
+        // Hàm hiển thị toast notification thay thế cho alert()
+        function showToast(message, type = "info", title = "") {
+          // Tạo toast element
+          const toast = document.createElement("div");
+          toast.className = `toast toast-${type}`;
+          
+          // Đặt tiêu đề dựa trên loại nếu không được cung cấp
+          if (!title) {
+            switch(type) {
+              case "success": title = "Thành công"; break;
+              case "error": title = "Lỗi"; break;
+              case "warning": title = "Cảnh báo"; break;
+              case "info": title = "Thông báo"; break;
+            }
+          }
+
+          // Đặt biểu tượng dựa trên loại
+          let icon;
+          switch(type) {
+            case "success": icon = "fa-circle-check"; break;
+            case "error": icon = "fa-circle-xmark"; break;
+            case "warning": icon = "fa-triangle-exclamation"; break;
+            case "info": icon = "fa-circle-info"; break;
+          }
+
+          // Xây dựng HTML cho toast
+          toast.innerHTML = `
+            <div class="toast-icon">
+              <i class="fa-solid ${icon}"></i>
+            </div>
+            <div class="toast-content">
+              <div class="toast-title">${title}</div>
+              <div class="toast-message">${message}</div>
+            </div>
+            <button class="toast-close">
+              <i class="fa-solid fa-times"></i>
+            </button>
+            <div class="toast-progress">
+              <div class="toast-progress-bar"></div>
+            </div>
+          `;
+
+          // Thêm vào container
+          const container = document.getElementById("toast-container");
+          container.appendChild(toast);
+
+          // Hiển thị toast với hoạt ảnh
+          setTimeout(() => {
+            toast.classList.add("show");
+          }, 10);
+
+          // Thêm hoạt ảnh cho thanh tiến trình
+          const progressBar = toast.querySelector(".toast-progress-bar");
+          progressBar.style.width = "100%";
+          progressBar.style.transition = "width 5s linear";
+          
+          setTimeout(() => {
+            progressBar.style.width = "0%";
+          }, 100);
+
+          // Tự động biến mất sau 5 giây
+          const dismissTimeout = setTimeout(() => {
+            dismissToast(toast);
+          }, 5000);
+
+          // Chức năng nút đóng
+          const closeBtn = toast.querySelector(".toast-close");
+          closeBtn.addEventListener("click", () => {
+            clearTimeout(dismissTimeout);
+            dismissToast(toast);
+          });
+        }
+
+        // Hàm để loại bỏ toast với hoạt ảnh
+        function dismissToast(toast) {
+          toast.classList.add("hiding");
+          setTimeout(() => {
+            if (toast.parentNode) {
+              toast.parentNode.removeChild(toast);
+            }
+          }, 500);
+        }
+
+        // Ghi đè hàm alert gốc
+        const originalAlert = window.alert;
+        window.alert = function(message) {
+          // Xác định loại thông báo dựa trên nội dung
+          let type = "info";
+          let title = "";
+          
+          if (message.includes("thành công") || message.includes("Thành công")) {
+            type = "success";
+          } else if (message.includes("lỗi") || message.includes("Lỗi") || message.includes("thất bại") || message.includes("Sai")) {
+            type = "error";
+          } else if (message.includes("Vui lòng") || message.includes("phải có")) {
+            type = "warning";
+          }
+          
+          // Hiển thị toast thay vì alert
+          showToast(message, type, title);
+        };
 
         registerBtn.addEventListener("click", () => {
           container.classList.add("active");
@@ -523,6 +756,5 @@
         }
       });
     </script>
-    <script src="/services/script.js"></script>
   </body>
 </html>

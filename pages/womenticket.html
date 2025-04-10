@@ -34,12 +34,67 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/base.css" />
     <link rel="stylesheet" href="/assets/css/ticket.css" />
-    <link rel="stylesheet" href="/assets/css/men ticket.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
     <title>Manchester City FC | TICKET</title>
+    <style>
+      /* menticket,womenticket */
+
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+      .ticket-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .ticket-banner {
+        width: 100%;
+        max-width: 1150px;
+        margin: auto;
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-top: 30px;
+        height: 450px;
+      }
+
+      .ticket-banner img {
+        width: 100%;
+        height: auto;
+        filter: brightness(0.6);
+      }
+
+      .ticket-info {
+        max-width: 700px;
+        margin: 20px auto;
+        font-size: 16px;
+        color: #222;
+      }
+
+      .ticket-info a {
+        color: #0056b3;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .ticket-info a:hover {
+        text-decoration: underline;
+      }
+      .h2 {
+        font-size: 36px;
+        color: #00aaff;
+        margin-bottom: 20px;
+      }
+    </style>
   </head>
   <body>
      <nav class="navbar navbar-expand-lg navbar-light" id="navbars">
@@ -131,11 +186,11 @@
     </div>
 
     <section class="ticket-banner">
-      <img src="/assets/Images/Tickets/women" alt="Women's Team Celebrating" />
+      <img src="/assets/Images/Tickets/women's tickets.webp" alt="Women's Team Celebrating" />
       <div class="ticket-text">WOMEN'S TEAM TICKETS</div>
     </section>
 
-    <div class="filter-container">
+    <div class="filter-container" style=" max-width: 1200px"; width="900px">
       <h2>UPCOMING MATCHES</h2>
       <div class="filter-options">
         <label for="team">Team</label>
@@ -164,12 +219,12 @@
     </div>
 
     <div class="wrapper">
-      <h1>MARCH 2025</h1>
+      <h1 style="color: rgb(31, 103, 159);">MARCH 2025</h1>
 
       <div class="match">
         <div class="match-details">
           <img
-            src="/assets/Images/Logo/uwcl-logo.webp"
+            src="/assets/Images/Logo/03.jpg"
             alt="Logo UEFA WCL"
             class="team-logo home-logo"
           />
@@ -193,11 +248,11 @@
             </div>
             <div class="team-away">
               <img
-                src="/assets/Images/Logo/chelsea.webp"
+                src="/assets/Images/Logo/manunited.webp"
                 alt="chelsea Logo"
                 class="team-logo"
               />
-              <p class="team-name">Chelsea</p>
+              <p class="team-name">M.Unites</p>
             </div>
           </div>
         </div>
@@ -209,7 +264,7 @@
       <div class="match">
         <div class="match-details">
           <img
-            src="/assets/Images/Logo/Barclays WSL logo.webp"
+            src="/assets/Images/Logo/01.jpg"
             alt="Barclays WSL"
             class="team-logo home-logo"
           />
@@ -233,11 +288,11 @@
             </div>
             <div class="team-away">
               <img
-                src="/assets/Images/Logo/chelsea.webp"
+                src="/assets/Images/Logo/a-villa-new-full.webp"
                 alt="chelsea Logo"
                 class="team-logo"
               />
-              <p class="team-name">Chelsea</p>
+              <p class="team-name">A.Villa</p>
             </div>
           </div>
         </div>
@@ -252,7 +307,7 @@
       <div class="match">
         <div class="match-details">
           <img
-            src="/assets/Images/Logo/uwcl-logo.webp"
+            src="/assets/Images/Logo/03.jpg"
             alt="Logo UEFA WCL"
             class="team-logo home-logo"
           />
@@ -276,11 +331,11 @@
             </div>
             <div class="team-away">
               <img
-                src="/assets/Images/Logo/chelsea.webp"
+                src="/assets/Images/Logo/wolves.webp"
                 alt="chelsea Logo"
                 class="team-logo"
               />
-              <p class="team-name">Chelsea</p>
+              <p class="team-name">Wolves</p>
             </div>
           </div>
         </div>
@@ -292,7 +347,7 @@
       <div class="match">
         <div class="match-details">
           <img
-            src="/assets/Images/Logo/Barclays WSL logo.webp"
+            src="/assets/Images/Logo/01.jpg"
             alt="Barclays WSL"
             class="team-logo home-logo"
           />
@@ -329,12 +384,12 @@
         </div>
       </div>
 
-      <h1>April 2025</h1>
+      <h1 style="color: rgb(31, 103, 159);">April 2025</h1>
 
       <div class="match">
         <div class="match-details">
           <img
-            src="/assets/Images/Logo/Women's FA Cup logo.webp"
+            src="/assets/Images/Logo/02.jpg"
             alt="Logo Women's FA Cup "
             class="team-logo home-logo"
           />

@@ -1095,7 +1095,9 @@
       "nationality": "Uzbekistan",
       "position": "Defender",
       "joined": "2025-01-20",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "9",
@@ -1173,7 +1175,9 @@
       "nationality": "Brazil",
       "position": "Defender",
       "joined": "2025-01-21",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "11",
@@ -1395,7 +1399,9 @@
       "nationality": "England",
       "position": "Defender",
       "joined": "2019-10-01",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "14",
@@ -1586,7 +1592,9 @@
       "nationality": " Argentina",
       "position": "Midfielder",
       "joined": "2024-01-25",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "18",
@@ -2132,7 +2140,9 @@
       "nationality": "Brazil",
       "position": "Midfielder",
       "joined": "2024-07-18",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "29",
@@ -2304,7 +2314,9 @@
       "nationality": "Egypt",
       "position": "Forward",
       "joined": "2022-07-01",
-      "trophy": [{}]
+      "trophy": [
+        {}
+      ]
     },
     {
       "id": "32",
@@ -3428,192 +3440,329 @@
       "username": "aaaaa",
       "email": "bao123@gmail.com",
       "password": "123456B@o"
+    },
+    {
+      "id": "8f2f",
+      "username": "vinh1",
+      "email": "pcv@gmail.com",
+      "password": "123456@Vinh"
+    },
+    {
+      "id": "bf3a",
+      "username": "bao",
+      "email": "baol@gmail.com",
+      "password": "Bb@123456"
     }
   ],
   "shop": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Manchester City Home Jersey 2024/25",
       "category": "Clothings",
-      "price": 80.0,
-      "size": ["S", "M", "L", "XL"],
+      "price": 80,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "image": "/assets/Images/Shop/product/701230876001_pp_01_mcfc.png",
-      "description": "This official Manchester City 2024/25 Home jersey is drawing inspiration from Manchester’s 0161 area code because for us it's a sense of what being Mancunian is all about. You’ll see it written on lampposts, printed on t-shirts, and tattooed on people. You will find it printed inside the neckline and featured in a patterned flat knit rib on the neckline and cuffs. The accents are the OKX print on the left sleeve, the iconic Manchester City crest and PUMA Cat logo embroidered on the chest. Designed for the fans, the home kit jersey pairs the same match-worn look with a casual short-sleeve silhouette and comfortable regular fit, ideal for both game day and everyday wear. If it’s Sky Blue, it’s 0161. That’s Manchester Calling."
+      "description": "Chiếc áo nhà chính thức của Manchester City 2024/25 đang lấy cảm hứng từ mã khu vực 0161 của Manchester bởi vì đối với chúng tôi, đó là ý nghĩa về việc Mancunian là gì. Bạn sẽ thấy nó được viết trên cột đèn, in trên áo phông và xăm trên người. Bạn sẽ thấy nó được in bên trong đường viền cổ áo và đặc trưng trong một xương sườn đan bằng phẳng trên đường viền cổ áo và còng. Các điểm nhấn là bản in OKX trên tay áo trái, biểu tượng của Manchester City Crest và Puma Cat Logo thêu trên ngực. Được thiết kế cho người hâm mộ, Jersey Kit gia đình kết hợp vẻ ngoài của trận đấu với hình bóng ngắn tay giản dị và phù hợp thường xuyên thoải mái, lý tưởng cho cả ngày trò chơi và trang phục hàng ngày. Nếu đó là Sky Blue, đó là 0161. Đó là Manchester gọi."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Kids' Manchester City Home Jersey 2024/25",
       "category": "Clothings",
-      "price": 45.0,
-      "size": ["S", "M", "L", "XL"],
+      "price": 45,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "image": "/assets/Images/Shop/product/701230879001_pp_01_mcfc.png",
       "description": "This official Manchester City 2024/25 Home jersey for kids is drawing inspiration from Manchester’s 0161 area code because for us it's a sense of what being Mancunian is all about. You’ll see it written on lampposts, printed on t-shirts, and tattooed on people. You will find it printed inside the neckline and featured in a patterned flat knit rib on the neckline and cuffs. The accents are the OKX print on the left sleeve, the iconic Manchester City crest and PUMA Cat logo embroidered on the chest. Designed for the fans, the home kit jersey pairs the same match-worn look with a casual short-sleeve silhouette and comfortable regular fit for kids, ideal for both game day and everyday wear. If it’s Sky Blue, it’s 0161. That’s Manchester Calling."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Kids' Manchester City Football Shorts 2024/25",
       "category": "Clothings",
-      "price": 14.0,
-      "size": ["S", "M", "L", "XL"],
-      "color": ["Red", "Blue", "White"],
+      "price": 14,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Red",
+        "Blue",
+        "White"
+      ],
       "image": "/assets/Images/Shop/product/701230990001_pp_01_mcfc.png",
       "description": "Quần jean Levi's kiểu dáng trẻ trung và năng động."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Kids' Manchester City Home Jersey 2024/25",
       "category": "Clothings",
-      "price": 8.0,
-      "size": ["12K-2", "2.5-5"],
-      "color": ["Red", "Blue", "White"],
+      "price": 8,
+      "size": [
+        "12K-2",
+        "2.5-5"
+      ],
+      "color": [
+        "Red",
+        "Blue",
+        "White"
+      ],
       "image": "/assets/Images/Shop/product/701230879001_pp_01_mcfc.png",
       "description": "Designed with padded ankle for optimal comfort and mesh strip for ventilation and breathability, these sustainably produced Manchester City 2024/25 kids' socks stand out with contrasting PUMA Cat logo and CITY details."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Kids' Manchester City Football Shorts 2024/25",
       "category": "Clothings",
-      "price": 14.0,
-      "size": ["S", "M", "L", "XL"],
-      "color": ["Red", "Blue", "White"],
+      "price": 14,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Red",
+        "Blue",
+        "White"
+      ],
       "image": "/assets/Images/Shop/product/701230990005_pp_01_mcfc.png",
       "description": "Support your favourite team in style with these high-quality Manchester City 2024/25 kids'' shorts designed with regular fit and elastic waistband with adjustable draw cords for ultimate comfort. Classic design accentuated by contrasting details for a stylish twist. The embroidered PUMA Cat logo and the Manchester City crest complete the look. Sustainably produced using 100% recycled material."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Manchester City Authentic Home Jersey 2024/25 In Gift Box",
       "category": "Clothings",
-      "price": 60.0,
-      "size": ["S", "M", "L", "XL", "XXL", "3XL"],
+      "price": 60,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
       "image": "/assets/Images/Shop/product/701230869004_pp_01_mcfc.png",
-      "description": "This Manchester City 2024/25 Authentic Home Jersey with short sleeves is drawing inspiration from Manchester’s 0161 area code because for us it's a sense of what being Mancunian is all about. You’ll see it written on lampposts, printed on t-shirts, and tattooed on people. That is why you will also find it printed inside the neckline of this authentic jersey and featured in a patterned flat knit rib on the neckline and cuffs. Executed in a stylish slim fit and featuring the OKX print on the left sleeve, the iconic Manchester City crest and PUMA Cat logo printed on the chest, this jersey comes beautifully wrapped in a gift box. The authentic jersey is what the players wear on the pitch. It features PUMA’s ULTRAWEAVE fabric and an athletic fit for elite-level performance. If it’s Sky Blue, it’s 0161. That’s Manchester Calling."
+      "description": "Chiếc áo nhà đích thực của Manchester City 2024/25 với tay áo ngắn đang lấy cảm hứng từ mã khu vực 0161 của Manchester bởi vì đối với chúng tôi, đó là cảm giác về việc Mancunian là gì. Bạn sẽ thấy nó được viết trên cột đèn, in trên áo phông và xăm trên người. Đó là lý do tại sao bạn cũng sẽ tìm thấy nó được in bên trong đường viền cổ áo của chiếc áo đích thực này và đặc trưng trong một xương sườn đan bằng phẳng trên đường viền cổ áo và còng. Được thực hiện trong một phù hợp sành điệu và có bản in OKX trên tay áo trái, biểu tượng của Manchester City Crest và Puma Cat Logo được in trên ngực, chiếc áo này được bọc rất đẹp trong hộp quà tặng. Áo xác thực là những gì người chơi mặc trên sân. Nó có loại vải Ultraweave của Puma và phù hợp thể thao cho hiệu suất cấp độ ưu tú. Nếu đó là Sky Blue, đó là 0161. Đó là Manchester gọi."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Women's Manchester City Home Jersey 2024/25",
       "category": "Clothings",
-      "price": 40.0,
-      "size": ["S", "M", "L", "XL", "XXL"],
+      "price": 40,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "image": "/assets/Images/Shop/product/701230878001_pp_01_mcfc.png",
       "description": "This official Manchester City 2024/25 Home jersey for women is drawing inspiration from Manchester’s 0161 area code because for us it's a sense of what being Mancunian is all about. You’ll see it written on lampposts, printed on t-shirts, and tattooed on people. You will find it printed on the inside of the neckline and featured in a patterned flat knit rib on the neckline and cuffs. The accents are the OKX print on the left sleeve, the iconic Manchester City crest and PUMA Cat logo embroidered on the chest. Designed for the fans, the home kit jersey pairs the same match-worn look with a casual short-sleeve silhouette and comfortable regular fit, ideal for both game day and everyday wear. If it’s Sky Blue, it’s 0161. That’s Manchester Calling."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Manchester City Socks 2024/25",
       "category": "Accessory",
-      "price": 9.0,
-      "size": ["6-8", "9-11", "12-14"],
-      "color": ["Red", "Blue", "White"],
+      "price": 9,
+      "size": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "color": [
+        "Red",
+        "Blue",
+        "White"
+      ],
       "image": "/assets/Images/Shop/product/701230996001_pp_01_mcfc.png",
       "description": "Designed with padded ankle for optimal comfort and mesh strip for ventilation and breathability, these sustainably produced Manchester City 2024/25 unisex socks stand out with contrasting PUMA Cat logo and CITY details."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Women's Manchester City Shorts 2024/25",
       "category": "Clothings",
-      "price": 10.0,
-      "size": ["S", "M", "L", "XL"],
-      "color": ["Red", "Blue", "White"],
+      "price": 10,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Red",
+        "Blue",
+        "White"
+      ],
       "image": "/assets/Images/Shop/product/701231566001_pp_01_mcfc.png",
       "description": "Support your favourite team in style with these high-quality Manchester City 2024/25 women's shorts designed with regular fit and elastic waistband with adjustable draw cords for ultimate comfort. Classic design accentuated by contrasting details for a stylish twist. The embroidered PUMA Cat logo and the Manchester City crest complete the look. Sustainably produced using 100% recycled material."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Manchester City Home Jersey 2024/25 Long Sleeve",
       "category": "Clothings",
-      "price": 42.0,
-      "size": ["S", "M", "L", "XL"],
+      "price": 42,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "image": "/assets/Images/Shop/product/701230877001_pp_01_mcfc.png",
       "description": "This official Manchester City 2024/25 Home long-sleeve jersey is drawing inspiration from Manchester’s 0161 area code because for us it's a sense of what being Mancunian is all about. You’ll see it written on lampposts, printed on t-shirts, and tattooed on people. You will find it printed inside the neckline and featured in a patterned flat knit rib on the neckline and cuffs. The accents are the OKX print on the left sleeve, the iconic Manchester City crest and PUMA Cat logo embroidered on the chest. Designed for the fans, the home kit jersey pairs the same match-worn look with a casual long-sleeve silhouette and comfortable regular fit, ideal for both game day and everyday wear. If it’s Sky Blue, it’s 0161. That’s Manchester Calling."
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Manchester City Authentic Home Long Sleeve Jersey 2024/25",
       "category": "Clothings",
-      "price": 55.0,
-      "size": ["S", "M", "L", "XL"],
+      "price": 55,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "image": "/assets/Images/Shop/product/701230879001_pp_01_mcfc.png",
       "description": "This Manchester City 2024/25 Authentic Home Jersey with short sleeves is drawing inspiration from Manchester’s 0161 area code because for us it's a sense of what being Mancunian is all about. You’ll see it written on lampposts, printed on t-shirts, and tattooed on people. That is why you will also find it printed inside the neckline of this jersey and featured in a patterned flat knit rib on the neckline and cuffs. Executed in a stylish slim fit and featuring the OKX print on the left sleeve, the iconic Manchester City crest and PUMA Cat logo printed on the chest. The authentic jersey is what the players wear on the pitch. It features PUMA’s ULTRAWEAVE fabric and an athletic fit for elite-level performance. If it’s Sky Blue, it’s 0161. That’s Manchester Calling."
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Manchester City Football Shorts 2024/25",
       "category": "Clothings",
-      "price": 19.0,
-      "size": ["S", "M", "L", "XL"],
+      "price": 19,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "image": "/assets/Images/Shop/product/701230987001_pp_01_mcfc.png",
       "description": "Support your favourite team in style with these high-quality Manchester City 2024/25 shorts designed with regular fit and elastic waistband with adjustable draw cords for ultimate comfort. Classic design accentuated by contrasting details for a stylish twist. The embroidered PUMA Cat logo and the Manchester City crest complete the look. Sustainably produced using 100% recycled material."
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Manchester City Football Shorts 2024/25",
       "category": "Clothings",
-      "price": 19.0,
-      "size": ["S", "M", "L", "XL"],
-      "color": ["Red", "Blue", "White"],
+      "price": 19,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Red",
+        "Blue",
+        "White"
+      ],
       "image": "/assets/Images/Shop/product/701230987005_pp_01_mcfc.png",
       "description": "Support your favourite team in style with these high-quality Manchester City 2024/25 shorts designed with regular fit and elastic waistband with adjustable draw cords for ultimate comfort. Classic design accentuated by contrasting details for a stylish twist. The embroidered PUMA Cat logo and the Manchester City crest complete the look. Sustainably produced using 100% recycled material."
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Kids' Manchester City Home Baby Kit 2024/25",
       "category": "Clothings",
-      "price": 45.0,
-      "size": ["0-3M", "3-6M", "6-9M", "9-12M", "12-18M"],
+      "price": 45,
+      "size": [
+        "0-3M",
+        "3-6M",
+        "6-9M",
+        "9-12M",
+        "12-18M"
+      ],
       "image": "/assets/Images/Shop/product/701230882001_pp_01_mcfc.png",
       "description": "This Manchester City 2024/25 Home Baby Kit is created using 100% recycled materials and expertly designed for babies that may grow to be the next star on the field. The 3-set kit includes a stylish jersey with a popper fastening on the side of the neck for easier dressing, shorts with elastic waistband and extra soft branded socks. The OKX print on the left sleeve fuses with the iconic Manchester City crest and PUMA Cat logo, making this set the perfect choice for your rising champion."
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Kids' Manchester City Home Mini Kit 2024/25",
       "category": "Clothings",
-      "price": 45.0,
-      "size": ["1/2", "2/3", "3/4", "4/5"],
+      "price": 45,
+      "size": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
       "image": "/assets/Images/Shop/product/701230881001_pp_01_MCFC.png",
       "description": "This Manchester City 2024/25 Home Mini Kit is created using 100% recycled materials and designed to inspire kids to be active and dream big of becoming the next star on the field. The 3-set kit includes a stylish short-sleeve jersey with a casual regular fit, shorts with elastic waistband and extra soft socks with padded ankle zone. The OKX print on the left sleeve fuses with the iconic Manchester City crest and PUMA Cat logo, making this set the perfect choice for your rising champion."
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Men Shoes Manchester City 2024/25",
       "category": "Shoes",
-      "price": 75.0,
-      "size": ["39", "40", "41", "42"],
+      "price": 75,
+      "size": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
       "image": "/assets/Images/Shop/product/shoe.webp",
       "description": "Shoe in style with the Manchester City slides, designed for optimal comfort with a padded footbed and a moulded EVA outsole for improved grip and durability. The premium faux leather strap is accentuated by an embossed Manchester City club crest, adding a touch of club pride to your casual look."
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Manchester City FtblMonochrome Slides",
       "category": "Shoes",
-      "price": 25.0,
-      "size": ["39", "40", "41", "42"],
+      "price": 25,
+      "size": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
       "image": "/assets/Images/Shop/product/701231566001_pp_01_mcfc.png",
       "description": "Slide in style with the Manchester City slides, designed for optimal comfort with a padded footbed and a moulded EVA outsole for improved grip and durability. The premium faux leather strap is accentuated by an embossed Manchester City club crest, adding a touch of club pride to your casual look."
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Manchester City Leadcat 2.0 Sandals",
       "category": "Shoes",
-      "price": 25.0,
-      "size": ["39", "40", "41", "42"],
+      "price": 25,
+      "size": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
       "image": "/assets/Images/Shop/product/701220801001_pp_01_mcfc.png",
       "description": "Celebrate Manchester City in the latest Leadcat 2.0 Man City slides. An athletic and innovative update of one of our most iconic slide sandals. Created with a padded synthetic leather strap and a molded comfortable footbed for maximum comfort, the outsole ensures grip and traction on wet surfaces. Finished off with classic Manchester City branding."
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Men Shoes Manchester City 2024/25",
       "category": "Shoes",
-      "price": 75.0,
-      "size": ["39", "40", "41", "42"],
+      "price": 75,
+      "size": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
       "image": "/assets/Images/Shop/trousers.webp",
       "description": "Shoe in style with the Manchester City slides, designed for optimal comfort with a padded footbed and a moulded EVA outsole for improved grip and durability. The premium faux leather strap is accentuated by an embossed Manchester City club crest, adding a touch of club pride to your casual look."
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Men Shoes Manchester City 2024/25",
       "category": "Shoes",
-      "price": 75.0,
-      "size": ["39", "40", "41", "42"],
+      "price": 75,
+      "size": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
       "image": "/assets/Images/Shop/product/shoe.webp",
       "description": "Shoe in style with the Manchester City slides, designed for optimal comfort with a padded footbed and a moulded EVA outsole for improved grip and durability. The premium faux leather strap is accentuated by an embossed Manchester City club crest, adding a touch of club pride to your casual look."
     }

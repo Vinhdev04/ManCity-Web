@@ -78,7 +78,9 @@ h2 {
   text-decoration: none;
   color: #1c1c1c;
 }
-
+.article-text h5 a{
+  display: block !important;
+}
 .article-text p {
   font-size: 14px;
   color: gray;

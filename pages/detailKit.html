@@ -93,118 +93,104 @@
         </div>
       </div>
     </nav>
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <a href="#" class="text-decoration-none col-md-6">
-            <div
-              class="d-flex justify-content-center align-items-center border p-2"
-            >
-              <img
-                src=""
-                alt=""
-                class="img-fluid shadow w-100"
-                id="product-image"
-              />
-            </div>
-          </a>
+ <section class="py-5">
+  <div class="container">
+    <div class="row">
+      <a href="#" class="text-decoration-none col-md-6">
+        <div class="d-flex justify-content-center align-items-center border p-2">
+          <img
+            src=""
+            alt=""
+            class="img-fluid shadow w-100"
+            id="product-image"
+          />
+        </div>
+      </a>
 
-          <div class="col-md-6">
-            <h2 id="product-title" class="fw-bold"></h2>
-            <div class="detail-price mb-3">
-              <span id="price-new" class="text-danger fw-bold fs-4">£</span>
-              <span
-                id="price-old"
-                class="text-decoration-line-through text-muted ms-2"
-                >£</span
+      <div class="col-md-6">
+        <h2 id="product-title" class="fw-bold"></h2>
+        <div class="detail-price mb-3">
+          <span id="price-new" class="text-danger fw-bold fs-4">£</span>
+          <span
+            id="price-old"
+            class="text-decoration-line-through text-muted ms-2"
+          >£</span>
+        </div>
+        <p id="product-desc" class="text-justify"></p>
+
+        <!-- Accordion -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
               >
-            </div>
-            <p id="product-desc" class="text-justify"></p>
-
-            <!-- Accordion -->
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                  >
-                    Product Details
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show">
-                  <div class="accordion-body">
-                    <ul class="">
-                      <li><i class="fa-solid fa-check me-2"></i>Mesh Base</li>
-                      <li>
-                        <i class="fa-solid fa-check me-2"></i>Suede formstrip
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-check me-2"></i>Suede tongue with
-                        PUMA label
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-check me-2"></i>Official Licensed
-                        MCFC Product
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                  >
-                    Shipping and Payment
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <p>
-                      <strong>Shipping:</strong> Free delivery on orders over
-                      €100.
-                    </p>
-                    <p>
-                      <strong>Payment:</strong> Credit/debit card, PayPal
-                      supported.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                  >
-                    Official Man City Merchandise
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <p>
-                      Guaranteed 100% official Manchester City merchandise when
-                      ordering from the official store.
-                    </p>
-                  </div>
-                </div>
+                Thông tin sản phẩm
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <ul class="">
+                  <li><i class="fa-solid fa-check me-2"></i>Đế lưới thoáng khí</li>
+                  <li><i class="fa-solid fa-check me-2"></i>Dải da lộn hai bên</li>
+                  <li><i class="fa-solid fa-check me-2"></i>Lưỡi gà da lộn có logo PUMA</li>
+                  <li><i class="fa-solid fa-check me-2"></i>Sản phẩm được cấp phép chính thức từ MCFC</li>
+                </ul>
               </div>
             </div>
-            <!-- End accordion -->
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Giao hàng và thanh toán
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>
+                  <strong>Giao hàng:</strong> Miễn phí với đơn hàng từ €100 trở lên.
+                </p>
+                <p>
+                  <strong>Thanh toán:</strong> Hỗ trợ thẻ tín dụng/ghi nợ, PayPal.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Sản phẩm chính hãng Man City
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>
+                  Đảm bảo 100% sản phẩm chính hãng của Manchester City khi đặt hàng tại cửa hàng chính thức.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- Kết thúc accordion -->
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <script>
       const path = "http://localhost:3000/shop";
